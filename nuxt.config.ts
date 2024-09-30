@@ -9,7 +9,21 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ["/", "dark/home-main"],
+      routes: [
+        "/",
+        "/404",
+        "/blog",
+        "/contacto",
+        "/equipo",
+        "/faq",
+        "/portafolio",
+        "/posts",
+        "/proyecto",
+        "/servicio",
+        "/servicios",
+        "/showcase",
+        "/sobre",
+      ],
     },
   },
   alias: {
@@ -17,9 +31,9 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "infolio",
+      title: "TitansDev",
       htmlAttrs: {
-        lang: "en",
+        lang: "es",
       },
       meta: [
         {
@@ -43,7 +57,7 @@ export default defineNuxtConfig({
         },
         {
           name: "author",
-          content: "Uicamp",
+          content: "TitansDev",
         },
       ],
       link: [
