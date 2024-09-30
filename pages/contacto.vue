@@ -1,5 +1,4 @@
 <template>
-  <Cursor />
   <ProgressScroll />
   <Lines />
   <div id="smooth-wrapper">
@@ -17,7 +16,6 @@
 import Footer from '@/components/dark/blog-details/Footer';
 import Lines from '@/components/dark/common/Lines';
 import ProgressScroll from '@/components/dark/common/ProgressScroll';
-import Cursor from '@/components/dark/common/cusor';
 import Contact from '@/components/dark/contact/Contact';
 import Header from '@/components/dark/contact/Header';
 import Navbar from '@/components/dark/creative-agency/Navbar';

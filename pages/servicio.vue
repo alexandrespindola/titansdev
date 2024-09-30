@@ -1,5 +1,4 @@
 <template>
-  <Cursor />
   <ProgressScroll />
   <Lines />
   <Navbar />
@@ -21,7 +20,6 @@
 import Footer from '@/components/dark/modern-agency/Footer';
 import Lines from '@/components/dark/common/Lines';
 import ProgressScroll from '@/components/dark/common/ProgressScroll';
-import Cursor from '@/components/dark/common/cusor';
 import Navbar from '@/components/dark/creative-agency/Navbar';
 import Testimonials from '@/components/dark/FAQS/Testimonials';
 import Header from '@/components/dark/services-details/Header';

@@ -1,5 +1,4 @@
 <template>
-  <Cursor />
   <ProgressScroll />
   <Lines />
   <div id="smooth-wrapper">
@@ -19,7 +18,6 @@ import Footer from '@/components/dark/blog-list/Footer';
 import Header from '@/components/dark/blog-list/Header';
 import Lines from '@/components/dark/common/Lines';
 import ProgressScroll from '@/components/dark/common/ProgressScroll';
-import Cursor from '@/components/dark/common/cusor';
 import Navbar from '@/components/dark/creative-agency/Navbar';
 import { onMounted } from 'vue';
 
