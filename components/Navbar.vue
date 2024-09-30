@@ -608,23 +608,6 @@
 import { onMounted, onUnmounted } from 'vue';
 import { ref } from 'vue';
 
-// onMounted(() => {
-//   window.addEventListener('scroll', handleScroll);
-//   return () => window.removeEventListener('scroll', handleScroll);
-// });
-
-// onUnmounted(() => {
-//   window.removeEventListener('scroll', handleScroll);
-// });
-
-// function handleScroll() {
-//   const bodyScroll = window.scrollY;
-//   const navbar = document.querySelector('.navbar');
-
-//   if (bodyScroll > 300) navbar.classList.add('nav-scroll');
-//   else navbar.classList.remove('nav-scroll');
-// }
-
 function handleDropdownMouseMove(event) {
   event.currentTarget.querySelector('.dropdown-menu').classList.add('show');
 }
