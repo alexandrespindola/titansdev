@@ -17,7 +17,7 @@
                       Branding
                     </h6>
                     <h1>
-                      <a href="/project1">
+                      <a href="/proyecto">
                         <span data-swiper-parallax="-2000">Retouch Photo</span>
                       </a>
                     </h1>
@@ -42,7 +42,7 @@
                       Branding
                     </h6>
                     <h1>
-                      <a href="/project6">
+                      <a href="/proyecto">
                         <span data-swiper-parallax="-2000">Earthmade</span>
                         <br />
                         <span data-swiper-parallax="-3000">Aroma box</span>

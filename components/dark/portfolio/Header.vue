@@ -8,7 +8,7 @@
       <div class="text-center">
         <h1>Portfolio Standard.</h1>
         <div class="mt-15">
-          <a href="/dark/home-main">Home</a>
+          <a href="/">Home</a>
           <span class="padding-rl-20">|</span>
           <span class="main-color">Portfolio</span>
         </div>

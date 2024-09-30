@@ -38,15 +38,15 @@
             </div>
             <div class="cont">
               <div class="date fz-13 text-u ls1 mb-10 opacity-7">
-                <a href="/dark/blog-details">30 august 2021</a>
+                <a href="/blog">30 august 2021</a>
               </div>
               <h5>
-                <a href="/dark/blog-details">
+                <a href="/blog">
                   Creative advertising in our life became a info noise
                 </a>
               </h5>
               <a
-                href="/dark/blog-details"
+                href="/blog"
                 class="d-flex align-items-center mt-30"
               >
                 <span class="text mr-15">Read More</span>
@@ -91,15 +91,15 @@
             </div>
             <div class="cont">
               <div class="date fz-13 text-u ls1 mb-10 opacity-7">
-                <a href="/dark/blog-details">30 august 2021</a>
+                <a href="/blog">30 august 2021</a>
               </div>
               <h5>
-                <a href="/dark/blog-details">
+                <a href="/blog">
                   Creative advertising in our life became a info noise
                 </a>
               </h5>
               <a
-                href="/dark/blog-details"
+                href="/blog"
                 class="d-flex align-items-center mt-30"
               >
                 <span class="text mr-15">Read More</span>
@@ -144,15 +144,15 @@
             </div>
             <div class="cont">
               <div class="date fz-13 text-u ls1 mb-10 opacity-7">
-                <a href="/dark/blog-details">30 august 2021</a>
+                <a href="/blog">30 august 2021</a>
               </div>
               <h5>
-                <a href="/dark/blog-details">
+                <a href="/blog">
                   We create some things for your success in growth
                 </a>
               </h5>
               <a
-                href="/dark/blog-details"
+                href="/blog"
                 class="d-flex align-items-center mt-30"
               >
                 <span class="text mr-15">Read More</span>
@@ -197,15 +197,15 @@
             </div>
             <div class="cont">
               <div class="date fz-13 text-u ls1 mb-10 opacity-7">
-                <a href="/dark/blog-details">30 august 2021</a>
+                <a href="/blog">30 august 2021</a>
               </div>
               <h5>
-                <a href="/dark/blog-details">
+                <a href="/blog">
                   Creative advertising in our life became a info noise
                 </a>
               </h5>
               <a
-                href="/dark/blog-details"
+                href="/blog"
                 class="d-flex align-items-center mt-30"
               >
                 <span class="text mr-15">Read More</span>
@@ -250,15 +250,15 @@
             </div>
             <div class="cont">
               <div class="date fz-13 text-u ls1 mb-10 opacity-7">
-                <a href="/dark/blog-details">30 august 2021</a>
+                <a href="/blog">30 august 2021</a>
               </div>
               <h5>
-                <a href="/dark/blog-details">
+                <a href="/blog">
                   We create some things for your success in growth
                 </a>
               </h5>
               <a
-                href="/dark/blog-details"
+                href="/blog"
                 class="d-flex align-items-center mt-30"
               >
                 <span class="text mr-15">Read More</span>
@@ -303,15 +303,15 @@
             </div>
             <div class="cont">
               <div class="date fz-13 text-u ls1 mb-10 opacity-7">
-                <a href="/dark/blog-details">30 august 2021</a>
+                <a href="/blog">30 august 2021</a>
               </div>
               <h5>
-                <a href="/dark/blog-details">
+                <a href="/blog">
                   Creative advertising in our life became a info noise
                 </a>
               </h5>
               <a
-                href="/dark/blog-details"
+                href="/blog"
                 class="d-flex align-items-center mt-30"
               >
                 <span class="text mr-15">Read More</span>

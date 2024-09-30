@@ -122,54 +122,11 @@
                 <div class="sub-menu">
                   <ul>
                     <li>
-                      <a href="/dark/home-main" class="sub-link"> Main Home </a>
+                      <a href="/" class="sub-link"> Main Home </a>
                     </li>
                     <li>
-                      <a href="/dark/home-startup-onepage" class="sub-link">
+                      <a href="/" class="sub-link">
                         Modern Startup
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/dark/home-creative-agency" class="sub-link">
-                        Creative Agency
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/dark/home-modern-agency" class="sub-link">
-                        Modern Agency
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/dark/home-creative-portfolio" class="sub-link">
-                        Creative Portfolio
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/dark/home-digital-agency" class="sub-link">
-                        Digital Agency
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/dark/home-freelancer" class="sub-link">
-                        Freelancer
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/dark/home-personal-vcard" class="sub-link">
-                        Personal vCard
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/dark/home-minimal-portfolio" class="sub-link">
-                        Minimal Portfolio
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/dark/home-asymmetric-portfolio"
-                        class="sub-link"
-                      >
-                        Asymmetric Portfolio
                       </a>
                     </li>
                   </ul>
@@ -200,18 +157,8 @@
                       <div class="sub-menu2">
                         <ul>
                           <li>
-                            <a href="/dark/page-about" class="sub-link">
+                            <a href="/sobre" class="sub-link">
                               About Us v1
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/page-about2" class="sub-link">
-                              About Us v2
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/page-about3" class="sub-link">
-                              About Us v3
                             </a>
                           </li>
                         </ul>
@@ -229,18 +176,13 @@
                       <div class="sub-menu2">
                         <ul>
                           <li>
-                            <a href="/dark/page-services" class="sub-link">
+                            <a href="/servicios" class="sub-link">
                               Services v1
                             </a>
                           </li>
                           <li>
-                            <a href="/dark/page-services2" class="sub-link">
-                              Services v2
-                            </a>
-                          </li>
-                          <li>
                             <a
-                              href="/dark/page-services-details"
+                              href="/servicio"
                               class="sub-link"
                             >
                               Services Details
@@ -253,7 +195,7 @@
                       <div class="o-hidden">
                         <div class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Contact">
-                            Contact
+                            Contacto
                           </span>
                           <i></i>
                         </div>
@@ -261,18 +203,8 @@
                       <div class="sub-menu2">
                         <ul>
                           <li>
-                            <a href="/dark/page-contact" class="sub-link">
-                              Contact v1
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/page-contact2" class="sub-link">
-                              Contact v2
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/page-contact3" class="sub-link">
-                              Contact v3
+                            <a href="/contacto" class="sub-link">
+                              Contacto
                             </a>
                           </li>
                         </ul>
@@ -288,13 +220,8 @@
                       <div class="sub-menu2">
                         <ul>
                           <li>
-                            <a href="/dark/page-team" class="sub-link">
+                            <a href="/equipo" class="sub-link">
                               Our Team
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/page-team-single" class="sub-link">
-                              Team Details
                             </a>
                           </li>
                         </ul>
@@ -312,12 +239,12 @@
                       <div class="sub-menu2">
                         <ul>
                           <li>
-                            <a href="/dark/page-FAQS" class="sub-link">
+                            <a href="/faq" class="sub-link">
                               FAQS
                             </a>
                           </li>
                           <li>
-                            <a href="/dark/page-error-404" class="sub-link">
+                            <a href="/404" class="sub-link">
                               Error 404
                             </a>
                           </li>
@@ -354,46 +281,8 @@
                       <div class="sub-menu2">
                         <ul>
                           <li>
-                            <a href="/dark/portfolio-standard" class="sub-link">
-                              Standerd
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/portfolio-gallery" class="sub-link">
-                              Gallery
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/portfolio-metro" class="sub-link">
-                              Metro
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/portfolio-masonry" class="sub-link">
-                              Masonry
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="/dark/portfolio-caption-cursor"
-                              class="sub-link"
-                            >
-                              Caption Cursor
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/portfolio-outline" class="sub-link">
-                              Outline
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/portfolio-parallax" class="sub-link">
-                              Parallax
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/portfolio-sticky" class="sub-link">
-                              Sticky
+                            <a href="/portafolio" class="sub-link">
+                              Portafolio
                             </a>
                           </li>
                         </ul>
@@ -412,47 +301,10 @@
                         <ul>
                           <li>
                             <a
-                              href="/dark/showcase-fullscreen"
-                              class="sub-link"
-                            >
-                              Parallax Slider
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/showcase-carousel" class="sub-link">
-                              Showcase Carousel
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="/dark/showcase-half-slider"
-                              class="sub-link"
-                            >
-                              Creative Slider
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="/dark/showcase-interactive-full"
+                              href="/showcase"
                               class="sub-link"
                             >
                               Interactive Full
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="/dark/showcase-interactive-center"
-                              class="sub-link"
-                            >
-                              Interactive Center
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="/dark/showcase-interactive-vertical"
-                              class="sub-link"
-                            >
-                              Interactive Vertical
                             </a>
                           </li>
                         </ul>
@@ -470,33 +322,8 @@
                       <div class="sub-menu2">
                         <ul>
                           <li>
-                            <a href="/dark/project1" class="sub-link">
-                              project1
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/project2" class="sub-link">
-                              project2
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/project3" class="sub-link">
-                              project3
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/project4" class="sub-link">
-                              project4
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/project5" class="sub-link">
-                              project5
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/dark/project6" class="sub-link">
-                              project6
+                            <a href="/proyecto" class="sub-link">
+                              Proyecto
                             </a>
                           </li>
                         </ul>
@@ -519,21 +346,11 @@
                 <div class="sub-menu">
                   <ul>
                     <li>
-                      <a class="sub-link" href="/dark/blog-classic">
-                        Standard
-                      </a>
+                      <a class="sub-link" href="/blog"> Blog List </a>
                     </li>
                     <li>
-                      <a class="sub-link" href="/dark/blog-list"> Blog List </a>
-                    </li>
-                    <li>
-                      <a class="sub-link" href="/dark/blog-list2">
-                        Blog List 2
-                      </a>
-                    </li>
-                    <li>
-                      <a class="sub-link" href="/dark/blog-details">
-                        Blog Details
+                      <a class="sub-link" href="/post">
+                        Post
                       </a>
                     </li>
                   </ul>
@@ -545,7 +362,7 @@
                 @mouseleave="handleMouseLeave"
               >
                 <div class="o-hidden">
-                  <a href="/dark/page-contact3" class="link">
+                  <a href="/contacto" class="link">
                     <span class="fill-text" data-text="Contact Us">
                       Contact Us
                     </span>

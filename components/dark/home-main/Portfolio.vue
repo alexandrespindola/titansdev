@@ -24,7 +24,7 @@
                 data-tab="tab-1"
               >
                 <img src="/dark/assets/imgs/works/1/1.jpg" alt="" />
-                <a href="/dark/project1" class="link-overlay"></a>
+                <a href="/proyecto" class="link-overlay"></a>
               </div>
               <div class="cont">
                 <span class="tag">Branding</span>
@@ -41,7 +41,7 @@
                 data-tab="tab-2"
               >
                 <img src="/dark/assets/imgs/works/1/2.jpg" alt="" />
-                <a href="/dark/project2" class="link-overlay"></a>
+                <a href="/proyecto" class="link-overlay"></a>
               </div>
               <div class="cont">
                 <span class="tag">Branding</span>
@@ -58,7 +58,7 @@
                 data-tab="tab-3"
               >
                 <img src="/dark/assets/imgs/works/1/3.jpg" alt="" />
-                <a href="/dark/project3" class="link-overlay"></a>
+                <a href="/" class="link-overlay"></a>
               </div>
               <div class="cont">
                 <span class="tag">Branding</span>
@@ -90,7 +90,7 @@
         <div class="main-bg d-flex align-items-center">
           <p>Here are some select projects that showcase.</p>
           <a
-            href="/dark/portfolio-metro"
+            href="/portafolio"
             class="butn main-color ml-40 underline"
           >
             <span>View All</span>

@@ -11,7 +11,7 @@
             </h3>
             <div class="d-flex align-items-end mt-100">
               <div>
-                <a href="/dark/page-contact" class="d-flex align-items-end">
+                <a href="/contacto" class="d-flex align-items-end">
                   <span class="sub-title nowrap">Contact Us</span>
                   <span class="fz-70 line-height-45 ti-arrow-top-right"></span>
                 </a>

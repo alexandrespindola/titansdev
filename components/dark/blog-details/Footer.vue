@@ -8,7 +8,7 @@
       <div class="cal-action pb-50 mb-80 bord-thin-bottom">
         <h2 class="fz-120 line-height-1 d-rotate wow">
           <span class="rotate-text">
-            <a href="/dark/page-contact3">
+            <a href="/contacto">
               Let’s Contact
               <span class="ml-30 fz-70 ti-arrow-top-right"></span>
             </a>
@@ -41,16 +41,16 @@
             <h6 class="sub-title mb-30">Useful Links</h6>
             <ul class="rest fz-14">
               <li class="mb-15">
-                <a href="/dark/page-about">About</a>
+                <a href="/sobre">About</a>
               </li>
               <li class="mb-15">
-                <a href="/dark/page-services">Services</a>
+                <a href="/servicios">Services</a>
               </li>
               <li class="mb-15">
-                <a href="/dark/blog-list2">Blog</a>
+                <a href="/blog">Blog</a>
               </li>
               <li>
-                <a href="/dark/page-contact">Contact</a>
+                <a href="/contacto">Contact</a>
               </li>
             </ul>
           </div>
@@ -60,16 +60,16 @@
             <h6 class="sub-title mb-30">Support</h6>
             <ul class="rest fz-14">
               <li class="mb-15">
-                <a href="/dark/page-FAQS">FAQS</a>
+                <a href="/faq">FAQS</a>
               </li>
               <li class="mb-15">
-                <a href="/dark/page-about">Term & Conditions</a>
+                <a href="/sobre">Term & Conditions</a>
               </li>
               <li class="mb-15">
-                <a href="/dark/page-about">Privacy policy</a>
+                <a href="/">Privacy policy</a>
               </li>
               <li>
-                <a href="/dark/page-about">Help</a>
+                <a href="/">Help</a>
               </li>
             </ul>
           </div>

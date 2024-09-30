@@ -12,7 +12,7 @@
               >
                 <h2 class="fz-80">
                   <span class="num">01.</span>
-                  <a href="/dark/project1">
+                  <a href="/proyecto">
                     <span class="text f-bold">Digital Retouch</span>
                   </a>
                 </h2>
@@ -24,7 +24,7 @@
               >
                 <h2 class="fz-80">
                   <span class="num">02.</span>
-                  <a href="/dark/project2">
+                  <a href="/">
                     <span class="text f-bold">Earthmade Aroma</span>
                   </a>
                 </h2>
@@ -36,7 +36,7 @@
               >
                 <h2 class="fz-80">
                   <span class="num">03.</span>
-                  <a href="/dark/project3">
+                  <a href="/">
                     <span class="text f-bold">Bank Rebranding</span>
                   </a>
                 </h2>
@@ -48,7 +48,7 @@
               >
                 <h2 class="fz-80">
                   <span class="num">04.</span>
-                  <a href="/dark/project4">
+                  <a href="/">
                     <span class="text f-bold">Day Starter</span>
                   </a>
                 </h2>
@@ -60,7 +60,7 @@
               >
                 <h2 class="fz-80">
                   <span class="num">05.</span>
-                  <a href="/dark/project5">
+                  <a href="/">
                     <span class="text f-bold">Blue Adobe MAX</span>
                   </a>
                 </h2>
@@ -72,7 +72,7 @@
               >
                 <h2 class="fz-80">
                   <span class="num">06.</span>
-                  <a href="/dark/project6">
+                  <a href="/">
                     <span class="text f-bold">Carved Wood</span>
                   </a>
                 </h2>
@@ -84,7 +84,7 @@
               >
                 <h2 class="fz-80">
                   <span class="num">07.</span>
-                  <a href="/dark/project3">
+                  <a href="/">
                     <span class="text f-bold">Viclone</span>
                   </a>
                 </h2>
@@ -96,7 +96,7 @@
               >
                 <h2 class="fz-80">
                   <span class="num">08.</span>
-                  <a href="/dark/project4">
+                  <a href="/proyecto">
                     <span class="text f-bold">Blom Air Purifier</span>
                   </a>
                 </h2>
@@ -108,7 +108,7 @@
               >
                 <h2 class="fz-80">
                   <span class="num">09.</span>
-                  <a href="/dark/project5">
+                  <a href="/">
                     <span class="text f-bold">Avocado Cutter</span>
                   </a>
                 </h2>

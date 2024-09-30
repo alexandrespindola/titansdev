@@ -44,7 +44,7 @@
                 </span>
                 <span class="sideup-text">
                   <span class="up-text underline">
-                    <a href="/dark/page-contact3" class="main-color">
+                    <a href="/contacto" class="main-color">
                       Let’s get to work.
                     </a>
                   </span>
@@ -74,32 +74,26 @@
                 <div class="col-6">
                   <ul class="rest fz-14">
                     <li class="mb-15">
-                      <a href="/dark/page-about3">About</a>
+                      <a href="/sobre">About</a>
                     </li>
                     <li class="mb-15">
-                      <a href="/dark/page-services">Services</a>
+                      <a href="/servicios">Services</a>
                     </li>
                     <li class="mb-15">
-                      <a href="/dark/blog-list2">Blog</a>
+                      <a href="/blog">Blog</a>
                     </li>
                     <li>
-                      <a href="/dark/page-contact3">Contact</a>
+                      <a href="/contacto">Contact</a>
                     </li>
                   </ul>
                 </div>
                 <div class="col-6">
                   <ul class="rest fz-14">
                     <li class="mb-15">
-                      <a href="/dark/page-FAQS">FAQS</a>
+                      <a href="/faq">FAQS</a>
                     </li>
                     <li class="mb-15">
-                      <a href="/dark/page-about2">Term & Conditions</a>
-                    </li>
-                    <li class="mb-15">
-                      <a href="/dark/page-about2">Privacy policy</a>
-                    </li>
-                    <li>
-                      <a href="/dark/page-about2">Help</a>
+                      <a href="/sobre">Term & Conditions</a>
                     </li>
                   </ul>
                 </div>

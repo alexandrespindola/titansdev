@@ -6,7 +6,7 @@
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
           <h2 class="fw-600">Read Latest <span class="fw-200">News</span></h2>
           <div class="ml-auto">
-            <a href="/dark/blog-list2" class="go-more">
+            <a href="/blog" class="go-more">
               <span class="text">View all posts</span>
               <span class="icon ti-arrow-top-right"></span>
             </a>
@@ -41,10 +41,10 @@
               <div class="col-lg-6 col-md-7 cont valign">
                 <div class="full-width">
                   <div class="tags mb-15">
-                    <a href="/dark/blog-list">Marketing</a>
+                    <a href="/blog">Marketing</a>
                   </div>
                   <h5>
-                    <a href="/dark/blog-details">
+                    <a href="/blog">
                       Free advertising for your online business.
                     </a>
                   </h5>
@@ -83,11 +83,11 @@
               <div class="col-lg-6 col-md-7 cont valign">
                 <div class="full-width">
                   <div class="tags mb-15">
-                    <a href="/dark/blog-list">Marketing</a>
-                    <a href="/dark/blog-list">Design</a>
+                    <a href="/blog">Marketing</a>
+                    <a href="/blog">Design</a>
                   </div>
                   <h5>
-                    <a href="/dark/blog-details">
+                    <a href="/blog">
                       Business meeting 2023 in San Francisco.
                     </a>
                   </h5>

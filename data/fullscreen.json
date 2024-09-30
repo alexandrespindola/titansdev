@@ -5,7 +5,7 @@
     "year": "2023",
     "brand": "Branding",
     "title": "Retouch Photo",
-    "link": "/dark/project1"
+    "link": "/proyecto"
   },
   {
     "background": "assets/imgs/works/full/2.jpg",
@@ -13,7 +13,7 @@
     "year": "2023",
     "brand": "Branding",
     "title": "Earthmade Aroma box",
-    "link": "/dark/project6"
+    "link": "/proyecto"
   },
   {
     "background": "assets/imgs/works/full/3.jpg",
@@ -21,7 +21,7 @@
     "year": "2023",
     "brand": "Branding",
     "title": "Access Bank Rebranding",
-    "link": "/dark/project5"
+    "link": "/proyecto"
   },
   {
     "background": "assets/imgs/works/full/4.jpg",
@@ -29,7 +29,7 @@
     "year": "2023",
     "brand": "Branding",
     "title": "The joy of music",
-    "link": "/dark/project4"
+    "link": "/proyecto"
   },
   {
     "background": "assets/imgs/works/full/5.jpg",
@@ -37,7 +37,7 @@
     "year": "2023",
     "brand": "Branding",
     "title": "Blue Adobe MAX",
-    "link": "/dark/project1"
+    "link": "/proyecto"
   },
   {
     "background": "assets/imgs/works/full/6.jpg",
@@ -45,7 +45,7 @@
     "year": "2023",
     "brand": "Branding",
     "title": "Carved Wood",
-    "link": "/dark/project2"
+    "link": "/proyecto"
   },
   {
     "background": "assets/imgs/works/full/vid.png",
@@ -53,7 +53,7 @@
     "year": "2023",
     "brand": "Branding",
     "title": "Abstract Animation Video",
-    "link": "/dark/project3",
+    "link": "/proyecto",
     "video": {
       "src": "assets/imgs/works/full/vid.mp4",
       "type": "video/mp4"

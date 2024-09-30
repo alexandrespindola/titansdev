@@ -27,16 +27,16 @@
             <h6 class="sub-title mb-30">Useful Links</h6>
             <ul class="rest fz-14 opacity-7">
               <li class="mb-15">
-                <a href="/page-about">About</a>
+                <a href="/sobre">About</a>
               </li>
               <li class="mb-15">
-                <a href="/page-services">Services</a>
+                <a href="/servicios">Services</a>
               </li>
               <li class="mb-15">
-                <a href="/blog-grid-sidebar">Blog</a>
+                <a href="/blog">Blog</a>
               </li>
               <li>
-                <a href="/page-contact">Contact</a>
+                <a href="/contacto">Contact</a>
               </li>
             </ul>
           </div>

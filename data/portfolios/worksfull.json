@@ -1,31 +1,31 @@
 [
   {
     "img": "/dark/assets/imgs/works/full/1.jpg",
-    "link": "/dark/project1",
+    "link": "/proyecto",
     "title": "Avocado Cutter",
     "subTitle": "Digital Design"
   },
   {
     "img": "/dark/assets/imgs/works/full/2.jpg",
-    "link": "/dark/project2",
+    "link": "/proyecto",
     "title": "The joy of music",
     "subTitle": "Branding"
   },
   {
     "img": "/dark/assets/imgs/works/full/3.jpg",
-    "link": "/dark/project3",
+    "link": "/proyecto",
     "title": "Bank Rebranding",
     "subTitle": "Branding"
   },
   {
     "img": "/dark/assets/imgs/works/full/5.jpg",
-    "link": "/dark/project5",
+    "link": "/proyecto",
     "title": "Carved Wood",
     "subTitle": "Product Design"
   },
   {
     "img": "/dark/assets/imgs/works/full/6.jpg",
-    "link": "/dark/project4",
+    "link": "/proyecto",
     "title": "Blom Air purifier",
     "subTitle": "Digital Art"
   }

@@ -45,7 +45,6 @@ useHead({
     { rel: 'stylesheet', href: '/dark/assets/css/satoshi.css' },
     { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
   ],
-  // script: [{ src: '/dark/assets/js/smoother-script.js', defer: true }],
 });
 
 onMounted(() => {

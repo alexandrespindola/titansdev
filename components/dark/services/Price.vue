@@ -107,7 +107,7 @@
                 <h3 class="numb-font"><span class="fz-20">$</span> 19</h3>
                 <div>
                   <a
-                    href="/dark/page-contact"
+                    href="/contacto"
                     class="butn butn-md butn-bord radius-30"
                   >
                     <span class="fz-13">Sign Up</span>
@@ -136,7 +136,7 @@
                 <h3 class="numb-font"><span class="fz-20">$</span> 49</h3>
                 <div>
                   <a
-                    href="/dark/page-contact"
+                    href="/contacto"
                     class="butn butn-md butn-bord text-dark radius-30"
                   >
                     <span class="fz-13">Sign Up</span>

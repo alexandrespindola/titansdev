@@ -13,7 +13,7 @@
               </div>
               <div>
                 <h6 class="sub-title fz-16 mb-5">Prev Project</h6>
-                <a href="/dark/project2" class="fz-40 fw-600 stroke">
+                <a href="/proyecto" class="fz-40 fw-600 stroke">
                   OPT Media Agency
                 </a>
               </div>
@@ -29,7 +29,7 @@
               <div class="cont d-flex align-items-center">
                 <div>
                   <h6 class="sub-title fz-16 mb-5">Next Project</h6>
-                  <a href="/dark/project2" class="fz-40 fw-600 stroke">
+                  <a href="/proyecto" class="fz-40 fw-600 stroke">
                     TH3 Web Design
                   </a>
                 </div>

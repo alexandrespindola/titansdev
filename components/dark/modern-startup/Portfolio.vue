@@ -8,7 +8,7 @@
             Featured <span class="fw-200">projects</span>
           </h2>
           <div class="ml-auto">
-            <a href="/dark/portfolio-outline" class="go-more">
+            <a href="/portafolio" class="go-more">
               <span class="text">View all Works</span>
               <span class="icon ti-arrow-top-right"></span>
             </a>
@@ -59,7 +59,7 @@
               <img src="/dark/assets/imgs/works/1/1.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/dark/project6">
+              <a href="/proyecto">
                 View Project <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
@@ -77,7 +77,7 @@
               <img src="/dark/assets/imgs/works/1/2.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/dark/project5">
+              <a href="/">
                 View Project <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
@@ -95,7 +95,7 @@
               <img src="/dark/assets/imgs/works/1/3.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/dark/project4">
+              <a href="/">
                 View Project <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
@@ -113,7 +113,7 @@
               <img src="/dark/assets/imgs/works/1/4.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/dark/project3">
+              <a href="/">
                 View Project <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
@@ -127,7 +127,7 @@
               <img src="/dark/assets/imgs/works/1/5.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/dark/project2">
+              <a href="/">
                 View Project <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>

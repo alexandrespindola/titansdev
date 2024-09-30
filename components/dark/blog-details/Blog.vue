@@ -119,8 +119,8 @@
                     <span>Tags :</span>
                   </div>
                   <div>
-                    <a href="/dark/blog-classic">Tech</a>
-                    <a href="/dark/blog-classic">UiCamp</a>
+                    <a href="/blog">Tech</a>
+                    <a href="/blog">UiCamp</a>
                   </div>
                 </div>
               </div>
@@ -231,31 +231,31 @@
               <ul class="rest">
                 <li>
                   <span>
-                    <a href="/dark/blog-list">Business</a>
+                    <a href="/">Business</a>
                   </span>
                   <span class="ml-auto">33</span>
                 </li>
                 <li>
                   <span>
-                    <a href="/dark/blog-list">Lifestyle</a>
+                    <a href="/">Lifestyle</a>
                   </span>
                   <span class="ml-auto">05</span>
                 </li>
                 <li>
                   <span>
-                    <a href="/dark/blog-list">Creative</a>
+                    <a href="/">Creative</a>
                   </span>
                   <span class="ml-auto">28</span>
                 </li>
                 <li>
                   <span>
-                    <a href="/dark/blog-list">WordPress</a>
+                    <a href="/">WordPress</a>
                   </span>
                   <span class="ml-auto">17</span>
                 </li>
                 <li>
                   <span>
-                    <a href="/dark/blog-list">Design</a>
+                    <a href="/">Design</a>
                   </span>
                   <span class="ml-auto">45</span>
                 </li>
@@ -266,7 +266,7 @@
               <div class="item d-flex align-items-center">
                 <div>
                   <div class="img">
-                    <a href="/dark/blog-list">
+                    <a href="/">
                       <img src="/dark/assets/imgs/blog/c1.jpg" alt="" />
                       <span class="date">
                         <span>
@@ -279,10 +279,10 @@
                 </div>
                 <div class="cont">
                   <span class="tag">
-                    <a href="/dark/blog-list">Web Design</a>
+                    <a href="/">Web Design</a>
                   </span>
                   <h6>
-                    <a href="/dark/blog-list">
+                    <a href="/">
                       ways to quickly increase traffic to your website
                     </a>
                   </h6>
@@ -291,7 +291,7 @@
               <div class="item d-flex align-items-center">
                 <div>
                   <div class="img">
-                    <a href="/dark/blog-list">
+                    <a href="/">
                       <img src="/dark/assets/imgs/blog/c2.jpg" alt="" />
                       <span class="date">
                         <span>
@@ -304,10 +304,10 @@
                 </div>
                 <div class="cont">
                   <span class="tag">
-                    <a href="/dark/blog-list">Web Design</a>
+                    <a href="/">Web Design</a>
                   </span>
                   <h6>
-                    <a href="/dark/blog-list">
+                    <a href="/">
                       breaking the rules: using sqlite to demo web
                     </a>
                   </h6>
@@ -316,7 +316,7 @@
               <div class="item d-flex align-items-center">
                 <div>
                   <div class="img">
-                    <a href="/dark/blog-list">
+                    <a href="/">
                       <img src="/dark/assets/imgs/blog/c3.jpg" alt="" />
                       <span class="date">
                         <span>
@@ -329,10 +329,10 @@
                 </div>
                 <div class="cont">
                   <span class="tag">
-                    <a href="/dark/blog-list">Web Design</a>
+                    <a href="/">Web Design</a>
                   </span>
                   <h6>
-                    <a href="/dark/blog-list">
+                    <a href="/">
                       building better ui designs with layout grids
                     </a>
                   </h6>
@@ -342,11 +342,11 @@
             <div class="widget tags">
               <h6 class="title-widget">Tags</h6>
               <div>
-                <a href="/dark/blog-list">Creative</a>
-                <a href="/dark/blog-list">Design</a>
-                <a href="/dark/blog-list">Dark & Light</a>
-                <a href="/dark/blog-list">Minimal</a>
-                <a href="/dark/blog-list">Infolio</a>
+                <a href="/blog">Creative</a>
+                <a href="/blog">Design</a>
+                <a href="/blog">Dark & Light</a>
+                <a href="/blog">Minimal</a>
+                <a href="/blog">Infolio</a>
               </div>
             </div>
           </div>

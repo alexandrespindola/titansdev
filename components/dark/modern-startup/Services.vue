@@ -8,7 +8,7 @@
             What We <span class="fw-200"> Offer</span>
           </h2>
           <div class="ml-auto">
-            <a href="/dark/page-services" class="go-more">
+            <a href="/servicios" class="go-more">
               <span class="text">View all Services</span>
               <span class="icon ti-arrow-top-right"></span>
             </a>

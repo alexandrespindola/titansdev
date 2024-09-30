@@ -23,13 +23,13 @@
           <div class="links d-flex justify-content-end">
             <ul class="rest d-flex align-items-center">
               <li>
-                <a href="/dark/page-FAQS">FAQ</a>
+                <a href="/faq">FAQ</a>
               </li>
               <li class="ml-30">
-                <a href="/dark/page-about3">Careers</a>
+                <a href="/sobre">Careers</a>
               </li>
               <li class="ml-30">
-                <a href="/dark/page-contact3">Contact Us</a>
+                <a href="/contacto">Contact Us</a>
               </li>
             </ul>
           </div>

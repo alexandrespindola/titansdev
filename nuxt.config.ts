@@ -17,7 +17,7 @@ export default defineNuxtConfig({
         "/equipo",
         "/faq",
         "/portafolio",
-        "/posts",
+        "/post",
         "/proyecto",
         "/servicio",
         "/servicios",

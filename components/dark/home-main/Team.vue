@@ -10,7 +10,7 @@
             </span>
           </h2>
           <div class="ml-auto">
-            <a href="/dark/page-team" class="go-more">
+            <a href="/equipo" class="go-more">
               <span class="text">Join to us</span>
               <span class="icon ti-arrow-top-right"></span>
             </a>

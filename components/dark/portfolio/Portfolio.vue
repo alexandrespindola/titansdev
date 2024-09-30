@@ -28,7 +28,7 @@
                 <a :href="item.link">{{ item.title }}</a>
               </h5>
               <p>
-                <a href="/dark/portfolio-standard">
+                <a href="/portafolio">
                   {{ item.subTitle.split(' ')[0] }}
                 </a>
               </p>

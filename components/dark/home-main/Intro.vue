@@ -19,7 +19,7 @@
                 <span class="up-text">
                   reach us by clicking
                   <span class="underline">
-                    <a href="/dark/page-contact3" class="main-color"> here </a>
+                    <a href="/contacto" class="main-color"> here </a>
                   </span>
                 </span>
               </span>

@@ -8,9 +8,9 @@
       <div class="text-center">
         <h1>Web Development.</h1>
         <div class="mt-15">
-          <a href="/dark/home-main">Home</a>
+          <a href="/">Home</a>
           <span class="padding-rl-20">|</span>
-          <a href="/dark/page-services">Services</a>
+          <a href="/servicios">Services</a>
           <span class="padding-rl-20">|</span>
           <span class="main-color">Web Development</span>
         </div>

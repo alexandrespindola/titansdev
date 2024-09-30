@@ -11,7 +11,7 @@
               <h2 class="mb-10">Page not found</h2>
               <p>Sorry, but the page you are looking for does not exist.</p>
               <a
-                href="/dark/home-main"
+                href="/"
                 class="butn butn-md butn-bg main-colorbg text-dark radius-30 mt-30"
               >
                 <span class="text">Back to Home</span>

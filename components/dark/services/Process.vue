@@ -8,7 +8,7 @@
             Business <span class="fw-200">Development</span>
           </h2>
           <div class="ml-auto">
-            <a href="/dark/page-about2" class="go-more">
+            <a href="/sobre" class="go-more">
               <span class="text">View More</span>
               <span class="icon ti-arrow-top-right"></span>
             </a>
@@ -26,7 +26,7 @@
             approach
           </p>
           <div class="o-hidden">
-            <a href="/dark/page-about2" class="rmore to-in mt-30">
+            <a href="/sobre" class="rmore to-in mt-30">
               <span class="sub-title">Read More</span>
               <img
                 src="/dark/assets/imgs/arrow-right.png"
@@ -46,7 +46,7 @@
             approach
           </p>
           <div class="o-hidden">
-            <a href="/dark/page-about2" class="rmore to-in mt-30">
+            <a href="/sobre" class="rmore to-in mt-30">
               <span class="sub-title">Read More</span>
               <img
                 src="/dark/assets/imgs/arrow-right.png"
@@ -66,7 +66,7 @@
             approach
           </p>
           <div class="o-hidden">
-            <a href="/dark/page-about2" class="rmore to-in mt-30">
+            <a href="/sobre" class="rmore to-in mt-30">
               <span class="sub-title">Read More</span>
               <img
                 src="/dark/assets/imgs/arrow-right.png"
@@ -86,7 +86,7 @@
             approach
           </p>
           <div class="o-hidden">
-            <a href="/dark/page-about2" class="rmore to-in mt-30">
+            <a href="/sobre" class="rmore to-in mt-30">
               <span class="sub-title">Read More</span>
               <img
                 src="/dark/assets/imgs/arrow-right.png"
