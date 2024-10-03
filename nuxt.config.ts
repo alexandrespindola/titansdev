@@ -3,9 +3,11 @@ import { fileURLToPath } from "node:url";
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
+
   typescript: {
     shim: false,
   },
+
   nitro: {
     prerender: {
       crawlLinks: true,
@@ -26,9 +28,11 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   alias: {
     "@": fileURLToPath(new URL("./", import.meta.url)),
   },
+
   app: {
     head: {
       title: "TitansDev",
@@ -88,6 +92,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   css: ["swiper/css/bundle", "@/styles/globals.css"],
 
   webpack: {
@@ -98,4 +103,6 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  compatibilityDate: "2024-10-03",
 });
