@@ -2,14 +2,14 @@
   <section class="portfolio-tab crev section-padding" data-scroll-index="3">
     <div class="container">
       <div class="sec-head mb-80">
-        <h6 class="sub-title main-color mb-25">Our Portfolio</h6>
+        <h6 class="sub-title main-color mb-25">Nustro Portafolio</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
           <h2 class="fw-600 text-u ls1">
-            Featured <span class="fw-200">projects</span>
+            Proyectos <span class="fw-200">Destacados</span>
           </h2>
           <div class="ml-auto">
             <a href="/portafolio" class="go-more">
-              <span class="text">View all Works</span>
+              <span class="text">Ver todos los Proyectos</span>
               <span class="icon ti-arrow-top-right"></span>
             </a>
           </div>
@@ -52,15 +52,15 @@
             data-tab="tab-1"
           >
             <div class="info">
-              <h6 class="sub-title opacity-7">UI-UX Design</h6>
-              <h4>Iridescent Wallpapers</h4>
+              <h6 class="sub-title opacity-7">Desarrollo Web</h6>
+              <h4>Clinica Pelvica</h4>
             </div>
             <div class="img">
               <img src="/dark/assets/imgs/works/1/1.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/proyecto">
-                View Project <i class="ml-15 ti-arrow-top-right"></i>
+              <a href="https://clinicapelvica.com.br/">
+                Ver Proyecto <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
           </div>
@@ -70,15 +70,15 @@
             data-tab="tab-2"
           >
             <div class="info">
-              <h6 class="sub-title opacity-7">UI-UX Design</h6>
-              <h4>Proof Template</h4>
+              <h6 class="sub-title opacity-7">Desarrollo Web</h6>
+              <h4>PejoterDay</h4>
             </div>
             <div class="img">
               <img src="/dark/assets/imgs/works/1/2.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/">
-                View Project <i class="ml-15 ti-arrow-top-right"></i>
+              <a href="https://pejoterday.com.br">
+                Ver Proyecto <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
           </div>
@@ -88,47 +88,15 @@
             data-tab="tab-3"
           >
             <div class="info">
-              <h6 class="sub-title opacity-7">UI-UX Design</h6>
-              <h4>Ledge Phone</h4>
+              <h6 class="sub-title opacity-7">Desarrollo Web</h6>
+              <h4>IFV</h4>
             </div>
             <div class="img">
               <img src="/dark/assets/imgs/works/1/3.jpg" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="/">
-                View Project <i class="ml-15 ti-arrow-top-right"></i>
-              </a>
-            </div>
-          </div>
-          <div
-            @mouseenter="handleMouseEnter"
-            class="cluom mb-30"
-            data-tab="tab-4"
-          >
-            <div class="info">
-              <h6 class="sub-title opacity-7">UI-UX Design</h6>
-              <h4>Frame Sans</h4>
-            </div>
-            <div class="img">
-              <img src="/dark/assets/imgs/works/1/4.jpg" alt="" />
-            </div>
-            <div class="more text-u ls1 fz-12">
-              <a href="/">
-                View Project <i class="ml-15 ti-arrow-top-right"></i>
-              </a>
-            </div>
-          </div>
-          <div @mouseenter="handleMouseEnter" class="cluom" data-tab="tab-5">
-            <div class="info">
-              <h6 class="sub-title opacity-7">UI-UX Design</h6>
-              <h4>Modern Minimalist</h4>
-            </div>
-            <div class="img">
-              <img src="/dark/assets/imgs/works/1/5.jpg" alt="" />
-            </div>
-            <div class="more text-u ls1 fz-12">
-              <a href="/">
-                View Project <i class="ml-15 ti-arrow-top-right"></i>
+              <a href="https://ifv.org.br">
+                Ver Proyecto<i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
           </div>

@@ -1,26 +1,44 @@
 [
   {
-    "title": "Digital Product Design",
+    "title": "Creación de Páginas Web",
+    "number": "01",
     "img": "/dark/assets/imgs/serv-icons/3.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
-    "link": "/servicio"
+    "desc": "Los sitios web deben ser rápidos e intuitivos, que atraigan a más clientes y conviertan a los visitantes en oportunidades de negocio",
+    "link": "/"
   },
   {
-    "title": "Web Developments",
+    "title": "Desarrollo de Sistemas Web",
+    "number": "02",
     "img": "/dark/assets/imgs/serv-icons/4.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
-    "link": "/servicio"
+    "desc": "Creamos sistemas web personalizados que simplifican tus operaciones diarias y mejoran la eficiencia de tu negocio.",
+    "link": "/"
   },
   {
-    "title": "Branding Design",
+    "title": "Apps Móviles (Android & iOS)",
+    "number": "03",
     "img": "/dark/assets/imgs/serv-icons/5.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
-    "link": "/servicio"
+    "desc": "Las aplicaciones móviles no son sólo para las grandes empresas. Creamos apps que impulsen tu crecimiento en el mundo digital.",
+    "link": "/"
   },
   {
-    "title": "UI-UX Design",
+    "title": "Automatización de Workflows",
+    "number": "04",
     "img": "/dark/assets/imgs/serv-icons/5.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
-    "link": "/servicio"
+    "desc": "Simplifica tus procesos automáticos para reducir tareas repetitivas, ahorrar tiempo y aumentar la productividad.",
+    "link": "/"
+  },
+  {
+    "title": "Marketing Digital",
+    "number": "05",
+    "img": "/dark/assets/imgs/serv-icons/5.png",
+    "desc": "Diseñamos campañas que impulsan tu visibilidad, generan leads y fomentan el crecimiento de tu negocio.",
+    "link": "/"
+  },
+  {
+    "title": "Gestión de Google Mi Negócio",
+    "number": "06",
+    "img": "/dark/assets/imgs/serv-icons/5.png",
+    "desc": "Optimiza tu información en Google para que los clientes te encuentren fácilmente, aumenten tus visitas y el interés en tus servicios.",
+    "link": "/"
   }
 ]

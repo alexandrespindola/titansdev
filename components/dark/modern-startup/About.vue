@@ -4,24 +4,20 @@
       <div class="row md-marg">
         <div class="col-lg-6">
           <div class="cont md-mb50">
-            <h6 class="sub-title main-color mb-15">Who We Are</h6>
+            <h6 class="sub-title main-color mb-15">Quiénes Somos</h6>
             <h3>
-              Our team consists ofnpractitioners who have years of experience in
-              launching & managing projects.
+              Colaboramos con soluciones tecnológicas que le permiten trabajar de forma más eficiente.
             </h3>
             <div class="d-flex align-items-end mt-100">
               <div>
                 <a href="sobre" class="d-flex align-items-end">
-                  <span class="sub-title nowrap">About Us</span>
+                  <span class="sub-title nowrap">Sobre Nosotros</span>
                   <span class="fz-70 line-height-45 ti-arrow-top-right"></span>
                 </a>
               </div>
               <div class="ml-80">
                 <p>
-                  With our low code solution you can model your process
-                  automation by yourself. This will increase your productivity
-                  in real time and bring all-around flexibility and
-                  best-in-class quality.
+                  Combinamos tecnología de punta y experiencia para simplificar su trabajo y maximizar los resultados.
                 </p>
               </div>
             </div>
