@@ -8,26 +8,20 @@
               <a href="#0">+1 840 841 25 69</a>
             </div>
             <div class="morinfo mt-50 pb-30 bord-thin-bottom">
-              <h6 class="mb-15">Address</h6>
+              <h6 class="mb-15">Dirección</h6>
               <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
             </div>
             <div class="morinfo mt-30 pb-30 bord-thin-bottom">
               <h6 class="mb-15">Email</h6>
-              <p>Support@uithemez.com</p>
+              <p>contacto@titansdev.es</p>
             </div>
 
-            <div class="social-icon-circle mt-50">
-              <a href="#0">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#0">
-                <i class="fab fa-dribbble"></i>
-              </a>
-              <a href="#0">
-                <i class="fab fa-behance"></i>
-              </a>
+            <div class="social-icon-circle mt-50 flex flex-row gap-x-3">
               <a href="#0">
                 <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#0">
+                <i class="fab fa-linkedin"></i>
               </a>
             </div>
           </div>
@@ -35,9 +29,9 @@
         <div class="col-lg-7 offset-lg-1 valign">
           <div class="full-width">
             <div class="sec-head mb-50">
-              <h6 class="sub-title main-color mb-15">Let&#39;s Chat</h6>
+              <h6 class="sub-title main-color mb-15">Vamos a hablar</h6>
               <h3 class="text-u ls1">
-                Send a <span class="fw-200">message</span>
+                Enviar un <span class="fw-200">mensaje</span>
               </h3>
             </div>
             <form
@@ -55,7 +49,7 @@
                       id="form_name"
                       type="text"
                       name="name"
-                      placeholder="Name"
+                      placeholder="Nombre"
                       required
                     />
                   </div>
@@ -67,7 +61,7 @@
                       id="form_email"
                       type="email"
                       name="email"
-                      placeholder="Email"
+                      placeholder="E-mail"
                       required
                     />
                   </div>
@@ -79,7 +73,7 @@
                       id="form_subject"
                       type="text"
                       name="subject"
-                      placeholder="Subject"
+                      placeholder="Asunto"
                     />
                   </div>
                 </div>
@@ -89,7 +83,7 @@
                     <textarea
                       id="form_message"
                       name="message"
-                      placeholder="Message"
+                      placeholder="Mensage"
                       rows="4"
                       required
                     ></textarea>
@@ -99,7 +93,7 @@
                       type="submit"
                       class="butn butn-full butn-bord radius-30"
                     >
-                      <span class="text">Let&#39;s Talk</span>
+                      <span class="text">Enviar</span>
                     </button>
                   </div>
                 </div>

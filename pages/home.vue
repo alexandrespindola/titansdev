@@ -12,7 +12,6 @@
         <Portfolio />
         <ImageScale />
         <Skills />
-        <Testimonials />
         <Clients />
         <Blog />
         <Contact />
@@ -32,7 +31,7 @@ import Marquee from '@/components/dark/modern-startup/Marquee';
 import Portfolio from '@/components/dark/modern-startup/Portfolio';
 import ImageScale from '@/components/dark/modern-startup/ImageScale';
 import Skills from '@/components/dark/modern-startup/Skills';
-import Testimonials from '@/components/dark/modern-startup/Testimonials';
+
 import Clients from '@/components/dark/modern-startup/Clients';
 import Blog from '@/components/dark/modern-startup/Blog';
 import Contact from '@/components/dark/modern-startup/Contact';

@@ -1,38 +1,30 @@
 <template>
-  <footer class="min-footer sub-bg pt-30 pb-30">
+  <footer class="sub-bg pt-30 pb-30">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 md-mb15">
-          <div class="logo icon-img-100">
-            <img src="/dark/assets/imgs/logo-light.png" alt="" />
-          </div>
+      <div class="flex flex-col flex-wrap lg:flex-row">
+        <div class="w-full order-first flex flex-col items-center lg:w-1/3 lg:flex-row lg:justify-start">
+          <NuxtLink to="/">
+            <img src="/dark/assets/imgs/logo-light.png" alt="" class="object-contain w-[120px] h-auto">
+          </NuxtLink>
         </div>
-        <div class="col-lg-4 order-md-3">
-          <div class="text-center">
-            <p class="fz-14">
-              © 2024 InFolio is Proudly Powered by
-              <span class="underline main-color">
-                <a href="https://themeforest.net/user/UiCamp" target="_blank">
-                  UiCamp
-                </a>
-              </span>
-            </p>
-          </div>
+        <div class=" w-full flex flex-wrap justify-center order-last lg:w-1/3 lg:order-2">
+          <p class="fz-14 w-full flex justify-center gap-1">
+            <NuxtLink to="/" class="main-color">
+              TitansDev
+            </NuxtLink>
+            <span>© 2024</span>
+          </p>
+          <p class="fz-14 self-center">
+            Producido con ❤️ por TitansDev
+          </p>
         </div>
-        <div class="col-lg-4 col-md-6 order-md-2 md-mb15">
-          <div class="links d-flex justify-content-end">
-            <ul class="rest d-flex align-items-center">
-              <li>
-                <a href="/faq">FAQ</a>
-              </li>
-              <li class="ml-30">
-                <a href="/sobre">Careers</a>
-              </li>
-              <li class="ml-30">
-                <a href="/contacto">Contact Us</a>
-              </li>
-            </ul>
-          </div>
+        <div class="w-full lg:w-1/3 lg:order-last">
+          <ul class="flex flex-col gap-2 justify-center lg:flex-row">
+            <NuxtLink to="/sobre" class="self-center">Sobre</NuxtLink>
+            <NuxtLink to="/servicios" class="self-center">Servicios</NuxtLink>
+            <NuxtLink to="/blog" class="self-center">Blog</NuxtLink>
+            <NuxtLink to="/contacto" class="self-center">Contacto</NuxtLink>
+          </ul>
         </div>
       </div>
     </div>

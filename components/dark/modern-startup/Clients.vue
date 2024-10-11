@@ -4,8 +4,7 @@
       <div class="sec-bottom mb-100">
         <div class="main-bg d-flex align-items-center">
           <h6 class="fz-14 fw-400">
-            More than <span class="fw-600">200+ companies</span>
-            trusted us worldwide
+            Empresas que <span class="fw-600">confían en nosotros</span>
           </h6>
         </div>
       </div>

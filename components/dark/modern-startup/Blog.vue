@@ -2,9 +2,9 @@
   <section class="blog-list-half section-padding sub-bg" data-scroll-index="5">
     <div class="container">
       <div class="sec-head mb-80">
-        <h6 class="sub-title main-color mb-25">Our Blog</h6>
+        <h6 class="sub-title main-color mb-25">Blog</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
-          <h2 class="fw-600">Read Latest <span class="fw-200">News</span></h2>
+          <h2 class="fw-600">Estrategias <span class="fw-200">para su negocio</span></h2>
           <div class="ml-auto">
             <a href="/blog" class="go-more">
               <span class="text">View all posts</span>

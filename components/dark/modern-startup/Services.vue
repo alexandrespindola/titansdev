@@ -26,7 +26,7 @@
                 </div>
               </div>
               <div>
-                <h5 class="text-2xl">{{ item.title }}</h5>
+                <h5 class="text-2xl min-h-16">{{ item.title }}</h5>
                 <div class="mt-4">
                   <p class=" mb-8 text-base">{{ item.desc }}</p>
                 </div>
