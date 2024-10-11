@@ -93,7 +93,7 @@ export default defineNuxtConfig({
     "@/styles/globals.css",
     "@/public/dark/assets/scss/style.scss",
   ],
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "vuetify-nuxt-module"],
   webpack: {
     extractCSS: true,
     optimization: {

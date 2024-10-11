@@ -3,7 +3,6 @@ import type { DefineComponent, SlotsType } from 'vue'
 type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refresh: () => Promise<void>}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, SlotsType<{ fallback: { error: unknown } }>>
 interface _GlobalComponents {
       'Footer': typeof import("../components/Footer.vue")['default']
-    'Header': typeof import("../components/Header.vue")['default']
     'Navbar': typeof import("../components/Navbar.vue")['default']
     'DarkAbout': typeof import("../components/dark/About.vue")['default']
     'DarkAboutBlog': typeof import("../components/dark/about/Blog.vue")['default']
@@ -54,6 +53,8 @@ interface _GlobalComponents {
     'DarkModernStartupClients': typeof import("../components/dark/modern-startup/Clients.vue")['default']
     'DarkModernStartupContact': typeof import("../components/dark/modern-startup/Contact.vue")['default']
     'DarkModernStartupFooter': typeof import("../components/dark/modern-startup/Footer.vue")['default']
+    'DarkModernStartupHeader': typeof import("../components/dark/modern-startup/Header.vue")['default']
+    'DarkModernStartupHeader2': typeof import("../components/dark/modern-startup/Header2.vue")['default']
     'DarkModernStartupImageScale': typeof import("../components/dark/modern-startup/ImageScale.vue")['default']
     'DarkModernStartupMarquee': typeof import("../components/dark/modern-startup/Marquee.vue")['default']
     'DarkModernStartupPortfolio': typeof import("../components/dark/modern-startup/Portfolio.vue")['default']
@@ -108,7 +109,6 @@ interface _GlobalComponents {
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
       'LazyFooter': typeof import("../components/Footer.vue")['default']
-    'LazyHeader': typeof import("../components/Header.vue")['default']
     'LazyNavbar': typeof import("../components/Navbar.vue")['default']
     'LazyDarkAbout': typeof import("../components/dark/About.vue")['default']
     'LazyDarkAboutBlog': typeof import("../components/dark/about/Blog.vue")['default']
@@ -159,6 +159,8 @@ interface _GlobalComponents {
     'LazyDarkModernStartupClients': typeof import("../components/dark/modern-startup/Clients.vue")['default']
     'LazyDarkModernStartupContact': typeof import("../components/dark/modern-startup/Contact.vue")['default']
     'LazyDarkModernStartupFooter': typeof import("../components/dark/modern-startup/Footer.vue")['default']
+    'LazyDarkModernStartupHeader': typeof import("../components/dark/modern-startup/Header.vue")['default']
+    'LazyDarkModernStartupHeader2': typeof import("../components/dark/modern-startup/Header2.vue")['default']
     'LazyDarkModernStartupImageScale': typeof import("../components/dark/modern-startup/ImageScale.vue")['default']
     'LazyDarkModernStartupMarquee': typeof import("../components/dark/modern-startup/Marquee.vue")['default']
     'LazyDarkModernStartupPortfolio': typeof import("../components/dark/modern-startup/Portfolio.vue")['default']
@@ -219,7 +221,6 @@ declare module 'vue' {
 }
 
 export const Footer: typeof import("../components/Footer.vue")['default']
-export const Header: typeof import("../components/Header.vue")['default']
 export const Navbar: typeof import("../components/Navbar.vue")['default']
 export const DarkAbout: typeof import("../components/dark/About.vue")['default']
 export const DarkAboutBlog: typeof import("../components/dark/about/Blog.vue")['default']
@@ -270,6 +271,8 @@ export const DarkModernStartupBlog: typeof import("../components/dark/modern-sta
 export const DarkModernStartupClients: typeof import("../components/dark/modern-startup/Clients.vue")['default']
 export const DarkModernStartupContact: typeof import("../components/dark/modern-startup/Contact.vue")['default']
 export const DarkModernStartupFooter: typeof import("../components/dark/modern-startup/Footer.vue")['default']
+export const DarkModernStartupHeader: typeof import("../components/dark/modern-startup/Header.vue")['default']
+export const DarkModernStartupHeader2: typeof import("../components/dark/modern-startup/Header2.vue")['default']
 export const DarkModernStartupImageScale: typeof import("../components/dark/modern-startup/ImageScale.vue")['default']
 export const DarkModernStartupMarquee: typeof import("../components/dark/modern-startup/Marquee.vue")['default']
 export const DarkModernStartupPortfolio: typeof import("../components/dark/modern-startup/Portfolio.vue")['default']
@@ -324,7 +327,6 @@ export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const LazyFooter: typeof import("../components/Footer.vue")['default']
-export const LazyHeader: typeof import("../components/Header.vue")['default']
 export const LazyNavbar: typeof import("../components/Navbar.vue")['default']
 export const LazyDarkAbout: typeof import("../components/dark/About.vue")['default']
 export const LazyDarkAboutBlog: typeof import("../components/dark/about/Blog.vue")['default']
@@ -375,6 +377,8 @@ export const LazyDarkModernStartupBlog: typeof import("../components/dark/modern
 export const LazyDarkModernStartupClients: typeof import("../components/dark/modern-startup/Clients.vue")['default']
 export const LazyDarkModernStartupContact: typeof import("../components/dark/modern-startup/Contact.vue")['default']
 export const LazyDarkModernStartupFooter: typeof import("../components/dark/modern-startup/Footer.vue")['default']
+export const LazyDarkModernStartupHeader: typeof import("../components/dark/modern-startup/Header.vue")['default']
+export const LazyDarkModernStartupHeader2: typeof import("../components/dark/modern-startup/Header2.vue")['default']
 export const LazyDarkModernStartupImageScale: typeof import("../components/dark/modern-startup/ImageScale.vue")['default']
 export const LazyDarkModernStartupMarquee: typeof import("../components/dark/modern-startup/Marquee.vue")['default']
 export const LazyDarkModernStartupPortfolio: typeof import("../components/dark/modern-startup/Portfolio.vue")['default']

@@ -5,7 +5,7 @@
     <Navbar />
     <div id="smooth-content">
       <main class="main-bg o-hidden">
-        <Header />
+        <Header2 />
         <Services />
         <About />
         <Marquee />
@@ -25,7 +25,7 @@
 import Lines from '@/components/dark/common/Lines';
 import ProgressScroll from '@/components/dark/common/ProgressScroll';
 import Services from '@/components/dark/modern-startup/Services';
-import Header from '@/components/Header';
+import Header2 from '@/components/dark/modern-startup/Header2';
 import Navbar from '@/components/Navbar';
 import About from '@/components/dark/modern-startup/About';
 import Marquee from '@/components/dark/modern-startup/Marquee';

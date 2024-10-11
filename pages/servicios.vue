@@ -24,7 +24,7 @@ import Footer from '@/components/dark/modern-agency/Footer';
 import Lines from '@/components/dark/common/Lines';
 import ProgressScroll from '@/components/dark/common/ProgressScroll';
 import Navbar from '@/components/dark/creative-agency/Navbar';
-import Testimonials from '@/components/dark/FAQS/Testimonials';
+import Testimonials from '@/components/dark/faq/Testimonials';
 import Header from '@/components/dark/services/Header';
 import Services from '@/components/dark/services/Services';
 import Services2 from '@/components/dark/services/Services2';
@@ -42,7 +42,6 @@ useHead({
     { rel: 'stylesheet', href: '/dark/assets/css/satoshi.css' },
     { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
   ],
-  // script: [{ src: '/dark/assets/js/smoother-script.js', defer: true }],
 });
 
 onMounted(() => {
