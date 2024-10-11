@@ -21,7 +21,7 @@ import Footer from '@/components/dark/modern-agency/Footer';
 import Lines from '@/components/dark/common/Lines';
 import ProgressScroll from '@/components/dark/common/ProgressScroll';
 import Navbar from '@/components/dark/creative-agency/Navbar';
-import Testimonials from '@/components/dark/FAQS/Testimonials';
+import Testimonials from '@/components/dark/faq/Testimonials';
 import Header from '@/components/dark/services-details/Header';
 import Services from '@/components/dark/services-details/Services';
 import Process from '@/components/dark/services-details/Process';
