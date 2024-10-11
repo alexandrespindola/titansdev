@@ -19,10 +19,10 @@ import Footer from '@/components/Footer';
 import Lines from '@/components/dark/common/Lines';
 import ProgressScroll from '@/components/dark/common/ProgressScroll';
 import Navbar from '@/components/dark/creative-agency/Navbar';
-import Header from '@/components/dark/FAQS/Header';
-import FAQS from '@/components/dark/FAQS/FAQS';
-import Testimonials from '@/components/dark/FAQS/Testimonials';
-import Blog from '@/components/dark/FAQS/Blog';
+import Header from '@/components/dark/faq/Header';
+import FAQS from '@/components/dark/faq/FAQS';
+import Testimonials from '@/components/dark/faq/Testimonials';
+import Blog from '@/components/dark/faq/Blog';
 import { onMounted } from 'vue';
 
 useHead({
