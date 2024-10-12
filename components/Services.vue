@@ -15,8 +15,8 @@
           </div>
         </div>
       </div>
-      <div class="w-full flex flex-row flex-wrap gap-y-8">
-        <div v-for="(item, i) in data" :key="i" class="flex  w-full md:w-1/2 lg:w-1/3">
+      <div class="w-full flex flex-row flex-wrap gap-8 justify-center">
+        <div v-for="(item, i) in data" :key="i" class="flex  w-full md:w-[45%] lg:w-[30%]">
           <div
             class="flex flex-col md:flex-row flex-grow hover  gap-4 p-4 hover:bg-gradient-to-br hover:from-green-700 hover:to-green-900 rounded-lg">
             <a :href="item.link" class="flex flex-col">
@@ -27,9 +27,9 @@
                 </div>
               </div>
               <div class="flex flex-col gap-2 align-items-start w-4/5 flex-grow">
-                <h5 class="text-2xl min-h-16 mt-4">{{ item.title }}</h5>
-                <div class="flex-grow flex flex-col">
-                  <p class="mb-4 text-base">{{ item.desc }}</p>
+                <h5 class="text-xl mt-4 md:text-2xl">{{ item.title }}</h5>
+                <div class="flex-grow flex flex-col justify-start">
+                  <p class="mb-4">{{ item.desc }}</p>
                 </div>
                 <div class="flex flex-row gap-x-2 mt-auto">
                   <span>Saber más</span>

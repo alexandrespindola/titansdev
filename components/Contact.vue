@@ -37,8 +37,7 @@
             <form
               id="contact-form"
               class="form2"
-              method="post"
-              action="contact.php"
+              @submit.prevent="submitForm"
             >
               <div class="messages"></div>
 
@@ -50,6 +49,7 @@
                       type="text"
                       name="first_name"
                       placeholder="Nombre"
+                      v-model="form.first_name"
                       required
                     />
                   </div>
@@ -59,9 +59,10 @@
                   <div class="form-group mb-30">
                     <input
                       id="form_last_name"
-                      type="email"
+                      type="text"
                       name="last_name"
                       placeholder="Apellido"
+                      v-model="form.last_name"
                       required
                     />
                   </div>
@@ -74,6 +75,7 @@
                       type="email"
                       name="email"
                       placeholder="E-mail"
+                      v-model="form.email"
                       required
                     />
                   </div>
@@ -86,6 +88,7 @@
                       type="text"
                       name="subject"
                       placeholder="Asunto"
+                      v-model="form.subject"
                     />
                   </div>
                 </div>
@@ -96,6 +99,7 @@
                       id="form_message"
                       name="message"
                       placeholder="Mensaje"
+                      v-model="form.message"
                       rows="4"
                       required
                     ></textarea>
@@ -117,3 +121,44 @@
     </div>
   </section>
 </template>
+
+<script setup>
+const form = ref({
+  first_name: '',
+  last_name: '',
+  email: '',
+  subject: '',
+  message: ''
+});
+
+const submitForm = async () => {
+  const webhookUrl = 'https://primary-production-a860.up.railway.app/webhook/b8923c39-b30b-454c-b816-b4f497a164c3';
+
+  try {
+    const response = await fetch(webhookUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(form.value)
+    });
+
+    if (response.ok) {
+      alert('Mensagem enviada com sucesso!');
+      // Clean the form
+      form.value = {
+        first_name: '',
+        last_name: '',
+        email: '',
+        subject: '',
+        message: ''
+      };
+    } else {
+      alert('Erro ao enviar a mensagem.');
+    }
+  } catch (error) {
+    console.error('Erro:', error);
+    alert('Erro ao enviar a mensagem.');
+  }
+};
+</script>
