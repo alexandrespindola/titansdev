@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     shim: false,
   },
   nitro: {
-    prerender : {
+    prerender: {
       crawlLinks: true,
       routes: [
         "/",
@@ -93,7 +93,7 @@ export default defineNuxtConfig({
     "@/styles/globals.css",
     "@/public/dark/assets/scss/style.scss",
   ],
-  modules: ["@nuxtjs/tailwindcss", "vuetify-nuxt-module"],
+  modules: ["@nuxtjs/tailwindcss"],
   webpack: {
     extractCSS: true,
     optimization: {

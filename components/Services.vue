@@ -23,7 +23,7 @@
               <div class="flex flex-col justify-end w-1/5 gap-4">
                 <span class="num fz-20">.{{ item.number }}</span>
                 <div class="">
-                  <img :src="item.img" alt="" />
+
                 </div>
               </div>
               <div class="flex flex-col gap-2 align-items-start w-4/5 flex-grow">
