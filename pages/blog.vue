@@ -8,17 +8,15 @@
         <Header />
         <Blogs />
       </main>
-      <Footer />
+      <FooterPrimary />
     </div>
   </div>
 </template>
 <script setup>
 import Blogs from '@/components/dark/blog-list/Blogs';
-import Footer from '@/components/dark/blog-list/Footer';
 import Header from '@/components/dark/blog-list/Header';
-import Lines from '@/components/dark/common/Lines';
-import ProgressScroll from '@/components/dark/common/ProgressScroll';
-import Navbar from '@/components/dark/creative-agency/Navbar';
+import Lines from '@/components/common/Lines';
+import ProgressScroll from '@/components/common/ProgressScroll';
 import { onMounted } from 'vue';
 
 useHead({

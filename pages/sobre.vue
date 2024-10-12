@@ -13,15 +13,14 @@
         <Team />
         <Blog />
       </main>
-      <Footer />
+      <FooterSecondary />
     </div>
   </div>
 </template>
 <script setup>
-import Footer from '@/components/dark/blog-list/Footer';
 import Header from '@/components/dark/about/Header';
-import Lines from '@/components/dark/common/Lines';
-import ProgressScroll from '@/components/dark/common/ProgressScroll';
+import Lines from '@/components/common/Lines';
+import ProgressScroll from '@/components/common/ProgressScroll';
 import Navbar from '@/components/dark/creative-agency/Navbar';
 import Intro from '@/components/dark/about/Intro';
 import Marquee from '@/components/dark/about/Marquee';
@@ -30,6 +29,8 @@ import Testimonials from '@/components/dark/about/Testimonials';
 import Team from '@/components/dark/about/Team';
 import Blog from '@/components/dark/about/Blog';
 import { onMounted } from 'vue';
+import FooterSecodary from '~/components/FooterSecondary.vue';
+import FooterSecondary from '~/components/FooterSecondary.vue';
 
 useHead({
   title: 'Sobre Nosotros',

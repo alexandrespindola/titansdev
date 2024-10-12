@@ -15,14 +15,13 @@
         <Brands />
         <Blog />
       </main>
-      <Footer />
+      <FooterPrimary />
     </div>
   </div>
 </template>
 <script setup>
-import Footer from '@/components/dark/modern-agency/Footer';
-import Lines from '@/components/dark/common/Lines';
-import ProgressScroll from '@/components/dark/common/ProgressScroll';
+import Lines from '@/components/common/Lines';
+import ProgressScroll from '@/components/common/ProgressScroll';
 import Navbar from '@/components/dark/creative-agency/Navbar';
 import Testimonials from '@/components/dark/faq/Testimonials';
 import Header from '@/components/dark/services/Header';
@@ -34,6 +33,7 @@ import Process from '@/components/dark/services/Process';
 import Brands from '@/components/dark/services2/Brands';
 import Blog from '@/components/dark/services/Blog';
 import { onMounted } from 'vue';
+import FooterPrimary from '~/components/FooterPrimary.vue';
 
 useHead({
   title: 'Servicios',

@@ -3,7 +3,7 @@
     "title": "Creación de Páginas Web",
     "number": "01",
     "img": "/dark/assets/imgs/serv-icons/3.png",
-    "desc": "Los sitios web deben ser rápidos e intuitivos, que atraigan a más clientes y conviertan a los visitantes en oportunidades de negocio",
+    "desc": "Los sitios web deben ser rápidos e intuitivos, que atraigan a más visitantes y les conviertan en oportunidades de negocio.",
     "link": "/"
   },
   {
@@ -17,7 +17,7 @@
     "title": "Apps Móviles (Android & iOS)",
     "number": "03",
     "img": "/dark/assets/imgs/serv-icons/5.png",
-    "desc": "Las aplicaciones móviles no son sólo para las grandes empresas. Creamos apps que impulsen tu crecimiento en el mundo digital.",
+    "desc": "Creamos apps que impulsen tu crecimiento en el mundo digital.",
     "link": "/"
   },
   {
@@ -38,7 +38,7 @@
     "title": "Google Mi Negócio",
     "number": "06",
     "img": "/dark/assets/imgs/serv-icons/5.png",
-    "desc": "Optimiza tu información en Google para que los clientes te encuentren fácilmente, aumenten tus visitas y el interés en tus servicios.",
+    "desc": "Optimiza tu información en Google para que los clientes te encuentren fácilmente.",
     "link": "/"
   }
 ]

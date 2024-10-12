@@ -14,11 +14,10 @@
 </template>
 <script setup>
 import Footer from '@/components/dark/blog-details/Footer';
-import Lines from '@/components/dark/common/Lines';
-import ProgressScroll from '@/components/dark/common/ProgressScroll';
+import Lines from '@/components/common/Lines';
+import ProgressScroll from '@/components/common/ProgressScroll';
 import Contact from '@/components/dark/contact/Contact';
 import Header from '@/components/dark/contact/Header';
-import Navbar from '@/components/dark/creative-agency/Navbar';
 import { onMounted } from 'vue';
 
 useHead({

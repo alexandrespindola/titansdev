@@ -46,9 +46,9 @@
                 <div class="col-lg-6">
                   <div class="form-group mb-30">
                     <input
-                      id="form_name"
+                      id="form_first_name"
                       type="text"
-                      name="name"
+                      name="first_name"
                       placeholder="Nombre"
                       required
                     />
@@ -56,6 +56,18 @@
                 </div>
 
                 <div class="col-lg-6">
+                  <div class="form-group mb-30">
+                    <input
+                      id="form_last_name"
+                      type="email"
+                      name="last_name"
+                      placeholder="Apellido"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="col-12">
                   <div class="form-group mb-30">
                     <input
                       id="form_email"
@@ -83,7 +95,7 @@
                     <textarea
                       id="form_message"
                       name="message"
-                      placeholder="Mensage"
+                      placeholder="Mensaje"
                       rows="4"
                       required
                     ></textarea>

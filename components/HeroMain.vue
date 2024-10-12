@@ -5,8 +5,8 @@
         <div>
           <div>
             <div class="flex flex-row">
-              <div class="w-full flex flex-col gap-4 lg:w-1/2">
-                <h1 class="text-4xl font-semibold uppercase md:text-4xl lg:text-6xl 2xl:text-8xl">Tecnologías modernas para su negocio
+              <div class="w-full flex flex-col items-center gap-4">
+                <h1 class="text-4xl font-semibold uppercase md:text-4xl lg:text-6xl">Tecnologías modernas para su negocio
                 </h1>
                 <h2 class="flex flex-row text-2xl font-semibold">Soluciones para acelerar el crecimiento de pequeñas y medianas
                   empresas</h2>
