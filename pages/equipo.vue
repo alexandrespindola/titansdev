@@ -8,7 +8,7 @@
         <Header />
         <Team />
       </main>
-      <Footer />
+      <!-- <Footer /> -->
     </div>
   </div>
 </template>
