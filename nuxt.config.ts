@@ -93,7 +93,7 @@ export default defineNuxtConfig({
     "@/styles/globals.css",
     "@/public/dark/assets/scss/style.scss",
   ],
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxt/ui"],
   webpack: {
     extractCSS: true,
     optimization: {

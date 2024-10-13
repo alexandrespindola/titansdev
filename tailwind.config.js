@@ -9,7 +9,11 @@ module.exports = {
     './public/dark/assets/scss/**/*.{scss,sass}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        
+      }
+    },
     screens: {
       sm: '640px',
       md: '768px',
