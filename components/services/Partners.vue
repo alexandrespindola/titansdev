@@ -1,5 +1,5 @@
 <template>
-  <section class="brands-crev simple section-padding pb-0">
+  <section class="brands-crev simple section-padding pb-100">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 mt-100 order-md-2">

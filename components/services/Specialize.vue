@@ -2,25 +2,24 @@
   <section class="services-boxs section-padding">
     <div class="container">
       <div class="sec-head mb-80">
-        <h6 class="sub-title main-color mb-25">Our Specialize</h6>
+        <h6 class="sub-title main-color mb-25">Nuestras Especialidades</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
           <h2 class="fw-600 text-u ls1">
-            What We <span class="fw-200">Offer</span>
+            Qué <span class="fw-200">Ofrecemos</span>
           </h2>
         </div>
       </div>
-      <div class="row pt-30">
-        <div v-for="(item, i) in data" :key="i" class="col-lg-3 col-md-6 items">
-          <div class="item-box bg md-mb50">
+      <div class="pt-30 gap-4 flex flex-row flex-wrap justify-center">
+        <div v-for="(item, i) in data" :key="i" class="w-full md:w-[45%] lg:w-[30%]">
+          <div class="item-box bg md-mb50 rounded-xl flex flex-col h-full">
             <div class="icon mb-40 opacity-5">
               <img :src="item.img" alt="" />
             </div>
             <h5 class="mb-15 text-u">
-              {{ item.title.split(' ')[0] }} <br />
-              {{ item.title.split(' ')[1] }}
+              {{ item.title }}
             </h5>
-            <p>{{ item.desc }}</p>
-            <a :href="item.link" class="rmore mt-30">
+            <p class="flex-grow-1">{{ item.desc }}</p>
+            <a :href="item.link" class="rmore mt-30 flex flex-row gap-2">
               <span class="sub-title">Read More</span>
               <img
                 src="/dark/assets/imgs/arrow-right.png"

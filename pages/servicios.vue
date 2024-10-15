@@ -5,33 +5,23 @@
   <div id="smooth-wrapper">
     <div id="smooth-content">
       <main class="main-bg">
-        <Header />
-        <Services />
-        <Services2 />
+        <ServicesHeader />
+        <ServicesSpecialize />
         <Marquee />
-        <Price />
-        <Testimonials />
-        <Process />
-        <Brands />
-        <Blog />
+        <ServicesPrice />
+        <ServicesProcess />
+        <ServicesPartners />
+        <!-- <ServicesTestimonials /> -->
+
       </main>
-      <FooterPrimary />
+      <FooterTertiary />
     </div>
   </div>
 </template>
 <script setup>
 import Lines from '@/components/common/Lines';
 import ProgressScroll from '@/components/common/ProgressScroll';
-import Navbar from '@/components/dark/creative-agency/Navbar';
-import Testimonials from '@/components/dark/faq/Testimonials';
-import Header from '@/components/dark/services/Header';
-import Services from '@/components/dark/services/Services';
-import Services2 from '@/components/dark/services/Services2';
-import Marquee from '@/components/dark/services/Marquee';
-import Price from '@/components/dark/services/Price';
-import Process from '@/components/dark/services/Process';
-import Brands from '@/components/dark/services2/Brands';
-import Blog from '@/components/dark/services/Blog';
+
 import { onMounted } from 'vue';
 
 useHead({
