@@ -10,7 +10,7 @@
         <Testimonials />
         <Blog />
       </main>
-      <Footer />
+      <FooterTertiary />
     </div>
   </div>
 </template>

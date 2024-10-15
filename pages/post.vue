@@ -9,7 +9,7 @@
         <Blog />
         <Recent />
       </main>
-      <Footer />
+      <FooterTertiary />
     </div>
   </div>
 </template>
@@ -20,7 +20,6 @@ import Slider from '@/components/dark/blog-details/Slider';
 import Lines from '@/components/common/Lines';
 import ProgressScroll from '@/components/common/ProgressScroll';
 import Navbar from '@/components/dark/creative-agency/Navbar';
-import Footer from '@/components/dark/blog-details/Footer';
 import { onMounted } from 'vue';
 
 useHead({

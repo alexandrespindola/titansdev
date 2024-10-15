@@ -8,12 +8,11 @@
         <Header />
         <Contact />
       </main>
-      <Footer />
+      <FooterTertiary />
     </div>
   </div>
 </template>
 <script setup>
-import Footer from '@/components/dark/blog-details/Footer';
 import Lines from '@/components/common/Lines';
 import ProgressScroll from '@/components/common/ProgressScroll';
 import Contact from '@/components/dark/contact/Contact';

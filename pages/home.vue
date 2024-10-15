@@ -1,6 +1,6 @@
 <template>
-  <ProgressScroll />
-  <Lines />
+  <CommonProgressScroll />
+  <CommonLines />
   <div id="smooth-wrapper">
     <Navbar />
     <div id="smooth-content">
@@ -20,11 +20,8 @@
     </div>
   </div>
 </template>
+
 <script setup>
-import Lines from '@/components/common/Lines';
-import ProgressScroll from '@/components/common/ProgressScroll';
-import Navbar from '@/components/Navbar';
-import FooterPrimary from '~/components/FooterPrimary.vue';
 
 useHead({
   title: 'TitansDev',
@@ -43,4 +40,5 @@ onMounted(() => {
     effects: true,
   });
 });
+
 </script>

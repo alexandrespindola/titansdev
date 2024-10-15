@@ -33,7 +33,6 @@ import Process from '@/components/dark/services/Process';
 import Brands from '@/components/dark/services2/Brands';
 import Blog from '@/components/dark/services/Blog';
 import { onMounted } from 'vue';
-import FooterPrimary from '~/components/FooterPrimary.vue';
 
 useHead({
   title: 'Servicios',

@@ -12,12 +12,11 @@
         <Testimonials />
         <FAQS />
       </main>
-      <Footer />
+      <FooterSecondary />
     </div>
   </div>
 </template>
 <script setup>
-import Footer from '@/components/dark/modern-agency/Footer';
 import Lines from '@/components/common/Lines';
 import ProgressScroll from '@/components/common/ProgressScroll';
 import Navbar from '@/components/dark/creative-agency/Navbar';

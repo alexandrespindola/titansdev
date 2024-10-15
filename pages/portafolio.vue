@@ -8,7 +8,7 @@
         <Header />
         <Portfolio />
       </main>
-      <Footer />
+      <FooterTertiary />
     </div>
   </div>
 </template>
@@ -19,7 +19,6 @@ import { onMounted } from 'vue';
 import Navbar from '@/components/dark/portfolio/Navbar';
 import Header from '@/components/dark/portfolio/Header';
 import Portfolio from '@/components/dark/portfolio/Portfolio';
-import Footer from '@/components/dark/blog-details/Footer';
 
 useHead({
   title: 'Portafolio',
