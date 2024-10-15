@@ -1,5 +1,5 @@
 <template>
-  <section class="contact section-padding" data-scroll-index="6">
+  <section class="contact" data-scroll-index="6">
     <div class="container">
       <div class="flex flex-col md:flex-row md:gap-4">
         <div class="w-full valign md:w-2/5">
