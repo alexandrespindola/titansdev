@@ -18,8 +18,8 @@
 </template>
 <script setup>
 import Footer from '@/components/dark/blog-details/Footer';
-import Lines from '@/components/dark/common/Lines';
-import ProgressScroll from '@/components/dark/common/ProgressScroll';
+import Lines from '@/components/common/Lines';
+import ProgressScroll from '@/components/common/ProgressScroll';
 import Navbar from '@/components/dark/portfolio/Navbar';
 import Next from '@/components/dark/project/Next';
 import Challenge from '@/components/dark/project/Challenge';

@@ -12,8 +12,8 @@
   </div>
 </template>
 <script setup>
-import Lines from '@/components/dark/common/Lines';
-import ProgressScroll from '@/components/dark/common/ProgressScroll';
+import Lines from '@/components/common/Lines';
+import ProgressScroll from '@/components/common/ProgressScroll';
 import Navbar from '@/components/dark/creative-agency/Navbar';
 import Header from '@/components/dark/team/Header';
 import Team from '@/components/dark/team/Team';
