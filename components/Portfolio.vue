@@ -21,27 +21,27 @@
             <div
               id="tab-1"
               class="bg-img tab-img current"
-              data-background="/dark/assets/imgs/works/1/1.jpg"
+              data-background="/dark/assets/imgs/portfolio/fisioterapia-pelvica.webp"
             ></div>
             <div
               id="tab-2"
               class="bg-img tab-img"
-              data-background="/dark/assets/imgs/works/1/2.jpg"
+              data-background="/dark/assets/imgs/portfolio/pejoterday.webp"
             ></div>
             <div
               id="tab-3"
               class="bg-img tab-img"
-              data-background="/dark/assets/imgs/works/1/3.jpg"
+              data-background="/dark/assets/imgs/portfolio/jtba.webp"
             ></div>
             <div
               id="tab-4"
               class="bg-img tab-img"
-              data-background="/dark/assets/imgs/works/1/4.jpg"
+              data-background="/dark/assets/imgs/portfolio/ifv.webp"
             ></div>
             <div
               id="tab-5"
               class="bg-img tab-img"
-              data-background="/dark/assets/imgs/works/1/5.jpg"
+              data-background="/dark/assets/imgs/portfolio/gnosis-deutschland.webp"
             ></div>
           </div>
         </div>
@@ -56,7 +56,7 @@
               <h4>Clinica Pelvica</h4>
             </div>
             <div class="img">
-              <img src="/dark/assets/imgs/works/1/1.jpg" alt="" />
+              <img src="/dark/assets/imgs/portfolio/fisioterapia-pelvica.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
               <a href="https://clinicapelvica.com.br/">
@@ -74,10 +74,28 @@
               <h4>PejoterDay</h4>
             </div>
             <div class="img">
-              <img src="/dark/assets/imgs/works/1/2.jpg" alt="" />
+              <img src="/dark/assets/imgs/portfolio/pejoterday.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
               <a href="https://pejoterday.com.br">
+                Ver Proyecto <i class="ml-15 ti-arrow-top-right"></i>
+              </a>
+            </div>
+          </div>
+          <div
+            @mouseenter="handleMouseEnter"
+            class="cluom mb-30"
+            data-tab="tab-2"
+          >
+            <div class="info">
+              <h6 class="sub-title opacity-7">Desarrollo Web</h6>
+              <h4>JTBA Perícias</h4>
+            </div>
+            <div class="img">
+              <img src="/dark/assets/imgs/portfolio/jtba.webp" alt="" />
+            </div>
+            <div class="more text-u ls1 fz-12">
+              <a href="https://www.jtba.com.br/">
                 Ver Proyecto <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
@@ -92,11 +110,29 @@
               <h4>IFV</h4>
             </div>
             <div class="img">
-              <img src="/dark/assets/imgs/works/1/3.jpg" alt="" />
+              <img src="/dark/assets/imgs/portfolio/ifv.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
               <a href="https://ifv.org.br">
                 Ver Proyecto<i class="ml-15 ti-arrow-top-right"></i>
+              </a>
+            </div>
+          </div>
+          <div
+            @mouseenter="handleMouseEnter"
+            class="cluom mb-30"
+            data-tab="tab-2"
+          >
+            <div class="info">
+              <h6 class="sub-title opacity-7">Desarrollo Web</h6>
+              <h4>Gnosis Deutschland</h4>
+            </div>
+            <div class="img">
+              <img src="/dark/assets/imgs/portfolio/gnosis-deutschland.webp" alt="" />
+            </div>
+            <div class="more text-u ls1 fz-12">
+              <a href="https://gnosisdeutschland.org.br">
+                Ver Proyecto <i class="ml-15 ti-arrow-top-right"></i>
               </a>
             </div>
           </div>

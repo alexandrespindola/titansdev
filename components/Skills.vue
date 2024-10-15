@@ -1,16 +1,16 @@
 <template>
   <section
-    class="about-crev section-padding position-re ontop"
+    class="about-crev py-10 position-re ontop"
     data-scroll-index="4"
   >
     <div class="container">
       <div class="row lg-marg">
         <div class="col-lg-6">
-          <div class="left-block mt-100 md-mb50">
+          <div class="left-block md-mb50">
             <div class="d-flex align-items-center">
               <div>
                 <div class="img fit-img radius-30">
-                  <img src="/dark/assets/imgs/intro/03.jpg" alt="" />
+                  <img src="/dark/assets/imgs/intro/skills.webp" alt="" />
                 </div>
               </div>
             </div>
@@ -65,10 +65,10 @@
       </div>
       <div class="team section-padding pb-0">
         <div class="row gap-y-12 justify-center">
-          <div class="lg:w-1/3">
+          <div class="md:w-1/2 lg:w-1/3">
             <div class="item">
               <div class="img">
-                <img src="/dark/assets/imgs/team/1.jpg" alt="" />
+                <img src="/dark/assets/imgs/team/hector.webp" alt="" />
                 <div class="info">
                   <span class="fz-12">CEO</span>
                   <h6 class="fz-18">Héctor Patiño</h6>
@@ -83,10 +83,10 @@
               </div>
             </div>
           </div>
-          <div class="lg:w-1/3">
+          <div class="md:w-1/2 lg:w-1/3">
             <div class="item">
               <div class="img">
-                <img src="/dark/assets/imgs/team/2.jpg" alt="" />
+                <img src="/dark/assets/imgs/team/melike.webp" alt="" />
                 <div class="info">
                   <span class="fz-12">CCO</span>
                   <h6 class="fz-18">Melike Öktem</h6>
@@ -101,10 +101,10 @@
               </div>
             </div>
           </div>
-          <div class="lg:w-1/3">
+          <div class="md:w-1/2 lg:w-1/3">
             <div class="item">
               <div class="img">
-                <img src="/dark/assets/imgs/team/3.jpg" alt="" />
+                <img src="/dark/assets/imgs/team/cristiane.webp" alt="" />
                 <div class="info">
                   <span class="fz-12">CMO</span>
                   <h6 class="fz-18">Cristiane Bortolini</h6>
@@ -112,17 +112,17 @@
               </div>
               <div class="social">
                 <div class="links">
-                  <a href="#0">
+                  <a href="https://www.linkedin.com/in/cristiane-bortolini-577492223/" target="_blank">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="lg:w-1/3">
+          <div class="md:w-1/2 lg:w-1/3">
             <div class="item">
               <div class="img">
-                <img src="/dark/assets/imgs/team/3.jpg" alt="" />
+                <img src="/dark/assets/imgs/team/alexandre.webp" alt="" />
                 <div class="info">
                   <span class="fz-12">CTO</span>
                   <h6 class="fz-18">Alexandre Spindola</h6>
@@ -130,7 +130,7 @@
               </div>
               <div class="social">
                 <div class="links">
-                  <a href="#0">
+                  <a href="https://www.linkedin.com/in/alexandrespindola/" target="_blank">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </div>
@@ -144,7 +144,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue';
+import { onMounted } from 'vue';
 import isInView from '@/common/isInView';
 
 function handleShowProgressValues() {

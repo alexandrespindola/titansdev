@@ -10,9 +10,8 @@
         <About />
         <Marquee />
         <Portfolio />
-        <ImageScale />
         <Skills />
-        <Clients />
+        <Tech />
         <Blog />
         <Contact />
       </main>

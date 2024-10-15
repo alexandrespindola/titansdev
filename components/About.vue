@@ -25,9 +25,9 @@
         </div>
         <div class="w-full md:w-1/3 xl:w-1/2">
           <div class="img-vid">
-            <img src="/dark/assets/imgs/intro/2.jpg" alt="" />
+            <img src="/dark/assets/imgs/intro/intro.webp" alt="" />
             <div class="curv-butn main-bg">
-              <a href="https://youtu.be/AzwC6umvd1s" class="vid">
+              <a href="#" class="vid">
                 <div class="icon">
                   <i class="fas fa-play"></i>
                 </div>

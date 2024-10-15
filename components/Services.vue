@@ -47,7 +47,3 @@
 <script setup>
 import data from '@/data/services.json';
 </script>
-
-<style scoped>
-/* Adicione qualquer estilo adicional aqui, se necessário */
-</style>
