@@ -66,7 +66,7 @@
                       <div class="sub-menu2">
                         <ul>
                           <li>
-                            <a href="/sobre" class="sub-link">
+                            <a href="/quienes-somos" class="sub-link">
                               About Us v1
                             </a>
                           </li>

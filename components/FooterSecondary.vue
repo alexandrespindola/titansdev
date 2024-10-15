@@ -74,7 +74,7 @@
                 <div class="col-6">
                   <ul class="rest fz-14">
                     <li class="mb-15">
-                      <a href="/sobre">About</a>
+                      <a href="/quienes-somos">About</a>
                     </li>
                     <li class="mb-15">
                       <a href="/servicios">Services</a>
