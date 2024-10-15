@@ -93,7 +93,7 @@ export default defineNuxtConfig({
     "@/styles/globals.css",
     "@/public/dark/assets/scss/style.scss",
   ],
-  modules: ["@nuxt/ui"],
+  modules: ["@nuxt/ui", "@nuxtjs/cloudinary"],
   webpack: {
     extractCSS: true,
     optimization: {

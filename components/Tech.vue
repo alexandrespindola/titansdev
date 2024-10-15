@@ -10,7 +10,7 @@
       </div>
       <div class="container flex flex-row flex-wrap justify-center gap-8 max-w-6xl">
         <div v-for="(item, i) in data" :key="i" class="w-20 md:w-28">
-          <div @click="toggleGrayscale(i)">
+          <div @click="handleClick(i)" @mouseenter="handleMouseEnter(i)" @mouseleave="handleMouseLeave(i)">
             <img :src="item.img" alt="" :class="getGrayscaleClass(i)" />
           </div>
         </div>
@@ -20,25 +20,38 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import data from '@/data/tech.json';
 
 const grayscaleStates = ref(data.map(() => true));
+let hasPointer = false;
 
-function toggleGrayscale(index) {
-  if (window.innerWidth <= 768) { // Verifica se é mobile
+onMounted(() => {
+  hasPointer = window.matchMedia('(pointer: fine)').matches;
+});
+
+function handleClick(index) {
+  if (!hasPointer) { // Verifica se o dispositivo não tem ponteiro
     grayscaleStates.value[index] = !grayscaleStates.value[index];
   }
 }
 
-function getGrayscaleClass(index) {
-  if (window.innerWidth <= 768) { // Verifica se é mobile
-    return grayscaleStates.value[index]
-      ? 'grayscale transition-all duration-300'
-      : 'grayscale-0 transition-all duration-300';
-  } else {
-    return 'grayscale hover:grayscale-0 transition-all duration-300';
+function handleMouseEnter(index) {
+  if (hasPointer) { // Verifica se o dispositivo tem ponteiro
+    grayscaleStates.value[index] = false;
   }
+}
+
+function handleMouseLeave(index) {
+  if (hasPointer) { // Verifica se o dispositivo tem ponteiro
+    grayscaleStates.value[index] = true;
+  }
+}
+
+function getGrayscaleClass(index) {
+  return grayscaleStates.value[index]
+    ? 'grayscale transition-all duration-300'
+    : 'grayscale-0 transition-all duration-300';
 }
 </script>
 
@@ -51,11 +64,5 @@ function getGrayscaleClass(index) {
 .grayscale-0 {
   filter: grayscale(0%);
   transition: filter 0.3s ease;
-}
-
-@media (min-width: 769px) {
-  .grayscale:hover {
-    filter: grayscale(0%);
-  }
 }
 </style>

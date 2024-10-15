@@ -39,6 +39,8 @@ export { slidOverInjectionKey, useSlideover } from '../node_modules/@nuxt/ui/dis
 export { useTimer } from '../node_modules/@nuxt/ui/dist/runtime/composables/useTimer';
 export { useToast } from '../node_modules/@nuxt/ui/dist/runtime/composables/useToast';
 export { useUI } from '../node_modules/@nuxt/ui/dist/runtime/composables/useUI';
+export { useCldImageUrl } from '../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldImageUrl';
+export { useCldVideoUrl } from '../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldVideoUrl';
 export { useColorMode } from '../node_modules/@nuxtjs/color-mode/dist/runtime/composables';
 export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';

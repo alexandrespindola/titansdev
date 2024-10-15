@@ -1,8 +1,5 @@
 <template>
-  <section
-    class="py-10 position-re ontop"
-    data-scroll-index="4"
-  >
+  <section class="py-10 position-re ontop" data-scroll-index="4">
     <div class="container">
       <div class="row lg-marg">
         <div class="md:w-1/2 lg:w-1/3">
@@ -24,40 +21,41 @@
             </div>
             <div class="row justify-content-end">
 
-                <div class="text">
-                  <p>
-                    Ya sea desarrollando sitios web, aplicaciones móviles o sistemas personalizados, nuestro equipo se dedica a crear experiencias innovadoras que impulsen su negocio.
+              <div class="text">
+                <p>
+                  Ya sea desarrollando sitios web, aplicaciones móviles o sistemas personalizados, nuestro equipo se
+                  dedica a crear experiencias innovadoras que impulsen su negocio.
 
-                  </p>
-                </div>
-                <div class="mt-50">
-                  <div class="skills-box">
-                    <div class="skill-item mb-40">
-                      <h5 class="sub-title mb-15">Creación de Páginas Web</h5>
-                      <div class="skill-progress">
-                        <div class="progres" data-value="95%"></div>
-                      </div>
+                </p>
+              </div>
+              <div class="mt-50">
+                <div class="skills-box">
+                  <div class="skill-item mb-40">
+                    <h5 class="sub-title mb-15">Creación de Páginas Web</h5>
+                    <div class="skill-progress">
+                      <div class="progres" data-value="95%"></div>
                     </div>
-                    <div class="skill-item mb-40">
-                      <h5 class="sub-title mb-15">Desarrollo de Aplicaciones</h5>
-                      <div class="skill-progress">
-                        <div class="progres" data-value="90%"></div>
-                      </div>
-                    </div>
-                    <div class="skill-item mb-40">
-                      <h5 class="sub-title mb-15">Marketing Digital</h5>
-                      <div class="skill-progress">
-                        <div class="progres" data-value="85%"></div>
-                      </div>
-                    </div>
-                    <div class="skill-item">
-                      <h5 class="sub-title mb-15">Automatización de Workflows</h5>
-                      <div class="skill-progress">
-                        <div class="progres" data-value="90%"></div>
-                      </div>
-                    </div>
-                   
                   </div>
+                  <div class="skill-item mb-40">
+                    <h5 class="sub-title mb-15">Desarrollo de Aplicaciones</h5>
+                    <div class="skill-progress">
+                      <div class="progres" data-value="90%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item mb-40">
+                    <h5 class="sub-title mb-15">Marketing Digital</h5>
+                    <div class="skill-progress">
+                      <div class="progres" data-value="85%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h5 class="sub-title mb-15">Automatización de Workflows</h5>
+                    <div class="skill-progress">
+                      <div class="progres" data-value="90%"></div>
+                    </div>
+                  </div>
+
+                </div>
               </div>
             </div>
           </div>

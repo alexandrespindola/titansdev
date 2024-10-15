@@ -105,7 +105,7 @@
         "./tailwind.config/*"
       ],
       "#app-manifest": [
-        "./manifest/meta/dev"
+        "./manifest/meta/dev.json"
       ],
       "#build": [
         "."
@@ -157,6 +157,8 @@
     "../node_modules/@nuxtjs/tailwindcss/dist/runtime",
     "../node_modules/@nuxt/ui/runtime",
     "../node_modules/@nuxt/ui/dist/runtime",
+    "../node_modules/@nuxtjs/cloudinary/runtime",
+    "../node_modules/@nuxtjs/cloudinary/dist/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/devtools/dist/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
@@ -175,6 +177,8 @@
     "../node_modules/@nuxtjs/tailwindcss/dist/runtime/server",
     "../node_modules/@nuxt/ui/runtime/server",
     "../node_modules/@nuxt/ui/dist/runtime/server",
+    "../node_modules/@nuxtjs/cloudinary/runtime/server",
+    "../node_modules/@nuxtjs/cloudinary/dist/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/devtools/dist/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",

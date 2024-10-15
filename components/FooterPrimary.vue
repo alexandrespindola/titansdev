@@ -1,5 +1,5 @@
 <template>
-  <footer class="sub-bg pt-30 pb-30">
+  <footer class="pt-30 pb-30">
     <div class="container">
       <div class="flex flex-col flex-wrap gap-12 lg:gap-0 py-8 lg:flex-row">
         <div class="w-full order-first flex flex-col items-center lg:w-1/4 lg:flex-row lg:justify-start">

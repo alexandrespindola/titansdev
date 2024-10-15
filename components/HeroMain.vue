@@ -2,7 +2,7 @@
   <header class="startup-header" data-scroll-index="0">
     <div class="valign relative hidden overflow-auto">
       <video autoplay muted loop playsinline class="video-background">
-        <source src="/dark/assets/videos/video-background-hero-480.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/xmfm6mhw3gwctndtcubgx2rptnae/video/upload/video-background-hero-480_vzujok.mp4" type="video/mp4" />
         Su navegador no soporta el elemento de vídeo.
       </video>
       <div class="video-overlay"></div>

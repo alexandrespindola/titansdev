@@ -105,6 +105,8 @@ declare global {
   const useAsyncData: typeof import('../../node_modules/nuxt/dist/app/composables/asyncData')['useAsyncData']
   const useAttrs: typeof import('../../node_modules/vue')['useAttrs']
   const useCarouselScroll: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useCarouselScroll')['useCarouselScroll']
+  const useCldImageUrl: typeof import('../../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldImageUrl')['useCldImageUrl']
+  const useCldVideoUrl: typeof import('../../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldVideoUrl')['useCldVideoUrl']
   const useColorMode: typeof import('../../node_modules/@nuxtjs/color-mode/dist/runtime/composables')['useColorMode']
   const useCookie: typeof import('../../node_modules/nuxt/dist/app/composables/cookie')['useCookie']
   const useCopyToClipboard: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useCopyToClipboard')['useCopyToClipboard']
@@ -302,6 +304,8 @@ declare module 'vue' {
     readonly useAsyncData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/asyncData')['useAsyncData']>
     readonly useAttrs: UnwrapRef<typeof import('../../node_modules/vue')['useAttrs']>
     readonly useCarouselScroll: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useCarouselScroll')['useCarouselScroll']>
+    readonly useCldImageUrl: UnwrapRef<typeof import('../../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldImageUrl')['useCldImageUrl']>
+    readonly useCldVideoUrl: UnwrapRef<typeof import('../../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldVideoUrl')['useCldVideoUrl']>
     readonly useColorMode: UnwrapRef<typeof import('../../node_modules/@nuxtjs/color-mode/dist/runtime/composables')['useColorMode']>
     readonly useCookie: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/cookie')['useCookie']>
     readonly useCopyToClipboard: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useCopyToClipboard')['useCopyToClipboard']>
