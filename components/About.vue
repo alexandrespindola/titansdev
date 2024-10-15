@@ -2,7 +2,7 @@
   <section class="about" data-scroll-index="2">
     <div class="container section-padding bord-thin-top">
       <div class="row">
-        <div class="w-full md:w-2/3 xl:w-1/2">
+        <div class="w-full md:w-2/3 lg:w-1/2">
           <div class="cont md-mb50">
             <h6 class="sub-title main-color mb-15">Quiénes Somos</h6>
             <h3>
@@ -23,7 +23,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full md:w-1/3 xl:w-1/2">
+        <div class="w-full md:w-1/3 lg:w-1/2">
           <div class="img-vid">
             <img src="/dark/assets/imgs/intro/intro.webp" alt="" />
             <div class="curv-butn main-bg">

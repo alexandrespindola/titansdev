@@ -1,99 +1,25 @@
 <template>
   <nav class="navbar navbar-expand-lg nav-crev">
-    <div class="container">
-      <a class="logo icon-img-100" href="#">
-        <img src="/dark/assets/imgs/logo-light.png" alt="logo" />
+    <div class="container p-4 flex flex-row flex-nowrap">
+      <a class="logo w-36" href="/">
+        <img src="/dark/assets/imgs/titansdev-logo-white.webp" alt="logo" />
       </a>
 
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="icon-bar">
-          <i class="fas fa-bars"></i>
-        </span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       </button>
 
-      <div
-        class="collapse navbar-collapse justify-content-center"
-        id="navbarSupportedContent"
-      >
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="/"
-            >
-              <span class="rolling-text">Home</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="/servicios"
-            >
-              <span class="rolling-text">Servicios</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="/sobre"
-            >
-              <span class="rolling-text">Sobre</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="/portafolio"
-            >
-              <span class="rolling-text">Portafolio</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="/equipo"
-            >
-              <span class="rolling-text">Equipo</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="/blog"
-            >
-              <span class="rolling-text">Blog</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="/contacto"
-            >
-              <span class="rolling-text">Contacto</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-
       <div class="topnav">
-        <div @click="toggleMenu" class="menu-icon cursor-pointer">
+        <div @click="toggleMenu" class="cursor-pointer flex flex-col justify-center">
           <span class="icon ti-align-right"></span>
         </div>
       </div>
     </div>
   </nav>
 
-  <div :class="`hamenu one-scroll ${isOpen && 'open'}`">
-    <div class="logo icon-img-100">
-      <img src="/dark/assets/imgs/logo-light.png" alt="" />
+  <div :class="`hamenu one-scroll ${isOpen ? 'open' : ''}`">
+    <div class="logo w-36">
+      <img src="/dark/assets/imgs/titansdev-logo-white.webp" alt="" />
     </div>
     <div @click="closeMenu" class="close-menu cursor-pointer ti-close"></div>
     <div class="container">
@@ -108,264 +34,78 @@
         <div class="col-lg-7">
           <div class="menu-links">
             <ul class="main-menu rest">
-              <li
-                @click="toggleSubMenu"
-                @mouseenter="handleMouseEnter"
-                @mouseleave="handleMouseLeave"
-              >
-                <div class="o-hidden">
-                  <div class="link cursor-pointer dmenu">
+              <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+                <div class="o-hidden ">
+                  <a href="/" class="link cursor-pointer dmenu ">
                     <span class="fill-text" data-text="Home"> Home </span>
-                    <i></i>
-                  </div>
-                </div>
-                <div class="sub-menu">
-                  <ul>
-                    <li>
-                      <a href="/" class="sub-link"> Main Home </a>
-                    </li>
-                    <li>
-                      <a href="/" class="sub-link">
-                        Modern Startup
-                      </a>
-                    </li>
-                  </ul>
+                  </a>
                 </div>
               </li>
-              <li
-                @click="toggleSubMenu"
-                @mouseenter="handleMouseEnter"
-                @mouseleave="handleMouseLeave"
-              >
+              <li @click="toggleSubMenu" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
                   <div class="link cursor-pointer dmenu">
-                    <span class="fill-text" data-text="Pages"> Pages </span>
+                    <span class="fill-text" data-text="Servicios"> Servicios </span>
                     <i></i>
                   </div>
                 </div>
                 <div class="sub-menu no-bord">
                   <ul>
-                    <li @click="toggleSubMenu2">
-                      <div class="o-hidden">
-                        <div class="link cursor-pointer sub-dmenu">
-                          <span class="fill-text" data-text="About Us">
-                            About Us
-                          </span>
-                          <i></i>
-                        </div>
-                      </div>
-                      <div class="sub-menu2">
-                        <ul>
-                          <li>
-                            <a href="/sobre" class="sub-link">
-                              About Us v1
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li @click="toggleSubMenu2">
-                      <div class="o-hidden">
-                        <div class="link cursor-pointer sub-dmenu">
-                          <span class="fill-text" data-text="Services">
-                            Services
-                          </span>
-                          <i></i>
-                        </div>
-                      </div>
-                      <div class="sub-menu2">
-                        <ul>
-                          <li>
-                            <a href="/servicios" class="sub-link">
-                              Services v1
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="/servicio"
-                              class="sub-link"
-                            >
-                              Services Details
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li @click="toggleSubMenu2">
-                      <div class="o-hidden">
-                        <div class="link cursor-pointer sub-dmenu">
-                          <span class="fill-text" data-text="Contact">
-                            Contacto
-                          </span>
-                          <i></i>
-                        </div>
-                      </div>
-                      <div class="sub-menu2">
-                        <ul>
-                          <li>
-                            <a href="/contacto" class="sub-link">
-                              Contacto
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li @click="toggleSubMenu2">
-                      <div class="o-hidden">
-                        <div class="link cursor-pointer sub-dmenu">
-                          <span class="fill-text" data-text="Team"> Team </span>
-                          <i></i>
-                        </div>
-                      </div>
-                      <div class="sub-menu2">
-                        <ul>
-                          <li>
-                            <a href="/equipo" class="sub-link">
-                              Our Team
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li @click="toggleSubMenu2">
-                      <div class="o-hidden">
-                        <div class="link cursor-pointer sub-dmenu">
-                          <span class="fill-text" data-text="Others">
-                            Others
-                          </span>
-                          <i></i>
-                        </div>
-                      </div>
-                      <div class="sub-menu2">
-                        <ul>
-                          <li>
-                            <a href="/faq" class="sub-link">
-                              FAQS
-                            </a>
-                          </li>
-                          <li>
-                            <a href="/404" class="sub-link">
-                              Error 404
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li
-                @click="toggleSubMenu"
-                @mouseenter="handleMouseEnter"
-                @mouseleave="handleMouseLeave"
-              >
-                <div class="o-hidden">
-                  <div class="link cursor-pointer dmenu">
-                    <span class="fill-text" data-text="Portfolio">
-                      Portfolio
-                    </span>
-                    <i></i>
-                  </div>
-                </div>
-                <div class="sub-menu no-bord">
-                  <ul>
-                    <li @click="toggleSubMenu2">
-                      <div class="o-hidden">
-                        <div class="link cursor-pointer sub-dmenu">
-                          <span class="fill-text" data-text="Portfolio Type">
-                            Portfolio Type
-                          </span>
-                          <i></i>
-                        </div>
-                      </div>
-                      <div class="sub-menu2">
-                        <ul>
-                          <li>
-                            <a href="/portafolio" class="sub-link">
-                              Portafolio
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li @click="toggleSubMenu2">
-                      <div class="o-hidden">
-                        <div class="link cursor-pointer sub-dmenu">
-                          <span class="fill-text" data-text="Showcases">
-                            Showcases
-                          </span>
-                          <i></i>
-                        </div>
-                      </div>
-                      <div class="sub-menu2">
-                        <ul>
-                          <li>
-                            <a
-                              href="/showcase"
-                              class="sub-link"
-                            >
-                              Interactive Full
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li @click="toggleSubMenu2">
-                      <div class="o-hidden">
-                        <div class="link cursor-pointer sub-dmenu">
-                          <span class="fill-text" data-text="Portfolio Single">
-                            Portfolio Single
-                          </span>
-                          <i></i>
-                        </div>
-                      </div>
-                      <div class="sub-menu2">
-                        <ul>
-                          <li>
-                            <a href="/proyecto" class="sub-link">
-                              Proyecto
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li
-                @click="toggleSubMenu"
-                @mouseenter="handleMouseEnter"
-                @mouseleave="handleMouseLeave"
-              >
-                <div class="o-hidden">
-                  <div class="link cursor-pointer dmenu">
-                    <span class="fill-text" data-text="Blogs"> Blogs </span>
-                    <i></i>
-                  </div>
-                </div>
-                <div class="sub-menu">
-                  <ul>
                     <li>
-                      <a class="sub-link" href="/blog"> Blog List </a>
+                      <div class="o-hidden">
+                        <a href="/paginas-web" class="link cursor-pointer sub-dmenu">
+                          <span class="fill-text" data-text="Páginas Web"> Páginas Web </span>
+                        </a>
+                      </div>
                     </li>
                     <li>
-                      <a class="sub-link" href="/post">
-                        Post
-                      </a>
+                      <div class="o-hidden">
+                        <a href="/sistemas-web" class="link cursor-pointer sub-dmenu">
+                          <span class="fill-text" data-text="Sistemas Web"> Sistemas Web </span>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="o-hidden">
+                        <a href="/apps-moviles" class="link cursor-pointer sub-dmenu">
+                          <span class="fill-text" data-text="Apps Móviles"> Apps Móviles </span>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="o-hidden">
+                        <a href="/automatizacion-workflows" class="link cursor-pointer sub-dmenu">
+                          <span class="fill-text" data-text="Automatización de Workflows"> Automatización de Workflows </span>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="o-hidden">
+                        <a href="/marketing-digital" class="link cursor-pointer sub-dmenu">
+                          <span class="fill-text" data-text="Marketing Digital"> Marketing Digital </span>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="o-hidden">
+                        <a href="/google-mi-negocio" class="link cursor-pointer sub-dmenu">
+                          <span class="fill-text" data-text="Google Mi Negócio"> Google Mi Negócio </span>
+                        </a>
+                      </div>
                     </li>
                   </ul>
                 </div>
               </li>
-              <li
-                @click="toggleSubMenu"
-                @mouseenter="handleMouseEnter"
-                @mouseleave="handleMouseLeave"
-              >
+              <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+                <div class="o-hidden">
+                  <a href="/quienes-somos" class="link cursor-pointer dmenu">
+                    <span class="fill-text" data-text="Quienes Somos"> Quiénes Somos </span>
+                  </a>
+                </div>
+              </li>
+              <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
                   <a href="/contacto" class="link">
-                    <span class="fill-text" data-text="Contact Us">
-                      Contact Us
-                    </span>
+                    <span class="fill-text" data-text="Contacto Us"> Contacto </span>
                   </a>
                 </div>
               </li>
@@ -375,31 +115,21 @@
         <div class="col-lg-3">
           <div class="cont-info">
             <div class="item mb-50">
-              <h6 class="sub-title mb-15 opacity-7">Address</h6>
+              <h6 class="sub-title mb-15 opacity-7">Dirección</h6>
               <h5>
                 541 Melville Geek, <br />
                 Palo Alto, CA 94301
               </h5>
             </div>
             <div class="item mb-50">
-              <h6 class="sub-title mb-15 opacity-7">Social Media</h6>
+              <h6 class="sub-title mb-15 opacity-7">Redes Sociales</h6>
               <ul class="rest social-text">
-                <li class="mb-10">
-                  <a href="#0" class="hover-this">
-                    <span class="hover-anim">Facebook</span>
-                  </a>
-                </li>
-                <li class="mb-10">
-                  <a href="#0" class="hover-this">
-                    <span class="hover-anim">Twitter</span>
-                  </a>
-                </li>
                 <li class="mb-10">
                   <a href="#0" class="hover-this">
                     <span class="hover-anim">LinkedIn</span>
                   </a>
                 </li>
-                <li>
+                <li class="mb-10">
                   <a href="#0" class="hover-this">
                     <span class="hover-anim">Instagram</span>
                   </a>
@@ -407,9 +137,9 @@
               </ul>
             </div>
             <div class="item mb-40">
-              <h6 class="sub-title mb-15 opacity-7">Contact Us</h6>
+              <h6 class="sub-title mb-15 opacity-7">Contacto</h6>
               <h5>
-                <a href="#0">Hello@email.com</a>
+                <a href="mailto:contacto@titansdev.es">contacto@titansdev.es</a>
               </h5>
               <h5 class="underline mt-10">
                 <a href="#0">+1 840 841 25 69</a>
@@ -421,54 +151,27 @@
     </div>
   </div>
 </template>
+
 <script setup>
-import { onMounted, onUnmounted } from 'vue';
-import { ref } from 'vue';
-
-function handleDropdownMouseMove(event) {
-  event.currentTarget.querySelector('.dropdown-menu').classList.add('show');
-}
-
-function handleDropdownMouseLeave(event) {
-  event.currentTarget.querySelector('.dropdown-menu').classList.remove('show');
-}
-
-function handleDropdownSideMouseMove(event) {
-  event.currentTarget.querySelector('.dropdown-side').classList.add('show');
-}
-
-function handleDropdownSideMouseLeave(event) {
-  event.currentTarget.querySelector('.dropdown-side').classList.remove('show');
-}
-
-function toggleSearch() {
-  let form = document.querySelector('.navbar .search-form');
-  let closeBtn = document.querySelector('.search-form .close-search');
-
-  form.classList.toggle('open');
-  if (form.classList.contains('open')) closeBtn.style.display = 'block';
-  else closeBtn.style.display = 'none';
-}
+import { ref, watch } from 'vue';
 
 const isOpen = ref(false);
+
 function toggleMenu() {
-  const hamenu = document.querySelector('.hamenu');
   isOpen.value = !isOpen.value;
-  setTimeout(() => {
-    isOpen.value == false
-      ? (hamenu.style.left = '-100%')
-      : (hamenu.style.left = '0');
-  }, 300);
 }
 
 function closeMenu() {
-  const hamenu = document.querySelector('.hamenu');
-
   isOpen.value = false;
-  setTimeout(() => {
-    hamenu.style.left = '-100%';
-  }, 300);
 }
+
+watch(isOpen, (newValue) => {
+  if (newValue) {
+    document.body.classList.add('hamenu-open');
+  } else {
+    document.body.classList.remove('hamenu-open');
+  }
+});
 
 function handleMouseEnter(event) {
   document.querySelectorAll('ul.main-menu li').forEach((item) => {
@@ -482,60 +185,23 @@ function handleMouseLeave() {
     .querySelectorAll('ul.main-menu li')
     .forEach((item) => item.classList.remove('hoverd'));
 }
+
 function toggleSubMenu(event) {
   const subMenu = event.currentTarget.querySelector('.sub-menu');
-  const SubMenu2 = event.currentTarget.querySelector('.sub-menu2');
-  if (subMenu) {
-    if (subMenu.classList.contains('sub-open') && SubMenu2 == null) {
-      document.querySelectorAll('.sub-menu').forEach((item) => {
-        item.classList.remove('sub-open');
-        item.style.maxHeight = '0';
-        item.previousElementSibling.children[0].classList.remove('dopen');
-      });
-      subMenu.classList.remove('sub-open');
-      subMenu.style.maxHeight = '0';
-      subMenu.previousElementSibling.children[0].classList.remove('dopen');
-    } else if (!subMenu.classList.contains('sub-open')) {
-      if (SubMenu2 == null) {
-        document.querySelectorAll('.sub-menu').forEach((item) => {
-          item.classList.remove('sub-open');
-          item.style.maxHeight = '0';
-          item.previousElementSibling.children[0].classList.remove('dopen');
-        });
+  const isOpen = subMenu?.classList.contains('sub-open');
 
-        subMenu.classList.add('sub-open');
-        subMenu.style.maxHeight = '450px';
-        subMenu.previousElementSibling.children[0].classList.add('dopen');
-      } else {
-        subMenu.classList.add('sub-open');
-        subMenu.style.maxHeight = '450px';
-        subMenu.previousElementSibling.children[0].classList.add('dopen');
-      }
-    }
-  }
-}
-function toggleSubMenu2(event) {
-  const SubMenu2 = event.currentTarget.querySelector('.sub-menu2');
-  if (SubMenu2) {
-    if (SubMenu2.classList.contains('sub-open')) {
-      event.currentTarget.querySelectorAll('.sub-menu2').forEach((item) => {
-        item.classList.remove('sub-open');
-        item.style.maxHeight = '0';
-        item.previousElementSibling.children[0].classList.remove('dopen');
-      });
-      SubMenu2.classList.remove('sub-open');
-      SubMenu2.style.maxHeight = '0';
-      SubMenu2.previousElementSibling.children[0].classList.remove('dopen');
-    } else if (!SubMenu2.classList.contains('sub-open')) {
-      event.currentTarget.querySelectorAll('.sub-menu2').forEach((item) => {
-        item.classList.remove('sub-open');
-        item.style.maxHeight = '0';
-        item.previousElementSibling.children[0].classList.remove('dopen');
-      });
-      SubMenu2.classList.add('sub-open');
-      SubMenu2.style.maxHeight = '450px';
-      SubMenu2.previousElementSibling.children[0].classList.add('dopen');
-    }
+  // Close all sub-menus
+  document.querySelectorAll('.sub-menu').forEach((item) => {
+    item.classList.remove('sub-open');
+    item.style.maxHeight = '0';
+    item.previousElementSibling.children[0].classList.remove('dopen');
+  });
+
+  // Toggle the clicked sub-menu
+  if (subMenu && !isOpen) {
+    subMenu.classList.add('sub-open');
+    subMenu.style.maxHeight = '450px';
+    subMenu.previousElementSibling.children[0].classList.add('dopen');
   }
 }
 
@@ -549,3 +215,27 @@ function scrollToSection(id) {
   );
 }
 </script>
+
+<style scoped>
+.hamenu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  transition: left 0.3s ease;
+  overflow-y: auto;
+}
+
+.hamenu.open {
+  left: 0;
+}
+
+body.hamenu-open {
+  overflow: hidden;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+}
+</style>

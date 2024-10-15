@@ -33,7 +33,7 @@ import FooterSecodary from '~/components/FooterSecondary.vue';
 import FooterSecondary from '~/components/FooterSecondary.vue';
 
 useHead({
-  title: 'Sobre Nosotros',
+  title: 'Quiénes Somos',
   link: [
     { rel: 'stylesheet', href: '/dark/assets/css/plugins.css' },
     { rel: 'stylesheet', href: '/dark/assets/css/satoshi.css' },

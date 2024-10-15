@@ -19,10 +19,10 @@ export default defineNuxtConfig({
         "/portafolio",
         "/post",
         "/proyecto",
+        "/quienes-somos",
         "/servicio",
         "/servicios",
-        "/showcase",
-        "/sobre",
+        "/showcase"
       ],
     },
   },

@@ -1,8 +1,8 @@
 <template>
   <section class="contact section-padding" data-scroll-index="6">
     <div class="container">
-      <div class="flex flex-col lg:flex-row">
-        <div class="w-full valign lg:w-2/5">
+      <div class="flex flex-col md:flex-row md:gap-4">
+        <div class="w-full valign md:w-2/5">
           <div class="sec-head info-box full-width md-mb80">
             <div class="phone fz-30 fw-600 underline main-color">
               <a href="#0">+1 840 841 25 69</a>
@@ -26,12 +26,12 @@
             </div>
           </div>
         </div>
-        <div class="w-full offset-lg-1 valign lg:w-3/5">
+        <div class="w-full offset-lg-1 valign md:w-3/5">
           <div class="full-width">
             <div class="sec-head mb-50">
               <h6 class="sub-title main-color mb-15">Vamos a hablar</h6>
               <h3 class="text-u ls1">
-                Enviar un <span class="fw-200">mensaje</span>
+                Envíanos un <span class="fw-200">mensaje</span>
               </h3>
             </div>
             <form id="contact-form" class="form2" @submit.prevent="submitForm">
@@ -62,7 +62,7 @@
                 <div class="w-full lg:w-1/2">
                   <div class="form-group mb-30 flex flex-row flex-nowrap items-center">
                     <USelect v-model="form.prefix_code" :options="countryCodes" option-attribute="country"
-                      value-attribute="code" :placeholder="'🇪🇸 +34'" color="transparent" class="w-32">
+                      value-attribute="code" :placeholder="'🇪🇸 +34'" color="transparent" class="w-40">
                       <template #label>
                         {{ form.prefix_code }}
                       </template>

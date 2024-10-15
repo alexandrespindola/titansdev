@@ -7,12 +7,12 @@
           <h2 class="fw-600 text-u ls1">
             Proyectos <span class="fw-200">Destacados</span>
           </h2>
-          <div class="ml-auto">
+<!--           <div class="ml-auto">
             <a href="/portafolio" class="go-more">
               <span class="text">Ver todos los Proyectos</span>
               <span class="icon ti-arrow-top-right"></span>
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="row">
