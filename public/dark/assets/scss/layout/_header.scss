@@ -23,10 +23,9 @@
 }
 
 .startup-header{
-    padding: 15px 15px 0;
-
+    padding: 0;
+    
     .bg-img{
-        min-height: 100vh;
         padding: 120px 0;
     }
 
@@ -76,7 +75,7 @@
 .page-header{
 
     &.section-padding{
-        padding: 0 0 100px 0;
+        padding: 100px 0 100px 0;
     }
 }
 

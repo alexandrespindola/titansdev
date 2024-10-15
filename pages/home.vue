@@ -12,7 +12,6 @@
         <Portfolio />
         <Skills />
         <Tech />
-        <Blog />
         <Contact />
       </main>
       <FooterPrimary />

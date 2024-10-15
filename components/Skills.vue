@@ -1,13 +1,13 @@
 <template>
   <section
-    class="about-crev py-10 position-re ontop"
+    class="py-10 position-re ontop"
     data-scroll-index="4"
   >
     <div class="container">
       <div class="row lg-marg">
-        <div class="col-lg-6">
-          <div class="left-block md-mb50">
-            <div class="d-flex align-items-center">
+        <div class="md:w-1/2 lg:w-1/3">
+          <div class="left-block md-mb50 ">
+            <div class="d-flex align-items-center ">
               <div>
                 <div class="img fit-img radius-30">
                   <img src="/dark/assets/imgs/intro/skills.webp" alt="" />
@@ -16,7 +16,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 valign">
+        <div class="md:w-1/2 lg:w-2/3 valign">
           <div class="content full-width">
             <div class="sec-head mb-30">
               <h6 class="sub-title mb-15 main-color">Nuestras Habilidades</h6>
@@ -65,7 +65,7 @@
       </div>
       <div class="team section-padding pb-0">
         <div class="row gap-y-12 justify-center">
-          <div class="md:w-1/2 lg:w-1/3">
+          <div class="md:w-2/5 lg:w-1/4">
             <div class="item">
               <div class="img">
                 <img src="/dark/assets/imgs/team/hector.webp" alt="" />
@@ -83,7 +83,7 @@
               </div>
             </div>
           </div>
-          <div class="md:w-1/2 lg:w-1/3">
+          <div class="md:w-2/5 lg:w-1/4">
             <div class="item">
               <div class="img">
                 <img src="/dark/assets/imgs/team/melike.webp" alt="" />
@@ -101,7 +101,7 @@
               </div>
             </div>
           </div>
-          <div class="md:w-1/2 lg:w-1/3">
+          <div class="md:w-2/5 lg:w-1/4">
             <div class="item">
               <div class="img">
                 <img src="/dark/assets/imgs/team/cristiane.webp" alt="" />
@@ -119,7 +119,7 @@
               </div>
             </div>
           </div>
-          <div class="md:w-1/2 lg:w-1/3">
+          <div class="md:w-2/5 lg:w-1/4">
             <div class="item">
               <div class="img">
                 <img src="/dark/assets/imgs/team/alexandre.webp" alt="" />

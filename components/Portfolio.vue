@@ -85,7 +85,7 @@
           <div
             @mouseenter="handleMouseEnter"
             class="cluom mb-30"
-            data-tab="tab-2"
+            data-tab="tab-3"
           >
             <div class="info">
               <h6 class="sub-title opacity-7">Desarrollo Web</h6>
@@ -103,7 +103,7 @@
           <div
             @mouseenter="handleMouseEnter"
             class="cluom mb-30"
-            data-tab="tab-3"
+            data-tab="tab-4"
           >
             <div class="info">
               <h6 class="sub-title opacity-7">Desarrollo Web</h6>
@@ -121,7 +121,7 @@
           <div
             @mouseenter="handleMouseEnter"
             class="cluom mb-30"
-            data-tab="tab-2"
+            data-tab="tab-5"
           >
             <div class="info">
               <h6 class="sub-title opacity-7">Desarrollo Web</h6>
