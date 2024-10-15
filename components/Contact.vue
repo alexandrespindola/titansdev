@@ -34,7 +34,7 @@
                 Envíanos un <span class="fw-200">mensaje</span>
               </h3>
             </div>
-            <CommonGenericFormVue> </CommonGenericFormVue>
+            <CommonContactForm> </CommonContactForm>
           </div>
         </div>
       </div>

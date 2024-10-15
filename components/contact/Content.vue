@@ -1,5 +1,5 @@
 <template>
-  <section class="contact section-padding sub-bg">
+  <section class="contact section-padding">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 valign">
@@ -51,7 +51,7 @@
                 Enviar un <span class="fw-200">mensaje</span>
               </h3>
             </div>
-            <CommonGenericFormVue> </CommonGenericFormVue>
+            <CommonContactForm> </CommonContactForm>
           </div>
         </div>
       </div>
