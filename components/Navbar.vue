@@ -52,42 +52,42 @@
                   <ul>
                     <li>
                       <div class="o-hidden">
-                        <a href="/paginas-web" class="link cursor-pointer sub-dmenu">
+                        <a href="/" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Páginas Web"> Páginas Web </span>
                         </a>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
-                        <a href="/sistemas-web" class="link cursor-pointer sub-dmenu">
+                        <a href="/" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Sistemas Web"> Sistemas Web </span>
                         </a>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
-                        <a href="/apps-moviles" class="link cursor-pointer sub-dmenu">
+                        <a href="/" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Apps Móviles"> Apps Móviles </span>
                         </a>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
-                        <a href="/automatizacion-workflows" class="link cursor-pointer sub-dmenu">
+                        <a href="/" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Automatización de Workflows"> Automatización de Workflows </span>
                         </a>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
-                        <a href="/marketing-digital" class="link cursor-pointer sub-dmenu">
+                        <a href="/" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Marketing Digital"> Marketing Digital </span>
                         </a>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
-                        <a href="/google-mi-negocio" class="link cursor-pointer sub-dmenu">
+                        <a href="/" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Google Mi Negócio"> Google Mi Negócio </span>
                         </a>
                       </div>
