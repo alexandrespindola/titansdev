@@ -4,23 +4,13 @@
       <div class="container ontop">
         <div class="row pb-30 bord-thin-bottom">
           <div class="col-lg-5">
-            <div class="logo icon-img-120">
-              <img src="/dark/assets/imgs/logo-light.png" alt="" />
+            <div class="logo">
+              <img src="/dark/assets/imgs/titansdev-logo-white.webp" alt="" class=" w-44" />
             </div>
           </div>
           <div class="col-lg-7">
             <div class="social-media d-flex justify-content-end">
               <ul class="rest d-flex align-items-center fz-14">
-                <li class="hover-this cursor-pointer">
-                  <a href="#0" class="hover-anim">
-                    <i class="fab fa-facebook-f mr-10"></i> Facebook
-                  </a>
-                </li>
-                <li class="hover-this cursor-pointer ml-50">
-                  <a href="#0" class="hover-anim">
-                    <i class="fab fa-dribbble mr-10"></i> Dribbble
-                  </a>
-                </li>
                 <li class="hover-this cursor-pointer ml-50">
                   <a href="#0" class="hover-anim">
                     <i class="fab fa-linkedin-in mr-10"></i> LinkedIn
@@ -40,27 +30,24 @@
             <div class="call-action">
               <h2 class="d-slideup wow fz-60 fw-600">
                 <span class="sideup-text">
-                  <span class="up-text">Have a project in mind?</span>
+                  <span class="up-text">¿Tiene un proyecto en mente?</span>
                 </span>
                 <span class="sideup-text">
                   <span class="up-text underline">
                     <a href="/contacto" class="main-color">
-                      Let’s get to work.
+                      Vamos a trabajar juntos.
                     </a>
                   </span>
                 </span>
               </h2>
               <div class="info mt-80 d-flex align-items-center">
                 <div>
-                  <a href="#0" class="butn butn-md butn-bord-thin radius-30">
-                    <span class="text">Support@Website.com</span>
+                  <a href="mailto:contacto@titansdev.es" class="butn butn-md butn-bord-thin radius-30">
+                    <span class="text">contacto@titansdev.es</span>
                   </a>
                 </div>
                 <div>
-                  <a
-                    href="#0"
-                    class="butn butn-md butn-bord-thin radius-30 ml-30"
-                  >
+                  <a href="#0" class="butn butn-md butn-bord-thin radius-30 ml-30">
                     <span class="text">+2 456 (343) 24 45</span>
                   </a>
                 </div>
@@ -69,7 +56,7 @@
           </div>
           <div class="col-lg-4 offset-lg-1 bord-left">
             <div class="column">
-              <h6 class="sub-title mb-30">Useful Links</h6>
+              <h6 class="sub-title mb-30">Links Útiles</h6>
               <div class="row">
                 <div class="col-6">
                   <ul class="rest fz-14">
@@ -105,27 +92,18 @@
                 </div>
               </div>
             </div>
-            <div class="subscribe-minimal mt-50">
-              <form action="contact.php">
-                <div class="form-group rest">
-                  <input type="email" placeholder="Type Your Email" />
-                  <button type="submit">
-                    <i class="ti-arrow-top-right"></i>
-                  </button>
-                </div>
-              </form>
-            </div>
           </div>
-        </div>
-        <div class="text-center pt-30 pb-30 sub-bg mt-80">
-          <p class="fz-14">
-            © 2024 InFolio is Proudly Powered by
-            <span class="underline main-color">
-              <a href="https://themeforest.net/user/UiCamp" target="_blank">
-                UiCamp
-              </a>
-            </span>
-          </p>
+          <div class="flex flex-col gap-2 py-8 mt-80">
+            <p class="fz-14 w-full flex flex-row justify-center gap-1">
+              <NuxtLink to="/" class="main-color text-center">
+                TitansDev
+              </NuxtLink>
+              <span>© 2024</span>
+            </p>
+            <p class="fz-14 self-center text-center">
+              Producido con ❤️ por TitansDev
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -5,8 +5,8 @@
     <Navbar />
     <div id="smooth-content">
       <main class="main-bg">
-        <Header />
-        <Contact />
+        <ContactHeader />
+        <ContactContent />
       </main>
       <FooterTertiary />
     </div>
@@ -15,8 +15,6 @@
 <script setup>
 import Lines from '@/components/common/Lines';
 import ProgressScroll from '@/components/common/ProgressScroll';
-import Contact from '@/components/dark/contact/Contact';
-import Header from '@/components/dark/contact/Header';
 import { onMounted } from 'vue';
 
 useHead({

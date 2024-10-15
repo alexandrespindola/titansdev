@@ -6,7 +6,7 @@
   >
     <div class="container pt-100">
       <div class="text-center">
-        <h1 class="fz-100 text-u">Contact Us.</h1>
+        <h1 class="fz-100 text-u">Contacto</h1>
         <div class="mt-15">
           <a href="/">Home</a>
           <span class="padding-rl-20">|</span>
