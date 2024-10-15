@@ -2,12 +2,12 @@ import { ref } from 'vue';
 
 export function useContactForm() {
   const countryCodes = [
-    { country: '🇪🇸 +34', code: '+34' },
-    { country: '🇩🇪 +49', code: '+49' },
-    { country: '🇧🇷 +55', code: '+55' },
-    { country: '🇺🇸 +1', code: '+1' },
-    { country: '🇵🇹 +351', code: '+351' },
-    { country: '🇫🇷 +33', code: '+33' },
+    { country: '🇪🇸', code: '+34' },
+    { country: '🇩🇪', code: '+49' },
+    { country: '🇧🇷', code: '+55' },
+    { country: '🇺🇸', code: '+1' },
+    { country: '🇵🇹', code: '+351' },
+    { country: '🇫🇷', code: '+33' },
   ];
 
   const form = ref({

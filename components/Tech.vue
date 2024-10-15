@@ -1,5 +1,5 @@
 <template>
-  <section class="clients-carso py-12">
+  <section class="clients-carso py-24">
     <div class="container">
       <div class="sec-bottom flex flex-row flex-wrap mb-40">
         <div class="main-bg d-flex align-items-center">
@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="container flex flex-row flex-wrap justify-center gap-8 max-w-6xl">
-        <div v-for="(item, i) in data" :key="i" class="w-20 md:w-28">
+        <div v-for="(item, i) in data" :key="i" class="w-20 md:w-28" :title=item.title>
           <div @click="handleClick(i)" @mouseenter="handleMouseEnter(i)" @mouseleave="handleMouseLeave(i)">
             <img :src="item.img" alt="" :class="getGrayscaleClass(i)" />
           </div>
