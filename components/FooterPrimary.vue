@@ -1,13 +1,13 @@
 <template>
-  <footer class="pt-30 pb-30">
+  <footer class="lg:pt-30 pb-50">
     <div class="container">
-      <div class="flex flex-col flex-wrap gap-12 lg:gap-0 py-8 lg:flex-row">
-        <div class="w-full order-first flex flex-col items-center lg:w-1/4 lg:flex-row lg:justify-start">
+      <div class="flex flex-col flex-wrap gap-12 lg:gap-0 lg:flex-row">
+        <div class="w-full order-first flex flex-col items-center lg:w-[35%] lg:flex-row lg:justify-start">
           <NuxtLink to="/">
             <img src="/dark/assets/imgs/titansdev-logo-white.webp" alt="" class="object-contain w-[120px] h-auto">
           </NuxtLink>
         </div>
-        <div class=" w-full flex flex-wrap justify-center order-last lg:w-2/4 lg:order-2">
+        <div class=" w-full flex flex-wrap justify-center order-last lg:w-[30%] lg:order-2">
           <p class="fz-14 w-full flex justify-center gap-1">
             <NuxtLink to="/" class="main-color">
               TitansDev
@@ -18,8 +18,8 @@
             Producido con ❤️ por TitansDev
           </p>
         </div>
-        <div class="w-full lg:w-1/4 lg:order-last">
-          <ul class="flex flex-col gap-2 justify-center lg:flex-row">
+        <div class="w-full lg:w-[35%] lg:order-last">
+          <ul class="flex flex-col gap-4 lg:gap-8 lg:flex-row lg:justify-end">
             <NuxtLink to="/quienes-somos" class="self-center">Quiénes Somos</NuxtLink>
             <NuxtLink to="/servicios" class="self-center">Servicios</NuxtLink>
             <NuxtLink to="/contacto" class="self-center">Contacto</NuxtLink>

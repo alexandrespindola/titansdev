@@ -61,32 +61,26 @@
                 <div class="col-6">
                   <ul class="rest fz-14">
                     <li class="mb-15">
-                      <a href="/quienes-somos">About</a>
+                      <a href="/quienes-somos">Quiénes Somos</a>
                     </li>
                     <li class="mb-15">
-                      <a href="/servicios">Services</a>
-                    </li>
-                    <li class="mb-15">
-                      <a href="/blog">Blog</a>
+                      <a href="/servicios">Servicios</a>
                     </li>
                     <li>
-                      <a href="/contacto">Contact</a>
+                      <a href="/contacto">Contacto</a>
                     </li>
                   </ul>
                 </div>
                 <div class="col-6">
                   <ul class="rest fz-14">
                     <li class="mb-15">
-                      <a href="/faq">FAQS</a>
+                      <a href="/">FAQS</a>
                     </li>
                     <li class="mb-15">
                       <a href="/">Term & Conditions</a>
                     </li>
                     <li class="mb-15">
                       <a href="/">Privacy policy</a>
-                    </li>
-                    <li>
-                      <a href="/">Help</a>
                     </li>
                   </ul>
                 </div>

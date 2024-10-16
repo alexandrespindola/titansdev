@@ -104,9 +104,9 @@
         <div class="col-lg-5 offset-lg-1 md-hide">
           <div class="sec-head nocurve">
             <div class="ontop">
-              <h6 class="sub-title main-color mb-15">Special Thanks To</h6>
+              <h6 class="sub-title main-color mb-15">Agradecimientos Especiales a</h6>
               <h3 class="fw-600 text-u ls1">
-                All our <span class="fw-200">partners</span>
+                Todos Nuestros <span class="fw-200">Socios</span>
               </h3>
             </div>
           </div>
