@@ -7,12 +7,6 @@
           <h2 class="fw-600 text-u ls1">
             Proyectos <span class="fw-200">Destacados</span>
           </h2>
-<!--           <div class="ml-auto">
-            <a href="/portafolio" class="go-more">
-              <span class="text">Ver todos los Proyectos</span>
-              <span class="icon ti-arrow-top-right"></span>
-            </a>
-          </div> -->
         </div>
       </div>
       <div class="row">
@@ -59,9 +53,9 @@
               <img src="/dark/assets/imgs/portfolio/fisioterapia-pelvica.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="https://clinicapelvica.com.br/">
+              <NuxtLink to="https://clinicapelvica.com.br/" target="blank">
                 Ver Proyecto <i class="ml-15 ti-arrow-top-right"></i>
-              </a>
+              </NuxtLink>
             </div>
           </div>
           <div
@@ -77,9 +71,9 @@
               <img src="/dark/assets/imgs/portfolio/pejoterday.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="https://pejoterday.com.br">
+              <NuxtLink to="https://pejoterday.com.br" target="blank">
                 Ver Proyecto <i class="ml-15 ti-arrow-top-right"></i>
-              </a>
+              </NuxtLink>
             </div>
           </div>
           <div
@@ -95,9 +89,9 @@
               <img src="/dark/assets/imgs/portfolio/jtba.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="https://www.jtba.com.br/">
+              <NuxtLink to="https://www.jtba.com.br/" target="blank">
                 Ver Proyecto <i class="ml-15 ti-arrow-top-right"></i>
-              </a>
+              </NuxtLink>
             </div>
           </div>
           <div
@@ -113,9 +107,9 @@
               <img src="/dark/assets/imgs/portfolio/ifv.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="https://ifv.org.br">
+              <NuxtLink to="https://ifv.org.br" target="blank">
                 Ver Proyecto<i class="ml-15 ti-arrow-top-right"></i>
-              </a>
+              </NuxtLink>
             </div>
           </div>
           <div
@@ -131,9 +125,9 @@
               <img src="/dark/assets/imgs/portfolio/gnosis-deutschland.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <a href="https://gnosisdeutschland.org.br">
+              <NuxtLink href="https://gnosisdeutschland.org.br" target="blank">
                 Ver Proyecto <i class="ml-15 ti-arrow-top-right"></i>
-              </a>
+              </NuxtLink>
             </div>
           </div>
         </div>

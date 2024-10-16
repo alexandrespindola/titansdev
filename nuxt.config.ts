@@ -87,6 +87,10 @@ export default defineNuxtConfig({
         { src: "/dark/assets/js/scripts.js", defer: true },
       ],
     },
+    layoutTransition: {
+      name: "layout",
+      mode: "out-in",
+    },
   },
   css: [
     "swiper/css/bundle",

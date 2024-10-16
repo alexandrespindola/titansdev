@@ -20,7 +20,7 @@
             </h5>
             <p class="flex-grow-1">{{ item.desc }}</p>
             <a :href="item.link" class="rmore lg:pt-4 flex flex-row gap-2">
-              <span class="sub-title">Read More</span>
+              <span class="sub-title">Saber Más</span>
               <img
                 src="/dark/assets/imgs/arrow-right.png"
                 alt=""

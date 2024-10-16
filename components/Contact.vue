@@ -5,7 +5,7 @@
         <div class="w-full valign md:w-2/5">
           <div class="sec-head info-box full-width md-mb80">
             <div class="phone fz-30 fw-600 underline main-color">
-              <a href="#0">+1 840 841 25 69</a>
+              <NuxtLink to="https://wa.me/+34642887239">+34 642 887 239</NuxtLink>
             </div>
             <div class="morinfo mt-50 pb-30 bord-thin-bottom">
               <h6 class="mb-15">Dirección</h6>
@@ -17,12 +17,12 @@
             </div>
 
             <div class="social-icon-circle mt-50 flex flex-row gap-x-3">
-              <a href="#0">
+              <NuxtLink to="/" target="blank">
                 <i class="fab fa-instagram"></i>
-              </a>
-              <a href="#0">
+              </NuxtLink>
+              <NuxtLink to="/" target="blank">
                 <i class="fab fa-linkedin"></i>
-              </a>
+              </NuxtLink>
             </div>
           </div>
         </div>

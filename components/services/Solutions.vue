@@ -1,7 +1,7 @@
 <template>
   <section class="price-hr section-padding">
     <div class="container">
-      <div class="flex flex-col items-center gap-8 xl:flex-row">
+      <div class="flex flex-col items-center gap-8 lg:flex-row">
         <div class="lg:w-1/2 valign">
           <div class="cont full-width md-mb50">
             <div>
@@ -91,9 +91,9 @@
                 </ul>
                 <div class="mount mr-auto text-center">
                   <div>
-                    <a href="/contacto" class="butn butn-md butn-bord radius-30">
+                    <NuxtLink to="/contacto" class="butn butn-md butn-bord radius-30">
                       <span class="fz-13">Contáctenos</span>
-                    </a>
+                    </NuxtLink>
                   </div>
                 </div>
               </div>
@@ -118,9 +118,9 @@
                 </ul>
                 <div class="mount mr-auto text-center">
                   <div>
-                    <a href="/contacto" class="butn butn-md butn-bord text-dark radius-30">
+                    <NuxtLink to="/contacto" class="butn butn-md butn-bord text-dark radius-30">
                       <span class="fz-13">Contáctenos</span>
-                    </a>
+                    </NuxtLink>
                   </div>
                 </div>
               </div>

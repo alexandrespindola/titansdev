@@ -28,7 +28,7 @@
               </div>
             </div>
             <div class="phone fz-30 fw-600 mt-30 underline main-color">
-              <a href="#0">+1 840 841 25 69</a>
+              <NuxtLink to="https://wa.me/+34642887239">+34 642 887 239</NuxtLink>
             </div>
             <ul class="rest social-text d-flex mt-60">
               <li class="mr-30">

@@ -8,7 +8,7 @@
       <div class="text-center">
         <h1 class="fz-100 text-u">Contacto</h1>
         <div class="mt-15">
-          <a href="/">Home</a>
+          <NuxtLink to="/">Home</NuxtLink>
           <span class="padding-rl-20">|</span>
           <span class="main-color">Contacto</span>
         </div>

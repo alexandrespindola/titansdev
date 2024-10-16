@@ -10,10 +10,11 @@
             </h3>
             <div class="d-flex align-items-end mt-100">
               <div>
-                <a href="/quienes-somos" class="d-flex align-items-end">
+                
+                <NuxtLink to="/quienes-somos" class="d-flex align-items-end">
                   <span class="sub-title nowrap">Sobre Nosotros</span>
                   <span class="fz-70 line-height-45 ti-arrow-top-right"></span>
-                </a>
+                </NuxtLink>
               </div>
               <div class="ml-80">
                 <p>

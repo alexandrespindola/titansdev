@@ -19,7 +19,7 @@
         <div v-for="(item, i) in data" :key="i" class="flex  w-full md:w-[45%] lg:w-[30%]">
           <div
             class="flex flex-col md:flex-row flex-grow hover  gap-4 p-4 hover:bg-gradient-to-br hover:from-green-700 hover:to-green-900 rounded-lg">
-            <a :href="item.link" class="flex flex-col w-auto p-4 md:p-8">
+            <NuxtLink :to="item.link" class="flex flex-col w-auto p-4 md:p-8">
               <div class="flex flex-col gap-4">
                 <div class="flex flex-row">
                   <img :src="item.img" alt="" class=" w-20" />
@@ -35,7 +35,7 @@
                   <span class="icon ti-arrow-top-right"></span>
                 </div>
               </div>
-            </a>
+            </NuxtLink>
           </div>
         </div>
       </div>

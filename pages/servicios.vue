@@ -10,18 +10,15 @@
         <Marquee />
         <ServicesSolutions />
         <ServicesProcess />
-        <ServicesPartners />
-        <!-- <ServicesTestimonials /> -->
-
+        <Contact />
       </main>
-      <FooterTertiary />
+      <FooterPrimary />
     </div>
   </div>
 </template>
 <script setup>
 import Lines from '@/components/common/Lines';
 import ProgressScroll from '@/components/common/ProgressScroll';
-
 import { onMounted } from 'vue';
 
 useHead({

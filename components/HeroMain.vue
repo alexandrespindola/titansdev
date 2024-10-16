@@ -16,7 +16,7 @@
                 <h2 class="flex flex-row text-2xl font-semibold">Soluciones asequibles para acelerar el crecimiento de pequeñas y medianas
                   empresas</h2>
                 <div>
-                  <UButton class="button" to="#servicios">Saber más</UButton>
+                  <UButton class="button" to="/servicios">Saber más</UButton>
                 </div>
               </div>
             </div>
