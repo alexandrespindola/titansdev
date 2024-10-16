@@ -87,7 +87,7 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col gap-2 py-8 mt-80">
+          <div class="flex flex-col gap-2 pt-12 pb-12 lg:pt-32">
             <p class="fz-14 w-full flex flex-row justify-center gap-1">
               <NuxtLink to="/" class="main-color text-center">
                 TitansDev

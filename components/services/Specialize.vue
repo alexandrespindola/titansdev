@@ -10,16 +10,16 @@
         </div>
       </div>
       <div class="pt-30 gap-4 flex flex-row flex-wrap justify-center">
-        <div v-for="(item, i) in data" :key="i" class="w-full md:w-[45%] lg:w-[30%]">
+        <div v-for="(item, i) in data" :key="i" class="w-full md:w-[45%] lg:w-[30%] min-h-96">
           <div class="item-box bg md-mb50 rounded-xl flex flex-col h-full">
-            <div class="icon mb-40 opacity-5">
-              <img :src="item.img" alt="" />
+            <div class="icon opacity-5 mb-4">
+              <img :src="item.img" alt=""/>
             </div>
-            <h5 class="mb-15 text-u">
+            <h5 class="uppercase">
               {{ item.title }}
             </h5>
             <p class="flex-grow-1">{{ item.desc }}</p>
-            <a :href="item.link" class="rmore mt-30 flex flex-row gap-2">
+            <a :href="item.link" class="rmore lg:pt-4 flex flex-row gap-2">
               <span class="sub-title">Read More</span>
               <img
                 src="/dark/assets/imgs/arrow-right.png"
@@ -33,6 +33,7 @@
     </div>
   </section>
 </template>
+
 <script setup>
 import data from '@/data/services.json';
 </script>

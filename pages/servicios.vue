@@ -8,7 +8,7 @@
         <ServicesHeader />
         <ServicesSpecialize />
         <Marquee />
-        <ServicesPrice />
+        <ServicesSolutions />
         <ServicesProcess />
         <ServicesPartners />
         <!-- <ServicesTestimonials /> -->

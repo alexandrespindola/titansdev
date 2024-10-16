@@ -1,7 +1,7 @@
 <template>
-  <section class="process section-padding">
+  <section class="process py-20">
     <div class="container">
-      <div class="sec-head mb-80">
+      <div class="sec-head pb-80">
         <h6 class="sub-title main-color mb-25">Nuestro Proceso</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
           <h2 class="fw-600">
