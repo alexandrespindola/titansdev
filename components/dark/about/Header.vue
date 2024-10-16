@@ -6,11 +6,11 @@
   >
     <div class="container pt-100 pb-100">
       <div class="text-center">
-        <h1 class="fz-100 text-u">About Us.</h1>
+        <h1 class="fz-100 text-u">Quiénes Somos</h1>
         <div class="mt-15">
-          <a href="/">Home</a>
+          <NuxtLink to="/">Home</NuxtLink>
           <span class="padding-rl-20">|</span>
-          <span class="main-color">About Us</span>
+          <span class="main-color">Quiénes Somos</span>
         </div>
       </div>
     </div>

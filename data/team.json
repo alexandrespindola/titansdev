@@ -1,17 +1,34 @@
 [
   {
-    "img": "/dark/assets/imgs/team/1.jpg",
-    "name": "Robert De Niro",
-    "subName": "Web Designer"
+    "img": "/dark/assets/imgs/team/hector.webp",
+    "name": "Héctor Patiño",
+    "subName": "CEO & Founder",
+    "social": {
+      "linkedin": "/"
+    }
   },
   {
-    "img": "/dark/assets/imgs/team/2.jpg",
-    "name": "Brendan Fraser",
-    "subName": "Web Designer"
+    "img": "/dark/assets/imgs/team/melike.webp",
+    "name": "Melike Öktem",
+    "subName": "CCO",
+    "social": {
+      "linkedin": "/"
+    }
   },
   {
-    "img": "/dark/assets/imgs/team/3.jpg",
-    "name": "Ahmed Khaled",
-    "subName": "Web Designer"
+    "img": "/dark/assets/imgs/team/cristiane.webp",
+    "name": "Cristiane Bortolini",
+    "subName": "CMO",
+    "social": {
+      "linkedin": "/"
+    }
+  },
+  {
+    "img": "/dark/assets/imgs/team/alexandre.webp",
+    "name": "ALexandre Spindola",
+    "subName": "CTO",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/alexandrespindola/"
+    }
   }
 ]

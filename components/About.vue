@@ -4,9 +4,9 @@
       <div class="row">
         <div class="w-full md:w-2/3 lg:w-1/2">
           <div class="cont md-mb50">
-            <h6 class="sub-title main-color mb-15">Quiénes Somos</h6>
+            <h6 class="sub-title main-color mb-15">Qué Hacemos</h6>
             <h3>
-              Colaboramos con soluciones tecnológicas que le permiten trabajar de forma más eficiente.
+              Déjenos hacer el trabajo con la tecnología, para que tú puedas centrarse en lo importante de tu negócio.
             </h3>
             <div class="d-flex align-items-end mt-100">
               <div>
@@ -18,7 +18,7 @@
               </div>
               <div class="ml-80">
                 <p>
-                  Combinamos tecnología de punta y experiencia para simplificar su trabajo y maximizar los resultados.
+                  Sabemos que su tiempo es valioso y que debe centrarse en hacer crecer su negocio. Por eso nos ocupamos desde la creación y automatización de sitios web hasta la generación de clientes potenciales cualificados.
                 </p>
               </div>
             </div>

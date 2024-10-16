@@ -9,11 +9,12 @@
                 <div class="mb-40">
                   <h2 class="fz-100 numb-font">1.</h2>
                 </div>
-                <h4>Our Mission</h4>
-                <div class="text mt-30">
+                <h4 class="main-color">Nuestra Misión</h4>
+                <div class="text mt-30 flex flex-col gap-2">
+                  <h5>Tecnología al alcance de todos los emprendedores</h5>
                   <p>
-                    Our journey is defined by a rich tapestry of achievements
-                    and values that set us apart.
+                    Impulsar su crecimiento e innovación ofreciéndoles tecnología asequible y personalizada para
+                    alcanzar sus objetivos.
                   </p>
                 </div>
               </div>
@@ -24,7 +25,7 @@
               </div>
             </div>
           </div>
-          <div class="row justify-content-end bord-thin-top rest">
+          <div class="row flex-col-reverse md:flex-row justify-content-end bord-thin-top rest">
             <div class="col-md-5 rest">
               <div class="img fit-img">
                 <img src="/dark/assets/imgs/intro/03.jpg" alt="" />
@@ -35,11 +36,11 @@
                 <div class="mb-40">
                   <h2 class="fz-100 numb-font">2.</h2>
                 </div>
-                <h4>Our Vision</h4>
-                <div class="text mt-30">
+                <h4 class="main-color">Nuestra Visión</h4>
+                <div class="text mt-30 flex flex-col gap-2">
+                  <h5>Crear soluciones para pequeñas y medianas empresas</h5>
                   <p>
-                    Our journey is defined by a rich tapestry of achievements
-                    and values that set us apart.
+                    Impulse sus servicios con soporte tecnológico profesional.
                   </p>
                 </div>
               </div>
@@ -54,20 +55,19 @@
                   <div class="mb-40">
                     <h2 class="fz-100 numb-font">3.</h2>
                   </div>
-                  <h4>Why Us?</h4>
-                  <div class="text mt-30">
+                  <h4 class="main-color">Nuestros Valores</h4>
+                  <div class="text mt-30 flex flex-col gap-2">
+                    <h5>Su futuro digital, nuestra experiencia
+                    </h5>
                     <p>
-                      Our journey is defined by a rich tapestry of achievements
-                      and values that set us apart.
+                      Compromiso con la innovación, integridad en cada proyecto y dedicación para superar sus
+                      expectativas.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div
-              class="bg-dots bg-img"
-              data-background="/dark/assets/imgs/patterns/dots.png"
-            ></div>
+            <div class="bg-dots bg-img" data-background="/dark/assets/imgs/patterns/dots.png"></div>
           </div>
         </div>
       </div>

@@ -4,8 +4,8 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="sec-head">
-            <h6 class="sub-title main-color mb-15">Testimonials</h6>
-            <h3 class="fw-600">What People <span class="fw-200">Say?</span></h3>
+            <h6 class="sub-title main-color mb-15">Testimonios</h6>
+            <h3 class="fw-600"><span class="fw-200">¿Qué Dicen de </span> Nosotros?</h3>
           </div>
         </div>
         <div class="col-lg-8 position-re">

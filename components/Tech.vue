@@ -3,7 +3,7 @@
     <div class="container">
       <div class="sec-bottom flex flex-row flex-wrap mb-40">
         <div class="main-bg d-flex align-items-center">
-          <h6 class=" text-sm fw-400 text-center p-2">
+          <h6 class="fw-400 text-center p-2">
             Utilizamos <span class="fw-600">más de 30 herramientas y tecnologias modernas</span>
           </h6>
         </div>
