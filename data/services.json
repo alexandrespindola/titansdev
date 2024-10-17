@@ -2,42 +2,42 @@
   {
     "title": "Creación de Páginas Web",
     "number": "01",
-    "img": "/dark/assets/imgs/serv-icons/web.webp",
+    "img": "/dark/assets/imgs/serv-icons/5.png",
     "desc": "Los sitios web deben ser rápidos e intuitivos, que atraigan a más visitantes y les conviertan en oportunidades de negocio.",
     "link": "/servicios"
   },
   {
     "title": "Desarrollo de Sistemas Web",
     "number": "02",
-    "img": "/dark/assets/imgs/serv-icons/systems.webp",
+    "img": "/dark/assets/imgs/serv-icons/1.png",
     "desc": "Creamos sistemas web personalizados que simplifican tus operaciones diarias y mejoran la eficiencia de tu negocio.",
     "link": "/servicios"
   },
   {
     "title": "Apps Móviles (Android & iOS)",
     "number": "03",
-    "img": "/dark/assets/imgs/serv-icons/mobile.webp",
+    "img": "/dark/assets/imgs/serv-icons/3.png",
     "desc": "Creamos apps que impulsen tu crecimiento en el mundo digital.",
     "link": "/servicios"
   },
   {
     "title": "Automatización de Workflows",
     "number": "04",
-    "img": "/dark/assets/imgs/serv-icons/workflow.webp",
+    "img": "/dark/assets/imgs/serv-icons/4.png",
     "desc": "Simplifica tus procesos automáticos para reducir tareas repetitivas, ahorrar tiempo y aumentar la productividad.",
     "link": "/servicios"
   },
   {
     "title": "Marketing Digital",
     "number": "05",
-    "img": "/dark/assets/imgs/serv-icons/digital-marketing.webp",
+    "img": "/dark/assets/imgs/serv-icons/2.png",
     "desc": "Diseñamos campañas que impulsan tu visibilidad, generan leads y fomentan el crecimiento de tu negocio.",
     "link": "/servicios"
   },
   {
     "title": "Google Mi Negócio",
     "number": "06",
-    "img": "/dark/assets/imgs/serv-icons/gmb.webp",
+    "img": "/dark/assets/imgs/serv-icons/6.png",
     "desc": "Optimiza tu información en Google para que los clientes te encuentren fácilmente.",
     "link": "/servicios"
   }

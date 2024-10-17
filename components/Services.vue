@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="w-full flex flex-row flex-wrap gap-8">
-        <div v-for="(item, i) in data" :key="i" class="flex  w-full md:w-[45%] lg:w-[30%]">
+        <div v-for="(item, i) in data" :key="i" class="flex  w-full md:w-[45%] lg:w-[30%] bg-[#1d1d1d] rounded-xl">
           <div
             class="flex flex-col md:flex-row flex-grow hover  gap-4 p-4 hover:bg-gradient-to-br hover:from-green-700 hover:to-green-900 rounded-lg">
             <NuxtLink :to="item.link" class="flex flex-col w-auto p-4 md:p-8">
