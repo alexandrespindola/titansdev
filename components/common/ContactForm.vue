@@ -44,16 +44,30 @@
         </div>
       </div>
 
-      <div class="w-full">
-        <div class="form-group">
-          <textarea id="form_message" name="message" placeholder="Mensaje" v-model="form.message" rows="4"
-            required></textarea>
+      <div class="form-group">
+        <textarea id="form_message" name="message" placeholder="Mensaje" v-model="form.message" rows="4"
+          required></textarea>
+      </div>
+
+      <div class="flex flex-row gap-2 pt-4 pb-2">
+          <div class="flex flex-col justify-center">
+            <UToggle v-model="form.acceptance_receive_marketing_info" name="acceptance_receive_marketing_info" />
+          </div>
+          <p>Quiero recibir más información sobre los servicios.</p>
         </div>
-        <div class="mt-30">
-          <button type="submit" class="butn butn-full butn-bord radius-30">
-            <span class="text">Enviar</span>
-          </button>
+
+        <div class="flex flex-row gap-2">
+          <div class="flex flex-col justify-center">
+            <UToggle v-model="form.acceptance_privacy_terms" name="acceptance_privacy_terms" />
+          </div>
+          <p>Estoy de acuerdo con los Términos de Privacidad. <span class="text-red-500">*</span></p>
         </div>
+
+      <div class="mt-30">
+        <button type="submit" class="butn butn-full butn-bord radius-30">
+          <span class="text">Enviar</span>
+        </button>
+
       </div>
     </div>
   </form>
@@ -73,7 +87,13 @@ onMounted(() => {
     prefix_code: '+34',
     phone: '',
     subject: '',
-    message: ''
+    message: '',
+    acceptance_receive_marketing_info: false,
+    acceptance_privacy_terms: false
   };
 });
+
+const selected_privacy_terms = ref(false)
+const selected_marketing_info = ref(false)
+
 </script>

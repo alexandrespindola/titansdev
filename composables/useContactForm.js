@@ -61,10 +61,17 @@ export function useContactForm() {
     prefix_code: '+34',
     phone: '',
     subject: '',
-    message: ''
+    message: '',
+    acceptance_receive_marketing_info: false,
+    acceptance_privacy_terms: false
   });
 
   const submitForm = async () => {
+    
+    // Development
+    //const webhookUrl = 'https://primary-production-a860.up.railway.app/webhook-test/b8923c39-b30b-454c-b816-b4f497a164c3';
+    
+    // Production
     const webhookUrl = 'https://primary-production-a860.up.railway.app/webhook/b8923c39-b30b-454c-b816-b4f497a164c3';
 
     try {
@@ -86,14 +93,16 @@ export function useContactForm() {
           prefix_code: '+34',
           phone: '',
           subject: '',
-          message: ''
+          message: '',
+          acceptance_receive_marketing_info: false,
+          acceptance_privacy_terms: false
         };
       } else {
         alert('Erro ao enviar a mensagem.');
       }
     } catch (error) {
-      console.error('Erro:', error);
-      alert('Erro ao enviar a mensagem.');
+      console.error('Error:', error);
+      alert('Error al enviar el mensaje.');
     }
   };
 
