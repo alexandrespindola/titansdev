@@ -123,7 +123,10 @@ export default defineNuxtConfig({
     "@/styles/globals.css",
     "@/public/dark/assets/scss/style.scss",
   ],
-  modules: ["@nuxt/ui", "@nuxtjs/cloudinary"],
+  modules: ["@nuxt/ui", "@nuxtjs/cloudinary", "@zadigetvoltaire/nuxt-gtm"],
+  gtm: {
+    id: "GTM-K5F3KFP3",
+  },
   webpack: {
     extractCSS: true,
     optimization: {
