@@ -5,7 +5,7 @@
         <img src="/dark/assets/imgs/titansdev-logo-white.webp" alt="logo" />
       </a>
 
-      <ul class="flex-row gap-4 hidden md:flex">
+      <ul class="hidden md:flex flex-row md:gap-6 lg:gap-12">
         <NuxtLink to="/" class="menu font-bold">Home</NuxtLink>
         <NuxtLink to="/servicios" class="menu font-bold">Servicios</NuxtLink>
         <NuxtLink to="/quienes-somos" class="menu font-bold">Quiénes Somos</NuxtLink>
