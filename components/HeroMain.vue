@@ -40,7 +40,7 @@ onMounted(() => {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100vh; /* Ajuste conforme necessário */
+  height: 100vh;
   background-image: url('/public/dark/assets/imgs/background/hero-background.webp');
   background-size: cover;
   background-position: center;
@@ -57,7 +57,6 @@ onMounted(() => {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
-
 
 /* .video-background {
   position: absolute;

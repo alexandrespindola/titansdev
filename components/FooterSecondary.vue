@@ -132,7 +132,7 @@
   </footer>
 </template>
 <script setup>
-import { onMounted, onBeforeUnmount } from 'vue';
+import { onMounted } from 'vue';
 import loadBackgroudImages from '@/common/loadBackgroudImages';
 
 onMounted(() => {

@@ -122,6 +122,7 @@ export default defineNuxtConfig({
     "swiper/css/bundle",
     "@/styles/globals.css",
     "@/public/dark/assets/scss/style.scss",
+    
   ],
   modules: ["@nuxt/ui", "@nuxtjs/cloudinary", "@zadigetvoltaire/nuxt-gtm"],
   gtm: {

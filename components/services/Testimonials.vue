@@ -95,7 +95,7 @@
 <script setup>
 import data from '@/data/testimonials.json';
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Navigation, Pagination } from 'swiper';
+import { Navigation } from 'swiper';
 const swiperOptions = {
   modules: [Navigation],
   loop: true,
