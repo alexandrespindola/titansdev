@@ -36,9 +36,9 @@
             <ul class="main-menu rest">
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden ">
-                  <a href="/" class="link cursor-pointer dmenu ">
+                  <NuxtLink to="/" class="link cursor-pointer dmenu ">
                     <span class="fill-text" data-text="Home"> Home </span>
-                  </a>
+                  </NuxtLink>
                 </div>
               </li>
               <li @click="toggleSubMenu" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
@@ -52,44 +52,44 @@
                   <ul>
                     <li>
                       <div class="o-hidden">
-                        <a href="/servicios" class="link cursor-pointer sub-dmenu">
+                        <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Páginas Web"> Páginas Web </span>
-                        </a>
+                        </NuxtLink>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
-                        <a href="/servicios" class="link cursor-pointer sub-dmenu">
+                        <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Sistemas Web"> Sistemas Web </span>
-                        </a>
+                        </NuxtLink>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
-                        <a href="/servicios" class="link cursor-pointer sub-dmenu">
+                        <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Apps Móviles"> Apps Móviles </span>
-                        </a>
+                        </NuxtLink>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
-                        <a href="/servicios" class="link cursor-pointer sub-dmenu">
+                        <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Automatización de Workflows"> Automatización de Workflows </span>
-                        </a>
+                        </NuxtLink>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
-                        <a href="/servicios" class="link cursor-pointer sub-dmenu">
+                        <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Marketing Digital"> Marketing Digital </span>
-                        </a>
+                        </NuxtLink>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
-                        <a href="/servicios" class="link cursor-pointer sub-dmenu">
+                        <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Google Mi Negócio"> Google Mi Negócio </span>
-                        </a>
+                        </NuxtLink>
                       </div>
                     </li>
                   </ul>
@@ -97,16 +97,16 @@
               </li>
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
-                  <a href="/quienes-somos" class="link cursor-pointer dmenu">
+                  <NuxtLink to="/quienes-somos" class="link cursor-pointer dmenu">
                     <span class="fill-text" data-text="Quienes Somos"> Quiénes Somos </span>
-                  </a>
+                  </NuxtLink>
                 </div>
               </li>
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
-                  <a href="/contacto" class="link">
+                  <NuxtLink to="/contacto" class="link">
                     <span class="fill-text" data-text="Contacto Us"> Contacto </span>
-                  </a>
+                  </NuxtLink>
                 </div>
               </li>
             </ul>

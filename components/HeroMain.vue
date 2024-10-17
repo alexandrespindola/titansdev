@@ -1,11 +1,11 @@
 <template>
   <header class="startup-header" data-scroll-index="0">
-    <div class="valign relative hidden overflow-auto">
-      <video autoplay muted loop playsinline class="video-background">
+    <div class="valign relative hidden overflow-auto bg-hero">
+      <!-- <video autoplay muted loop playsinline class="video-background">
         <source src="https://res.cloudinary.com/xmfm6mhw3gwctndtcubgx2rptnae/video/upload/video-background-hero-480_vzujok.mp4" type="video/mp4" />
         Su navegador no soporta el elemento de vídeo.
       </video>
-      <div class="video-overlay"></div>
+      <div class="video-overlay"></div> -->
       <div class="container h-screen flex flex-col justify-center p-4 md:max-w-2xl lg:max-w-4xl">
         <div>
           <div>
@@ -36,14 +36,30 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.bg-video {
+.startup-header {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100%;
+  height: 100vh; /* Ajuste conforme necessário */
+  background-image: url('/public/dark/assets/imgs/background/hero-background.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.video-background {
+.startup-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+
+/* .video-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -61,7 +77,7 @@ onMounted(() => {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: -1;
-}
+} */
 
 .container {
   position: relative;

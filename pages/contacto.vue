@@ -8,7 +8,7 @@
         <ContactHeader />
         <ContactContent />
       </main>
-      <FooterTertiary />
+      <FooterPrimary />
     </div>
   </div>
 </template>
