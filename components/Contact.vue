@@ -1,5 +1,5 @@
 <template>
-  <section class="contact py-28" data-scroll-index="6">
+  <section class="contact pt-12 pb-24" data-scroll-index="6">
     <div class="container">
       <div class="flex flex-col md:flex-row md:gap-4">
         <div class="w-full valign md:w-2/5">

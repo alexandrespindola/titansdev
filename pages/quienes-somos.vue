@@ -5,11 +5,10 @@
     <Navbar />
     <div id="smooth-content">
       <main class="main-bg">
-        <Header />
-        <Intro />
+        <AboutHeader />
+        <AboutIntro />
         <Marquee />
-        <Intro2 />
-        <Team />
+        <AboutIntro2 />
         <Contact />
       </main>
       <FooterPrimary />
@@ -17,12 +16,8 @@
   </div>
 </template>
 <script setup>
-import Header from '@/components/dark/about/Header';
 import Lines from '@/components/common/Lines';
 import ProgressScroll from '@/components/common/ProgressScroll';
-import Intro from '@/components/dark/about/Intro';
-import Intro2 from '@/components/dark/about/Intro2';
-import Team from '@/components/dark/about/Team';
 import { onMounted } from 'vue';
 
 useHead({

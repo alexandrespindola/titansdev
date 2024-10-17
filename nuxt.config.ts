@@ -49,19 +49,46 @@ export default defineNuxtConfig({
         },
         {
           name: "keywords",
-          content: "TitansDev, Agencia Digital, Desarrollo Web, Marketing Digital",
+          content:
+            "TitansDev, Agencia Digital, Desarrollo Web, Marketing Digital",
         },
         {
           name: "description",
-          content: "TitansDev - Agencia Digital: Desarrollo Web y Marketing Digital",
+          content:
+            "TitansDev - Agencia Digital: Desarrollo Web y Marketing Digital",
         },
         {
           name: "author",
           content: "TitansDev",
         },
+        // Meta tags Open Graph
+        {
+          property: "og:title",
+          content: "TitansDev - Tecnologías Modernas para su Negocio",
+        },
+        {
+          property: "og:description",
+          content:
+            "Soluciones Tecnológicas Asequibles para Acelerar el Crecimiento de Pequeñas y Medianas Empresas",
+        },
+        {
+          property: "og:image",
+          content: "/titansdev-thumb.webp",
+        },
+        {
+          property: "og:url",
+          content: "https://titansdev.es",
+        },
+        {
+          property: "og:type",
+          content: "website",
+        },
       ],
       link: [
-        { rel: "shortcut icon", href: "/dark/assets/imgs/titansdev-favicon.svg" },
+        {
+          rel: "shortcut icon",
+          href: "/dark/assets/imgs/titansdev-favicon.svg",
+        },
         // Google Fonts
         {
           rel: "stylesheet",

@@ -6,8 +6,7 @@
           <div class="sec-head md-mb80">
             <h2 class="text-u ls1 d-rotate wow">
               <span class="rotate-text">
-                Permítanos ayudar a su
-                <span class="fw-200">negocio!</span>
+                Permítanos ayudar a su <span class="font-light">negocio</span>
               </span>
             </h2>
             <p class="mt-20 mb-20">
