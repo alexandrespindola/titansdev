@@ -28,11 +28,9 @@
           <div class="img-vid">
             <img src="/dark/assets/imgs/intro/intro-touchscreen-plant.webp" alt="" />
             <div class="curv-butn main-bg">
-              <a href="#" class="vid">
                 <div class="icon">
                   <i class="fas fa-play"></i>
                 </div>
-              </a>
               <div class="shap-left-top">
                 <svg
                   viewBox="0 0 11 11"

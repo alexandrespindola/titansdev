@@ -108,7 +108,7 @@ export default defineNuxtConfig({
         { src: "/dark/assets/js/gsap.min.js" },
         { src: "/dark/assets/js/splitting.min.js" },
         { src: "/dark/assets/js/isotope.pkgd.min.js" },
-        { src: "/dark/assets/js/imgReveal/imagesloaded.pkgd.min.js" },
+        // { src: "/dark/assets/js/imgReveal/imagesloaded.pkgd.min.js" },
         { src: "/dark/assets/js/ScrollSmoother.min.js" },
         { src: "/dark/assets/js/scripts.js", defer: true },
       ],

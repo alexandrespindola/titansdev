@@ -44,4 +44,5 @@ export { useCldImageUrl } from '../node_modules/@nuxtjs/cloudinary/dist/runtime/
 export { useCldVideoUrl } from '../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldVideoUrl';
 export { useColorMode } from '../node_modules/@nuxtjs/color-mode/dist/runtime/composables';
 export { useGtm } from '@gtm-support/vue-gtm';
+export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';

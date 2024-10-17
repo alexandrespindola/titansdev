@@ -192,6 +192,8 @@ declare module 'nuxt/schema' {
 
    gtm: {
       devtools: boolean,
+
+      id: string,
    },
   }
 }
