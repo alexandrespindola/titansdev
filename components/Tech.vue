@@ -1,5 +1,5 @@
 <template>
-  <section class="clients-carso py-24">
+  <section class="clients-carso mt-12 lg:pt-32 lg:pb-24">
     <div class="container">
       <div class="sec-bottom flex flex-row flex-wrap mb-40">
         <div class="main-bg d-flex align-items-center">

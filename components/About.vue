@@ -26,7 +26,7 @@
         </div>
         <div class="w-full md:w-1/3 lg:w-1/2">
           <div class="img-vid">
-            <img src="/dark/assets/imgs/intro/intro.webp" alt="" />
+            <img src="/dark/assets/imgs/intro/intro-touchscreen-plant.webp" alt="" />
             <div class="curv-butn main-bg">
               <a href="#" class="vid">
                 <div class="icon">

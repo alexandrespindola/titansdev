@@ -15,7 +15,7 @@
             <div
               id="tab-1"
               class="bg-img tab-img current"
-              data-background="/dark/assets/imgs/portfolio/fisioterapia-pelvica.webp"
+              data-background="/dark/assets/imgs/portfolio/jtba.webp"
             ></div>
             <div
               id="tab-2"
@@ -25,7 +25,7 @@
             <div
               id="tab-3"
               class="bg-img tab-img"
-              data-background="/dark/assets/imgs/portfolio/jtba.webp"
+              data-background="/dark/assets/imgs/portfolio/fisioterapia-pelvica.webp"
             ></div>
             <div
               id="tab-4"
@@ -47,13 +47,13 @@
           >
             <div class="info">
               <h6 class="sub-title opacity-7">Desarrollo Web</h6>
-              <h4>Clinica Pelvica</h4>
+              <h4>JTBA Perícias</h4>
             </div>
             <div class="img">
-              <img src="/dark/assets/imgs/portfolio/fisioterapia-pelvica.webp" alt="" />
+              <img src="/dark/assets/imgs/portfolio/jtba.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <NuxtLink to="https://clinicapelvica.com.br/" target="blank">
+              <NuxtLink to="https://www.jtba.com.br/" target="blank">
                 Ver Proyecto <i class="ml-15 ti-arrow-top-right"></i>
               </NuxtLink>
             </div>
@@ -83,13 +83,13 @@
           >
             <div class="info">
               <h6 class="sub-title opacity-7">Desarrollo Web</h6>
-              <h4>JTBA Perícias</h4>
+              <h4>Clínica Pélvica</h4>
             </div>
             <div class="img">
-              <img src="/dark/assets/imgs/portfolio/jtba.webp" alt="" />
+              <img src="/dark/assets/imgs/portfolio/fisioterapia-pelvica.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
-              <NuxtLink to="https://www.jtba.com.br/" target="blank">
+              <NuxtLink to="https://clinicapelvica.com.br/" target="blank">
                 Ver Proyecto <i class="ml-15 ti-arrow-top-right"></i>
               </NuxtLink>
             </div>
