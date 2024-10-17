@@ -22,7 +22,7 @@ import ProgressScroll from '@/components/common/ProgressScroll';
 import { onMounted } from 'vue';
 
 useHead({
-  title: 'Servicios',
+  title: 'Servicios | TitansDev',
   link: [
     { rel: 'stylesheet', href: '/dark/assets/css/plugins.css' },
     { rel: 'stylesheet', href: '/dark/assets/css/satoshi.css' },

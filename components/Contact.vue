@@ -21,7 +21,7 @@
                 <i class="fab fa-instagram"></i>
               </NuxtLink>
               <NuxtLink to="/" target="blank">
-                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-facebook"></i>
               </NuxtLink>
             </div>
           </div>

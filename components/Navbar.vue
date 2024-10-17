@@ -5,6 +5,13 @@
         <img src="/dark/assets/imgs/titansdev-logo-white.webp" alt="logo" />
       </a>
 
+      <ul class="flex-row gap-4 hidden md:flex">
+        <NuxtLink to="/" class="menu font-bold">Home</NuxtLink>
+        <NuxtLink to="/servicios" class="menu font-bold">Servicios</NuxtLink>
+        <NuxtLink to="/quienes-somos" class="menu font-bold">Quiénes Somos</NuxtLink>
+        <NuxtLink to="/contacto" class="menu font-bold">Contacto</NuxtLink>
+      </ul>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       </button>
@@ -216,7 +223,7 @@ function scrollToSection(id) {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .hamenu {
   position: fixed;
   top: 0;
@@ -238,4 +245,5 @@ body.hamenu-open {
   position: fixed;
   width: 100%;
 }
+
 </style>

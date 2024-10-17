@@ -33,12 +33,12 @@
             <ul class="rest social-text d-flex mt-60">
               <li class="mr-30">
                 <a href="#0" class="hover-this">
-                  <span class="hover-anim">LinkedIn</span>
+                  <span class="hover-anim">Instagram</span>
                 </a>
               </li>
               <li>
                 <a href="#0" class="hover-this">
-                  <span class="hover-anim">Instagram</span>
+                  <span class="hover-anim">Facebook</span>
                 </a>
               </li>
             </ul>

@@ -193,6 +193,10 @@
 		position: static;
 	}
 
+	.menu:hover {
+		color: $main_color;
+	  }
+
 	.mega-menu{
 		width: 96vw;
 		position: absolute;

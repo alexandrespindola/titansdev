@@ -12,17 +12,17 @@ export default defineNuxtConfig({
       routes: [
         "/",
         "/404",
-        "/blog",
+        //"/blog",
         "/contacto",
-        "/equipo",
-        "/faq",
-        "/portafolio",
-        "/post",
-        "/proyecto",
+        //"/equipo",
+        //"/faq",
+        //"/portafolio",
+        //"/post",
+        //"/proyecto",
         "/quienes-somos",
-        "/servicio",
+        //"/servicio",
         "/servicios",
-        "/showcase"
+        //"/showcase"
       ],
     },
   },
@@ -31,7 +31,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "TitansDev",
+      title: "TitansDev - Agencia Digital",
       htmlAttrs: {
         lang: "es",
       },
@@ -49,11 +49,11 @@ export default defineNuxtConfig({
         },
         {
           name: "keywords",
-          content: "Vue Nuxtjs Template webfolio Multi-Purpose themeforest",
+          content: "TitansDev, Agencia Digital, Desarrollo Web, Marketing Digital",
         },
         {
           name: "description",
-          content: "webfolio - Multi-Purpose Vue Nuxtjs Template",
+          content: "TitansDev - Agencia Digital: Desarrollo Web y Marketing Digital",
         },
         {
           name: "author",
@@ -61,7 +61,7 @@ export default defineNuxtConfig({
         },
       ],
       link: [
-        { rel: "shortcut icon", href: "/dark/assets/imgs/favicon.ico" },
+        { rel: "shortcut icon", href: "/dark/assets/imgs/titansdev-favicon.svg" },
         // Google Fonts
         {
           rel: "stylesheet",
@@ -83,7 +83,6 @@ export default defineNuxtConfig({
         { src: "/dark/assets/js/isotope.pkgd.min.js" },
         { src: "/dark/assets/js/imgReveal/imagesloaded.pkgd.min.js" },
         { src: "/dark/assets/js/ScrollSmoother.min.js" },
-        // { src: '/showcase/dark/assets/js/anime.min.js' },
         { src: "/dark/assets/js/scripts.js", defer: true },
       ],
     },

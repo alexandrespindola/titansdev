@@ -1,5 +1,5 @@
 <template>
-  <header class="header page-header-error section-padding valign">
+  <header class="header page-header-error valign">
     <div class="container">
       <div class="text-center">
         <div class="row justify-content-center">
@@ -8,13 +8,13 @@
               <img src="/dark/assets/imgs/404.png" alt="" />
             </div>
             <div class="text mt-40">
-              <h2 class="mb-10">Page not found</h2>
-              <p>Sorry, but the page you are looking for does not exist.</p>
+              <h2 class="mb-10">Página no encontrada</h2>
+              <p>Lo sentimos, pero la página que busca no existe.</p>
               <a
                 href="/"
                 class="butn butn-md butn-bg main-colorbg text-dark radius-30 mt-30"
               >
-                <span class="text">Back to Home</span>
+                <span class="text">Volver al Inicio</span>
               </a>
             </div>
           </div>
