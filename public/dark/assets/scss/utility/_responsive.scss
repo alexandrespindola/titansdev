@@ -2,13 +2,16 @@
 
 /* ====================== [ Start Responsive ] ====================== */
 
-@media screen and (max-width: $desk-lg-screen) {
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
+@media screen and (max-width: vars.$desk-lg-screen) {
 
 
 
 }
 
-@media screen and (max-width: $desk-md-screen) {
+@media screen and (max-width: vars.$desk-md-screen) {
 
     .md-mb10 {
         margin-bottom: 10px;
@@ -706,7 +709,7 @@
 
 
 
-@media screen and (max-width: $tablet-sm-screen) {
+@media screen and (max-width: vars.$tablet-sm-screen) {
 
     .sm-mb10 {
         margin-bottom: 10px;
@@ -1447,7 +1450,7 @@
 
 }
 
-@media screen and (max-width: $mobile-xs-screen) {
+@media screen and (max-width: vars.$mobile-xs-screen) {
 
    
 }

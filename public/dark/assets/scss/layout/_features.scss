@@ -2,6 +2,9 @@
 /* Features
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .accordion{
 
     .title{
@@ -78,7 +81,7 @@
         li{
 
             &:before{
-                background: $main_bg;
+                background: vars.$main_bg;
             }
         }
     }

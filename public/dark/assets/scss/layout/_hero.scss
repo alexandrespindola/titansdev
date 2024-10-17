@@ -2,6 +2,9 @@
 /* Hero
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .skills-img{
 
     .img{
@@ -195,5 +198,5 @@
     transform: rotate(-3deg);
     width: calc(100% + 60px);
     margin-left: -30px;
-    background: $main_bg;
+    background: vars.$main_bg;
 }

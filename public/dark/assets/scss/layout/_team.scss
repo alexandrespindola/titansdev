@@ -2,6 +2,9 @@
 /* Team
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .team{
 
     .item{
@@ -52,7 +55,7 @@
             right: 60px;
             bottom: 40px;
             border: 1px solid rgba(255,255,255,.1);
-            background: $sub_bg;
+            background: vars.$sub_bg;
             border-radius: 10px;
             transition: all .4s;
 
@@ -73,8 +76,8 @@
                     transition: all .4s;
 
                     &:hover{
-                        background: $main_color;
-                        border-color: $main_color;
+                        background: vars.$main_color;
+                        border-color: vars.$main_color;
                         color: #111;
                     }
                 }
@@ -174,7 +177,7 @@
                     position: absolute;
                     width: 20px;
                     height: 100px;
-                    background: $main-color;
+                    background: vars.$main-color;
                     opacity: 0;
                     transition: all .4s;
                     transition-delay: .4s;
@@ -236,7 +239,7 @@
                 width: 0;
                 top: 0;
                 left: 0;
-                background-color: $main_color;
+                background-color: vars.$main_color;
                 transition: all 1.5s;
     
                 &:after{
@@ -254,7 +257,7 @@
         .box-items{
             position: relative;
             border: 1px solid rgba(255,255,255,.3);
-            background: $main_bg;
+            background: vars.$main_bg;
 
             &:after{
                 content: '';
@@ -283,8 +286,8 @@
                     line-height: 45px;
                     text-align: center;
                     border-radius: 0 50px 50px 50px;
-                    background: $main_color;
-                    color: $main_bg;
+                    background: vars.$main_color;
+                    color: vars.$main_bg;
                     font-size: 17px;
                     font-weight: 500;
 

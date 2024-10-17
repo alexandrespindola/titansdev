@@ -2,6 +2,9 @@
 /* Portfolio
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .inter-fixed-text{
 
     .links-img{
@@ -208,7 +211,7 @@
                     position: absolute;
                     width: 20px;
                     height: 100px;
-                    background: $main-color;
+                    background: vars.$main-color;
                     opacity: 0;
                     transition: all .4s;
                     transition-delay: .4s;
@@ -303,7 +306,7 @@
 
                 span,
                 h6{
-                    background: $main_bg;
+                    background: vars.$main_bg;
                     font-weight: 500;
                     padding: 5px 15px;
                     transform: translateY(10px);
@@ -499,7 +502,7 @@
                 left: 15px;
                 right: 15px;
                 padding: 15px 30px;
-                background: $main_bg;
+                background: vars.$main_bg;
                 border-radius: 5px;
                 transform: translateY(20px);
                 opacity: 0;
@@ -862,7 +865,7 @@
             left: -1px;
             right: -1px;
             bottom: -1px;
-            background: $sub_bg;
+            background: vars.$sub_bg;
             transition: all .4s;
         }
 
@@ -885,7 +888,7 @@
         left: 50%;
         transform: translateX(-50%);
         padding: 25px;
-        background: $main_bg;
+        background: vars.$main_bg;
         z-index: 4;
     }
 }

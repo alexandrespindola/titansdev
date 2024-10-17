@@ -3,6 +3,9 @@
 /* Extra
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .d-rotate{
     perspective: 1000px;
 
@@ -144,11 +147,11 @@
   
             h4{
                 color: transparent !important;
-                -webkit-text-stroke: .5px $body_color;
+                -webkit-text-stroke: .5px vars.$body_color;
   
                 a{
                     color: transparent !important;
-                    -webkit-text-stroke: .5px $body_color;
+                    -webkit-text-stroke: .5px vars.$body_color;
                 }
             }
         }
@@ -159,11 +162,11 @@
         .item{
   
             h4{
-                color: $body_color !important;
+                color: vars.$body_color !important;
                 -webkit-text-stroke: 0 !important;
   
                 a{
-                    color: $body_color !important;
+                    color: vars.$body_color !important;
                     -webkit-text-stroke: 0 !important;
                 }
             }
@@ -193,11 +196,11 @@
   
                 h4{
                     color: transparent;
-                    -webkit-text-stroke: .5px $body_color;
+                    -webkit-text-stroke: .5px vars.$body_color;
   
                     a{
                         color: transparent;
-                        -webkit-text-stroke: .5px $body_color;
+                        -webkit-text-stroke: .5px vars.$body_color;
                     }
                 }
             }
@@ -210,11 +213,11 @@
                 &:nth-of-type(even){
     
                     h4{
-                        color: $body_color;
+                        color: vars.$body_color;
                         -webkit-text-stroke: 0;
   
                         a{
-                            color: $body_color;
+                            color: vars.$body_color;
                             -webkit-text-stroke: 0;
                         }
                     }
@@ -224,11 +227,11 @@
     
                     h4{
                         color: transparent;
-                        -webkit-text-stroke: 1px $body_color;
+                        -webkit-text-stroke: 1px vars.$body_color;
   
                         a{
                             color: transparent;
-                            -webkit-text-stroke: 1px $body_color;
+                            -webkit-text-stroke: 1px vars.$body_color;
                         }
                     }
                 }
@@ -315,7 +318,7 @@
         height: 100%;
         left: 0;
         top: 0;
-        background: linear-gradient(to top, $sub_bg, rgba(255, 255, 255, 0) 80px, rgba(255, 255, 255, 0) calc(100% - 80px), $sub_bg);
+        background: linear-gradient(to top, vars.$sub_bg, rgba(255, 255, 255, 0) 80px, rgba(255, 255, 255, 0) calc(100% - 80px), vars.$sub_bg);
         pointer-events: none;
     }
 

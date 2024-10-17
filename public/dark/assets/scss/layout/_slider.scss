@@ -3,6 +3,9 @@
 /* Sliders
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .full-showcase{
 
     .parallax-slider {

@@ -2,6 +2,9 @@
 /* Footer
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 footer{
 
     .subscribe-minimal{
@@ -49,12 +52,12 @@ footer{
                 left: 40px;
                 right: 0;
                 bottom: 40px;
-                background: $main_bg;
+                background: vars.$main_bg;
                 z-index: 2;
             }
 
             &:before{
-                background: linear-gradient(180deg, $sub-bg, rgba(29,29,29,.7));
+                background: linear-gradient(180deg, vars.$sub-bg, rgba(29,29,29,.7));
             }
         }
     }

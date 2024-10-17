@@ -2,6 +2,8 @@
 -----------------------------------------------------------------*/
 
 @use "sass:color";
+@use '../utility/_variables' as vars;
+
 
 .butn{
     border: 1px solid transparent;
@@ -65,9 +67,9 @@
 
 .button {
     @apply text-white font-medium py-3 px-12 rounded-full shadow-lg;
-    background-image: linear-gradient(to right, $main_color, color.adjust($main_color, $lightness: -20%));
+    background-image: linear-gradient(to right, vars.$main_color, color.adjust(vars.$main_color, $lightness: -20%));
     &:hover {
-        background-image: linear-gradient(to right, color.adjust($main_color, $lightness: -20%), color.adjust($main_color, $lightness: -40%));
+        background-image: linear-gradient(to right, color.adjust(vars.$main_color, $lightness: -20%), color.adjust(vars.$main_color, $lightness: -40%));
     }  
 }
 
@@ -87,13 +89,13 @@
         width: 100%;
         height: 100%;
         border-radius: 50%;
-        background: $main_color;
+        background: vars.$main_color;
         transform: scale(0);
         transition: all .4s;
     }
 
     &:hover{
-        border-color: $main_color;
+        border-color: vars.$main_color;
 
         &:after{
             transform: scale(1);

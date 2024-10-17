@@ -2,6 +2,9 @@
 
 /* ====================== [ Start Helper Classes  ] ====================== */
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .o-hidden {
   overflow: hidden;
 }

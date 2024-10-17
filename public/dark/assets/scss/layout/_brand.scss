@@ -2,6 +2,9 @@
 /* Brands & Clients
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .brands{
 
     .brand-swiper{
@@ -35,7 +38,7 @@
             left: 0px;
             right: -100vw;
             bottom: 0;
-            background: $sub_bg;
+            background: vars.$sub_bg;
             border-radius: 0 0 0 30px;
         }
 
@@ -72,7 +75,7 @@
             left: 35px;
             right: 35px;
             bottom: 35px;
-            background: linear-gradient(130deg, transparent, $main-color);
+            background: linear-gradient(130deg, transparent, vars.$main-color);
             opacity: 0;
             transition: all .4s;
         }
@@ -132,7 +135,7 @@
                 left: -20px;
                 right: -20px;
                 bottom: -20px;
-                background: $main_bg;
+                background: vars.$main_bg;
             }
         }
 
@@ -181,7 +184,7 @@
                     left: -20px;
                     right: -20px;
                     bottom: -20px;
-                    background: $sub_bg;
+                    background: vars.$sub_bg;
                 }
             }
         }
@@ -277,7 +280,7 @@
         position: absolute;
         top: -2px;
         right: 0;
-        background: $main_bg;
+        background: vars.$main_bg;
         padding: 40px;
         border-radius: 0 0 0 30px;
         z-index: 3;
@@ -312,7 +315,7 @@
         left: -1px;
         bottom: -1px;
         padding: 30px 140px;
-        background: $main_bg;
+        background: vars.$main_bg;
         border-radius: 0 30px 0 0;
         z-index: 3;
 

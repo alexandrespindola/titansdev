@@ -2,6 +2,9 @@
 /* Titles
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .sec-head{
 
     .stroke{

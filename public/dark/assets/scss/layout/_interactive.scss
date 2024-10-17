@@ -2,6 +2,9 @@
 /* Interactive
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .interactive-inline{
     min-height: 100vh;
     padding: 380px 0 60px;

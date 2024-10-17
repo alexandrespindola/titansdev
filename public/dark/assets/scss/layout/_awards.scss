@@ -1,6 +1,9 @@
 /* Awards
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .awards{
 
     .item-line{

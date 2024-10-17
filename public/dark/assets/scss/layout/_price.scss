@@ -2,6 +2,9 @@
 /* Pricing
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .price-hr{
 
     .item{
@@ -16,7 +19,7 @@
         &.text-dark{
 
             .butn{
-                border-color: $sub_bg;
+                border-color: vars.$sub_bg;
 
                 &:hover{
                     border-color: #fff;

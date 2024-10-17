@@ -2,6 +2,9 @@
 /* Cursor
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .hover-this {
 
     .hover-anim {

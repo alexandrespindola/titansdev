@@ -3,6 +3,8 @@
 /* Typography
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
 
 * {
     margin: 0;
@@ -14,7 +16,7 @@
 
 body{
     color: #fff;
-    background-color: $main_bg;
+    background-color: vars.$main_bg;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-family: 'Satoshi-Variable';
@@ -233,31 +235,31 @@ figure{
 }
 
 .main-color{
-    color: $main_color !important;
+    color: vars.$main_color !important;
 }
 
 .main-colorbg{
-    background: $main_color !important;
+    background: vars.$main_color !important;
 }
 
 .main-color2{
-    color: $main_color2 !important;
+    color: vars.$main_color2 !important;
 }
 
 .main-colorbg2{
-    background: $main_color2 !important;
+    background: vars.$main_color2 !important;
 }
 
 .main-bg{
-    background: $main_bg !important;
+    background: vars.$main_bg !important;
 }
 
 .sub-bg{
-    background: $sub_bg !important;
+    background: vars.$sub_bg !important;
 }
 
 .sub-bg2{
-    background: $sub_bg2 !important;
+    background: vars.$sub_bg2 !important;
 }
 
 .btn{

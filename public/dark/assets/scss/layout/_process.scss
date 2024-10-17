@@ -2,6 +2,9 @@
 /* Process
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .process{
 
     .item{

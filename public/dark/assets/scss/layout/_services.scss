@@ -2,6 +2,9 @@
 /* Services
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .serv-img{
 
     .img{
@@ -71,7 +74,7 @@
     .item-box2{
         padding: 40px;
         border-radius: 20px;
-        background: $sub_bg;
+        background: vars.$sub_bg;
         position: relative;
         overflow: hidden;
 
@@ -101,7 +104,7 @@
             position: absolute;
             top: -20px;
             right: -20px;
-            background: $main_bg;
+            background: vars.$main_bg;
             padding: 10px;
             border-radius: 0 0 0 30px;
             transition: all .4s;
@@ -110,7 +113,7 @@
             &:hover{
 
                 .arrow{
-                    background: $main_color;
+                    background: vars.$main_color;
                 }
             }
 

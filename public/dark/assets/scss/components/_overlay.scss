@@ -2,6 +2,9 @@
 
 /* ====================== [ Start Overlay ] ====================== */
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 [data-overlay-dark],
 [data-overlay-light]
 {

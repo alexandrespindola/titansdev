@@ -2,6 +2,9 @@
 /* Videos
 -----------------------------------------------------------------*/
 
+@use "sass:color";
+@use '../utility/_variables' as vars;
+
 .circle-button{
     position: relative;
     display: inline-block;
@@ -35,7 +38,7 @@
 
         svg{
             width: 210px;
-            fill: $body_color;
+            fill: vars.$body_color;
         }
     }
 
