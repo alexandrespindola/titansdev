@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/content": "^2.13.4",
     "@nuxt/ui": "^2.18.7",
     "@nuxtjs/cloudinary": "^3.1.1",
     "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
@@ -23,6 +24,7 @@
   },
   "packageManager": "yarn@4.5.0+sha512.837566d24eec14ec0f5f1411adb544e892b3454255e61fdef8fd05f3429480102806bac7446bc9daff3896b01ae4b62d00096c7e989f1596f2af10b927532f39",
   "devDependencies": {
+    "@nuxthq/studio": "^2.1.1",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@types/node": "^22.7.4"
   }

@@ -124,7 +124,7 @@ export default defineNuxtConfig({
     "@/public/dark/assets/scss/style.scss",
     
   ],
-  modules: ["@nuxt/ui", "@nuxtjs/cloudinary", "@zadigetvoltaire/nuxt-gtm"],
+  modules: ["@nuxt/ui", "@nuxtjs/cloudinary", "@zadigetvoltaire/nuxt-gtm", "@nuxt/content", "@nuxthq/studio"],
   gtm: {
     id: "GTM-K5F3KFP3",
   },
