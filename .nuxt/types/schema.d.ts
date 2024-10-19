@@ -239,6 +239,8 @@ declare module 'nuxt/schema' {
       cdnURL: string,
    },
 
+   strapiApiToken: string,
+
    nitro: {
       envPrefix: string,
    },
@@ -756,23 +758,7 @@ declare module 'nuxt/schema' {
    contentSchema: any,
   }
   interface PublicRuntimeConfig {
-   strapi: {
-      url: string,
-
-      prefix: string,
-
-      admin: string,
-
-      version: string,
-
-      cookie: any,
-
-      auth: any,
-
-      cookieName: string,
-
-      devtools: boolean,
-   },
+   strapiUri: string,
 
    cloudinary: {
       cloudName: string,
@@ -960,6 +946,24 @@ declare module 'nuxt/schema' {
 
          exclude: Array<number>,
       },
+   },
+
+   strapi: {
+      url: string,
+
+      prefix: string,
+
+      admin: string,
+
+      version: string,
+
+      cookie: any,
+
+      auth: any,
+
+      cookieName: string,
+
+      devtools: boolean,
    },
   }
 }

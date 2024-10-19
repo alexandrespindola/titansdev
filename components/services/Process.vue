@@ -50,5 +50,28 @@
         </div>
       </div>
     </div>
+    <div>
+    <h1>Posts</h1>
+    <p v-if="error">Erro ao carregar posts: {{ error.message }}</p>
+    <ul v-else-if="posts && posts.data">
+      <li v-for="post in posts.data" :key="post.id">
+        {{ post.title }}
+        {{ post.subtitle }}
+      </li>
+    </ul>
+    <p v-else>Carregando posts...</p>
+  </div>
   </section>
 </template>
+
+<script setup>
+
+const config = useRuntimeConfig()
+
+const { data: posts, error } = await useAsyncData('posts', () => $fetch(`${config.public.strapiUri}/api/posts`, {
+  headers: {
+    'Authorization': `Bearer ${config.strapiApiToken}`
+  }
+})
+
+</script>
