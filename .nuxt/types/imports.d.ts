@@ -185,6 +185,16 @@ declare global {
   const useSlideover: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useSlideover')['useSlideover']
   const useSlots: typeof import('../../node_modules/vue')['useSlots']
   const useState: typeof import('../../node_modules/nuxt/dist/app/composables/state')['useState']
+  const useStrapi4: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables-v4/useStrapi4')['useStrapi4']
+  const useStrapi: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables-v4/useStrapi')['useStrapi']
+  const useStrapiAuth: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiAuth')['useStrapiAuth']
+  const useStrapiClient: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiClient')['useStrapiClient']
+  const useStrapiGraphQL: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiGraphQL')['useStrapiGraphQL']
+  const useStrapiMedia: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiMedia')['useStrapiMedia']
+  const useStrapiToken: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiToken')['useStrapiToken']
+  const useStrapiUrl: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiUrl')['useStrapiUrl']
+  const useStrapiUser: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiUser')['useStrapiUser']
+  const useStrapiVersion: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiVersion')['useStrapiVersion']
   const useTemplateRef: typeof import('../../node_modules/vue')['useTemplateRef']
   const useTimer: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useTimer')['useTimer']
   const useToast: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useToast')['useToast']
@@ -397,6 +407,16 @@ declare module 'vue' {
     readonly useSlideover: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useSlideover')['useSlideover']>
     readonly useSlots: UnwrapRef<typeof import('../../node_modules/vue')['useSlots']>
     readonly useState: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/state')['useState']>
+    readonly useStrapi4: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables-v4/useStrapi4')['useStrapi4']>
+    readonly useStrapi: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables-v4/useStrapi')['useStrapi']>
+    readonly useStrapiAuth: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiAuth')['useStrapiAuth']>
+    readonly useStrapiClient: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiClient')['useStrapiClient']>
+    readonly useStrapiGraphQL: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiGraphQL')['useStrapiGraphQL']>
+    readonly useStrapiMedia: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiMedia')['useStrapiMedia']>
+    readonly useStrapiToken: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiToken')['useStrapiToken']>
+    readonly useStrapiUrl: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiUrl')['useStrapiUrl']>
+    readonly useStrapiUser: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiUser')['useStrapiUser']>
+    readonly useStrapiVersion: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiVersion')['useStrapiVersion']>
     readonly useTemplateRef: UnwrapRef<typeof import('../../node_modules/vue')['useTemplateRef']>
     readonly useTimer: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useTimer')['useTimer']>
     readonly useToast: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useToast')['useToast']>

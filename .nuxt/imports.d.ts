@@ -42,6 +42,16 @@ export { useToast } from '../node_modules/@nuxt/ui/dist/runtime/composables/useT
 export { useUI } from '../node_modules/@nuxt/ui/dist/runtime/composables/useUI';
 export { useCldImageUrl } from '../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldImageUrl';
 export { useCldVideoUrl } from '../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldVideoUrl';
+export { useStrapiAuth } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiAuth';
+export { useStrapiClient } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiClient';
+export { useStrapiGraphQL } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiGraphQL';
+export { useStrapiMedia } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiMedia';
+export { useStrapiToken } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiToken';
+export { useStrapiUrl } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiUrl';
+export { useStrapiUser } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiUser';
+export { useStrapiVersion } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiVersion';
+export { useStrapi } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables-v4/useStrapi';
+export { useStrapi4 } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables-v4/useStrapi4';
 export { useColorMode } from '../node_modules/@nuxtjs/color-mode/dist/runtime/composables';
 export { useGtm } from '@gtm-support/vue-gtm';
 export { queryContent } from '../node_modules/@nuxt/content/dist/runtime/legacy/composables/query';

@@ -122,11 +122,31 @@ export default defineNuxtConfig({
     "swiper/css/bundle",
     "@/styles/globals.css",
     "@/public/dark/assets/scss/style.scss",
-    
   ],
-  modules: ["@nuxt/ui", "@nuxtjs/cloudinary", "@zadigetvoltaire/nuxt-gtm", "@nuxt/content", "@nuxthq/studio"],
+  modules: [
+    "@nuxt/ui",
+    "@nuxtjs/cloudinary",
+    "@zadigetvoltaire/nuxt-gtm",
+    "@nuxt/content",
+    "@nuxthq/studio",
+    "@nuxtjs/strapi",
+  ],
   gtm: {
     id: "GTM-K5F3KFP3",
+  },
+  strapi: {
+    url: process.env.STRAPI_URL || "http://localhost:1337",
+    prefix: "/api",
+    version: "v4",
+    cookie: {},
+    cookieName: "strapi_jwt",
+  },
+  runtimeConfig: {
+    public: {
+      strapi: {
+        url: process.env.STRAPI_URL || "http://localhost:1337",
+      },
+    },
   },
   webpack: {
     extractCSS: true,

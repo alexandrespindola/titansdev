@@ -18,6 +18,8 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/check-if-page-unused.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.server.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.client.js").default> &
+  InjectionType<typeof import("../../node_modules/@nuxtjs/strapi/dist/runtime/plugins/dns.server.js").default> &
+  InjectionType<typeof import("../../node_modules/@nuxtjs/strapi/dist/runtime/plugins/strapi.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/content/dist/runtime/plugins/ws.js").default> &
   InjectionType<typeof import("../../node_modules/@zadigetvoltaire/nuxt-gtm/dist/runtime/plugin.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/ui/dist/runtime/plugins/slideovers.js").default> &

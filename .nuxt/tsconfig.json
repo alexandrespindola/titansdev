@@ -114,7 +114,7 @@
         "./tailwind.config/*"
       ],
       "#app-manifest": [
-        "./manifest/meta/dev.json"
+        "./manifest/meta/dev"
       ],
       "#build": [
         "."
@@ -176,6 +176,8 @@
     "../node_modules/@nuxt/content/dist/runtime",
     "../node_modules/@nuxthq/studio/runtime",
     "../node_modules/@nuxthq/studio/dist/runtime",
+    "../node_modules/@nuxtjs/strapi/runtime",
+    "../node_modules/@nuxtjs/strapi/dist/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/devtools/dist/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
@@ -204,6 +206,8 @@
     "../node_modules/@nuxt/content/dist/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@nuxthq/studio/dist/runtime/server",
+    "../node_modules/@nuxtjs/strapi/runtime/server",
+    "../node_modules/@nuxtjs/strapi/dist/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/devtools/dist/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
