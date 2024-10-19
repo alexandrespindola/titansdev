@@ -1,0 +1,1 @@
+import{k as s,c as e,e as a,f as n}from"./DOJuQvem.js";const o={},t={class:"lines"};function c(r,l){return e(),a("div",t,l[0]||(l[0]=[n("span",null,null,-1),n("span",null,null,-1),n("span",null,null,-1),n("span",null,null,-1),n("span",null,null,-1)]))}const p=s(o,[["render",c]]);export{p as L};

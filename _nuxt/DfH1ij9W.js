@@ -1,0 +1,1 @@
+import{k as t,e as c,i as n,c as o,aE as _}from"./DOJuQvem.js";const a={};function s(r,f){const e=_;return o(),c("div",null,[n(e)])}const l=t(a,[["render",s],["__scopeId","data-v-b3f9fb96"]]);export{l as default};
