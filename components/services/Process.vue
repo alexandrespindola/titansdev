@@ -50,7 +50,7 @@
         </div>
       </div>
     </div>
-    <div>
+    <!-- <div>
     <h1>Posts</h1>
     <p v-if="error">Erro ao carregar posts: {{ error.message }}</p>
     <ul v-else-if="posts && posts.data">
@@ -60,11 +60,11 @@
       </li>
     </ul>
     <p v-else>Carregando posts...</p>
-  </div>
+  </div> -->
   </section>
 </template>
 
-<script setup>
+<!-- <script setup>
 
 const config = useRuntimeConfig()
 
@@ -74,4 +74,4 @@ const { data: posts, error } = await useFetch(`${config.public.strapiUri}/api/po
   }
 })
 
-</script>
+</script> -->
