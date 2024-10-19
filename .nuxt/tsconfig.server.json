@@ -145,6 +145,7 @@
     "../node_modules/@zadigetvoltaire/nuxt-gtm/runtime/server",
     "../node_modules/@nuxtjs/mdc/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
+    "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "./types/nitro.d.ts",

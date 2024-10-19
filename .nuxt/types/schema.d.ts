@@ -34,6 +34,10 @@ declare module '@nuxt/schema' {
      */
     ["content"]: typeof import("@nuxt/content").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
+     * Configuration for `@nuxthq/studio`
+     */
+    ["studio"]: typeof import("@nuxthq/studio").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
      * Configuration for `@nuxt/devtools`
      */
     ["devtools"]: typeof import("@nuxt/devtools").default extends NuxtModule<infer O> ? O : Record<string, any>
@@ -76,6 +80,10 @@ declare module '@nuxt/schema' {
      */
     ["content"]?: typeof import("@nuxt/content").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
+     * Configuration for `@nuxthq/studio`
+     */
+    ["studio"]?: typeof import("@nuxthq/studio").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
      * Configuration for `@nuxt/devtools`
      */
     ["devtools"]?: typeof import("@nuxt/devtools").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
@@ -83,7 +91,7 @@ declare module '@nuxt/schema' {
      * Configuration for `@nuxt/telemetry`
      */
     ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
-    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxtjs/tailwindcss", Exclude<NuxtConfig["tailwindcss"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxtjs/cloudinary", Exclude<NuxtConfig["cloudinary"], boolean>] | ["@zadigetvoltaire/nuxt-gtm", Exclude<NuxtConfig["gtm"], boolean>] | ["@nuxtjs/mdc", Exclude<NuxtConfig["mdc"], boolean>] | ["@nuxt/content", Exclude<NuxtConfig["content"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
+    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxtjs/tailwindcss", Exclude<NuxtConfig["tailwindcss"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxtjs/cloudinary", Exclude<NuxtConfig["cloudinary"], boolean>] | ["@zadigetvoltaire/nuxt-gtm", Exclude<NuxtConfig["gtm"], boolean>] | ["@nuxtjs/mdc", Exclude<NuxtConfig["mdc"], boolean>] | ["@nuxt/content", Exclude<NuxtConfig["content"], boolean>] | ["@nuxthq/studio", Exclude<NuxtConfig["studio"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
   }
 }
 declare module 'nuxt/schema' {
@@ -129,6 +137,11 @@ declare module 'nuxt/schema' {
      */
     ["content"]: typeof import("@nuxt/content").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
+     * Configuration for `@nuxthq/studio`
+     * @see https://www.npmjs.com/package/@nuxthq/studio
+     */
+    ["studio"]: typeof import("@nuxthq/studio").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
      * Configuration for `@nuxt/devtools`
      * @see https://www.npmjs.com/package/@nuxt/devtools
      */
@@ -181,6 +194,11 @@ declare module 'nuxt/schema' {
      */
     ["content"]?: typeof import("@nuxt/content").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
+     * Configuration for `@nuxthq/studio`
+     * @see https://www.npmjs.com/package/@nuxthq/studio
+     */
+    ["studio"]?: typeof import("@nuxthq/studio").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
      * Configuration for `@nuxt/devtools`
      * @see https://www.npmjs.com/package/@nuxt/devtools
      */
@@ -190,7 +208,7 @@ declare module 'nuxt/schema' {
      * @see https://www.npmjs.com/package/@nuxt/telemetry
      */
     ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
-    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxtjs/tailwindcss", Exclude<NuxtConfig["tailwindcss"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxtjs/cloudinary", Exclude<NuxtConfig["cloudinary"], boolean>] | ["@zadigetvoltaire/nuxt-gtm", Exclude<NuxtConfig["gtm"], boolean>] | ["@nuxtjs/mdc", Exclude<NuxtConfig["mdc"], boolean>] | ["@nuxt/content", Exclude<NuxtConfig["content"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
+    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxtjs/tailwindcss", Exclude<NuxtConfig["tailwindcss"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxtjs/cloudinary", Exclude<NuxtConfig["cloudinary"], boolean>] | ["@zadigetvoltaire/nuxt-gtm", Exclude<NuxtConfig["gtm"], boolean>] | ["@nuxtjs/mdc", Exclude<NuxtConfig["mdc"], boolean>] | ["@nuxt/content", Exclude<NuxtConfig["content"], boolean>] | ["@nuxthq/studio", Exclude<NuxtConfig["studio"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
   }
   interface RuntimeConfig {
    app: {
@@ -340,6 +358,366 @@ declare module 'nuxt/schema' {
          search: any,
       },
    },
+
+   appConfigSchema: {
+      properties: {
+         id: string,
+
+         properties: {
+            icon: {
+               title: string,
+
+               description: string,
+
+               tags: Array<string>,
+
+               id: string,
+
+               properties: {
+                  size: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     tsType: string,
+
+                     id: string,
+
+                     default: any,
+
+                     type: string,
+                  },
+
+                  class: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     id: string,
+
+                     default: string,
+
+                     type: string,
+                  },
+
+                  attrs: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     tsType: string,
+
+                     id: string,
+
+                     default: {
+                        "aria-hidden": boolean,
+                     },
+
+                     type: string,
+                  },
+
+                  mode: {
+                     title: string,
+
+                     description: string,
+
+                     enum: Array<string>,
+
+                     tags: Array<string>,
+
+                     id: string,
+
+                     default: string,
+
+                     type: string,
+                  },
+
+                  aliases: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     tsType: string,
+
+                     id: string,
+
+                     default: any,
+
+                     type: string,
+                  },
+
+                  cssSelectorPrefix: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     id: string,
+
+                     default: string,
+
+                     type: string,
+                  },
+
+                  cssLayer: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     tsType: string,
+
+                     id: string,
+
+                     default: any,
+
+                     type: string,
+                  },
+
+                  cssWherePseudo: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     id: string,
+
+                     default: boolean,
+
+                     type: string,
+                  },
+
+                  collections: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     tsType: string,
+
+                     id: string,
+
+                     default: any,
+
+                     type: string,
+                  },
+
+                  provider: {
+                     title: string,
+
+                     description: string,
+
+                     enum: Array<string>,
+
+                     tags: Array<string>,
+
+                     type: string,
+
+                     id: string,
+
+                     default: any,
+                  },
+
+                  iconifyApiEndpoint: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     id: string,
+
+                     default: string,
+
+                     type: string,
+                  },
+
+                  fallbackToApi: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     enum: Array<boolean|string>,
+
+                     type: string,
+
+                     id: string,
+
+                     default: boolean,
+                  },
+
+                  localApiEndpoint: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     id: string,
+
+                     default: string,
+
+                     type: string,
+                  },
+
+                  fetchTimeout: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     id: string,
+
+                     default: number,
+
+                     type: string,
+                  },
+
+                  customize: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     type: string,
+
+                     id: string,
+
+                     default: any,
+                  },
+               },
+
+               type: string,
+
+               default: {
+                  size: any,
+
+                  class: string,
+
+                  attrs: {
+                     "aria-hidden": boolean,
+                  },
+
+                  mode: string,
+
+                  aliases: any,
+
+                  cssSelectorPrefix: string,
+
+                  cssLayer: any,
+
+                  cssWherePseudo: boolean,
+
+                  collections: any,
+
+                  provider: any,
+
+                  iconifyApiEndpoint: string,
+
+                  fallbackToApi: boolean,
+
+                  localApiEndpoint: string,
+
+                  fetchTimeout: number,
+
+                  customize: any,
+               },
+            },
+         },
+
+         type: string,
+
+         default: {
+            icon: {
+               size: any,
+
+               class: string,
+
+               attrs: {
+                  "aria-hidden": boolean,
+               },
+
+               mode: string,
+
+               aliases: any,
+
+               cssSelectorPrefix: string,
+
+               cssLayer: any,
+
+               cssWherePseudo: boolean,
+
+               collections: any,
+
+               provider: any,
+
+               iconifyApiEndpoint: string,
+
+               fallbackToApi: boolean,
+
+               localApiEndpoint: string,
+
+               fetchTimeout: number,
+
+               customize: any,
+            },
+         },
+      },
+
+      default: {
+         icon: {
+            size: any,
+
+            class: string,
+
+            attrs: {
+               "aria-hidden": boolean,
+            },
+
+            mode: string,
+
+            aliases: any,
+
+            cssSelectorPrefix: string,
+
+            cssLayer: any,
+
+            cssWherePseudo: boolean,
+
+            collections: any,
+
+            provider: any,
+
+            iconifyApiEndpoint: string,
+
+            fallbackToApi: boolean,
+
+            localApiEndpoint: string,
+
+            fetchTimeout: number,
+
+            customize: any,
+         },
+      },
+   },
+
+   contentSchema: any,
   }
   interface PublicRuntimeConfig {
    cloudinary: {
@@ -439,7 +817,7 @@ declare module 'nuxt/schema' {
 
       defaultLocale: any,
 
-      integrity: number,
+      integrity: any,
 
       experimental: {
          stripQueryParameters: boolean,
