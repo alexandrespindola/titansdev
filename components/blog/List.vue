@@ -9,9 +9,9 @@
           <div class="col-lg-4" v-for="post in posts.data" :key="post.id">
             <div class="item sub-bg mb-40">
               <div class="img">
-                <img :src="post.image || '/dark/assets/imgs/blog/b/7.jpg'" alt="" />
+                <img :src="post.cover_image.url || '/dark/assets/imgs/blog/b/7.jpg'" alt="" />
                 <div class="tag sub-bg">
-                  <span>{{ post.category || 'Envato' }}</span>
+                  <span>{{ post.category.title || 'Envato' }}</span>
                   <div class="shap-right-bottom">
                     <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                       <path
@@ -37,7 +37,6 @@
                     {{ post.title }}
                   </NuxtLink>
                 </h5>
-                <a :href="`/blog/${post.slug}`">{{ post.title }}</a>
                 <NuxtLink :to="`/blog/${post.slug}`" @click="logClick(post.slug)"
                   class="d-flex align-items-center mt-30">
                   <span class="text mr-15">Ler Mais</span>
@@ -62,6 +61,9 @@ const config = useRuntimeConfig();
 const { data: posts, error } = await useFetch(`${config.public.strapiUri}/api/posts`, {
   headers: {
     'Authorization': `Bearer ${config.strapiApiToken}`
+  },
+  params: {
+    'populate': '*',
   }
 });
 

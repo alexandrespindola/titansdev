@@ -5,6 +5,9 @@
         <h1>{{ post.title || 'Post' }}</h1>
         <h2>{{ post.subtitle }}</h2>
         <p>{{ post.content }}</p>
+        <p>{{ post.category.category }}</p>
+        <p>{{ post.author.name }}</p> 
+        <img v-if="post?.cover_image?.url" :src="post.cover_image.url" alt="hello">
       </main>
     </div>
   </div>
@@ -20,7 +23,8 @@ const { data, error } = await useFetch(() => `${config.public.strapiUri}/api/pos
     'Authorization': `Bearer ${config.strapiApiToken}`
   },
   params: {
-    'filters[slug]': route.params.slug
+    'filters[slug]': route.params.slug,
+    'populate': '*',
   }
 });
 
