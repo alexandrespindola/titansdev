@@ -43,7 +43,6 @@
                   <span class="text mr-15">Ler Mais</span>
                   <span class="ti-arrow-top-right"></span>
                 </NuxtLink>
-                <NuxtLink to="/servicios">Servicios</NuxtLink>
               </div>
             </div>
           </div>
@@ -69,11 +68,6 @@ const { data: posts, error } = await useFetch(`${config.public.strapiUri}/api/po
 function formatDate(dateString) {
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
   return new Date(dateString).toLocaleDateString('es-ES', options);
-}
-
-const handleClick = (event, slug) => {
-  event.preventDefault()
-  router.push(`/blog/${slug}`)
 }
 
 </script>

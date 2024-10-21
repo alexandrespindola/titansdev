@@ -6,11 +6,11 @@
   >
     <div class="container pt-100">
       <div class="text-center">
-        <h1>Blog List.</h1>
+        <h1>Blog</h1>
         <div class="mt-15">
-          <a href="/">Home</a>
+          <NuxtLink to="/">Home</NuxtLink>
           <span class="padding-rl-20">|</span>
-          <span class="main-color">Blog List</span>
+          <span class="main-color">Blog</span>
         </div>
       </div>
     </div>
