@@ -5,16 +5,15 @@
     <Navbar />
     <div id="smooth-content">
       <main class="main-bg">
-        <Header />
-        <Blogs />
+        <BlogHeader />
+        <BlogList />
       </main>
       <FooterPrimary />
     </div>
   </div>
 </template>
 <script setup>
-import Blogs from '@/components/dark/blog-list/Blogs';
-import Header from '@/components/dark/blog-list/Header';
+
 import Lines from '@/components/common/Lines';
 import ProgressScroll from '@/components/common/ProgressScroll';
 import { onMounted } from 'vue';
