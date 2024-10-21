@@ -9,6 +9,7 @@
         <NuxtLink to="/" class="menu font-bold">Home</NuxtLink>
         <NuxtLink to="/servicios" class="menu font-bold">Servicios</NuxtLink>
         <NuxtLink to="/quienes-somos" class="menu font-bold">Quiénes Somos</NuxtLink>
+        <!-- <NuxtLink to="/blog" class="menu font-bold">Blog</NuxtLink> -->
         <NuxtLink to="/contacto" class="menu font-bold">Contacto</NuxtLink>
       </ul>
 

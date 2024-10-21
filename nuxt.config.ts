@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       routes: [
         "/",
         "/404",
-        //"/blog",
+        "/blog",
         "/contacto",
         //"/equipo",
         //"/faq",
@@ -25,6 +25,10 @@ export default defineNuxtConfig({
         //"/showcase"
       ],
     },
+  },
+  routeRules: {
+    'blog': { ssr: true },
+    '/blog/**': { ssr: true },
   },
   alias: {
     "@": fileURLToPath(new URL("./", import.meta.url)),
@@ -110,7 +114,7 @@ export default defineNuxtConfig({
         { src: "/dark/assets/js/isotope.pkgd.min.js" },
         // { src: "/dark/assets/js/imgReveal/imagesloaded.pkgd.min.js" },
         { src: "/dark/assets/js/ScrollSmoother.min.js" },
-        { src: "/dark/assets/js/scripts.js", defer: true },
+        { src: "/dark/assets/js/scripts.js", defer: true, async: true },
       ],
     },
     layoutTransition: {
