@@ -16,6 +16,7 @@ export default defineNuxtConfig({
         "/contacto",
         //"/equipo",
         //"/faq",
+        "/gracias",
         //"/portafolio",
         //"/post",
         //"/proyecto",
@@ -27,8 +28,8 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    'blog': { ssr: true },
-    '/blog/**': { ssr: true },
+    blog: { ssr: true },
+    "/blog/**": { ssr: true },
   },
   alias: {
     "@": fileURLToPath(new URL("./", import.meta.url)),
@@ -127,15 +128,22 @@ export default defineNuxtConfig({
     "@/styles/globals.css",
     "@/public/dark/assets/scss/style.scss",
   ],
-  modules: ["@nuxt/ui", "@nuxtjs/cloudinary", "@zadigetvoltaire/nuxt-gtm", "@nuxt/content", "@nuxthq/studio", "@nuxtjs/strapi"],
+  modules: [
+    "@nuxt/ui",
+    "@nuxtjs/cloudinary",
+    "@zadigetvoltaire/nuxt-gtm",
+    "@nuxt/content",
+    "@nuxthq/studio",
+    "@nuxtjs/strapi",
+  ],
   gtm: {
     id: "GTM-K5F3KFP3",
   },
   runtimeConfig: {
     public: {
-      strapiUri: process.env.STRAPI_URL
+      strapiUri: process.env.STRAPI_URL,
     },
-    strapiApiToken: process.env.STRAPI_API_TOKEN
+    strapiApiToken: process.env.STRAPI_API_TOKEN,
   },
   webpack: {
     extractCSS: true,
