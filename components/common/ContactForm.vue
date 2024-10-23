@@ -93,7 +93,4 @@ onMounted(() => {
   };
 });
 
-const selected_privacy_terms = ref(false)
-const selected_marketing_info = ref(false)
-
 </script>

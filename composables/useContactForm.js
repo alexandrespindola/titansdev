@@ -1,5 +1,3 @@
-import { ref } from 'vue';
-
 export function useContactForm() {
   const countryCodes = [
     { country: '🇪🇸 +34', code: '+34' }, // Espanha
@@ -84,19 +82,7 @@ export function useContactForm() {
       });
 
       if (response.ok) {
-        alert('Mensagem enviada com sucesso!');
-        // Clean the form
-        form.value = {
-          first_name: '',
-          last_name: '',
-          email: '',
-          prefix_code: '+34',
-          phone: '',
-          subject: '',
-          message: '',
-          acceptance_receive_marketing_info: false,
-          acceptance_privacy_terms: false
-        };
+        await navigateTo('/gracias')
       } else {
         alert('Erro ao enviar a mensagem.');
       }

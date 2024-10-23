@@ -18,7 +18,6 @@
 <script setup>
 import Lines from '@/components/common/Lines';
 import ProgressScroll from '@/components/common/ProgressScroll';
-import { onMounted } from 'vue';
 
 useHead({
   title: 'Quiénes Somos | TitansDev',
