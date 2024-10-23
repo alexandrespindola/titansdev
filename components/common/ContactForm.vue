@@ -89,7 +89,8 @@ onMounted(() => {
     subject: '',
     message: '',
     acceptance_receive_marketing_info: false,
-    acceptance_privacy_terms: false
+    acceptance_privacy_terms: false,
+    lead_source: 'Website'
   };
 });
 
