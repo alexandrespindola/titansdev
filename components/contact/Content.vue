@@ -16,7 +16,7 @@
               <div class="col-md-6">
                 <div class="morinfo mt-30">
                   <h6 class="mb-15">Dirección</h6>
-                  <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
+                  <p>Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -32,12 +32,12 @@
             <ul class="rest social-text d-flex mt-60">
               <li class="mr-30">
                 <a href="#0" class="hover-this">
-                  <span class="hover-anim">Instagram</span>
+                  <span class="hover-anim">Facebook</span>
                 </a>
               </li>
               <li>
                 <a href="#0" class="hover-this">
-                  <span class="hover-anim">Facebook</span>
+                  <span class="hover-anim">Instagram</span>
                 </a>
               </li>
             </ul>

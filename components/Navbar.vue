@@ -82,7 +82,8 @@
                     <li>
                       <div class="o-hidden">
                         <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu">
-                          <span class="fill-text" data-text="Automatización de Workflows"> Automatización de Workflows </span>
+                          <span class="fill-text" data-text="Automatización de Workflows"> Automatización de Workflows
+                          </span>
                         </NuxtLink>
                       </div>
                     </li>
@@ -125,8 +126,8 @@
             <div class="item mb-50">
               <h6 class="sub-title mb-15 opacity-7">Dirección</h6>
               <h5>
-                541 Melville Geek, <br />
-                Palo Alto, CA 94301
+                Aldea Portecelos, 27<br />
+                Parada de Amoeiro, Ourense, España
               </h5>
             </div>
             <div class="item mb-50">
@@ -134,7 +135,7 @@
               <ul class="rest social-text">
                 <li class="mb-10">
                   <a href="#0" class="hover-this">
-                    <span class="hover-anim">LinkedIn</span>
+                    <span class="hover-anim">Facebook</span>
                   </a>
                 </li>
                 <li class="mb-10">
@@ -246,5 +247,4 @@ body.hamenu-open {
   position: fixed;
   width: 100%;
 }
-
 </style>

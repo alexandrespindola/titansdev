@@ -9,7 +9,7 @@
             </div>
             <div class="morinfo mt-50 pb-30 bord-thin-bottom">
               <h6 class="mb-15">Dirección</h6>
-              <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
+              <p>Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España</p>
             </div>
             <div class="morinfo mt-30 pb-30 bord-thin-bottom">
               <h6 class="mb-15">Email</h6>
@@ -18,10 +18,10 @@
 
             <div class="social-icon-circle mt-50 flex flex-row gap-x-3">
               <NuxtLink to="/" target="blank">
-                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
               </NuxtLink>
               <NuxtLink to="/" target="blank">
-                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
               </NuxtLink>
             </div>
           </div>
