@@ -21,14 +21,14 @@
             </div>
             <div class="col-md-5 rest">
               <div class="img fit-img bord-thin-left">
-                <img src="/dark/assets/imgs/intro/02.jpg" alt="" />
+                <img src="/dark/assets/imgs/intro/quienes-somos-01.webp" alt="" />
               </div>
             </div>
           </div>
           <div class="row flex-col-reverse md:flex-row justify-content-end bord-thin-top rest">
             <div class="col-md-5 rest">
               <div class="img fit-img">
-                <img src="/dark/assets/imgs/intro/03.jpg" alt="" />
+                <img src="/dark/assets/imgs/intro/quienes-somos-02.webp" alt="" />
               </div>
             </div>
             <div class="col-md-5 rest">
