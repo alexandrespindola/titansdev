@@ -9,7 +9,8 @@
             </div>
             <div class="morinfo mt-50 pb-30 bord-thin-bottom">
               <h6 class="mb-15">Dirección</h6>
-              <p>Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España</p>
+              <p>Aldea Portecelos, 27 - Parada de Amoeiro<br>
+                Ourense, España - CP 32170</p>
             </div>
             <div class="morinfo mt-30 pb-30 bord-thin-bottom">
               <h6 class="mb-15">Email</h6>

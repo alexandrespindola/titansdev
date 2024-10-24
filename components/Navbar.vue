@@ -126,8 +126,7 @@
             <div class="item mb-50">
               <h6 class="sub-title mb-15 opacity-7">Dirección</h6>
               <h5>
-                Aldea Portecelos, 27<br />
-                Parada de Amoeiro, Ourense, España
+                Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170
               </h5>
             </div>
             <div class="item mb-50">
