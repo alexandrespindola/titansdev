@@ -135,9 +135,13 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxthq/studio",
     "@nuxtjs/strapi",
+    "nuxt-purgecss"
   ],
   gtm: {
     id: "GTM-K5F3KFP3",
+  },
+  purgecss: {
+    enabled: true,
   },
   runtimeConfig: {
     public: {

@@ -87,25 +87,25 @@
         "../node_modules/@nuxt/ui/dist/runtime/*"
       ],
       "#ui-colors": [
-        "./ui.colors"
+        "./ui.colors.mjs"
       ],
       "#color-mode-options": [
         "./color-mode-options.mjs"
       ],
       "#mdc-configs": [
-        "./mdc-configs"
+        "./mdc-configs.mjs"
       ],
       "#mdc-highlighter": [
-        "./mdc-highlighter"
+        "./mdc-highlighter.mjs"
       ],
       "#mdc-imports": [
-        "./mdc-imports"
+        "./mdc-imports.mjs"
       ],
       "#nuxt-component-meta": [
-        "./component-meta"
+        "./component-meta.mjs"
       ],
       "#nuxt-component-meta/types": [
-        "./component-meta.d"
+        "./component-meta.d.ts"
       ],
       "#vue-router": [
         "../node_modules/vue-router"
@@ -116,11 +116,8 @@
       "#tailwind-config": [
         "./tailwind.config"
       ],
-      "#tailwind-config/*": [
-        "./tailwind.config/*"
-      ],
       "#app-manifest": [
-        "./manifest/meta/b533b726-c33f-4222-a63f-63a8c25b3d1b.json"
+        "./manifest/meta/caecd0f0-5a04-4f3f-aeb1-6112dfae4d74.json"
       ],
       "#build": [
         "."
@@ -186,6 +183,8 @@
     "../node_modules/@nuxthq/studio/dist/runtime",
     "../node_modules/@nuxtjs/strapi/runtime",
     "../node_modules/@nuxtjs/strapi/dist/runtime",
+    "../node_modules/nuxt-purgecss/runtime",
+    "../node_modules/nuxt-purgecss/dist/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/devtools/dist/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
@@ -218,6 +217,8 @@
     "../node_modules/@nuxthq/studio/dist/runtime/server",
     "../node_modules/@nuxtjs/strapi/runtime/server",
     "../node_modules/@nuxtjs/strapi/dist/runtime/server",
+    "../node_modules/nuxt-purgecss/runtime/server",
+    "../node_modules/nuxt-purgecss/dist/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/devtools/dist/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",

@@ -8,6 +8,7 @@ module.exports = {
     './nuxt.config.{js,ts}',
     './public/dark/assets/scss/**/*.{scss,sass}',
   ],
+  plugins: [],
   theme: {
     extend: {
       colors: {
@@ -21,6 +22,5 @@ module.exports = {
       xl: '1280px',
       '2xl': '1536px',
     },
-  },
-  plugins: [],
+  }
 }

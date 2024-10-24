@@ -8,7 +8,6 @@
               <div class=" min-h-24">
                 <CommonCheckAnimationVue />
               </div>
-
               <h2 class="mb-10 text-6xl lg:text-7xl">¡Gracias!</h2>
               <p>Su mensaje se ha enviado correctamente y uno de nuestros representantes se pondrá en contacto con usted
                 en breve.</p>
