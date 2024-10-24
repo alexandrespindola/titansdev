@@ -27,6 +27,7 @@
   "devDependencies": {
     "@nuxthq/studio": "^2.1.1",
     "@nuxtjs/tailwindcss": "^6.12.1",
-    "@types/node": "^22.7.4"
+    "@types/node": "^22.7.4",
+    "nuxt-purgecss": "^2.0.0"
   }
 }
