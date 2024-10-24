@@ -1,11 +1,6 @@
 <template>
   <header class="startup-header" data-scroll-index="0">
     <div class="valign relative hidden overflow-auto bg-hero">
-      <!-- <video autoplay muted loop playsinline class="video-background">
-        <source src="https://res.cloudinary.com/xmfm6mhw3gwctndtcubgx2rptnae/video/upload/video-background-hero-480_vzujok.mp4" type="video/mp4" />
-        Su navegador no soporta el elemento de vídeo.
-      </video>
-      <div class="video-overlay"></div> -->
       <div class="container h-screen flex flex-col justify-center p-4 md:max-w-2xl lg:max-w-4xl">
         <div>
           <div>
@@ -57,26 +52,6 @@ onMounted(() => {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
-
-/* .video-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-.video-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-} */
 
 .container {
   position: relative;

@@ -20,7 +20,6 @@ import Slider from '@/components/dark/blog-details/Slider';
 import Lines from '@/components/common/Lines';
 import ProgressScroll from '@/components/common/ProgressScroll';
 import Navbar from '@/components/dark/creative-agency/Navbar';
-import { onMounted } from 'vue';
 
 useHead({
   title: 'Post',

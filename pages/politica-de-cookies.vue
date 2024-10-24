@@ -1,8 +1,8 @@
 <template>
-  <ContentDoc path="/politica-de-privacidad" />
+  <ContentDoc path="/politica-de-cookies" />
 </template>
 
-<script lang="ts" setup>
+<script setup>
 definePageMeta({
   layout: 'policies'
 })

@@ -17,13 +17,16 @@ export default defineNuxtConfig({
         //"/equipo",
         //"/faq",
         "/gracias",
+        "/politica-de-cookies",
+        "/politica-de-privacidad",
         //"/portafolio",
         //"/post",
         //"/proyecto",
         "/quienes-somos",
         //"/servicio",
         "/servicios",
-        //"/showcase"
+        //"/showcase",
+        "/terminos-de-uso"
       ],
     },
   },

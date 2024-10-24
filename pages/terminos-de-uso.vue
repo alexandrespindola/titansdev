@@ -1,5 +1,5 @@
 <template>
-  <ContentDoc path="/politica-de-privacidad" />
+  <ContentDoc path="/terminos-de-uso" />
 </template>
 
 <script lang="ts" setup>

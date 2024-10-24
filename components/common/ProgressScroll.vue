@@ -12,7 +12,6 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue';
 //= Scripts
 import scrollToTop from '@/common/scrollToTop';
 
