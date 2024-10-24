@@ -26,7 +26,7 @@ export default defineNuxtConfig({
         //"/servicio",
         "/servicios",
         //"/showcase",
-        "/terminos-de-uso"
+        "/terminos-de-uso",
       ],
     },
   },
@@ -69,6 +69,11 @@ export default defineNuxtConfig({
           name: "author",
           content: "TitansDev",
         },
+        {
+          name: "adopt-website-id",
+          content: "ab2eb4b2-28e0-4ac0-9aa2-1318cc77567c",
+        },
+
         // Meta tags Open Graph
         {
           property: "og:title",
