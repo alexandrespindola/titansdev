@@ -1,5 +1,5 @@
 <template>
-  <section class="portfolio-tab crev section-padding" data-scroll-index="3">
+  <section class="portfolio-tab crev my-[7rem]" data-scroll-index="3">
     <div class="container">
       <div class="sec-head mb-80">
         <h6 class="sub-title main-color mb-25">Nustro Portafolio</h6>

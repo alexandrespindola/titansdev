@@ -1,18 +1,13 @@
 <template>
   <section class="py-10 position-re ontop" data-scroll-index="4">
     <div class="container">
-      <div class="flex flex-col lg:flex-row justify-center gap-12">
-        <div class="md:w-1/2 lg:w-1/4">
-            <div class="d-flex align-items-center ">
-              <div>
-                <div class="img fit-img radius-30">
-                  <img src="/dark/assets/imgs/intro/skills.webp" alt="" />
-                </div>
-              </div>
-
-          </div>
+      <div class="flex flex-col lg:flex-row items-center justify-center gap-12">
+        <div class="md:w-2/3 lg:w-1/3">
+            <video autoplay loop muted
+              src="https://res.cloudinary.com/xmfm6mhw3gwctndtcubgx2rptnae/video/upload/v1234567890/video-notebook-streaming_jxwrof.mp4" class="rounded-3xl">
+            </video>
         </div>
-        <div class="md:w-1/2 valign">
+        <div class="lg:w-1/2">
           <div class="content full-width">
             <div class="sec-head mb-30">
               <h6 class="sub-title mb-15 main-color">Nuestras Habilidades</h6>

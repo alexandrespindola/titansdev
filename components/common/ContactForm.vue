@@ -53,14 +53,14 @@
           <div class="flex flex-col justify-center">
             <UToggle v-model="form.acceptance_receive_marketing_info" name="acceptance_receive_marketing_info" />
           </div>
-          <p>Quiero recibir más información sobre los servicios.</p>
+          <p>Quiero recibir más información sobre los servicios de TitansDev.</p>
         </div>
 
         <div class="flex flex-row gap-2">
           <div class="flex flex-col justify-center">
             <UToggle v-model="form.acceptance_privacy_terms" name="acceptance_privacy_terms" />
           </div>
-          <p>Estoy de acuerdo con los Términos de Privacidad. <span class="text-red-500">*</span></p>
+          <p><span class="text-red-500">*</span>Estoy de acuerdo con la <NuxtLink to="/politica-de-privacidad" class="main-color">Política de Privacidad.</NuxtLink></p>
         </div>
 
       <div class="mt-30">
@@ -95,3 +95,9 @@ onMounted(() => {
 });
 
 </script>
+
+<style lang="scss" scoped>
+
+@use "@/public/dark/assets/scss/utility/variables" as vars;
+
+</style>
