@@ -4,7 +4,7 @@
       <div class="row justify-content-between">
         <div class="col-lg-5 valign">
           <div class="faq-img md-mb50">
-            <img src="/dark/assets/imgs/intro/03.jpg" alt="" class="rounded-3xl" />
+            <img src="/dark/assets/imgs/intro/faq.webp" alt="" class="rounded-3xl" />
           </div>
         </div>
         <div class="col-lg-6 valign">
@@ -24,7 +24,7 @@
                         <UIcon :name="item.icon" class="w-7 h-7 text-[#40ea1e]" />
                       </div>
                     </template>
-                    <span class="truncate text-xl">{{ index + 1 }}. {{ item.label }}</span>
+                    <span class="truncate text-xl">{{ item.label }}</span>
                     <template #trailing>
                       <UIcon name="i-heroicons-chevron-right-20-solid"
                         class="w-5 h-5 ms-auto transform transition-transform duration-200"

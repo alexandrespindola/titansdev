@@ -1,35 +1,35 @@
 {
     "faqItems": [
       {
-        "label": "Getting Started",
-        "icon": "material-symbols-light:10k-rounded",
+        "label": "¿Qué tipos de sitios web pueden desarrollar?",
+        "icon": "hugeicons:computer-programming-01",
         "defaultOpen": true,
-        "content": "ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate."
+        "content": "Desarrollamos una amplia gama de sitios web, incluyendo sitios corporativos, tiendas en línea (e-commerce), blogs, portafolios, aplicaciones web y sitios de una sola página (landing pages). Nos adaptamos a las necesidades específicas de cada cliente."
       },
       {
-        "label": "Installation",
-        "icon": "i-heroicons-arrow-down-tray",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate."
+        "label": "¿Cuánto tiempo toma desarrollar un sitio web?",
+        "icon": "hugeicons:timer-02",
+        "content": "El tiempo de desarrollo depende de la complejidad del proyecto. Un sitio web básico puede tardar entre 1 a 2 semanas, mientras que proyectos más complejos pueden llevar de 1 a 3 meses o más."
       },
       {
-        "label": "Theming",
-        "icon": "i-heroicons-eye-dropper",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate."
+        "label": "¿Ofrecen servicios de mantenimiento después del lanzamiento?",
+        "icon": "hugeicons:configuration-02",
+        "content": "Sí, ofrecemos servicios de mantenimiento y soporte continuo para asegurarnos de que su sitio web funcione correctamente y esté actualizado con las últimas tecnologías y medidas de seguridad."
       },
       {
-        "label": "Layouts",
-        "icon": "i-heroicons-rectangle-group",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate."
+        "label": "¿Qué tecnologías utilizan para el desarrollo web?",
+        "icon": "hugeicons:java-script",
+        "content": "Utilizamos una variedad de tecnologías según las necesidades del proyecto, incluyendo HTML5, CSS3, JavaScript, TypeScript, frameworks como Vue.js, Nuxt y Astro, y sistemas de gestión de contenido como WordPress."
       },
       {
-        "label": "Components",
-        "icon": "i-heroicons-square-3-stack-3d",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate."
+        "label": "¿Cuál es el costo aproximado del desarrollo de un sitio web?",
+        "icon": "hugeicons:money-bag-02",
+        "content": "El coste varía en función de los requisitos del proyecto. Para obtener un presupuesto exacto, le recomendamos que concierte una cita con nosotros para explicarnos sus necesidades concretas."
       },
       {
-        "label": "Utilities",
-        "icon": "i-heroicons-wrench-screwdriver",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate."
+        "label": "¿Ofrecen servicios de SEO junto con el desarrollo web?",
+        "icon": "hugeicons:seo",
+        "content": "Sí, ofrecemos servicios de optimización para motores de búsqueda (SEO) como parte de nuestro paquete de desarrollo web para ayudar a mejorar la visibilidad de su sitio en los resultados de búsqueda."
       }
     ]
   }
