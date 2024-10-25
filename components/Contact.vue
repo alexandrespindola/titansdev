@@ -4,9 +4,12 @@
       <div class="flex flex-col md:flex-row md:gap-4">
         <div class="w-full valign md:w-2/5">
           <div class="sec-head info-box full-width md-mb80">
-            <div class="phone fz-30 fw-600 underline main-color">
-              <NuxtLink to="https://wa.me/+34642887239">+34 642 887 239</NuxtLink>
-            </div>
+            <NuxtLink to="https://wa.me/+34642887239" target="_blank">
+              <div class="phone fz-30 fw-600 main-color flex flex-row gap-3 items-center">
+                <UIcon name="logos:whatsapp-icon" />
+                +34 642 887 239
+              </div>
+            </NuxtLink>
             <div class="morinfo mt-50 pb-30 bord-thin-bottom">
               <h6 class="mb-15">Dirección</h6>
               <p>Aldea Portecelos, 27 - Parada de Amoeiro<br>
