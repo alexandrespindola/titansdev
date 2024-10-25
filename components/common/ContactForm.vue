@@ -1,16 +1,14 @@
 <template>
   <form id="contact-form" class="form2" @submit.prevent="submitForm" netlify>
-    <div class="messages"></div>
-
     <div class="controls row">
-      <div class="w-1/2">
+      <div class="w-full md:w-1/2">
         <div class="form-group mb-30">
           <input id="form_first_name" type="text" name="first_name" placeholder="Nombre" v-model="form.first_name"
             required />
         </div>
       </div>
 
-      <div class="w-1/2">
+      <div class="w-full md:w-1/2">
         <div class="form-group mb-30">
           <input id="form_last_name" type="text" name="last_name" placeholder="Apellido" v-model="form.last_name"
             required />
