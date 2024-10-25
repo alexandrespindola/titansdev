@@ -13,6 +13,7 @@ export default defineNuxtConfig({
         "/",
         "/404",
         "/blog",
+        "/cita",
         "/contacto",
         //"/equipo",
         //"/faq",

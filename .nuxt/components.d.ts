@@ -4,6 +4,7 @@ type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refre
 interface _GlobalComponents {
       'About': typeof import("../components/About.vue")['default']
     'Blog': typeof import("../components/Blog.vue")['default']
+    'Cita': typeof import("../components/Cita.vue")['default']
     'Clients': typeof import("../components/Clients.vue")['default']
     'Contact': typeof import("../components/Contact.vue")['default']
     'Error': typeof import("../components/Error.vue")['default']
@@ -217,6 +218,7 @@ interface _GlobalComponents {
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
       'LazyAbout': typeof import("../components/About.vue")['default']
     'LazyBlog': typeof import("../components/Blog.vue")['default']
+    'LazyCita': typeof import("../components/Cita.vue")['default']
     'LazyClients': typeof import("../components/Clients.vue")['default']
     'LazyContact': typeof import("../components/Contact.vue")['default']
     'LazyError': typeof import("../components/Error.vue")['default']
@@ -436,6 +438,7 @@ declare module 'vue' {
 
 export const About: typeof import("../components/About.vue")['default']
 export const Blog: typeof import("../components/Blog.vue")['default']
+export const Cita: typeof import("../components/Cita.vue")['default']
 export const Clients: typeof import("../components/Clients.vue")['default']
 export const Contact: typeof import("../components/Contact.vue")['default']
 export const Error: typeof import("../components/Error.vue")['default']
@@ -649,6 +652,7 @@ export const USlideovers: IslandComponent<typeof import("../node_modules/nuxt/di
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const LazyAbout: typeof import("../components/About.vue")['default']
 export const LazyBlog: typeof import("../components/Blog.vue")['default']
+export const LazyCita: typeof import("../components/Cita.vue")['default']
 export const LazyClients: typeof import("../components/Clients.vue")['default']
 export const LazyContact: typeof import("../components/Contact.vue")['default']
 export const LazyError: typeof import("../components/Error.vue")['default']
