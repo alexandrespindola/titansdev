@@ -3,7 +3,7 @@
     <div class="container">
       <div class="flex flex-col lg:flex-row items-center justify-center gap-12">
         <div class="md:w-2/3 lg:w-1/3">
-            <video autoplay loop muted
+            <video autoplay muted
               src="https://res.cloudinary.com/xmfm6mhw3gwctndtcubgx2rptnae/video/upload/v1234567890/video-notebook-streaming_jxwrof.mp4" class="rounded-3xl">
             </video>
         </div>

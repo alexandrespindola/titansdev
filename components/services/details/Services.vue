@@ -26,7 +26,7 @@
         <div class="col-lg-8">
           <div class="img o-hidden radius-15">
             <img
-              src="/dark/assets/imgs/background/3.jpg"
+              src="/dark/assets/imgs/background/web-development.webp"
               alt=""
               data-speed="auto"
               data-lag="0"

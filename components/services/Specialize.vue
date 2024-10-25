@@ -19,14 +19,16 @@
               {{ item.title }}
             </h5>
             <p class="flex-grow-1">{{ item.desc }}</p>
-            <div class="rmore lg:pt-4 flex flex-row gap-2">
-              <span class="sub-title">Saber Más</span>
-              <img
-                src="/dark/assets/imgs/arrow-right.png"
-                alt=""
-                class="icon-img-20 ml-5"
-              />
-            </div>
+            <NuxtLink :to="item.link">
+              <div class="rmore lg:pt-4 flex flex-row gap-2">
+                <span class="sub-title">Saber Más</span>
+                <img
+                  src="/dark/assets/imgs/arrow-right.png"
+                  alt=""
+                  class="icon-img-20 ml-5"
+                />
+              </div>
+            </NuxtLink>
           </div>
         </div>
       </div>

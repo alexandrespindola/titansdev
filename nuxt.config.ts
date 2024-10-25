@@ -15,6 +15,7 @@ export default defineNuxtConfig({
         "/blog",
         "/cita",
         "/contacto",
+        "/desarrollo-web",
         //"/equipo",
         //"/faq",
         "/gracias",
