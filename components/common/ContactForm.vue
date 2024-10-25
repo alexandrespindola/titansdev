@@ -1,5 +1,5 @@
 <template>
-  <form id="contact-form" class="form2" @submit.prevent="submitForm" netlify>
+  <form id="contact-form" class="form2" @submit.prevent="submitForm">
     <input type="text" name="bot-field" v-model="form['bot-field']" style="display: none;" />
     <div class="controls row">
       <div class="w-full md:w-1/2">
@@ -52,7 +52,7 @@
         <div class="flex flex-col justify-center">
           <UToggle v-model="form.acceptance_privacy_terms" name="acceptance_privacy_terms" />
         </div>
-        <p><span class="text-red-500">*</span>Estoy de acuerdo con la <NuxtLink to="/politica-de-privacidad"
+        <span class="text-red-500">*</span><p>Estoy de acuerdo con la <NuxtLink to="/politica-de-privacidad"
             class="main-color">Política de Privacidad.</NuxtLink>
         </p>
       </div>
