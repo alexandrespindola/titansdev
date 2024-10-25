@@ -62,7 +62,8 @@ export function useContactForm() {
     message: '',
     acceptance_receive_marketing_info: false,
     acceptance_privacy_terms: false,
-    lead_source: 'Website'
+    lead_source: 'Website',
+    'bot-field': ''
   });
 
   const submitForm = async () => {
@@ -70,26 +71,47 @@ export function useContactForm() {
     // Development
     //const webhookUrl = 'https://primary-production-a860.up.railway.app/webhook-test/b8923c39-b30b-454c-b816-b4f497a164c3';
     
+    if (form.value['bot-field']) {
+      console.log('Possible bot submission detected');
+      return;
+    }
+
+
     // Production
     const webhookUrl = 'https://primary-production-a860.up.railway.app/webhook/b8923c39-b30b-454c-b816-b4f497a164c3';
 
     try {
+      const formData = { ...form.value };
+      delete formData['bot-field'];
+      
+    
       const response = await fetch(webhookUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(form.value)
+        body: JSON.stringify(formData)
       });
 
       if (response.ok) {
-        await navigateTo('/gracias')
+        // Limpe o formulário após o envio bem-sucedido
+        Object.keys(form.value).forEach(key => {
+          if (typeof form.value[key] === 'boolean') {
+            form.value[key] = false;
+          } else {
+            form.value[key] = '';
+          }
+        });
+        form.value.prefix_code = '+34'; // Redefina o código do país para o padrão
+
+        // Redirecione para a página de agradecimento
+        await navigateTo('/gracias');
       } else {
-        alert('Erro ao enviar a mensagem.');
+        throw new Error('Server response failure');
       }
     } catch (error) {
-      console.error('Error:', error);
-      alert('Error al enviar el mensaje.');
+      console.error('Errr:', error);
+      alert('Error al enviar el mensaje. Vuelva a intentarlo más tarde.');
     }
   };
 
