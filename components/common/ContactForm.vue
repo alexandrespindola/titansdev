@@ -50,15 +50,19 @@
       </div>
       <div class="flex flex-row gap-2">
         <div class="flex flex-col justify-center">
-          <UToggle v-model="form.acceptance_privacy_terms" name="acceptance_privacy_terms" />
+          <UToggle v-model="form.acceptance_privacy_terms" name="acceptance_privacy_terms" required />
         </div>
-        <span class="text-red-500">*</span><p>Estoy de acuerdo con la <NuxtLink to="/politica-de-privacidad"
-            class="main-color">Política de Privacidad.</NuxtLink>
+        <span class="text-red-500">*</span>
+        <p>Estoy de acuerdo con la <NuxtLink to="/politica-de-privacidad" class="main-color">Política de Privacidad.
+          </NuxtLink>
         </p>
       </div>
+      <div v-if="errorMessage" class="text-red-500 mt-2">
+        {{ errorMessage }}
+      </div>
       <div class="mt-30">
-        <button type="submit" class="butn butn-full butn-bord radius-30">
-          <span class="text">Enviar</span>
+        <button type="submit" class="butn butn-full butn-bord radius-30" :disabled="isSubmitting">
+          <span class="text">{{ isSubmitting ? 'Enviando...' : 'Enviar' }}</span>
         </button>
       </div>
     </div>
@@ -67,9 +71,8 @@
 
 <script lang="ts" setup>
 import { useContactForm } from '~/composables/useContactForm';
-import { onMounted } from 'vue';
 
-const { countryCodes, form, submitForm } = useContactForm();
+const { countryCodes, form, submitForm, isSubmitting, errorMessage } = useContactForm();
 
 onMounted(() => {
   form.value = {
