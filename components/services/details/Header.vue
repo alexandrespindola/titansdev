@@ -6,13 +6,13 @@
   >
     <div class="container pt-100">
       <div class="text-center">
-        <h1>Web Development.</h1>
+        <h1>Creación de Páginas Web</h1>
         <div class="mt-15">
-          <a href="/">Home</a>
+          <NuxtLink to="/">Home</NuxtLink>
           <span class="padding-rl-20">|</span>
-          <a href="/servicios">Services</a>
+          <NuxtLink to="/servicios">Servicios</NuxtLink>
           <span class="padding-rl-20">|</span>
-          <span class="main-color">Web Development</span>
+          <span class="main-color">Páginas Web</span>
         </div>
       </div>
     </div>

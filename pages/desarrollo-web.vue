@@ -7,8 +7,9 @@
       <main class="main-bg">
         <ServicesDetailsHeader />
         <ServicesDetailsServices />
-        <ServicesProcess/>
+        <ServicesProcess />
         <ServicesDetailsFAQS />
+        <Contact/>
       </main>
       <FooterPrimary />
     </div>
@@ -17,7 +18,7 @@
 <script setup>
 
 useHead({
-  title: 'Servicio',
+  title: 'Desarrollo Web | TitansDev',
   link: [
     { rel: 'stylesheet', href: '/dark/assets/css/plugins.css' },
     { rel: 'stylesheet', href: '/dark/assets/css/satoshi.css' },

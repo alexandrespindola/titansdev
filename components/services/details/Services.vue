@@ -6,7 +6,7 @@
           <div class="col-lg-8">
             <div>
               <h6 class="sub-title main-color mb-15">
-                Web and Mobile Development
+                Desarrollo de Páginas Web & Landing Pages
               </h6>
               <h4>
                 Even the all-powerful Pointing has no control about the blind
