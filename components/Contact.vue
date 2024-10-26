@@ -10,6 +10,9 @@
                 +34 642 887 239
               </div>
             </NuxtLink>
+            <div class="flex flex-row justify-start">
+              <CommonButtonsCtaCita />
+            </div>
             <div class="morinfo mt-50 pb-30 bord-thin-bottom">
               <h6 class="mb-15">Dirección</h6>
               <p>Aldea Portecelos, 27 - Parada de Amoeiro<br>
