@@ -56,7 +56,7 @@
         </div>
       </div>
       <div class="pt-8">
-        <CommonButtonCtaCita />
+        <CommonButtonsCtaCita />
       </div>
     </div>
   </section>

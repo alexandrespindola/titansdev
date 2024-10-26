@@ -31,6 +31,7 @@
             </NuxtLink>
           </div>
         </div>
+        <CommonButtonsCtaCita />
       </div>
     </div>
   </section>

@@ -71,7 +71,7 @@
         </div>
         <div class="xl:w-1/2 valign">
           <div class="full-width flex flex-col gap-4">
-            <div class="item sub-bg radius-10 d-flex align-items-center">
+            <div class="item bg-gradient-to-br from-[#141414] to-black  radius-10 d-flex align-items-center">
               <div class="type">
                 <div class="icon-img-60 mb-10">
                   <img src="/dark/assets/imgs/icon-img/shape1.png" alt="" />
@@ -98,10 +98,10 @@
                 </div>
               </div>
             </div>
-            <div class="item main-colorbg radius-10 text-dark d-flex align-items-center">
+            <div class="item bg-gradient-to-br from-[#155e06] to-[#0d4602] radius-10 d-flex align-items-center">
               <div class="type">
                 <div class="icon-img-60 mb-10">
-                  <img src="/dark/assets/imgs/icon-img/shape03.png" alt=""/>
+                  <img src="/dark/assets/imgs/icon-img/shape3.png" alt=""/>
                 </div>
                 <h5 class="fw-600">Enterprise</h5>
               </div>
@@ -118,7 +118,7 @@
                 </ul>
                 <div class="mount mr-auto text-center">
                   <div>
-                    <NuxtLink to="/contacto" class="butn butn-md butn-bord text-dark radius-30">
+                    <NuxtLink to="/contacto" class="butn butn-md butn-bord radius-30">
                       <span class="fz-13">Contáctenos</span>
                     </NuxtLink>
                   </div>
