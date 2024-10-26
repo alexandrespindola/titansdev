@@ -1,5 +1,5 @@
 <template>
-  <section class="py-10 position-re ontop" data-scroll-index="4">
+  <section class="position-re ontop">
     <div class="container">
       <div class="flex flex-col lg:flex-row items-center justify-center gap-12">
         <div class="md:w-2/3 lg:w-1/3">
