@@ -8,6 +8,7 @@
       <ul class="hidden md:flex flex-row md:gap-6 lg:gap-12">
         <NuxtLink to="/" class="menu font-bold">Home</NuxtLink>
         <NuxtLink to="/servicios" class="menu font-bold">Servicios</NuxtLink>
+        <NuxtLink to="/desarrollo-web" class="menu font-bold">Páginas Web</NuxtLink>    
         <NuxtLink to="/quienes-somos" class="menu font-bold">Quiénes Somos</NuxtLink>
         <!-- <NuxtLink to="/blog" class="menu font-bold">Blog</NuxtLink> -->
         <NuxtLink to="/contacto" class="menu font-bold">Contacto</NuxtLink>
@@ -60,7 +61,7 @@
                   <ul>
                     <li>
                       <div class="o-hidden">
-                        <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu">
+                        <NuxtLink to="/desarrollo-web" class="link cursor-pointer sub-dmenu">
                           <span class="fill-text" data-text="Páginas Web"> Páginas Web </span>
                         </NuxtLink>
                       </div>
@@ -161,7 +162,11 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
+const items = [
+  [{
+    label: 'Desarrollo Web',
+  }]
+]
 
 const isOpen = ref(false);
 
@@ -234,6 +239,7 @@ function scrollToSection(id) {
   background: #000;
   transition: left 0.3s ease;
   overflow-y: auto;
+  z-index: 50;
 }
 
 .hamenu.open {
