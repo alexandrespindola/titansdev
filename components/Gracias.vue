@@ -10,11 +10,9 @@
               </div>
 
               <h2 class="mb-10 text-6xl lg:text-7xl">¡Gracias!</h2>
-              <p>Su mensaje se ha enviado correctamente y uno de nuestros representantes se pondrá en contacto con usted
-                en breve.</p>
-              <NuxtLink to="/" class="butn butn-md butn-bg main-colorbg text-dark radius-30 mt-30 self-center">
-                <span class="text">Volver al Inicio</span>
-              </NuxtLink>
+              <p>Su mensaje se ha enviado correctamente y uno de nuestros representantes se pondrá en contacto con usted en breve.</p>
+              <p>Mientras tanto, reserve una <span class="main-color">cita de 30 minutos</span> para que podamos hablar más sobre las necesidades de su empresa.</p>
+              <CommonButtonsCtaCita />
             </div>
           </div>
         </div>
