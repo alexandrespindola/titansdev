@@ -7,7 +7,7 @@
       <main class="main-bg">
         <ServicesDetailsHeader />
         <ServicesDetailsServices />
-        <ServicesProcess />
+        <ServicesDetailsProcess />
         <ServicesDetailsFAQS />
         <Contact/>
       </main>

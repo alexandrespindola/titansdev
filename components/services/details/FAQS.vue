@@ -1,5 +1,5 @@
 <template>
-  <section class="faqs py-[7rem]">
+  <section class="faqs py-[3rem] md:py-[7rem]">
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-lg-5 valign">

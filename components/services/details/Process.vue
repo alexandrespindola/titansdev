@@ -1,18 +1,12 @@
 <template>
-  <section class="process section-padding pt-0">
-    <div class="container">
-      <div class="sec-head mb-80">
-        <h6 class="sub-title main-color mb-25">Our Process</h6>
+  <section class="process py-20">
+    <div class="container flex flex-row justify-center flex-wrap">
+      <div class="sec-head pb-80 w-full">
+        <h6 class="sub-title main-color mb-25">Nuestro Proceso</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
           <h2 class="fw-600">
-            Business <span class="fw-200">Development</span>
+            <span class="fw-200">Tu Página Web en</span> 4 pasos
           </h2>
-          <div class="ml-auto">
-            <a href="/quienes-somos" class="go-more">
-              <span class="text">View More</span>
-              <span class="icon ti-arrow-top-right"></span>
-            </a>
-          </div>
         </div>
       </div>
       <div class="row md-marg">
@@ -20,82 +14,49 @@
           <div class="icon-img-60 mb-30">
             <img src="/dark/assets/imgs/serv-icons/3.png" alt="" />
           </div>
-          <h5 class="mb-15">Research</h5>
+          <h5 class="mb-15">1. Cita Inicial</h5>
           <p>
-            Clarifying and translating insights into foundation and creative
-            approach
+            Realizamos una conversación de 30 minutos, sin compromiso, para entender mejor su negocio y sus necesidades.
+            En esta etapa, discutimos sus ideas y objetivos, definiendo la mejor estrategia digital para aumentar su
+            visibilidad en línea.
           </p>
-          <div class="o-hidden">
-            <a href="/quienes-somos" class="rmore to-in mt-30">
-              <span class="sub-title">Read More</span>
-              <img
-                src="/dark/assets/imgs/arrow-right.png"
-                alt=""
-                class="icon-img-20 ml-5"
-              />
-            </a>
-          </div>
         </div>
         <div class="col-lg-3 col-md-6 item md-mb50">
           <div class="icon-img-60 mb-30">
             <img src="/dark/assets/imgs/serv-icons/4.png" alt="" />
           </div>
-          <h5 class="mb-15">Concept</h5>
+          <h5 class="mb-15">2. Desarrollo
+          </h5>
           <p>
-            Clarifying and translating insights into foundation and creative
-            approach
+            Tras la aprobación del presupuesto, iniciamos el desarrollo de su proyecto. Creamos soluciones
+            personalizadas, desde sitios web profesionales hasta sistemas web, aplicando las mejores prácticas de diseño
+            y optimización para buscadores.
           </p>
-          <div class="o-hidden">
-            <a href="/quienes-somos" class="rmore to-in mt-30">
-              <span class="sub-title">Read More</span>
-              <img
-                src="/dark/assets/imgs/arrow-right.png"
-                alt=""
-                class="icon-img-20 ml-5"
-              />
-            </a>
-          </div>
         </div>
         <div class="col-lg-3 col-md-6 item sm-mb50">
           <div class="icon-img-60 mb-30">
             <img src="/dark/assets/imgs/serv-icons/5.png" alt="" />
           </div>
-          <h5 class="mb-15">Implement</h5>
+          <h5 class="mb-15">3. Lanzamiento
+          </h5>
           <p>
-            Clarifying and translating insights into foundation and creative
-            approach
+            Con el sitio desarrollado y aprobado, activamos su plataforma para el público. Configuramos todas las
+            herramientas necesarias y garantizamos que todo esté funcionando perfectamente antes del lanzamiento.
           </p>
-          <div class="o-hidden">
-            <a href="/quienes-somos" class="rmore to-in mt-30">
-              <span class="sub-title">Read More</span>
-              <img
-                src="/dark/assets/imgs/arrow-right.png"
-                alt=""
-                class="icon-img-20 ml-5"
-              />
-            </a>
-          </div>
         </div>
         <div class="col-lg-3 col-md-6 item">
           <div class="icon-img-60 mb-30">
             <img src="/dark/assets/imgs/serv-icons/6.png" alt="" />
           </div>
-          <h5 class="mb-15">Handover</h5>
+          <h5 class="mb-15">4. Mantenimiento</h5>
           <p>
-            Clarifying and translating insights into foundation and creative
-            approach
+            Ofrecemos soporte continuo y mantenimiento de los sitios y sistemas implementados, asegurando que todas las
+            plataformas estén actualizadas, seguras y funcionando de manera eficiente.
           </p>
-          <div class="o-hidden">
-            <a href="/quienes-somos" class="rmore to-in mt-30">
-              <span class="sub-title">Read More</span>
-              <img
-                src="/dark/assets/imgs/arrow-right.png"
-                alt=""
-                class="icon-img-20 ml-5"
-              />
-            </a>
-          </div>
         </div>
+      </div>
+      <div class="pt-8">
+        <CommonButtonCtaCita />
       </div>
     </div>
   </section>
