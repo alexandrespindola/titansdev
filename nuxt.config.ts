@@ -2,7 +2,7 @@ import { fileURLToPath } from "node:url";
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  ssr: false,
+  ssr: true,
   typescript: {
     shim: false,
   },
