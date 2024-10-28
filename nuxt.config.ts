@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       routes: [
+        "/",
         "/404",
         "/blog",
         "/cita",

@@ -7568,28 +7568,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-app@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "nuxt-app@workspace:."
-  dependencies:
-    "@nuxt/content": "npm:^2.13.4"
-    "@nuxt/ui": "npm:^2.18.7"
-    "@nuxthq/studio": "npm:^2.1.1"
-    "@nuxtjs/cloudinary": "npm:^3.1.1"
-    "@nuxtjs/strapi": "npm:^1.12.0"
-    "@nuxtjs/tailwindcss": "npm:^6.12.1"
-    "@types/node": "npm:^22.7.4"
-    "@zadigetvoltaire/nuxt-gtm": "npm:^0.0.13"
-    country-flag-icons: "npm:^1.5.13"
-    i18n-iso-countries: "npm:^7.12.0"
-    nuxt: "npm:^3.10.1"
-    sass: "npm:^1.79.5"
-    swiper: "npm:^8.4.7"
-    vue: "npm:^3.4.15"
-    vue-router: "npm:^4.2.5"
-  languageName: unknown
-  linkType: soft
-
 "nuxt-component-meta@npm:^0.8.2":
   version: 0.8.2
   resolution: "nuxt-component-meta@npm:0.8.2"
@@ -9805,6 +9783,28 @@ __metadata:
   checksum: 10c0/f65f847afe70f56de069d4f1f9c3b0c1a76aaf2b0297656754734a83b9bac8e105b5534dfbea8599560476b88f7b747d0855370a957a07246d18b976addb87ec
   languageName: node
   linkType: hard
+
+"titansdev@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "titansdev@workspace:."
+  dependencies:
+    "@nuxt/content": "npm:^2.13.4"
+    "@nuxt/ui": "npm:^2.18.7"
+    "@nuxthq/studio": "npm:^2.1.1"
+    "@nuxtjs/cloudinary": "npm:^3.1.1"
+    "@nuxtjs/strapi": "npm:^1.12.0"
+    "@nuxtjs/tailwindcss": "npm:^6.12.1"
+    "@types/node": "npm:^22.7.4"
+    "@zadigetvoltaire/nuxt-gtm": "npm:^0.0.13"
+    country-flag-icons: "npm:^1.5.13"
+    i18n-iso-countries: "npm:^7.12.0"
+    nuxt: "npm:^3.10.1"
+    sass: "npm:^1.79.5"
+    swiper: "npm:^8.4.7"
+    vue: "npm:^3.4.15"
+    vue-router: "npm:^4.2.5"
+  languageName: unknown
+  linkType: soft
 
 "to-fast-properties@npm:^2.0.0":
   version: 2.0.0

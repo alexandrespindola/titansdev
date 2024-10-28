@@ -1,16 +1,14 @@
 <template>
   <nav class="navbar navbar-expand-lg nav-crev z-10">
     <div class="container p-4 flex flex-row flex-nowrap">
-      <a class="logo w-36" href="/">
+      <NuxtLink to="https://titansdev.es" class="logo w-36" >
         <img src="/dark/assets/imgs/titansdev-logo-white.webp" alt="logo" />
-      </a>
+      </NuxtLink>
 
       <ul class="hidden md:flex flex-row md:gap-6 lg:gap-12">
-        <a href="/" class="menu font-bold">Home</a>
         <NuxtLink to="/servicios" class="menu font-bold">Servicios</NuxtLink>
         <NuxtLink to="/desarrollo-web" class="menu font-bold">Páginas Web</NuxtLink>    
         <NuxtLink to="/quienes-somos" class="menu font-bold">Quiénes Somos</NuxtLink>
-        <!-- <NuxtLink to="/blog" class="menu font-bold">Blog</NuxtLink> -->
         <NuxtLink to="/contacto" class="menu font-bold">Contacto</NuxtLink>
       </ul>
 
@@ -45,7 +43,7 @@
             <ul class="main-menu rest">
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden ">
-                  <NuxtLink to="/" class="link cursor-pointer dmenu ">
+                  <NuxtLink to="https://titansdev.es" class="link cursor-pointer dmenu ">
                     <span class="fill-text" data-text="Home"> Home </span>
                   </NuxtLink>
                 </div>
