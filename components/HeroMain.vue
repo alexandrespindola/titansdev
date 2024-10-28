@@ -1,5 +1,5 @@
 <template>
-  <header class="startup-header" data-scroll-index="0">
+  <header class="startup-header">
     <div class="valign relative hidden overflow-auto bg-hero">
       <div class="container h-screen flex flex-col justify-center p-4 md:max-w-2xl lg:max-w-4xl">
         <div>
@@ -24,14 +24,6 @@
     </div>
   </header>
 </template>
-
-<script setup>
-import { onMounted } from 'vue';
-
-onMounted(() => {
-  // Nenhuma ação adicional necessária para carregar o vídeo
-});
-</script>
 
 <style scoped>
 .startup-header {

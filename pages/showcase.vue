@@ -13,4 +13,13 @@ useHead({
     { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
   ],
 });
+
+/* onMounted(() => {
+  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+  ScrollTrigger.normalizeScroll(true);
+  ScrollSmoother.create({
+    smooth: 2,
+    effects: true,
+  });
+}); */
 </script>
