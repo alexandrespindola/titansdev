@@ -1,11 +1,12 @@
 <template>
   <nav class="navbar navbar-expand-lg nav-crev z-10">
     <div class="container p-4 flex flex-row flex-nowrap">
-      <NuxtLink to="https://titansdev.es" class="logo w-36" >
+      <NuxtLink to="/" class="logo w-36" >
         <img src="/dark/assets/imgs/titansdev-logo-white.webp" alt="logo" />
       </NuxtLink>
 
       <ul class="hidden md:flex flex-row md:gap-6 lg:gap-12">
+        <NuxtLink to="/" class="menu font-bold">Home</NuxtLink>
         <NuxtLink to="/servicios" class="menu font-bold">Servicios</NuxtLink>
         <NuxtLink to="/desarrollo-web" class="menu font-bold">Páginas Web</NuxtLink>    
         <NuxtLink to="/quienes-somos" class="menu font-bold">Quiénes Somos</NuxtLink>
