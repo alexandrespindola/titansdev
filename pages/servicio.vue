@@ -1,6 +1,5 @@
 <template>
   <CommonProgressScroll />
-  <CommonLines />
   <div id="smooth-wrapper">
     <Navbar />
     <div id="smooth-content">
@@ -25,12 +24,4 @@ useHead({
   ],
 });
 
-onMounted(() => {
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-  ScrollTrigger.normalizeScroll(true);
-  ScrollSmoother.create({
-    smooth: 2,
-    effects: true,
-  });
-});
 </script>

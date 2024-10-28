@@ -1,6 +1,5 @@
 <template>
-  <ProgressScroll />
-  <Lines />
+  <CommonProgressScroll />
   <div id="smooth-wrapper">
     <Navbar />
     <div id="smooth-content">
@@ -12,12 +11,8 @@
   </div>
 </template>
 <script setup>
-import Lines from '@/components/common/Lines';
-import ProgressScroll from '@/components/common/ProgressScroll';
-import Navbar from '@/components/dark/creative-agency/Navbar';
 import Header from '@/components/dark/team/Header';
 import Team from '@/components/dark/team/Team';
-import { onMounted } from 'vue';
 
 useHead({
   title: 'Equipo',
@@ -28,12 +23,4 @@ useHead({
   ],
 });
 
-onMounted(() => {
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-  ScrollTrigger.normalizeScroll(true);
-  ScrollSmoother.create({
-    smooth: 2,
-    effects: true,
-  });
-});
 </script>

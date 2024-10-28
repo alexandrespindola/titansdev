@@ -1,12 +1,8 @@
 <template>
-  <Lines />
-  <Navbar />
   <Interactive />
   <Header />
 </template>
 <script setup>
-import Lines from '@/components/common/Lines';
-import Navbar from '@/components/dark/portfolio/Navbar';
 import Interactive from '@/components/dark/interactive-full/Interactive';
 
 useHead({

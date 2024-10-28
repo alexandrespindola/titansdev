@@ -1,11 +1,26 @@
 <template>
-  <HomeView />
+  <div id="smooth-wrapper">
+    <Navbar />
+    <div id="smooth-content">
+      <main class="main-bg o-hidden">
+        <HeroMain />
+        <Services />
+        <About />
+        <Marquee />
+        <Portfolio />
+        <Skills />
+        <Tech />
+        <Contact />
+      </main>
+      <FooterPrimary />
+    </div>
+  </div>
 </template>
 
 <script setup>
-import HomeView from '@/pages/home';
 
 useHead({
+  title: 'TitansDev | Agencia Digital',
   link: [
     { rel: 'stylesheet', href: '/dark/assets/css/plugins.css' },
     { rel: 'stylesheet', href: '/dark/assets/css/satoshi.css' },
@@ -13,12 +28,13 @@ useHead({
   ],
 });
 
-onMounted(() => {
+/* onMounted(() => {
   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
   ScrollTrigger.normalizeScroll(true);
   ScrollSmoother.create({
     smooth: 2,
     effects: true,
   });
-});
+}); */
+
 </script>

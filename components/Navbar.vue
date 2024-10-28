@@ -1,12 +1,12 @@
 <template>
-  <nav class="navbar navbar-expand-lg nav-crev">
+  <nav class="navbar navbar-expand-lg nav-crev z-10">
     <div class="container p-4 flex flex-row flex-nowrap">
       <a class="logo w-36" href="/">
         <img src="/dark/assets/imgs/titansdev-logo-white.webp" alt="logo" />
       </a>
 
       <ul class="hidden md:flex flex-row md:gap-6 lg:gap-12">
-        <NuxtLink to="/" class="menu font-bold">Home</NuxtLink>
+        <a href="/" class="menu font-bold">Home</a>
         <NuxtLink to="/servicios" class="menu font-bold">Servicios</NuxtLink>
         <NuxtLink to="/desarrollo-web" class="menu font-bold">Páginas Web</NuxtLink>    
         <NuxtLink to="/quienes-somos" class="menu font-bold">Quiénes Somos</NuxtLink>
@@ -83,7 +83,7 @@
                     <li>
                       <div class="o-hidden">
                         <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu">
-                          <span class="fill-text" data-text="Automatización de Workflows"> Automatización de Workflows
+                          <span class="fill-text" data-text="Automatización de Workflows"> Automatização de Workflows
                           </span>
                         </NuxtLink>
                       </div>
@@ -162,11 +162,7 @@
 </template>
 
 <script setup>
-const items = [
-  [{
-    label: 'Desarrollo Web',
-  }]
-]
+import { ref, watch } from 'vue';
 
 const isOpen = ref(false);
 
@@ -230,6 +226,10 @@ function scrollToSection(id) {
 </script>
 
 <style lang="scss" scoped>
+.nav-crev {
+  z-index: 10; /* Certifique-se de que o nav tem um z-index menor que o hamenu */
+}
+
 .hamenu {
   position: fixed;
   top: 0;
@@ -239,7 +239,7 @@ function scrollToSection(id) {
   background: #000;
   transition: left 0.3s ease;
   overflow-y: auto;
-  z-index: 50;
+  z-index: 50; /* Certifique-se de que o hamenu tem um z-index maior que o nav */
 }
 
 .hamenu.open {

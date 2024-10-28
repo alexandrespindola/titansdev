@@ -20,9 +20,9 @@
         </div>
         <div class="w-full lg:w-[40%] lg:order-last">
           <ul class="footer-primary flex flex-col gap-2 xl:flex-row xl:justify-end">
-            <NuxtLink to="/politica-de-privacidad" class="self-center">Política de Privacidad</NuxtLink>
-            <NuxtLink to="/terminos-de-uso" class="self-center">Términos de Uso</NuxtLink>
-            <NuxtLink to="/politica-de-cookies" class="self-center">Política de Coookies</NuxtLink>
+            <a href="/politica-de-privacidad" class="self-center">Política de Privacidad</a>
+            <a href="/terminos-de-uso" class="self-center">Términos de Uso</a>
+            <a href="/politica-de-cookies" class="self-center">Política de Coookies</a>
           </ul>
         </div>
       </div>

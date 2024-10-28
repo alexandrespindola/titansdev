@@ -1,8 +1,7 @@
 <template>
-  <ProgressScroll />
-  <Lines />
-  <Navbar />
+  <CommonProgressScroll />
   <div id="smooth-wrapper">
+    <Navbar />
     <div id="smooth-content">
       <main class="main-bg">
         <ServicesHeader />
@@ -17,8 +16,6 @@
   </div>
 </template>
 <script setup>
-import Lines from '@/components/common/Lines';
-import ProgressScroll from '@/components/common/ProgressScroll';
 
 useHead({
   title: 'Servicios | TitansDev',
@@ -29,12 +26,4 @@ useHead({
   ],
 });
 
-onMounted(() => {
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-  ScrollTrigger.normalizeScroll(true);
-  ScrollSmoother.create({
-    smooth: 2,
-    effects: true,
-  });
-});
 </script>
