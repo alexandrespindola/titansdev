@@ -87,25 +87,19 @@
         "../node_modules/@nuxt/ui/dist/runtime/*"
       ],
       "#ui-colors": [
-        "./ui.colors.mjs"
+        "./ui.colors"
       ],
       "#color-mode-options": [
         "./color-mode-options.mjs"
       ],
       "#mdc-configs": [
-        "./mdc-configs.mjs"
+        "./mdc-configs"
       ],
       "#mdc-highlighter": [
-        "./mdc-highlighter.mjs"
+        "./mdc-highlighter"
       ],
       "#mdc-imports": [
-        "./mdc-imports.mjs"
-      ],
-      "#nuxt-component-meta": [
-        "./component-meta.mjs"
-      ],
-      "#nuxt-component-meta/types": [
-        "./component-meta.d.ts"
+        "./mdc-imports"
       ],
       "#vue-router": [
         "../node_modules/vue-router"
@@ -116,8 +110,11 @@
       "#tailwind-config": [
         "./tailwind.config"
       ],
+      "#tailwind-config/*": [
+        "./tailwind.config/*"
+      ],
       "#app-manifest": [
-        "./manifest/meta/17472007-cfa2-41a3-a210-b33bc9938af6.json"
+        "./manifest/meta/dev.json"
       ],
       "#build": [
         "."
@@ -177,8 +174,6 @@
     "../node_modules/@nuxtjs/mdc/dist/runtime",
     "../node_modules/@nuxt/content/runtime",
     "../node_modules/@nuxt/content/dist/runtime",
-    "../node_modules/nuxt-component-meta/runtime",
-    "../node_modules/nuxt-component-meta/dist/runtime",
     "../node_modules/@nuxthq/studio/runtime",
     "../node_modules/@nuxthq/studio/dist/runtime",
     "../node_modules/@nuxtjs/strapi/runtime",
@@ -209,8 +204,6 @@
     "../node_modules/@nuxtjs/mdc/dist/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
     "../node_modules/@nuxt/content/dist/runtime/server",
-    "../node_modules/nuxt-component-meta/runtime/server",
-    "../node_modules/nuxt-component-meta/dist/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@nuxthq/studio/dist/runtime/server",
     "../node_modules/@nuxtjs/strapi/runtime/server",

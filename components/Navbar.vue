@@ -161,7 +161,6 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
 
 const isOpen = ref(false);
 
@@ -213,20 +212,11 @@ function toggleSubMenu(event) {
   }
 }
 
-function scrollToSection(id) {
-  setTimeout(
-    () =>
-      document
-        .querySelector(`[data-scroll-index="${id}"]`)
-        ?.scrollIntoView({ smooth: true }),
-    700
-  );
-}
 </script>
 
 <style lang="scss" scoped>
 .nav-crev {
-  z-index: 10; /* Certifique-se de que o nav tem um z-index menor que o hamenu */
+  z-index: 10;
 }
 
 .hamenu {
@@ -238,7 +228,7 @@ function scrollToSection(id) {
   background: #000;
   transition: left 0.3s ease;
   overflow-y: auto;
-  z-index: 50; /* Certifique-se de que o hamenu tem um z-index maior que o nav */
+  z-index: 50;
 }
 
 .hamenu.open {
