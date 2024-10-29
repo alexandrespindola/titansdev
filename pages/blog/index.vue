@@ -1,6 +1,6 @@
 <template>
-  <ProgressScroll />
-  <Lines />
+  <CommonProgressScroll />
+  <CommonLines />
   <div id="smooth-wrapper">
     <Navbar />
     <div id="smooth-content">
@@ -12,13 +12,11 @@
     </div>
   </div>
 </template>
+
 <script setup>
 
-import Lines from '@/components/common/Lines';
-import ProgressScroll from '@/components/common/ProgressScroll';
-
 useHead({
-  title: 'Blog',
+  title: 'Blog | TitansDev',
   link: [
     { rel: 'stylesheet', href: '/dark/assets/css/plugins.css' },
     { rel: 'stylesheet', href: '/dark/assets/css/satoshi.css' },
