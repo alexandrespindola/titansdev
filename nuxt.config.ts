@@ -153,6 +153,15 @@ export default defineNuxtConfig({
     },
     strapiApiToken: process.env.STRAPI_API_TOKEN,
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: "modern-compiler",
+        },
+      },
+    },
+  },
   webpack: {
     extractCSS: true,
     optimization: {

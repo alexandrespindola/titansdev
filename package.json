@@ -17,8 +17,8 @@
     "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
     "country-flag-icons": "^1.5.13",
     "i18n-iso-countries": "^7.12.0",
-    "nuxt": "^3.10.1",
-    "sass": "^1.79.5",
+    "nuxt": "^3.13.2",
+    "sass": "^1.80.4",
     "swiper": "^8.4.7",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"

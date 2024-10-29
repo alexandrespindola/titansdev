@@ -414,7 +414,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudinary/transformation-builder-sdk@npm:^1.10.0":
+"@cloudinary/transformation-builder-sdk@npm:^1.10.0, @cloudinary/transformation-builder-sdk@npm:^1.15.1":
   version: 1.15.2
   resolution: "@cloudinary/transformation-builder-sdk@npm:1.15.2"
   dependencies:
@@ -423,12 +423,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudinary/url-gen@npm:1.15.0, @cloudinary/url-gen@npm:^1.7.0":
+"@cloudinary/url-gen@npm:1.15.0":
   version: 1.15.0
   resolution: "@cloudinary/url-gen@npm:1.15.0"
   dependencies:
     "@cloudinary/transformation-builder-sdk": "npm:^1.10.0"
   checksum: 10c0/4b50b690f40b117068d7396906e9bbda36bd4b8e6143bbc8ad57709cf18f7b3953611a414f56f6551680277e683c3e82f581b01d67e6d06ff88125f8c8f447d6
+  languageName: node
+  linkType: hard
+
+"@cloudinary/url-gen@npm:^1.7.0":
+  version: 1.21.0
+  resolution: "@cloudinary/url-gen@npm:1.21.0"
+  dependencies:
+    "@cloudinary/transformation-builder-sdk": "npm:^1.15.1"
+  checksum: 10c0/e8b776c0f116a53830b55322f2c23475d7da633bd11b9863dfb4cca1ef82ebc25b1a201f40bf70ecf955d111f295eebae1774d44743d09fc8dbe429334313044
   languageName: node
   linkType: hard
 
@@ -2281,11 +2290,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:^22.7.4":
-  version: 22.8.3
-  resolution: "@types/node@npm:22.8.3"
+  version: 22.8.4
+  resolution: "@types/node@npm:22.8.4"
   dependencies:
     undici-types: "npm:~6.19.8"
-  checksum: 10c0/7c67c1cd19388caf227f3c5aa290c163ddc6587e899fe67d1276a83d8233340dd08a88ef1836e86259cd402494953c5e2d79b175b98f1505afcafa65ec0c43b6
+  checksum: 10c0/f88d030480630194a9168772462ec09b2d86454f34368c46d2b7fda5dc6e14594b1576fcc5c35cc53b57a4d1e8dd2865a85ae81f34ded0d1af753a0f5d294c25
   languageName: node
   linkType: hard
 
@@ -2617,7 +2626,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/devtools-kit@npm:7.4.4, @vue/devtools-kit@npm:^7.4.4":
+"@vue/devtools-kit@npm:7.4.4":
   version: 7.4.4
   resolution: "@vue/devtools-kit@npm:7.4.4"
   dependencies:
@@ -2632,7 +2641,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/devtools-shared@npm:^7.4.4":
+"@vue/devtools-kit@npm:^7.4.4":
+  version: 7.5.6
+  resolution: "@vue/devtools-kit@npm:7.5.6"
+  dependencies:
+    "@vue/devtools-shared": "npm:^7.5.6"
+    birpc: "npm:^0.2.19"
+    hookable: "npm:^5.5.3"
+    mitt: "npm:^3.0.1"
+    perfect-debounce: "npm:^1.0.0"
+    speakingurl: "npm:^14.0.1"
+    superjson: "npm:^2.2.1"
+  checksum: 10c0/578c044be4e7cee5a4536b006bc2afda6180f871381e6ead06e777a850b616ee1d7da2044d7aa660d7e562723db6f7eae7838c37afe28557d8e6a157a15760f1
+  languageName: node
+  linkType: hard
+
+"@vue/devtools-shared@npm:^7.4.4, @vue/devtools-shared@npm:^7.5.6":
   version: 7.5.6
   resolution: "@vue/devtools-shared@npm:7.5.6"
   dependencies:
@@ -3180,7 +3204,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"birpc@npm:^0.2.17":
+"birpc@npm:^0.2.17, birpc@npm:^0.2.19":
   version: 0.2.19
   resolution: "birpc@npm:0.2.19"
   checksum: 10c0/be3c6a4044e3041a5d8eb4c4d50b57b46158dc8149ada718ead20544e50b68b72b34c9d8bf0457d23d5f18e5a66d206b8bef5ff22c1018e1e39d373187eed455
@@ -7054,14 +7078,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minipass@npm:^5.0.0, minipass@npm:^5.0.0 || ^6.0.2 || ^7.0.0":
+"minipass@npm:^5.0.0":
   version: 5.0.0
   resolution: "minipass@npm:5.0.0"
   checksum: 10c0/a91d8043f691796a8ac88df039da19933ef0f633e3d7f0d35dcd5373af49131cf2399bfc355f41515dc495e3990369c3858cd319e5c2722b4753c90bf3152462
   languageName: node
   linkType: hard
 
-"minipass@npm:^7.0.2, minipass@npm:^7.0.3, minipass@npm:^7.1.2":
+"minipass@npm:^5.0.0 || ^6.0.2 || ^7.0.0, minipass@npm:^7.0.2, minipass@npm:^7.0.3, minipass@npm:^7.1.2":
   version: 7.1.2
   resolution: "minipass@npm:7.1.2"
   checksum: 10c0/b0fd20bb9fb56e5fa9a8bfac539e8915ae07430a619e4b86ff71f5fc757ef3924b23b2c4230393af1eda647ed3d75739e4e0acb250a6b1eb277cf7f8fe449557
@@ -7489,7 +7513,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt@npm:^3.10.1":
+"nuxt@npm:^3.13.2":
   version: 3.13.2
   resolution: "nuxt@npm:3.13.2"
   dependencies:
@@ -8935,7 +8959,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.79.5":
+"sass@npm:^1.80.4":
   version: 1.80.4
   resolution: "sass@npm:1.80.4"
   dependencies:
@@ -9710,8 +9734,8 @@ __metadata:
     "@zadigetvoltaire/nuxt-gtm": "npm:^0.0.13"
     country-flag-icons: "npm:^1.5.13"
     i18n-iso-countries: "npm:^7.12.0"
-    nuxt: "npm:^3.10.1"
-    sass: "npm:^1.79.5"
+    nuxt: "npm:^3.13.2"
+    sass: "npm:^1.80.4"
     swiper: "npm:^8.4.7"
     vue: "npm:^3.4.15"
     vue-router: "npm:^4.2.5"
