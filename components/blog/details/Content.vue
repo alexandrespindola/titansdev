@@ -5,10 +5,9 @@
         <div class="w-[72%]">
           <div class="main-post">
             <div class="item pb-60">
-              <article>
-                <div class="text">
-                  {{ post.content }}
-                </div>
+              <article class="md">
+                <div v-if="parsedContent" v-html="parsedContent"></div>
+                <div v-else>Conteúdo não disponível</div>
               </article>
             </div>
             <div class="info-area flex pt-50 bord-thin-top">
@@ -61,19 +60,80 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
+import MarkdownIt from 'markdown-it';
 
-defineProps({
+const props = defineProps({
   post: {
     type: Object,
     required: true
   }
 });
 
+const md = new MarkdownIt();
+const parsedContent = ref('');
+
+onMounted(() => {
+  console.log('Post content:', props.post.content);
+  if (props.post.content) {
+    parsedContent.value = md.render(props.post.content);
+    console.log('Parsed content:', parsedContent.value);
+  } else {
+    console.log('Post content is empty or undefined');
+  }
+});
 </script>
+
+<style lang="scss" scoped>
+
+.md {
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1em;
+    margin-left: 0;
+    font-style: italic;
+  }
+
+  pre {
+    background-color: #f4f4f4;
+    padding: 1em;
+    overflow-x: auto;
+
+  }
+
+  ul,
+  ol {
+    margin-bottom: 1em;
+    padding-left: 2em;
+  }
+}
+</style>
