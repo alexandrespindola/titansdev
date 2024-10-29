@@ -2,11 +2,11 @@
   <section class="blog section-padding">
     <div class="container">
       <div class="row xlg-marg justify-center">
-        <div class="w-[72%]">
+        <div class=" max-w-6xl">
           <div class="main-post">
             <div class="item pb-60">
-              <article class="md">
-                <div v-if="parsedContent" v-html="parsedContent"></div>
+              <article>
+                <div v-if="parsedContent" v-html="parsedContent" class="md-content"></div>
                 <div v-else>Conteúdo não disponível</div>
               </article>
             </div>
@@ -89,9 +89,8 @@ onMounted(() => {
 });
 </script>
 
-<style lang="scss" scoped>
-
-.md {
+<style lang="scss">
+.md-content {
   h1 {
     font-size: 2em;
     margin-bottom: 0.5em;
@@ -112,7 +111,7 @@ onMounted(() => {
   }
 
   img {
-    max-width: 100%;
+    max-width: 600px;
     height: auto;
   }
 
@@ -121,13 +120,6 @@ onMounted(() => {
     padding-left: 1em;
     margin-left: 0;
     font-style: italic;
-  }
-
-  pre {
-    background-color: #f4f4f4;
-    padding: 1em;
-    overflow-x: auto;
-
   }
 
   ul,
