@@ -6,7 +6,7 @@
           <div class="cont flex flex-col">
             <h6 class="sub-title main-color mb-15">Qué Hacemos</h6>
             <h3>
-              Déjenos hacer el trabajo con la tecnología, para que tú puedas centrarse en lo importante de tu negócio.
+              Déjenos hacer el trabajo con la tecnología, para que usted pueda centrarse en lo importante de su negocio.
             </h3>
             <div class="d-flex align-items-end mt-4 gap-x-8">
               <div class="hidden sm:block">
