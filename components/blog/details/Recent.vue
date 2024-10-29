@@ -1,5 +1,5 @@
 <template>
-  <section class="blog-list-half section-padding sub-bg">
+  <section class="blog-list-half section-padding sub-main-bg">
     <div class="container">
       <div class="sec-head mb-80">
         <h6 class="sub-title main-color mb-25">Our Blog</h6>

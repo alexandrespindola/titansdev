@@ -4,18 +4,15 @@
     <Navbar />
     <div id="smooth-content">
       <main class="main-bg">
-        <Slider />
-        <Blog />
-        <Recent />
+        <BlogDetailsSlider />
+        <BlogDetailsBlog />
+        <BlogDetailsRecent />
       </main>
-      <FooterTertiary />
+      <FooterPrimary />
     </div>
   </div>
 </template>
 <script setup>
-import Recent from '@/components/dark/blog-details/Recent';
-import Blog from '@/components/dark/blog-details/Blog';
-import Slider from '@/components/dark/blog-details/Slider';
 
 useHead({
   title: 'Post',

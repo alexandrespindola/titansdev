@@ -1,19 +1,26 @@
 <template>
   <div id="smooth-wrapper">
     <div id="smooth-content">
+      <Navbar />
       <main class="main-bg">
-        <h1>{{ post.title || 'Post' }}</h1>
+        <BlogDetailsSlider :post="post" />
+        <BlogDetailsContent :post="post" />
+        <BlogDetailsRecent :post="post" />
+        <!-- <h1>{{ post.title || 'Post' }}</h1>
         <h2>{{ post.subtitle }}</h2>
         <p>{{ post.content }}</p>
         <p>{{ post.category.category }}</p>
         <p>{{ post.author.name }}</p> 
-        <img v-if="post?.cover_image?.url" :src="post.cover_image.url" alt="hello">
+        <img v-if="post?.cover_image?.url" :src="post.cover_image.url" alt="hello">-->
       </main>
+      <Contact />
+      <FooterPrimary />
     </div>
   </div>
 </template>
 
 <script setup>
+
 const config = useRuntimeConfig();
 const route = useRoute();
 const post = ref(null);
@@ -48,12 +55,4 @@ useHead({
   ],
 });
 
-onMounted(() => {
-  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-  ScrollTrigger.normalizeScroll(true);
-  ScrollSmoother.create({
-    smooth: 2,
-    effects: true,
-  });
-});
 </script>
