@@ -1,26 +1,16 @@
 <template>
-  <div id="smooth-wrapper">
-    <div id="smooth-content">
-      <Navbar />
-      <main class="main-bg">
-        <BlogDetailsSlider :post="post" />
-        <BlogDetailsContent :post="post" />
-        <BlogDetailsRecent :post="post" />
-        <!-- <h1>{{ post.title || 'Post' }}</h1>
-        <h2>{{ post.subtitle }}</h2>
-        <p>{{ post.content }}</p>
-        <p>{{ post.category.category }}</p>
-        <p>{{ post.author.name }}</p> 
-        <img v-if="post?.cover_image?.url" :src="post.cover_image.url" alt="hello">-->
-      </main>
-      <Contact />
-      <FooterPrimary />
-    </div>
-  </div>
+  <CommonProgressScroll />
+  <Navbar />
+  <main class="main-bg">
+    <BlogDetailsSlider :post="post" />
+    <BlogDetailsContent :post="post" />
+    <BlogDetailsRecent :post="post" />
+  </main>
+  <Contact />
+  <FooterPrimary />
 </template>
 
 <script setup>
-
 const config = useRuntimeConfig();
 const route = useRoute();
 const post = ref(null);
@@ -54,5 +44,4 @@ useHead({
     { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
   ],
 });
-
 </script>

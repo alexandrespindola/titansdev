@@ -1,20 +1,14 @@
 <template>
   <CommonProgressScroll />
-  <CommonLines />
-  <div id="smooth-wrapper">
-    <Navbar />
-    <div id="smooth-content">
-      <main class="main-bg">
-        <BlogHeader />
-        <BlogList />
-      </main>
-      <FooterPrimary />
-    </div>
-  </div>
+  <Navbar />
+  <main class="main-bg">
+    <BlogHeader />
+    <BlogList />
+  </main>
+  <FooterPrimary />
 </template>
 
 <script setup>
-
 useHead({
   title: 'Blog | TitansDev',
   link: [
@@ -23,5 +17,4 @@ useHead({
     { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
   ],
 });
-
 </script>

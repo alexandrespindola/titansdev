@@ -1,24 +1,19 @@
 <template>
-  <div id="smooth-wrapper">
-    <Navbar />
-    <div id="smooth-content">
-      <main class="main-bg o-hidden">
-        <HeroMain />
-        <Services />
-        <About />
-        <Marquee />
-        <Portfolio />
-        <Skills />
-        <Tech />
-        <Contact />
-      </main>
-      <FooterPrimary />
-    </div>
-  </div>
+  <Navbar />
+  <main class="main-bg o-hidden">
+    <HeroMain />
+    <Services />
+    <About />
+    <Marquee />
+    <Portfolio />
+    <Skills />
+    <Tech />
+    <Contact />
+  </main>
+  <FooterPrimary />
 </template>
 
 <script setup>
-
 useHead({
   title: 'TitansDev | Agencia Digital',
   link: [
@@ -27,5 +22,4 @@ useHead({
     { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
   ],
 });
-
 </script>

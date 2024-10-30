@@ -1,8 +1,6 @@
 <template>
   <CommonProgressScroll />
-  <div id="smooth-wrapper">
     <Navbar />
-    <div id="smooth-content">
       <main class="main-bg">
         <ServicesHeader />
         <ServicesSpecialize />
@@ -12,11 +10,9 @@
         <Contact />
       </main>
       <FooterPrimary />
-    </div>
-  </div>
 </template>
-<script setup>
 
+<script setup>
 useHead({
   title: 'Servicios | TitansDev',
   link: [
@@ -25,5 +21,4 @@ useHead({
     { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
   ],
 });
-
 </script>

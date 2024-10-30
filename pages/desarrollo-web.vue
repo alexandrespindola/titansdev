@@ -1,21 +1,17 @@
 <template>
   <CommonProgressScroll />
-  <div id="smooth-wrapper">
-    <Navbar />
-    <div id="smooth-content">
-      <main class="main-bg">
-        <ServicesDetailsHeader />
-        <ServicesDetailsServices />
-        <ServicesDetailsProcess />
-        <ServicesDetailsFAQS />
-        <Contact/>
-      </main>
-      <FooterPrimary />
-    </div>
-  </div>
+  <Navbar />
+  <main class="main-bg">
+    <ServicesDetailsHeader />
+    <ServicesDetailsServices />
+    <ServicesDetailsProcess />
+    <ServicesDetailsFAQS />
+    <Contact />
+  </main>
+  <FooterPrimary />
 </template>
-<script setup>
 
+<script setup>
 useHead({
   title: 'Desarrollo Web | TitansDev',
   link: [
@@ -24,5 +20,4 @@ useHead({
     { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
   ],
 });
-
 </script>

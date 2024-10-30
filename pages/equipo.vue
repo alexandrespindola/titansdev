@@ -1,15 +1,12 @@
 <template>
   <CommonProgressScroll />
-  <div id="smooth-wrapper">
-    <Navbar />
-    <div id="smooth-content">
-      <main class="main-bg">
-        <Header />
-        <Team />
-      </main>
-    </div>
-  </div>
+  <Navbar />
+  <main class="main-bg">
+    <Header />
+    <Team />
+  </main>
 </template>
+
 <script setup>
 import Header from '@/components/dark/team/Header';
 import Team from '@/components/dark/team/Team';
@@ -22,5 +19,4 @@ useHead({
     { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
   ],
 });
-
 </script>

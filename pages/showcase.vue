@@ -1,10 +1,9 @@
 <template>
   <Interactive />
-  <Header />
+  <DarkShowcaseFullscreenHeader />
 </template>
-<script setup>
-import Interactive from '@/components/dark/interactive-full/Interactive';
 
+<script setup>
 useHead({
   title: 'Showcase',
   link: [

@@ -1,20 +1,16 @@
 <template>
   <CommonProgressScroll />
-  <div id="smooth-wrapper">
-    <Navbar />
-    <div id="smooth-content">
-      <main class="main-bg">
-        <ServicesDetailsHeader />
-        <ServicesDetailsServices />
-        <ServicesProcess/>
-        <ServicesDetailsFAQS />
-      </main>
-      <FooterPrimary />
-    </div>
-  </div>
+  <Navbar />
+  <main class="main-bg">
+    <ServicesDetailsHeader />
+    <ServicesDetailsServices />
+    <ServicesProcess />
+    <ServicesDetailsFAQS />
+  </main>
+  <FooterPrimary />
 </template>
-<script setup>
 
+<script setup>
 useHead({
   title: 'Servicio',
   link: [
@@ -23,5 +19,4 @@ useHead({
     { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
   ],
 });
-
 </script>

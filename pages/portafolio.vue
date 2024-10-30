@@ -1,16 +1,13 @@
 <template>
   <CommonProgressScroll />
-  <div id="smooth-wrapper">
-    <Navbar />
-    <div id="smooth-content">
-      <main class="main-bg">
-        <Header />
-        <Portfolio />
-      </main>
-      <FooterTertiary />
-    </div>
-  </div>
+  <Navbar />
+  <main class="main-bg">
+    <Header />
+    <Portfolio />
+  </main>
+  <FooterTertiary />
 </template>
+
 <script setup>
 import Header from '@/components/dark/portfolio/Header';
 import Portfolio from '@/components/dark/portfolio/Portfolio';
@@ -23,5 +20,4 @@ useHead({
     { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
   ],
 });
-
 </script>
