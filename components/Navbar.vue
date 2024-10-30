@@ -77,13 +77,6 @@
                     <li>
                       <div class="o-hidden">
                         <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
-                          <span data-text="Apps Móviles"> Apps Móviles </span>
-                        </NuxtLink>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="o-hidden">
-                        <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
                           <span data-text="Automatización de Workflows">Automatización de Workflows
                           </span>
                         </NuxtLink>
