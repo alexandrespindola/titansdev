@@ -14,17 +14,17 @@
               <h3>FAQ (Preguntas Frecuentes)</h3>
             </div>
             <UAccordion :items="faqItems" :ui="{ wrapper: 'flex flex-col w-full' }">
-              <template #default="{ item, index, open }">
+              <template #default="{ item, open }">
                 <div class="border-b border-[#252525] ">
-                  <UButton color="black" variant="ghost" class="w-full flex flex-row gap-3"
+                  <UButton color="black" variant="ghost" class="w-full flex flex-row gap-3 justify-start"
                     :ui="{ rounded: 'rounded-none', padding: { sm: 'p-3' } }">
                     <template #leading>
                       <div
-                        class="w-12 h-12 rounded-full bg-transparent flex items-center justify-center -my-1">
+                        class="w-12 rounded-full bg-transparent flex flex-row -my-1">
                         <UIcon :name="item.icon" class="w-7 h-7 text-[#40ea1e]" />
                       </div>
                     </template>
-                    <span class="truncate text-xl">{{ item.label }}</span>
+                    <span class="text-left text-xl">{{ item.label }}</span>
                     <template #trailing>
                       <UIcon name="i-heroicons-chevron-right-20-solid"
                         class="w-5 h-5 ms-auto transform transition-transform duration-200"
