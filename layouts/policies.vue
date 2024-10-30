@@ -16,8 +16,12 @@
 </template>
 
 <script setup>
+
+definePageMeta({
+  layout: 'default'
+})
+
 useHead({
-  title: 'Política de Privacidad',
   link: [
     { rel: 'stylesheet', href: '/dark/assets/css/plugins.css' },
     { rel: 'stylesheet', href: '/dark/assets/css/satoshi.css' },

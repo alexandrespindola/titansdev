@@ -1,5 +1,12 @@
 <template>
+  <CommonProgressScroll />
+  <header>
+    <Navbar />
+  </header>
   <slot />
+  <footer>
+    <FooterPrimary />
+  </footer>
 </template>
 
 <script setup>
@@ -11,6 +18,15 @@ onMounted(() => {
   script.async = true;
   document.head.appendChild(script);
 });
+
+useHead({
+  link: [
+    { rel: 'stylesheet', href: '/dark/assets/css/plugins.css' },
+    { rel: 'stylesheet', href: '/dark/assets/css/satoshi.css' },
+    { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
+  ],
+});
+
 </script>
 
 <style scoped>

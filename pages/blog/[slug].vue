@@ -1,13 +1,10 @@
 <template>
-  <CommonProgressScroll />
-  <Navbar />
   <main class="main-bg">
     <BlogDetailsSlider :post="post" />
     <BlogDetailsContent :post="post" />
     <BlogDetailsRecent :post="post" />
   </main>
   <Contact />
-  <FooterPrimary />
 </template>
 
 <script setup>
@@ -38,10 +35,5 @@ if (data.value && data.value.data && data.value.data.length > 0) {
 
 useHead({
   title: post.value?.title || 'Post',
-  link: [
-    { rel: 'stylesheet', href: '/dark/assets/css/plugins.css' },
-    { rel: 'stylesheet', href: '/dark/assets/css/satoshi.css' },
-    { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
-  ],
 });
 </script>

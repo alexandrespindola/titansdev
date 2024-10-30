@@ -1,6 +1,4 @@
 <template>
-  <CommonProgressScroll />
-  <Navbar />
   <main class="main-bg">
     <Header />
     <Challenge />
@@ -9,7 +7,6 @@
     <Works2 />
     <Next />
   </main>
-  <FooterPrimary />
 </template>
 
 <script setup>
@@ -22,10 +19,5 @@ import Works2 from '@/components/dark/project/Works2';
 
 useHead({
   title: 'Proyecto',
-  link: [
-    { rel: 'stylesheet', href: '/dark/assets/css/plugins.css' },
-    { rel: 'stylesheet', href: '/dark/assets/css/satoshi.css' },
-    { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
-  ]
 });
 </script>

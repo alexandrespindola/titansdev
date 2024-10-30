@@ -43,7 +43,7 @@
           <div class="menu-links">
             <ul class="main-menu rest">
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
-                <div class="o-hidden ">
+                <div class="o-hidden">
                   <NuxtLink to="https://titansdev.es" class="link cursor-pointer dmenu ">
                     <span class="fill-text" data-text="Home"> Home </span>
                   </NuxtLink>
