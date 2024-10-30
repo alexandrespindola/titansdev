@@ -47,14 +47,14 @@
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
                   <NuxtLink to="/" class="link cursor-pointer dmenu" @click="closeMenu">
-                    <span class="fill-text" data-text="Home">Home</span>
+                    <span data-text="Home">Home</span>
                   </NuxtLink>
                 </div>
               </li>
               <li @click="toggleSubMenu" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
                   <div class="link cursor-pointer dmenu">
-                    <span class="fill-text" data-text="Servicios">Servicios</span>
+                    <span data-text="Servicios">Servicios</span>
                     <i></i>
                   </div>
                 </div>
@@ -63,28 +63,28 @@
                     <li>
                       <div class="o-hidden">
                         <NuxtLink to="/desarrollo-web" class="link cursor-pointer sub-dmenu" @click="closeMenu">
-                          <span class="fill-text" data-text="Páginas Web"> Páginas Web </span>
+                          <span data-text="Páginas Web"> Páginas Web </span>
                         </NuxtLink>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
                         <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
-                          <span class="fill-text" data-text="Sistemas Web"> Sistemas Web </span>
+                          <span data-text="Sistemas Web"> Sistemas Web </span>
                         </NuxtLink>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
                         <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
-                          <span class="fill-text" data-text="Apps Móviles"> Apps Móviles </span>
+                          <span data-text="Apps Móviles"> Apps Móviles </span>
                         </NuxtLink>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
                         <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
-                          <span class="fill-text" data-text="Automatización de Workflows"> Automatización de Workflows
+                          <span data-text="Automatización de Workflows">Automatización de Workflows
                           </span>
                         </NuxtLink>
                       </div>
@@ -92,14 +92,14 @@
                     <li>
                       <div class="o-hidden">
                         <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
-                          <span class="fill-text" data-text="Marketing Digital"> Marketing Digital </span>
+                          <span data-text="Marketing Digital"> Marketing Digital </span>
                         </NuxtLink>
                       </div>
                     </li>
                     <li>
                       <div class="o-hidden">
                         <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
-                          <span class="fill-text" data-text="Google Mi Negócio"> Google Mi Negócio </span>
+                          <span data-text="Google Mi Negócio"> Google Mi Negócio </span>
                         </NuxtLink>
                       </div>
                     </li>
@@ -109,14 +109,14 @@
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
                   <NuxtLink to="/quienes-somos" class="link cursor-pointer dmenu" @click="closeMenu">
-                    <span class="fill-text" data-text="Quienes Somos">Quiénes Somos</span>
+                    <span data-text="Quienes Somos">Quiénes Somos</span>
                   </NuxtLink>
                 </div>
               </li>
               <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                 <div class="o-hidden">
                   <NuxtLink to="/contacto" class="link cursor-pointer dmenu" @click="closeMenu">
-                    <span class="fill-text" data-text="Contacto Us">Contacto</span>
+                    <span data-text="Contacto Us">Contacto</span>
                   </NuxtLink>
                 </div>
               </li>
