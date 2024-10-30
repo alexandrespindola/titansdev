@@ -5,7 +5,7 @@ description: Nuestra Política de Privacidad Detallada
 
 # Política de Privacidad
 
-En <span class="highlight">TitansDev</span>, con CIF: {NÚMERO_CIF}, dirección postal: Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170, y correo electrónico: <span class="highlight">contacto@titansdev.es</span>, nos comprometemos a proteger la privacidad y los datos personales de nuestros clientes y usuarios. Esta política describe cómo recopilamos, utilizamos y protegemos su información personal en cumplimiento con el Reglamento General de Protección de Datos (GDPR) y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.
+En <span class="highlight">TitansDev</span>, Denominación Social "PATIÑO VERA HECTOR ARVEY", con CIF: X8420329Y, dirección postal: Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170, y correo electrónico: <span class="highlight">contacto@titansdev.es</span>, nos comprometemos a proteger la privacidad y los datos personales de nuestros clientes y usuarios. Esta política describe cómo recopilamos, utilizamos y protegemos su información personal en cumplimiento con el Reglamento General de Protección de Datos (GDPR) y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.
 
 ## Información que Recopilamos
 
@@ -86,4 +86,4 @@ Podemos actualizar esta política ocasionalmente. Le notificaremos sobre cualqui
 
 Si no desea recibir comunicaciones comerciales, puede darse de baja enviando un correo electrónico a <span class="highlight">contacto@titansdev.es</span> con el asunto "BAJA".
 <br><br>
-**Última actualización:** 24 de octubre de 2024
+**Última actualización:** 30 de octubre de 2024

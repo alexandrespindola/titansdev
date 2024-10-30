@@ -5,11 +5,11 @@ description: Nuestros Términos de Uso
 
 # Términos de Uso
 
-Bienvenido al sitio web de <span class="highlight">TitansDev</span>, con CIF: {NÚMERO_CIF}, dirección postal: Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170, y correo electrónico: <span class="highlight">contacto@titansdev.es</span>. Al acceder y utilizar este sitio, usted acepta cumplir con los siguientes términos y condiciones:
+Bienvenido al sitio web de <span class="highlight">TitansDev</span>. Al acceder y utilizar este sitio, usted acepta cumplir con los siguientes términos y condiciones:
 
 ## Datos Identificativos
 
-Esta página web es propiedad de <span class="highlight">TitansDev</span>, inscrita en el Registro Mercantil de {CIUDAD}, Tomo {NÚMERO}, Folio {NÚMERO}, Sección {NÚMERO}, Hoja {NÚMERO}.
+Esta página web es propiedad de <span class="highlight">TitansDev</span>, Denominación Social "PATIÑO VERA HECTOR ARVEY", con CIF: X8420329Y, dirección postal: Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170, y correo electrónico: <span class="highlight">contacto@titansdev.es</span>
 
 ## Usuarios
 
@@ -63,4 +63,4 @@ Este sitio web dirige sus servicios a usuarios mayores de 18 años. Los menores 
 
 <span class="highlight">TitansDev</span> ha contratado para su sitio web un certificado SSL ("Secure Sockets Layer") para proteger la información personal y confidencial.
 <br><br>
-**Última actualización:** 24 de octubre de 2024.
+**Última actualización:** 30 de octubre de 2024.
