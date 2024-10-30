@@ -17,10 +17,6 @@
 
 <script setup>
 
-definePageMeta({
-  layout: 'default'
-})
-
 useHead({
   link: [
     { rel: 'stylesheet', href: '/dark/assets/css/plugins.css' },
