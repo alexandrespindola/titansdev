@@ -28,11 +28,15 @@
             </div>
             <div class="phone fz-30 fw-600 mt-30 main-color">
               <NuxtLink to="https://wa.me/+34642887239" target="_blank">
-              <div class="phone text-3xl lg:text-4xl fw-600 main-color flex flex-row gap-3 items-center">
-                <UIcon name="logos:whatsapp-icon" />
-                +34 642 887 239
+                <div class="phone text-3xl lg:text-4xl fw-600 main-color flex flex-row gap-3 items-center">
+                  <UIcon name="logos:whatsapp-icon" />
+                  +34 642 887 239
+                </div>
+              </NuxtLink>
+              <div class=" flex flex-row">
+                <CommonButtonsCtaCita />
               </div>
-            </NuxtLink>
+
             </div>
             <ul class="rest social-text d-flex mt-60">
               <li class="mr-30">
