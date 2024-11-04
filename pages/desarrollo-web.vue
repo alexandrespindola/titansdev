@@ -2,6 +2,7 @@
   <main class="main-bg">
     <ServicesDetailsHeader />
     <ServicesDetailsServices />
+    <ServicesDetailsPricing />
     <ServicesDetailsProcess />
     <ServicesDetailsFAQS />
     <Contact />

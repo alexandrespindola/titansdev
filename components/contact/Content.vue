@@ -33,10 +33,7 @@
                   +34 642 887 239
                 </div>
               </NuxtLink>
-              <div class=" flex flex-row">
-                <CommonButtonsCtaCita />
-              </div>
-
+              <CommonButtonsCtaCita />
             </div>
             <ul class="rest social-text d-flex mt-60">
               <li class="mr-30">
