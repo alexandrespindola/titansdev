@@ -30,7 +30,7 @@
   </footer>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .footer-primary {
   @media screen and (min-width: 1280px) {
     @apply gap-8 !important;

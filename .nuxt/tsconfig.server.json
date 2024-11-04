@@ -32,9 +32,6 @@
         "../*",
         "../*"
       ],
-      "nitropack/types": [
-        "../node_modules/nitropack/types"
-      ],
       "nitropack": [
         "../node_modules/nitropack"
       ],
@@ -71,6 +68,9 @@
       "nuxt": [
         "../node_modules/nuxt"
       ],
+      "#internal/nuxt/paths": [
+        "../node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
       "~": [
         "./.."
       ],
@@ -83,9 +83,6 @@
       "@@": [
         "./.."
       ],
-      "#shared": [
-        "../shared"
-      ],
       "assets": [
         "../assets"
       ],
@@ -94,15 +91,6 @@
       ],
       "public/*": [
         "../public/*"
-      ],
-      "#build": [
-        "./"
-      ],
-      "#build/*": [
-        "./*"
-      ],
-      "#internal/nuxt/paths": [
-        "../node_modules/nuxt/dist/core/runtime/nitro/paths"
       ],
       "#ui": [
         "../node_modules/@nuxt/ui/dist/runtime"
@@ -124,12 +112,6 @@
       ],
       "#mdc-imports": [
         "./mdc-imports"
-      ],
-      "#nuxt-component-meta": [
-        "./component-meta"
-      ],
-      "#nuxt-component-meta/types": [
-        "./component-meta.d"
       ],
       "#vue-router": [
         "./vue-router"
@@ -163,7 +145,6 @@
     "../node_modules/@zadigetvoltaire/nuxt-gtm/runtime/server",
     "../node_modules/@nuxtjs/mdc/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
-    "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@nuxtjs/strapi/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",

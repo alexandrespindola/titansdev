@@ -1,30 +1,14 @@
 <template>
-  <CommonProgressScroll />
-  <div class="policies">
-    <header>
-      <Navbar />
-    </header>
-    <main class="flex flex-col items-center content-center">
-      <div class="max-w-3xl">
-        <slot />
-      </div>
-    </main>
-    <footer>
-      <FooterPrimary />
-    </footer>
-  </div>
+  <NuxtLayout name="default">
+    <div class="policies">
+      <main class="flex flex-col items-center content-center">
+        <div class="max-w-3xl">
+          <slot />
+        </div>
+      </main>
+    </div>
+  </NuxtLayout>
 </template>
-
-<script setup>
-
-useHead({
-  link: [
-    { rel: 'stylesheet', href: '/dark/assets/css/plugins.css' },
-    { rel: 'stylesheet', href: '/dark/assets/css/satoshi.css' },
-    { rel: 'stylesheet', href: '/dark/assets/css/style.css' },
-  ],
-});
-</script>
 
 <style lang="scss">
 @use "@/public/dark/assets/scss/utility/variables" as vars;

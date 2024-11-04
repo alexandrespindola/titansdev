@@ -10,9 +10,7 @@
         <h3 class="mt-2 text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Elija el mejor plan
           para usted</h3>
       </div>
-      <p class="mx-auto mt-6 max-w-2xl text-pretty text-center">Elija un plan asequible con las mejores funciones para
-        atraer a su público, fidelizar a sus clientes e impulsar las ventas.</p>
-      <!-- <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2"> -->
+      <p class="mx-auto mt-6 max-w-2xl text-pretty text-center">Elija un plan asequible con las mejores funciones para atraer a su público, fidelizar a sus clientes e impulsar las ventas.</p>
       <div
         class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-7xl lg:grid-cols-3">
         <div v-for="(tier, tierIdx) in tiers" :key="tier.id"

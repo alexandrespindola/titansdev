@@ -121,9 +121,9 @@ export default defineNuxtConfig({
       mode: "out-in",
     },
   },
-  build: {
+/*   build: {
     transpile: ['markdown-it'],
-  },
+  }, */
   css: [
     "swiper/css/bundle",
     "@/styles/globals.css",

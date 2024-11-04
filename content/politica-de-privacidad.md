@@ -1,11 +1,10 @@
 ---
-title: Política de Privacidad
 description: Nuestra Política de Privacidad Detallada
 ---
 
 # Política de Privacidad
 
-En <span class="highlight">TitansDev</span>, Denominación Social "PATIÑO VERA HECTOR ARVEY", con CIF: X8420329Y, dirección postal: Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170, y correo electrónico: <span class="highlight">contacto@titansdev.es</span>, nos comprometemos a proteger la privacidad y los datos personales de nuestros clientes y usuarios. Esta política describe cómo recopilamos, utilizamos y protegemos su información personal en cumplimiento con el Reglamento General de Protección de Datos (GDPR) y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.
+En TitansDev, Denominación Social "PATIÑO VERA HECTOR ARVEY", con CIF: X8420329Y, dirección postal: Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170, y correo electrónico: [contacto@titansdev.es], nos comprometemos a proteger la privacidad y los datos personales de nuestros clientes y usuarios. Esta política describe cómo recopilamos, utilizamos y protegemos su información personal en cumplimiento con el Reglamento General de Protección de Datos (GDPR) y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.
 
 ## Información que Recopilamos
 
@@ -18,7 +17,8 @@ Recopilamos los siguientes tipos de datos personales:
 
 ## Finalidades del Tratamiento
 
-### Usuarios/navegantes de la página web:
+### Usuarios/navegantes de la página web
+
 - Atender solicitudes, quejas e incidencias.
 - Detectar y prevenir posibles ataques informáticos.
 - Cumplir con obligaciones legales aplicables.
@@ -27,7 +27,8 @@ Recopilamos los siguientes tipos de datos personales:
 - Gestionar presupuestos y citas solicitados.
 - Administrar su actividad en nuestro blog/foro.
 
-### Clientes:
+### Clientes
+
 - Gestionar la relación comercial y prestar los servicios contratados.
 - Realizar gestiones administrativas, contables y fiscales.
 - Realizar encuestas de calidad y sorteos (en su caso).
@@ -51,6 +52,7 @@ No tomamos decisiones automatizadas ni elaboramos perfiles con sus datos persona
 ## Destinatarios de los Datos
 
 Podemos compartir sus datos con:
+
 - Autoridades judiciales y administrativas.
 - Fuerzas y Cuerpos de Seguridad del Estado.
 - Bancos y entidades financieras (en caso de contratación).
@@ -63,6 +65,7 @@ No realizamos transferencias internacionales de datos.
 ## Sus Derechos
 
 Usted tiene derecho a:
+
 - Acceder a sus datos personales.
 - Rectificar datos inexactos.
 - Solicitar la supresión de sus datos.
@@ -70,9 +73,9 @@ Usted tiene derecho a:
 - Solicitar la portabilidad de sus datos.
 - Retirar el consentimiento prestado.
 
-Para ejercer estos derechos, puede contactarnos en <span class="highlight">contacto@titansdev.es</span> o en nuestra dirección postal, adjuntando una copia de su DNI o documento equivalente.
+Para ejercer estos derechos, puede contactarnos en [contacto@titansdev.es] o en nuestra dirección postal, adjuntando una copia de su DNI o documento equivalente.
 
-Si considera que sus derechos no han sido debidamente atendidos, puede presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).
+Si considera que sus derechos no han sido debidamente atendidos, puede presentar una reclamación ante la Agencia Española de Protección de Datos ([www.aepd.es]).
 
 ## Veracidad de los Datos
 
@@ -84,6 +87,6 @@ Podemos actualizar esta política ocasionalmente. Le notificaremos sobre cualqui
 
 ## Baja de Comunicaciones Comerciales
 
-Si no desea recibir comunicaciones comerciales, puede darse de baja enviando un correo electrónico a <span class="highlight">contacto@titansdev.es</span> con el asunto "BAJA".
-<br><br>
+Si no desea recibir comunicaciones comerciales, puede darse de baja enviando un correo electrónico a [contacto@titansdev.es] con el asunto "BAJA".
+
 **Última actualización:** 30 de octubre de 2024
