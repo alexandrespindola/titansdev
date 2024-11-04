@@ -7,37 +7,41 @@
       </div>
       <div class="mx-auto max-w-4xl text-center">
         <h2 class="sub-title text-[#40ea1e]">Precios</h2>
-        <h3 class="mt-2 text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Elija el mejor plan para usted</h3>
+        <h3 class="mt-2 text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Elija el mejor plan
+          para usted</h3>
       </div>
-      <p class="mx-auto mt-6 max-w-2xl text-pretty text-center">Elija un plan asequible con las mejores funciones para atraer a su público, fidelizar a sus clientes e impulsar las ventas.</p>
+      <p class="mx-auto mt-6 max-w-2xl text-pretty text-center">Elija un plan asequible con las mejores funciones para
+        atraer a su público, fidelizar a sus clientes e impulsar las ventas.</p>
       <!-- <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2"> -->
       <div
         class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-7xl lg:grid-cols-3">
         <div v-for="(tier, tierIdx) in tiers" :key="tier.id"
-          :class="[tier.featured ? 'relative bg-black shadow-2xl' : 'bg-white sm:mx-8 lg:mx-0', tier.featured ? '' : tierIdx === 0 ? 'rounded-t-3xl sm:rounded-b-none lg:rounded-bl-3xl lg:rounded-tr-none' : 'sm:rounded-t-none lg:rounded-bl-none lg:rounded-tr-3xl', 'rounded-3xl p-8 ring-1 ring-gray-900/10 sm:p-10']">
-          <h3 :id="tier.id" :class="[tier.featured ? 'text-[#40ea1e]' : 'text-[#40ea1e]', 'text-base/7 font-semibold']">
+          :class="[tier.featured ? 'relative bg-gradient-to-br from-[#141414] to-black  shadow-2xl' : 'bg-gradient-to-br from-white to-[#f5f5f5]  sm:mx-8 lg:mx-0', tier.featured ? '' : tierIdx === 0 ? 'rounded-t-3xl sm:rounded-b-none lg:rounded-bl-3xl lg:rounded-tr-none' : 'sm:rounded-t-none lg:rounded-bl-none lg:rounded-tr-3xl', 'rounded-3xl p-8 ring-1 ring-gray-900/10 sm:p-10']">
+          <h3 :id="tier.id" :class="[tier.featured ? 'text-[#40ea1e]' : 'text-[#1a1a1a]', 'text-base/7 font-semibold']">
             {{ tier.name }}</h3>
-          <p class="mt-4 flex items-baseline gap-x-2">
+          <div class="mt-4 flex items-baseline gap-x-2">
           <div v-show="tier.id != 'paquete-premium'">
             <span :class="[tier.featured ? 'text-gray-400' : 'text-gray-500', 'text-base']">A partir de</span>
           </div>
-          <span :class="[tier.featured ? 'text-white' : 'text-gray-900', 'text-5xl font-semibold tracking-tight']">{{
-            tier.priceMonthly }}</span>
-          </p>
+          <div>
+            <span
+              :class="[tier.featured ? 'text-white' : 'text-gray-900', tier.id != 'paquete-premium' ? 'text-5xl' : 'text-4xl', 'font-semibold tracking-tight']">
+              {{ tier.priceMonthly }}
+            </span>
+          </div>
+          </div>
           <p :class="[tier.featured ? 'text-gray-300' : 'text-gray-600', 'mt-6 text-base/7']">{{ tier.description }}</p>
           <ul role="list"
             :class="[tier.featured ? 'text-gray-300' : 'text-gray-600', 'mt-8 space-y-3 text-sm/6 sm:mt-10']">
-            <li v-for="feature in tier.features" :key="feature.title" class="flex gap-x-3">
-              <UIcon :name="feature.uicon" class="w-6 h-6" />
+            <li v-for="feature in tier.features" :key="feature.title" :class="[tier.featured ? 'font-medium':'', 'flex text-base gap-x-3']">
+              <UIcon :name="feature.uicon" :class="[tier.featured ? 'main-color': '', 'w-7 h-7 self-center']" />
               {{ feature.title }}
             </li>
           </ul>
-          <div class="flex flex-row justify-center flex-wrap pt-4">
-          </div>
         </div>
 
       </div>
-      <div class="flex flex-row justify-center gap-8">
+      <div class="flex flex-col justify-center items-center lg:flex-row lg:gap-x-8">
         <CommonButtonsCtaContact />
         <CommonButtonsCtaCita />
       </div>
@@ -77,7 +81,6 @@ const tiers = [
       { title: 'Automatización de marketing básica', uicon: 'hugeicons:workflow-square-05' },
       { title: 'Integración con CRM básico', uicon: 'hugeicons:user-account' },
       { title: 'Optimización para motores de búsqueda avanzada', uicon: 'hugeicons:global-search' },
-      { title: 'Soporte técnico prioritario', uicon: 'hugeicons:customer-service-01' },
     ],
     featured: true,
   },
@@ -88,12 +91,12 @@ const tiers = [
     priceMonthly: 'Consultar',
     description: "Solución integral para empresas que requieren sistemas web complejos y altamente personalizados.",
     features: [
-      { title: 'Desarrollo de sistemas web a medida', uicon: 'hugeicons:web-validation' },
-      { title: 'Integración con sistemas existentes', uicon: 'hugeicons:workflow-square-10' },
+      { title: 'Desarrollo de sistemas web', uicon: 'hugeicons:web-validation' },
+      { title: 'Integración con sistemas', uicon: 'hugeicons:workflow-square-10' },
       { title: 'E-commerce (tiendas virtuales)', uicon: 'hugeicons:shopping-cart-check-01' },
-      { title: 'Panel de administración personalizado', uicon: 'hugeicons:dashboard-browsing' },
-      { title: 'Automatización de procesos empresariales', uicon: 'hugeicons:work-update' },
-      { title: 'Escalabilidad para crecimiento futuro', uicon: 'hugeicons:computer-cloud' },
+      { title: 'Paneles de administración', uicon: 'hugeicons:dashboard-browsing' },
+      { title: 'Automatización de procesos', uicon: 'hugeicons:work-update' },
+      { title: 'Escalabilidad para crecimiento', uicon: 'hugeicons:computer-cloud' },
     ],
     featured: false,
   },
