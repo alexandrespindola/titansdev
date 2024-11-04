@@ -1001,6 +1001,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iconify-json/hugeicons@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@iconify-json/hugeicons@npm:1.2.1"
+  dependencies:
+    "@iconify/types": "npm:*"
+  checksum: 10c0/bfeef94e56bd8e9c2f42561a120a294cfc59d743e4ab3c904bedf4f994c58b4c7b295183db51bf7fb6083f48442147e4f0ff1983a4ee186ac8ec49912613c032
+  languageName: node
+  linkType: hard
+
 "@iconify/collections@npm:^1.0.476":
   version: 1.0.476
   resolution: "@iconify/collections@npm:1.0.476"
@@ -9756,6 +9765,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "titansdev@workspace:."
   dependencies:
+    "@iconify-json/hugeicons": "npm:^1.2.1"
     "@nuxt/content": "npm:^2.13.4"
     "@nuxt/ui": "npm:^2.18.7"
     "@nuxthq/studio": "npm:^2.1.1"
