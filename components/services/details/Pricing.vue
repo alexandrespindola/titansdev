@@ -71,7 +71,7 @@ const tiers = [
     name: 'Paquete Profesional',
     id: 'paquete-profesional',
     href: '#',
-    priceMonthly: '€850',
+    priceMonthly: '€1250',
     description: 'Perfecto para negocios en crecimiento que necesitan más que un sitio web estático para interactuar con sus clientes.',
     features: [
       { title: 'Todo lo del Paquete Básico', uicon: 'hugeicons:checkmark-badge-01' },
