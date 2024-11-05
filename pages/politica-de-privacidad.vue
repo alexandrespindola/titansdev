@@ -2,7 +2,7 @@
   <ContentDoc path="/politica-de-privacidad" />
 </template>
 
-<script lang="ts" setup>
+<script setup>
 definePageMeta({
   layout: 'policies'
 })

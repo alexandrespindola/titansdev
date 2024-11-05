@@ -1,13 +1,18 @@
 <template>
-  <NuxtLayout name="default">
-    <div class="policies">
-      <main class="flex flex-col items-center content-center">
-        <div class="max-w-3xl">
-          <slot />
-        </div>
-      </main>
-    </div>
-  </NuxtLayout>
+  <CommonProgressScroll />
+  <header>
+    <Navbar />
+  </header>
+  <div class="policies">
+    <main class="flex flex-col items-center content-center">
+      <div class="max-w-3xl">
+        <slot />
+      </div>
+    </main>
+  </div>
+  <footer>
+    <FooterPrimary />
+  </footer>
 </template>
 
 <style lang="scss">

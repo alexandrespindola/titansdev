@@ -22,7 +22,7 @@
           <ul class="footer-primary flex flex-col gap-2 xl:flex-row xl:justify-end">
             <NuxtLink to="/politica-de-privacidad" class="self-center">Política de Privacidad</NuxtLink>
             <NuxtLink to="/terminos-de-uso" class="self-center">Términos de Uso</NuxtLink>
-            <NuxtLink to="/politica-de-cookies" class="self-center">Política de Coookies</NuxtLink>
+            <NuxtLink to="/politica-de-cookies" class="self-center">Política de Cookies</NuxtLink>
           </ul>
         </div>
       </div>

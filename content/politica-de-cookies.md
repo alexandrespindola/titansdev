@@ -4,7 +4,7 @@ description: Nuestra Política de Cookies Detallada
 
 # Política de Cookies
 
-En TitansDev</, Denominación Social "PATIÑO VERA HECTOR ARVEY", con CIF: X8420329Y, dirección postal: Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170, y correo electrónico: contacto@titansdev.es, utilizamos cookies para mejorar su experiencia en nuestro sitio web. Esta política explica qué son las cookies, cómo las utilizamos y cómo puede gestionarlas.
+En TitansDev</, Denominación Social "PATIÑO VERA HECTOR ARVEY", con CIF: X8420329Y, dirección postal: Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170, y correo electrónico: [contacto@titansdev.es], utilizamos cookies para mejorar su experiencia en nuestro sitio web. Esta política explica qué son las cookies, cómo las utilizamos y cómo puede gestionarlas.
 
 ## ¿Qué son las Cookies?
 
