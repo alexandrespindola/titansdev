@@ -27,6 +27,9 @@
               {{ tier.priceMonthly }}
             </span>
           </div>
+          <div v-show="tier.id != 'paquete-premium'">
+            <span :class="[tier.featured ? 'text-gray-400' : 'text-gray-500', 'text-base']"> + IVA</span>
+          </div>
           </div>
           <p :class="[tier.featured ? 'text-gray-300' : 'text-gray-600', 'mt-6 text-base/7']">{{ tier.description }}</p>
           <ul role="list"
@@ -75,6 +78,8 @@ const tiers = [
       { title: 'Todo lo del Paquete Básico', uicon: 'hugeicons:checkmark-badge-01' },
       { title: 'Sistema de citas online', uicon: 'hugeicons:time-schedule' },
       { title: 'Notificaciones por WhatsApp', uicon: 'hugeicons:whatsapp' },
+      { title: 'Configuración de Google Mi Negocio', uicon: 'hugeicons:google' },
+      { title: 'Crecación de contenido para blog', uicon: 'hugeicons:file-edit' },
       { title: 'Galería de productos/servicios', uicon: 'hugeicons:paragraph-bullets-point-01' },
       { title: 'Automatización de marketing básica', uicon: 'hugeicons:workflow-square-05' },
       { title: 'Integración con CRM básico', uicon: 'hugeicons:user-account' },

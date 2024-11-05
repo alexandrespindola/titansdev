@@ -19,7 +19,7 @@
       {
         "label": "¿Qué tecnologías utilizan para el desarrollo web?",
         "icon": "hugeicons:java-script",
-        "content": "Utilizamos una variedad de tecnologías según las necesidades del proyecto, incluyendo HTML5, CSS3, JavaScript, TypeScript, frameworks como Vue.js, Nuxt y Astro, y sistemas de gestión de contenido como WordPress."
+        "content": "Utilizamos una variedad de tecnologías según las necesidades del proyecto, incluyendo HTML5, CSS3, JavaScript, TypeScript, frameworks como Vue.js, Nuxt y Astro, y sistemas de gestión de contenido (CMS) como WordPress y Strapi."
       },
       {
         "label": "¿Cuál es el costo aproximado del desarrollo de un sitio web?",
