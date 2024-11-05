@@ -1,9 +1,7 @@
 <template>
-  <ContentDoc path="/terminos-de-uso" />
+  <main class="policies flex flex-col items-center content-center">
+    <div class="max-w-3xl">
+      <ContentDoc path="/terminos-de-uso" />
+    </div>
+  </main>
 </template>
-
-<script lang="ts" setup>
-definePageMeta({
-  layout: 'policies'
-})
-</script>

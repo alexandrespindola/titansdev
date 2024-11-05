@@ -1,9 +1,7 @@
 <template>
-  <ContentDoc path="/politica-de-cookies" />
+  <main class="policies flex flex-col items-center content-center">
+    <div class="max-w-3xl">
+      <ContentDoc path="/politica-de-cookies" />
+    </div>
+  </main>
 </template>
-
-<script setup>
-definePageMeta({
-  layout: 'policies'
-})
-</script>
