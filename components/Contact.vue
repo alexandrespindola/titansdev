@@ -4,7 +4,7 @@
       <div class="flex flex-col w-full lg:flex-row gap-x-8">
         <div class="w-full valign lg:w-2/5">
           <div class="sec-head info-box full-width md-mb80">
-            <NuxtLink to="https://wa.me/+34642887239" target="_blank">
+            <NuxtLink to="https://wa.me/+34640500184" target="_blank">
               <div class="phone text-2xl lg:text-3xl fw-600 main-color flex flex-row gap-3 items-center">
                 <UIcon name="logos:whatsapp-icon" />
                 +34 640 500 184
