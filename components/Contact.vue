@@ -7,7 +7,7 @@
             <NuxtLink to="https://wa.me/+34642887239" target="_blank">
               <div class="phone text-2xl lg:text-3xl fw-600 main-color flex flex-row gap-3 items-center">
                 <UIcon name="logos:whatsapp-icon" />
-                +34 642 887 239
+                +34 640 500 184
               </div>
             </NuxtLink>
             <div class="flex flex-row justify-start">

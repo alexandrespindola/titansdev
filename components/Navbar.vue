@@ -145,7 +145,7 @@
                 <a href="mailto:contacto@titansdev.es">contacto@titansdev.es</a>
               </h5>
               <h5 class="underline mt-10">
-                <a href="#0">+1 840 841 25 69</a>
+                <NuxtLink to="https://wa.me/+34640500184">+34 640 500 184</NuxtLink>
               </h5>
             </div>
           </div>
