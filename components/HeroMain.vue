@@ -1,6 +1,12 @@
 <template>
   <header class="startup-header">
-    <div class="valign relative hidden overflow-auto bg-hero">
+    <img 
+      src="/dark/assets/imgs/background/hero-background-dark.webp" 
+      alt="Fundo do cabeçalho" 
+      class="background-image" 
+      loading="lazy" 
+    />
+    <div class="valign relative hidden overflow-auto">
       <div class="container h-screen flex flex-col justify-center p-4 md:max-w-2xl lg:max-w-4xl">
         <div>
           <div>
@@ -28,7 +34,7 @@ useHead({
     {
       rel: 'preload',
       as: 'image',
-      href: '/dark/assets/imgs/background/hero-background.webp',
+      href: '/dark/assets/imgs/background/hero-background-dark.webp',
     },
   ],
 });
@@ -40,10 +46,15 @@ useHead({
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  background-image: url('/dark/assets/imgs/background/hero-background.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Mantém a proporção da imagem */
 }
 
 .startup-header::before {
@@ -54,11 +65,9 @@ useHead({
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
 }
 
 .container {
-  position: relative;
-  z-index: 1;
+  position: relative; /* Para garantir que o conteúdo fique acima da imagem */
 }
 </style>
