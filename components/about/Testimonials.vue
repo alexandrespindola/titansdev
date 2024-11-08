@@ -49,7 +49,7 @@
                     >
                       <div>
                         <div class="fit-img circle">
-                          <img :src="item.img" alt="" />
+                          <NuxtImg :src="item.img" alt="" />
                         </div>
                       </div>
                       <div class="ml-20">

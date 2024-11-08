@@ -44,7 +44,7 @@
               <div class="flex">
                 <div class="author-img mr-30">
                   <div class="img">
-                    <img src="/dark/assets/imgs/blog/author.png" alt="" class="circle-img" />
+                    <NuxtImg src="/dark/assets/imgs/blog/author.png" alt="" class="circle-img" />
                   </div>
                 </div>
                 <div class="cont valign">

@@ -12,7 +12,7 @@
         <div v-for="(item, i) in data" :key="i" class=" max-w-80 md:w-1/3 md:max-w-full xl:w-1/4">
           <div class="item md-mb50">
             <div class="img">
-              <img :src="item.img" alt="" />
+              <NuxtImg :src="item.img" alt="" />
               <div class="info">
                 <span class="fz-12">{{ item.subName }}</span>
                 <h6 class="fz-18">{{ item.name }}</h6>

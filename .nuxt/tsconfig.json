@@ -131,6 +131,12 @@
       "#robots/*": [
         "../node_modules/@nuxtjs/robots/dist/runtime/*"
       ],
+      "#image": [
+        "../node_modules/@nuxt/image/dist/runtime"
+      ],
+      "#image/*": [
+        "../node_modules/@nuxt/image/dist/runtime/*"
+      ],
       "#vue-router": [
         "../node_modules/vue-router"
       ],
@@ -141,7 +147,7 @@
         "./tailwind.config"
       ],
       "#app-manifest": [
-        "./manifest/meta/59c41ccb-5921-491a-a464-e6c4e23657c7.json"
+        "./manifest/meta/73171b9f-9cf7-4d8f-8daa-e77c8a0f23ef.json"
       ],
       "#components": [
         "./components"
@@ -211,6 +217,8 @@
     "../node_modules/@nuxtjs/robots/dist/runtime",
     "../node_modules/@nuxtjs/fontaine/runtime",
     "../node_modules/@nuxtjs/fontaine/dist/runtime",
+    "../node_modules/@nuxt/image/runtime",
+    "../node_modules/@nuxt/image/dist/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/devtools/dist/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
@@ -254,6 +262,8 @@
     "../node_modules/@nuxtjs/robots/dist/runtime/server",
     "../node_modules/@nuxtjs/fontaine/runtime/server",
     "../node_modules/@nuxtjs/fontaine/dist/runtime/server",
+    "../node_modules/@nuxt/image/runtime/server",
+    "../node_modules/@nuxt/image/dist/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/devtools/dist/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",

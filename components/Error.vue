@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="img">
-              <img src="/dark/assets/imgs/404.png" alt="" />
+              <NuxtImg src="/dark/assets/imgs/404.png" alt="" />
             </div>
             <div class="text mt-40">
               <h2 class="mb-10">Página no encontrada</h2>

@@ -22,7 +22,7 @@
             <NuxtLink :to="item.link" class="flex flex-col w-auto p-4 md:p-8">
               <div class="flex flex-col gap-4">
                 <div class="flex flex-row">
-                  <img :src="item.img" alt="" class=" w-20" />
+                  <NuxtImg :src="item.img" alt="" class=" w-20" />
                 </div>
               </div>
               <div class="flex flex-col gap-2             flex-grow">

@@ -138,10 +138,15 @@ export default defineNuxtConfig({
     "@nuxtjs/sitemap",
     "nuxt-schema-org",
     "@nuxtjs/robots",
-    "@nuxtjs/fontaine"
+    "@nuxtjs/fontaine",
+    "@nuxt/image",
   ],
   gtm: {
     id: "GTM-K5F3KFP3",
+  },
+  image: {
+    format: ['webp', 'avif', 'jpeg'],
+    quality: 80,
   },
   runtimeConfig: {
     public: {

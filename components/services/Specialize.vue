@@ -13,7 +13,7 @@
         <div v-for="(item, i) in data" :key="i" class="w-full md:w-[45%] lg:w-[30%] min-h-96">
           <div class="item-box bg md-mb50 rounded-xl flex flex-col h-full">
             <div class="icon opacity-5 mb-4">
-              <img :src="item.img" alt=""/>
+              <NuxtImg :src="item.img" alt=""/>
             </div>
             <h5 class="uppercase">
               {{ item.title }}
@@ -22,7 +22,7 @@
             <NuxtLink :to="item.link">
               <div class="rmore lg:pt-4 flex flex-row gap-2">
                 <span class="sub-title">Saber Más</span>
-                <img
+                <NuxtImg
                   src="/dark/assets/imgs/arrow-right.png"
                   alt=""
                   class="icon-img-20 ml-5"

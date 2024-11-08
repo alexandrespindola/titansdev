@@ -74,7 +74,7 @@
             <div class="item bg-gradient-to-br from-[#141414] to-black  radius-10 d-flex align-items-center">
               <div class="type">
                 <div class="icon-img-60 mb-10">
-                  <img src="/dark/assets/imgs/icon-img/shape1.png" alt="" />
+                  <NuxtImg src="/dark/assets/imgs/icon-img/shape1.png" alt="" />
                 </div>
                 <h5 class="fw-600">Advanced</h5>
               </div>
@@ -101,7 +101,7 @@
             <div class="item bg-gradient-to-br from-[#155e06] to-[#0d4602] radius-10 d-flex align-items-center">
               <div class="type">
                 <div class="icon-img-60 mb-10">
-                  <img src="/dark/assets/imgs/icon-img/shape3.png" alt=""/>
+                  <NuxtImg src="/dark/assets/imgs/icon-img/shape3.png" alt=""/>
                 </div>
                 <h5 class="fw-600">Enterprise</h5>
               </div>

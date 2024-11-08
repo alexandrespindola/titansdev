@@ -12,7 +12,7 @@
       <div class="row md-marg">
         <div class="col-lg-3 col-md-6 item md-mb50">
           <div class="icon-img-60 mb-30">
-            <img src="/dark/assets/imgs/serv-icons/3.png" alt="" />
+            <NuxtImg src="/dark/assets/imgs/serv-icons/3.png" alt="" />
           </div>
           <h5 class="mb-15">1. Análisis</h5>
           <p>
@@ -21,7 +21,7 @@
         </div>
         <div class="col-lg-3 col-md-6 item md-mb50">
           <div class="icon-img-60 mb-30">
-            <img src="/dark/assets/imgs/serv-icons/4.png" alt="" />
+            <NuxtImg src="/dark/assets/imgs/serv-icons/4.png" alt="" />
           </div>
           <h5 class="mb-15">2. Desarrollo
           </h5>
@@ -31,7 +31,7 @@
         </div>
         <div class="col-lg-3 col-md-6 item sm-mb50">
           <div class="icon-img-60 mb-30">
-            <img src="/dark/assets/imgs/serv-icons/5.png" alt="" />
+            <NuxtImg src="/dark/assets/imgs/serv-icons/5.png" alt="" />
           </div>
           <h5 class="mb-15">3. Implementación
           </h5>
@@ -41,7 +41,7 @@
         </div>
         <div class="col-lg-3 col-md-6 item">
           <div class="icon-img-60 mb-30">
-            <img src="/dark/assets/imgs/serv-icons/6.png" alt="" />
+            <NuxtImg src="/dark/assets/imgs/serv-icons/6.png" alt="" />
           </div>
           <h5 class="mb-15">4. Mantenimiento</h5>
           <p>

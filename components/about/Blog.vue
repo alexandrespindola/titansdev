@@ -18,7 +18,7 @@
           <div class="item main-bg md-mb50">
             <div class="row rest">
               <div class="col-lg-6 col-md-5 img rest">
-                <img
+                <NuxtImg
                   src="/dark/assets/imgs/blog/b/2.jpg"
                   alt=""
                   class="img-post"
@@ -26,7 +26,7 @@
                 <div class="author d-flex align-items-center">
                   <div>
                     <div class="fit-img icon-img-50 circle">
-                      <img src="/dark/assets/imgs/blog/author.png" alt="" />
+                      <NuxtImg src="/dark/assets/imgs/blog/author.png" alt="" />
                     </div>
                   </div>
                   <div class="ml-15 fz-14">
@@ -60,7 +60,7 @@
           <div class="item main-bg">
             <div class="row rest">
               <div class="col-lg-6 col-md-5 img rest">
-                <img
+                <NuxtImg
                   src="/dark/assets/imgs/blog/b/3.jpg"
                   alt=""
                   class="img-post"
@@ -68,7 +68,7 @@
                 <div class="author d-flex align-items-center">
                   <div>
                     <div class="fit-img icon-img-50 circle">
-                      <img src="/dark/assets/imgs/blog/author.png" alt="" />
+                      <NuxtImg src="/dark/assets/imgs/blog/author.png" alt="" />
                     </div>
                   </div>
                   <div class="ml-15 fz-14">

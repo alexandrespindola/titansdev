@@ -19,7 +19,7 @@
                 <div class="author-info">
                   <div class="d-flex align-items-center">
                     <a href="#0" class="circle-60">
-                      <img
+                      <NuxtImg
                         :src="post.cover_image.url"
                         alt=""
                         class="circle-img"

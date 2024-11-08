@@ -11,7 +11,7 @@
       <div class="container flex flex-row flex-wrap justify-center gap-8 max-w-6xl">
         <div v-for="(item, i) in data" :key="i" class="w-20 md:w-28" :title=item.title>
           <div @click="handleClick(i)" @mouseenter="handleMouseEnter(i)" @mouseleave="handleMouseLeave(i)">
-            <img :src="item.img" alt="" :class="getGrayscaleClass(i)" />
+            <NuxtImg :src="item.img" alt="" :class="getGrayscaleClass(i)" />
           </div>
         </div>
       </div>

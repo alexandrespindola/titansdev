@@ -6,7 +6,7 @@
           <div class="row">
             <div class="col-6 item ontop">
               <div class="img">
-                <img src="/dark/assets/imgs/brands/01.png" alt="" />
+                <NuxtImg src="/dark/assets/imgs/brands/01.png" alt="" />
               </div>
               <span class="top-left">
                 <svg
@@ -79,7 +79,7 @@
             </div>
             <div class="col-6 item">
               <div class="img">
-                <img src="/dark/assets/imgs/brands/02.png" alt="" />
+                <NuxtImg src="/dark/assets/imgs/brands/02.png" alt="" />
               </div>
               <span class="top-right">
                 <svg
@@ -138,7 +138,7 @@
             </div>
             <div class="col-lg-3 col-6 item">
               <div class="img">
-                <img src="/dark/assets/imgs/brands/03.png" alt="" />
+                <NuxtImg src="/dark/assets/imgs/brands/03.png" alt="" />
               </div>
               <span class="top-right">
                 <svg
@@ -177,7 +177,7 @@
             </div>
             <div class="col-lg-3 col-6 item ontop">
               <div class="img">
-                <img src="/dark/assets/imgs/brands/04.png" alt="" />
+                <NuxtImg src="/dark/assets/imgs/brands/04.png" alt="" />
               </div>
               <span class="top-left">
                 <svg
@@ -250,7 +250,7 @@
             </div>
             <div class="col-lg-3 col-6 item">
               <div class="img">
-                <img src="/dark/assets/imgs/brands/05.png" alt="" />
+                <NuxtImg src="/dark/assets/imgs/brands/05.png" alt="" />
               </div>
               <span class="top-right">
                 <svg

@@ -50,7 +50,7 @@
               <h4>JTBA Perícias</h4>
             </div>
             <div class="img">
-              <img src="/dark/assets/imgs/portfolio/jtba.webp" alt="" />
+              <NuxtImg src="/dark/assets/imgs/portfolio/jtba.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
               <NuxtLink to="https://www.jtba.com.br/" target="blank">
@@ -68,7 +68,7 @@
               <h4>PejoterDay</h4>
             </div>
             <div class="img">
-              <img src="/dark/assets/imgs/portfolio/pejoterday.webp" alt="" />
+              <NuxtImg src="/dark/assets/imgs/portfolio/pejoterday.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
               <NuxtLink to="https://pejoterday.com.br" target="blank">
@@ -86,7 +86,7 @@
               <h4>Clínica Pélvica</h4>
             </div>
             <div class="img">
-              <img src="/dark/assets/imgs/portfolio/fisioterapia-pelvica.webp" alt="" />
+              <NuxtImg src="/dark/assets/imgs/portfolio/fisioterapia-pelvica.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
               <NuxtLink to="https://clinicapelvica.com.br/" target="blank">
@@ -104,7 +104,7 @@
               <h4>IFV</h4>
             </div>
             <div class="img">
-              <img src="/dark/assets/imgs/portfolio/ifv.webp" alt="" />
+              <NuxtImg src="/dark/assets/imgs/portfolio/ifv.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
               <NuxtLink to="https://ifv.org.br" target="blank">
@@ -122,7 +122,7 @@
               <h4>Gnosis Deutschland</h4>
             </div>
             <div class="img">
-              <img src="/dark/assets/imgs/portfolio/gnosis-deutschland.webp" alt="" />
+              <NuxtImg src="/dark/assets/imgs/portfolio/gnosis-deutschland.webp" alt="" />
             </div>
             <div class="more text-u ls1 fz-12">
               <NuxtLink href="https://gnosisdeutschland.org.br" target="blank">

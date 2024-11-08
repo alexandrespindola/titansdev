@@ -26,7 +26,7 @@
         </div>
         <div class="w-full lg:w-2/3 xl:w-[48%]">
           <div class="img-vid">
-            <img src="/dark/assets/imgs/intro/intro-touchscreen-plant.webp" alt="" />
+            <NuxtImg src="/dark/assets/imgs/intro/intro-touchscreen-plant.webp" alt="" />
             <div class="curv-butn main-bg">
               <div class="icon">
                 <i class="fas fa-play"></i>

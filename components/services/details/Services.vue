@@ -16,13 +16,13 @@
       <div class="flex flex-col md:flex-row gap-8">
         <div class="w-full md:w-1/3">
           <div class="relative w-full pt-[100%] overflow-hidden">
-            <img src="/dark/assets/imgs/intro/01.jpg" alt=""
+            <NuxtImg src="/dark/assets/imgs/intro/01.jpg" alt=""
               class="absolute top-0 left-0 w-full h-full object-cover rounded-3xl" />
           </div>
         </div>
         <div class="w-full md:w-2/3">
           <div class="relative w-full pt-[100%] md:pt-[50%] overflow-hidden">
-            <img src="/dark/assets/imgs/background/web-development.webp" alt=""
+            <NuxtImg src="/dark/assets/imgs/background/web-development.webp" alt=""
               class="absolute top-0 left-0 w-full h-full object-cover rounded-3xl" />
           </div>
         </div>

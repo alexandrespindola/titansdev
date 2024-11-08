@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg nav-crev z-10">
     <div class="container p-4 flex flex-row flex-nowrap">
       <NuxtLink to="/" class="logo w-36">
-        <img src="/dark/assets/imgs/titansdev-logo-white.webp" alt="logo" />
+        <NuxtImg src="/dark/assets/imgs/titansdev-logo-white.webp" alt="logo" />
       </NuxtLink>
 
       <ul class="hidden md:flex flex-row md:gap-6 lg:gap-12">
@@ -28,7 +28,7 @@
   <div :class="`hamenu one-scroll ${isOpen ? 'open' : ''}`">
     <NuxtLink to="/">
       <div class="logo w-36">
-        <img src="/dark/assets/imgs/titansdev-logo-white.webp" alt="" />
+        <NuxtImg src="/dark/assets/imgs/titansdev-logo-white.webp" alt="" />
       </div>
     </NuxtLink>
     <div @click="closeMenu" class="close-menu cursor-pointer ti-close"></div>

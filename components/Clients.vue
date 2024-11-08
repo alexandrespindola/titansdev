@@ -16,35 +16,35 @@
           <SwiperSlide>
             <div class="item">
               <div class="img icon-img-100">
-                <img src="/dark/assets/imgs/brands/b1.png" alt="" />
+                <NuxtImg src="/dark/assets/imgs/brands/b1.png" alt="" />
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div class="item">
               <div class="img icon-img-100">
-                <img src="/dark/assets/imgs/brands/b2.png" alt="" />
+                <NuxtImg src="/dark/assets/imgs/brands/b2.png" alt="" />
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div class="item">
               <div class="img icon-img-100">
-                <img src="/dark/assets/imgs/brands/b3.png" alt="" />
+                <NuxtImg src="/dark/assets/imgs/brands/b3.png" alt="" />
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div class="item">
               <div class="img icon-img-100">
-                <img src="/dark/assets/imgs/brands/b4.png" alt="" />
+                <NuxtImg src="/dark/assets/imgs/brands/b4.png" alt="" />
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div class="item">
               <div class="img icon-img-100">
-                <img src="/dark/assets/imgs/brands/b6.png" alt="" />
+                <NuxtImg src="/dark/assets/imgs/brands/b6.png" alt="" />
               </div>
             </div>
           </SwiperSlide>

@@ -4,7 +4,7 @@
       <div class="row justify-content-between">
         <div class="col-lg-5 valign">
           <div class="faq-img md-mb50">
-            <img src="/dark/assets/imgs/intro/faq.webp" alt="" class="rounded-3xl" />
+            <NuxtImg src="/dark/assets/imgs/intro/faq.webp" alt="" class="rounded-3xl" />
           </div>
         </div>
         <div class="col-lg-6 valign">
