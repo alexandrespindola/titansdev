@@ -3,20 +3,23 @@ import type { Serialize, Simplify } from "nitropack/types";
 declare module "nitropack/types" {
   type Awaited<T> = T extends PromiseLike<infer U> ? Awaited<U> : T
   interface InternalApi {
-    '/__nuxt_error': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt/dist/core/runtime/nitro/renderer').default>>>>
-    }
     '/api/_nuxt_icon/:collection': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/icon/dist/runtime/server/api').default>>>>
     }
-    '/__site-config__/debug.json': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-site-config/dist/runtime/nitro/routes/__site-config__/debug').default>>>>
+    '/__studio.json': {
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxthq/studio/dist/runtime/server/routes/studio').default>>>>
+    }
+    '/api/component-meta': {
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-component-meta/dist/runtime/server/api/component-meta.get').default>>>>
+    }
+    '/api/component-meta.json': {
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-component-meta/dist/runtime/server/api/component-meta.get').default>>>>
+    }
+    '/api/component-meta/:component?': {
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-component-meta/dist/runtime/server/api/component-meta.get').default>>>>
     }
     '/__sitemap__/nuxt-content-urls.json': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxtjs/sitemap/dist/runtime/nitro/routes/__sitemap__/nuxt-content-urls').default>>>>
-    }
-    '/__sitemap__/debug.json': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxtjs/sitemap/dist/runtime/nitro/routes/__sitemap__/debug').default>>>>
     }
     '/__sitemap__/style.xsl': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxtjs/sitemap/dist/runtime/nitro/routes/sitemap.xsl').default>>>>
@@ -33,7 +36,7 @@ declare module "nitropack/types" {
     '/api/_content/query': {
       'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/content/dist/runtime/server/api/query').default>>>>
     }
-    '/api/_content/cache.json': {
+    '/api/_content/cache.1731063912704.json': {
       'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/content/dist/runtime/server/api/cache').default>>>>
     }
     '/api/_content/navigation/:qid/**:params': {

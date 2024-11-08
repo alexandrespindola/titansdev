@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-useHead({
-  title: 'Contacto | TitansDev',
+useSeoMeta({
+  title: 'Contacto',
 });
 </script>

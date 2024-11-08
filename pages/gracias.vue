@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-useHead({
+useSeoMeta({
   title: 'Gracias!',
 });
 </script>

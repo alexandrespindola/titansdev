@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-useHead({
-  title: 'Servicios | TitansDev'
+useSeoMeta({
+  title: 'Servicios'
 })
 </script>

@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-useHead({
-  title: 'Quiénes Somos | TitansDev',
+useSeoMeta({
+  title: 'Quiénes Somos',
 });
 </script>
