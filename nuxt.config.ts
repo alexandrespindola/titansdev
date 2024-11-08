@@ -32,7 +32,6 @@ export default defineNuxtConfig({
   app: {
     head: {
       charset: "utf-8",
-      title: "TitansDev | Agencia Digital",
       viewport: "width=device-width, initial-scale=1",
       htmlAttrs: {
         lang: "es",
@@ -41,6 +40,10 @@ export default defineNuxtConfig({
         {
           "http-equiv": "X-UA-Compatible",
           content: "IE=edge",
+        },
+        {
+          name: "author",
+          content: "TitansDev",
         },
         {
           name: "keywords",
@@ -53,14 +56,9 @@ export default defineNuxtConfig({
             "TitansDev - Agencia Digital: Desarrollo Web y Marketing Digital",
         },
         {
-          name: "author",
-          content: "TitansDev",
-        },
-        {
           name: "adopt-website-id",
           content: "ab2eb4b2-28e0-4ac0-9aa2-1318cc77567c",
         },
-
         // Meta tags Open Graph
         {
           property: "og:title",
