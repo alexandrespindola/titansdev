@@ -27,8 +27,8 @@ body {
   background-color: #1a1a1a;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
-/*   font-family: 'Satoshi-Variable';
- */  overflow-x: hidden !important;
+  font-family: 'Satoshi-Variable';
+  overflow-x: hidden !important;
 }
 
 body.crev-agency h1,
