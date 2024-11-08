@@ -154,6 +154,7 @@ export default defineNuxtConfig({
   site: {
     url: "https://titansdev.es",
     name: "TitansDev",
+    gzip: true,
   },
   vite: {
     css: {
