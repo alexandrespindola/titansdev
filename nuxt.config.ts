@@ -22,6 +22,7 @@ export default defineNuxtConfig({
         "/quienes-somos",
         "/servicios",
         "/terminos-de-uso",
+        "/sitemap.xml",
       ],
     },
   },
@@ -32,7 +33,7 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       title: "TitansDev - Agencia Digital",
-      viewport: 'width=device-width, initial-scale=1',
+      viewport: "width=device-width, initial-scale=1",
       htmlAttrs: {
         lang: "es",
       },
@@ -124,7 +125,7 @@ export default defineNuxtConfig({
       mode: "out-in",
     },
   },
-/*   build: {
+  /*   build: {
     transpile: ['markdown-it'],
   }, */
   css: [
@@ -139,6 +140,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxthq/studio",
     "@nuxtjs/strapi",
+    "@nuxtjs/sitemap",
   ],
   gtm: {
     id: "GTM-K5F3KFP3",
@@ -148,6 +150,10 @@ export default defineNuxtConfig({
       strapiUri: process.env.STRAPI_URL,
     },
     strapiApiToken: process.env.STRAPI_API_TOKEN,
+  },
+  site: {
+    url: "https://titansdev.es",
+    name: "TitansDev",
   },
   vite: {
     css: {

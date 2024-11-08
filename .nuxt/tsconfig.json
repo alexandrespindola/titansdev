@@ -2,6 +2,9 @@
 {
   "compilerOptions": {
     "paths": {
+      "nitropack/types": [
+        "../node_modules/nitropack/types"
+      ],
       "nitropack": [
         "../node_modules/nitropack"
       ],
@@ -62,6 +65,9 @@
       "@@/*": [
         "../*"
       ],
+      "#shared": [
+        "../shared"
+      ],
       "assets": [
         "../assets"
       ],
@@ -70,6 +76,12 @@
       ],
       "public/*": [
         "../public/*"
+      ],
+      "#build": [
+        "."
+      ],
+      "#build/*": [
+        "./*"
       ],
       "#app": [
         "../node_modules/nuxt/dist/app"
@@ -101,6 +113,12 @@
       "#mdc-imports": [
         "./mdc-imports"
       ],
+      "#sitemap": [
+        "../node_modules/@nuxtjs/sitemap/dist/runtime"
+      ],
+      "#sitemap/*": [
+        "../node_modules/@nuxtjs/sitemap/dist/runtime/*"
+      ],
       "#vue-router": [
         "../node_modules/vue-router"
       ],
@@ -115,12 +133,6 @@
       ],
       "#app-manifest": [
         "./manifest/meta/dev"
-      ],
-      "#build": [
-        "."
-      ],
-      "#build/*": [
-        "./*"
       ],
       "#components": [
         "./components"
@@ -178,6 +190,10 @@
     "../node_modules/@nuxthq/studio/dist/runtime",
     "../node_modules/@nuxtjs/strapi/runtime",
     "../node_modules/@nuxtjs/strapi/dist/runtime",
+    "../node_modules/nuxt-site-config/dist/runtime",
+    "../node_modules/nuxt-site-config/dist/dist/runtime",
+    "../node_modules/@nuxtjs/sitemap/runtime",
+    "../node_modules/@nuxtjs/sitemap/dist/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/devtools/dist/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
@@ -188,6 +204,7 @@
     "../dist",
     "../node_modules",
     "../node_modules/nuxt/node_modules",
+    "../node_modules/nuxt-site-config/dist/node_modules",
     "../node_modules/@nuxt/icon/runtime/server",
     "../node_modules/@nuxt/icon/dist/runtime/server",
     "../node_modules/@nuxtjs/color-mode/runtime/server",
@@ -208,6 +225,10 @@
     "../node_modules/@nuxthq/studio/dist/runtime/server",
     "../node_modules/@nuxtjs/strapi/runtime/server",
     "../node_modules/@nuxtjs/strapi/dist/runtime/server",
+    "../node_modules/nuxt-site-config/dist/runtime/server",
+    "../node_modules/nuxt-site-config/dist/dist/runtime/server",
+    "../node_modules/@nuxtjs/sitemap/runtime/server",
+    "../node_modules/@nuxtjs/sitemap/dist/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/devtools/dist/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
