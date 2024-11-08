@@ -125,9 +125,6 @@ export default defineNuxtConfig({
       mode: "out-in",
     },
   },
-  /*   build: {
-    transpile: ['markdown-it'],
-  }, */
   css: [
     "swiper/css/bundle",
     "@/styles/globals.css",
@@ -141,6 +138,8 @@ export default defineNuxtConfig({
     "@nuxthq/studio",
     "@nuxtjs/strapi",
     "@nuxtjs/sitemap",
+    "nuxt-schema-org",
+    "@nuxtjs/robots"
   ],
   gtm: {
     id: "GTM-K5F3KFP3",
@@ -168,6 +167,16 @@ export default defineNuxtConfig({
     ],
   },
   vite: {
+    build: {
+      terserOptions: {
+        compress: {
+          drop_console: true,
+        },
+        output: {
+          comments: false,
+        },
+      }
+    },
     css: {
       preprocessorOptions: {
         scss: {

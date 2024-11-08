@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin
+Disallow: /dev/
+Allow: /css/
+Allow: /js/
+Sitemap: https://titansdev.es/sitemap.xml

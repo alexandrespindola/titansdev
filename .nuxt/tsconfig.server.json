@@ -125,17 +125,17 @@
       "#mdc-imports": [
         "./mdc-imports"
       ],
-      "#nuxt-component-meta": [
-        "./component-meta"
-      ],
-      "#nuxt-component-meta/types": [
-        "./component-meta.d"
-      ],
       "#sitemap": [
         "../node_modules/@nuxtjs/sitemap/dist/runtime"
       ],
       "#sitemap/*": [
         "../node_modules/@nuxtjs/sitemap/dist/runtime/*"
+      ],
+      "#robots": [
+        "../node_modules/@nuxtjs/robots/dist/runtime"
+      ],
+      "#robots/*": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/*"
       ],
       "#vue-router": [
         "./vue-router"
@@ -158,6 +158,18 @@
       "#internal/nuxt-site-config": [
         "../node_modules/nuxt-site-config/dist/runtime/nitro/composable-barrel-deprecated"
       ],
+      "#internal/nuxt-simple-robots": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables"
+      ],
+      "#internal/nuxt-simple-robots/*": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables/*"
+      ],
+      "#internal/nuxt-robots": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables"
+      ],
+      "#internal/nuxt-robots/*": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables/*"
+      ],
       "#content/server": [
         "../node_modules/@nuxt/content/dist/runtime/legacy/server"
       ]
@@ -178,15 +190,17 @@
     "../node_modules/@zadigetvoltaire/nuxt-gtm/runtime/server",
     "../node_modules/@nuxtjs/mdc/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
-    "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@nuxtjs/strapi/runtime/server",
     "../node_modules/nuxt-site-config/dist/module.mjs/runtime/server",
     "../node_modules/@nuxtjs/sitemap/runtime/server",
+    "../node_modules/nuxt-schema-org/runtime/server",
+    "../node_modules/@nuxtjs/robots/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "./module/nuxt-site-config.d.ts",
     "./module/@nuxtjs-sitemap.d.ts",
+    "./module/nuxt-robots.d.ts",
     "./types/nitro.d.ts",
     "../**/*",
     "../server/**/*"

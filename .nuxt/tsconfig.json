@@ -99,31 +99,31 @@
         "../node_modules/@nuxt/ui/dist/runtime/*"
       ],
       "#ui-colors": [
-        "./ui.colors.mjs"
+        "./ui.colors"
       ],
       "#color-mode-options": [
         "./color-mode-options.mjs"
       ],
       "#mdc-configs": [
-        "./mdc-configs.mjs"
+        "./mdc-configs"
       ],
       "#mdc-highlighter": [
-        "./mdc-highlighter.mjs"
+        "./mdc-highlighter"
       ],
       "#mdc-imports": [
-        "./mdc-imports.mjs"
-      ],
-      "#nuxt-component-meta": [
-        "./component-meta.mjs"
-      ],
-      "#nuxt-component-meta/types": [
-        "./component-meta.d.ts"
+        "./mdc-imports"
       ],
       "#sitemap": [
         "../node_modules/@nuxtjs/sitemap/dist/runtime"
       ],
       "#sitemap/*": [
         "../node_modules/@nuxtjs/sitemap/dist/runtime/*"
+      ],
+      "#robots": [
+        "../node_modules/@nuxtjs/robots/dist/runtime"
+      ],
+      "#robots/*": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/*"
       ],
       "#vue-router": [
         "../node_modules/vue-router"
@@ -134,8 +134,11 @@
       "#tailwind-config": [
         "./tailwind.config"
       ],
+      "#tailwind-config/*": [
+        "./tailwind.config/*"
+      ],
       "#app-manifest": [
-        "./manifest/meta/a08d56da-7d92-4ba7-ba25-3264fbb2325d.json"
+        "./manifest/meta/dev"
       ],
       "#components": [
         "./components"
@@ -189,8 +192,6 @@
     "../node_modules/@nuxtjs/mdc/dist/runtime",
     "../node_modules/@nuxt/content/runtime",
     "../node_modules/@nuxt/content/dist/runtime",
-    "../node_modules/nuxt-component-meta/runtime",
-    "../node_modules/nuxt-component-meta/dist/runtime",
     "../node_modules/@nuxthq/studio/runtime",
     "../node_modules/@nuxthq/studio/dist/runtime",
     "../node_modules/@nuxtjs/strapi/runtime",
@@ -199,6 +200,10 @@
     "../node_modules/nuxt-site-config/dist/dist/runtime",
     "../node_modules/@nuxtjs/sitemap/runtime",
     "../node_modules/@nuxtjs/sitemap/dist/runtime",
+    "../node_modules/nuxt-schema-org/runtime",
+    "../node_modules/nuxt-schema-org/dist/runtime",
+    "../node_modules/@nuxtjs/robots/runtime",
+    "../node_modules/@nuxtjs/robots/dist/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/devtools/dist/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
@@ -226,8 +231,6 @@
     "../node_modules/@nuxtjs/mdc/dist/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
     "../node_modules/@nuxt/content/dist/runtime/server",
-    "../node_modules/nuxt-component-meta/runtime/server",
-    "../node_modules/nuxt-component-meta/dist/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@nuxthq/studio/dist/runtime/server",
     "../node_modules/@nuxtjs/strapi/runtime/server",
@@ -236,6 +239,10 @@
     "../node_modules/nuxt-site-config/dist/dist/runtime/server",
     "../node_modules/@nuxtjs/sitemap/runtime/server",
     "../node_modules/@nuxtjs/sitemap/dist/runtime/server",
+    "../node_modules/nuxt-schema-org/runtime/server",
+    "../node_modules/nuxt-schema-org/dist/runtime/server",
+    "../node_modules/@nuxtjs/robots/runtime/server",
+    "../node_modules/@nuxtjs/robots/dist/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/devtools/dist/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",

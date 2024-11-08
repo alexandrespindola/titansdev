@@ -50,7 +50,7 @@ declare global {
   const getHeader: typeof import('../../node_modules/h3')['getHeader']
   const getHeaders: typeof import('../../node_modules/h3')['getHeaders']
   const getMethod: typeof import('../../node_modules/h3')['getMethod']
-  const getPathRobotConfig: typeof import('../../node_modules/@nuxtjs/sitemap/dist/runtime/nitro/composables/getPathRobotConfigPolyfill')['getPathRobotConfigPolyfill']
+  const getPathRobotConfig: typeof import('../../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables/getPathRobotConfig')['getPathRobotConfig']
   const getProxyRequestHeaders: typeof import('../../node_modules/h3')['getProxyRequestHeaders']
   const getQuery: typeof import('../../node_modules/h3')['getQuery']
   const getRequestFingerprint: typeof import('../../node_modules/h3')['getRequestFingerprint']
@@ -71,6 +71,7 @@ declare global {
   const getRouterParams: typeof import('../../node_modules/h3')['getRouterParams']
   const getSession: typeof import('../../node_modules/h3')['getSession']
   const getSiteIndexable: typeof import('../../node_modules/nuxt-site-config/dist/runtime/nitro/composables/getSiteIndexable')['getSiteIndexable']
+  const getSiteRobotConfig: typeof import('../../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables/getSiteRobotConfig')['getSiteRobotConfig']
   const getValidatedQuery: typeof import('../../node_modules/h3')['getValidatedQuery']
   const getValidatedRouterParams: typeof import('../../node_modules/h3')['getValidatedRouterParams']
   const handleCacheHeaders: typeof import('../../node_modules/h3')['handleCacheHeaders']
@@ -153,9 +154,10 @@ export { defineAppConfig } from '../../node_modules/nuxt/dist/core/runtime/nitro
 export { parseMarkdown } from '../../node_modules/@nuxtjs/mdc/dist/runtime/parser';
 export { defineSitemapEventHandler } from '../../node_modules/@nuxtjs/sitemap/dist/runtime/nitro/composables/defineSitemapEventHandler';
 export { asSitemapUrl } from '../../node_modules/@nuxtjs/sitemap/dist/runtime/nitro/composables/asSitemapUrl';
-export { getPathRobotConfigPolyfill as getPathRobotConfig } from '../../node_modules/@nuxtjs/sitemap/dist/runtime/nitro/composables/getPathRobotConfigPolyfill';
 export { getSiteIndexable } from '../../node_modules/nuxt-site-config/dist/runtime/nitro/composables/getSiteIndexable';
 export { updateSiteConfig } from '../../node_modules/nuxt-site-config/dist/runtime/nitro/composables/updateSiteConfig';
 export { useNitroOrigin } from '../../node_modules/nuxt-site-config/dist/runtime/nitro/composables/useNitroOrigin';
 export { useSiteConfig } from '../../node_modules/nuxt-site-config/dist/runtime/nitro/composables/useSiteConfig';
 export { createSitePathResolver, withSiteTrailingSlash, withSiteUrl } from '../../node_modules/nuxt-site-config/dist/runtime/nitro/composables/utils';
+export { getPathRobotConfig } from '../../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables/getPathRobotConfig';
+export { getSiteRobotConfig } from '../../node_modules/@nuxtjs/robots/dist/runtime/nitro/composables/getSiteRobotConfig';
