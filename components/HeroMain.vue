@@ -6,12 +6,8 @@
           <div>
             <div class="flex flex-row">
               <div class="w-full flex flex-col text-center items-center gap-4">
-                <h1 class="text-4xl font-semibold uppercase md:text-4xl lg:text-6xl">Tecnologías modernas para su
-                  negocio
-                </h1>
-                <h2 class="flex flex-row text-2xl font-semibold">Soluciones asequibles para acelerar el crecimiento de
-                  pequeñas y medianas
-                  empresas</h2>
+                <h1 class="text-4xl font-semibold uppercase md:text-4xl lg:text-6xl">Tecnologías modernas para su negocio</h1>
+                <h2 class="flex flex-row text-2xl font-semibold">Soluciones asequibles para acelerar el crecimiento de pequeñas y medianas empresas</h2>
                 <div class="flex flex-col md:flex-row gap-x-8">
                   <CommonButtonsCtaContact />
                   <CommonButtonsCtaCita />
@@ -25,13 +21,26 @@
   </header>
 </template>
 
+<script lang="ts" setup>
+
+useHead({
+  link: [
+    {
+      rel: 'preload',
+      as: 'image',
+      href: '/dark/assets/imgs/background/hero-background.webp',
+    },
+  ],
+});
+</script>
+
 <style scoped>
 .startup-header {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  background-image: url('/public/dark/assets/imgs/background/hero-background.webp');
+  background-image: url('/dark/assets/imgs/background/hero-background.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

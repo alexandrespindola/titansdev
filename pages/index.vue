@@ -1,6 +1,6 @@
 <template>
   <main class="main-bg o-hidden">
-    <LazyHeroMain />
+    <HeroMain />
     <LazyServices />
     <LazyAbout />
     <LazyMarquee />
