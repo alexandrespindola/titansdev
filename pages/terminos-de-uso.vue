@@ -5,3 +5,12 @@
     </div>
   </main>
 </template>
+
+<script lang="ts" setup>
+import { companyName } from '~/utils/constants';
+
+useSeoMeta({
+  title: `Términos de Uso | ${companyName}`,
+  robots: 'noindex, nofollow',
+});
+</script>

@@ -17,7 +17,8 @@ import Solution from '@/components/dark/project/Solution';
 import Works from '@/components/dark/project/Works';
 import Works2 from '@/components/dark/project/Works2';
 
-useHead({
+useSeoMeta({
   title: 'Proyecto',
+  robots: 'noindex, nofollow',
 });
 </script>

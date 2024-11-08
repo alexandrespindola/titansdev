@@ -10,7 +10,8 @@
 <script lang="ts" setup>
 import { companyName } from '~/utils/constants';
 
-useHead({
+useSeoMeta({
   title: `Servicio | ${companyName}`,
+  robots: 'noindex, nofollow',
 });
 </script>

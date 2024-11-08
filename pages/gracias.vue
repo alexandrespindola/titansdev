@@ -7,5 +7,6 @@
 <script lang="ts" setup>
 useSeoMeta({
   title: 'Gracias!',
+  robots: 'noindex, nofollow',
 });
 </script>

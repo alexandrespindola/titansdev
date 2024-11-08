@@ -4,8 +4,9 @@
 </template>
 
 <script lang="ts" setup>
-useHead({
+useSeoMeta({
   title: 'Showcase',
+  robots: 'noindex, nofollow',
 });
 
 /* onMounted(() => {

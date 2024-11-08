@@ -9,7 +9,8 @@
 import Header from '@/components/dark/portfolio/Header';
 import Portfolio from '@/components/dark/portfolio/Portfolio';
 
-useHead({
+useSeoMeta({
   title: 'Portafolio',
+  robots: 'noindex, nofollow',
 });
 </script>
