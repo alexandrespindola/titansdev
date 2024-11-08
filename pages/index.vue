@@ -1,13 +1,13 @@
 <template>
   <main class="main-bg o-hidden">
-    <HeroMain />
-    <Services />
-    <About />
-    <Marquee />
-    <Portfolio />
-    <Skills />
-    <Tech />
-    <Contact />
+    <LazyHeroMain />
+    <LazyServices />
+    <LazyAbout />
+    <LazyMarquee />
+    <LazyPortfolio />
+    <LazySkills />
+    <LazyTech />
+    <LazyContact />
   </main>
 </template>
 
