@@ -15,6 +15,6 @@
 import { companyName } from '~/utils/constants';
 
 useSeoMeta({
-  title: `TitansDev | ${companyName}`,
+  title: `${companyName} | Agencia Digital`,
 });
 </script>

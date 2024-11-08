@@ -7,10 +7,7 @@
 </template>
 
 <script lang="ts" setup>
-import { companyName } from '~/utils/constants';
-
 useSeoMeta({
-  title: `Política de Cookies | ${companyName}`,
   robots: 'noindex, nofollow',
 });
 </script>
