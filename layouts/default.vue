@@ -1,15 +1,13 @@
 <template>
   <CommonProgressScroll />
-  <header>
-    <Navbar />
-  </header>
+  <Navbar />
   <slot />
-  <footer>
-    <FooterPrimary />
-  </footer>
+  <Footer />
 </template>
 
 <script setup>
+import Footer from '~/components/Footer.vue';
+
 
 onMounted(() => {
   const script = document.createElement('script');

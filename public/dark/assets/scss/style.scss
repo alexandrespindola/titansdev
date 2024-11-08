@@ -8,14 +8,12 @@
 @use 'components/extra';
 @use 'components/helper';
 @use 'components/preloader';
-@use 'components/overlay';
 @use 'components/menu';
 @use 'components/title';
 
 // layout
 @use 'layout/about';
 @use 'layout/blog';
-@use 'layout/brand';
 @use 'layout/contact';
 @use 'layout/features';
 @use 'layout/footer';

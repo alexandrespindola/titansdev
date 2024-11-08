@@ -1,158 +1,160 @@
 <template>
-  <nav class="navbar navbar-expand-lg nav-crev z-10">
-    <div class="container p-4 flex flex-row flex-nowrap">
-      <NuxtLink to="/" class="logo w-36">
-        <NuxtImg src="/dark/assets/imgs/titansdev-logo-white.webp" alt="logo" />
+  <header>
+    <nav class="navbar navbar-expand-lg nav-crev z-10">
+      <div class="container p-4 flex flex-row flex-nowrap">
+        <NuxtLink to="/" class="logo w-36">
+          <NuxtImg src="/dark/assets/imgs/titansdev-logo-white.webp" alt="logo" />
+        </NuxtLink>
+
+        <ul class="hidden md:flex flex-row md:gap-6 lg:gap-12">
+          <NuxtLink to="/" class="menu font-bold">Home</NuxtLink>
+          <NuxtLink to="/servicios" class="menu font-bold">Servicios</NuxtLink>
+          <NuxtLink to="/desarrollo-web" class="menu font-bold">Páginas Web</NuxtLink>
+          <NuxtLink to="/quienes-somos" class="menu font-bold">Quiénes Somos</NuxtLink>
+          <NuxtLink to="/contacto" class="menu font-bold">Contacto</NuxtLink>
+        </ul>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+
+        <div class="topnav">
+          <div @click="toggleMenu" class="cursor-pointer flex flex-col justify-center">
+            <span class="icon ti-align-right"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div :class="`hamenu one-scroll ${isOpen ? 'open' : ''}`">
+      <NuxtLink to="/">
+        <div class="logo w-36">
+          <NuxtImg src="/dark/assets/imgs/titansdev-logo-white.webp" alt="" />
+        </div>
       </NuxtLink>
-
-      <ul class="hidden md:flex flex-row md:gap-6 lg:gap-12">
-        <NuxtLink to="/" class="menu font-bold">Home</NuxtLink>
-        <NuxtLink to="/servicios" class="menu font-bold">Servicios</NuxtLink>
-        <NuxtLink to="/desarrollo-web" class="menu font-bold">Páginas Web</NuxtLink>
-        <NuxtLink to="/quienes-somos" class="menu font-bold">Quiénes Somos</NuxtLink>
-        <NuxtLink to="/contacto" class="menu font-bold">Contacto</NuxtLink>
-      </ul>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      </button>
-
-      <div class="topnav">
-        <div @click="toggleMenu" class="cursor-pointer flex flex-col justify-center">
-          <span class="icon ti-align-right"></span>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  <div :class="`hamenu one-scroll ${isOpen ? 'open' : ''}`">
-    <NuxtLink to="/">
-      <div class="logo w-36">
-        <NuxtImg src="/dark/assets/imgs/titansdev-logo-white.webp" alt="" />
-      </div>
-    </NuxtLink>
-    <div @click="closeMenu" class="close-menu cursor-pointer ti-close"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-2">
-          <div class="menu-text">
-            <div class="text">
-              <h2>Menu</h2>
+      <div @click="closeMenu" class="close-menu cursor-pointer ti-close"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="menu-text">
+              <div class="text">
+                <h2>Menu</h2>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-7">
-          <div class="menu-links">
-            <ul class="main-menu rest">
-              <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
-                <div class="o-hidden">
-                  <NuxtLink to="/" class="link cursor-pointer dmenu" @click="closeMenu">
-                    <span data-text="Home">Home</span>
-                  </NuxtLink>
-                </div>
-              </li>
-              <li @click="toggleSubMenu" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
-                <div class="o-hidden">
-                  <div class="link cursor-pointer dmenu">
-                    <span data-text="Servicios">Servicios</span>
-                    <i></i>
+          <div class="col-lg-7">
+            <div class="menu-links">
+              <ul class="main-menu rest">
+                <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+                  <div class="o-hidden">
+                    <NuxtLink to="/" class="link cursor-pointer dmenu" @click="closeMenu">
+                      <span data-text="Home">Home</span>
+                    </NuxtLink>
                   </div>
-                </div>
-                <div class="sub-menu no-bord">
-                  <ul>
-                    <li>
-                      <div class="o-hidden">
-                        <NuxtLink to="/desarrollo-web" class="link cursor-pointer sub-dmenu" @click="closeMenu">
-                          <span data-text="Páginas Web"> Páginas Web </span>
-                        </NuxtLink>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="o-hidden">
-                        <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
-                          <span data-text="Sistemas Web"> Sistemas Web </span>
-                        </NuxtLink>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="o-hidden">
-                        <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
-                          <span data-text="Automatización de Workflows">Automatización de Workflows
-                          </span>
-                        </NuxtLink>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="o-hidden">
-                        <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
-                          <span data-text="Marketing Digital"> Marketing Digital </span>
-                        </NuxtLink>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="o-hidden">
-                        <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
-                          <span data-text="Google Mi Negócio"> Google Mi Negócio </span>
-                        </NuxtLink>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
-                <div class="o-hidden">
-                  <NuxtLink to="/quienes-somos" class="link cursor-pointer dmenu" @click="closeMenu">
-                    <span data-text="Quienes Somos">Quiénes Somos</span>
-                  </NuxtLink>
-                </div>
-              </li>
-              <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
-                <div class="o-hidden">
-                  <NuxtLink to="/contacto" class="link cursor-pointer dmenu" @click="closeMenu">
-                    <span data-text="Contacto Us">Contacto</span>
-                  </NuxtLink>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="cont-info">
-            <div class="item mb-50">
-              <h6 class="sub-title mb-15 opacity-7">Dirección</h6>
-              <h5>
-                Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170
-              </h5>
-            </div>
-            <div class="item mb-50">
-              <h6 class="sub-title mb-15 opacity-7">Redes Sociales</h6>
-              <ul class="rest social-text">
-                <li class="mb-10">
-                  <a href="#0" class="hover-this">
-                    <span class="hover-anim">Facebook</span>
-                  </a>
                 </li>
-                <li class="mb-10">
-                  <a href="#0" class="hover-this">
-                    <span class="hover-anim">Instagram</span>
-                  </a>
+                <li @click="toggleSubMenu" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+                  <div class="o-hidden">
+                    <div class="link cursor-pointer dmenu">
+                      <span data-text="Servicios">Servicios</span>
+                      <i></i>
+                    </div>
+                  </div>
+                  <div class="sub-menu no-bord">
+                    <ul>
+                      <li>
+                        <div class="o-hidden">
+                          <NuxtLink to="/desarrollo-web" class="link cursor-pointer sub-dmenu" @click="closeMenu">
+                            <span data-text="Páginas Web"> Páginas Web </span>
+                          </NuxtLink>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="o-hidden">
+                          <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
+                            <span data-text="Sistemas Web"> Sistemas Web </span>
+                          </NuxtLink>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="o-hidden">
+                          <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
+                            <span data-text="Automatización de Workflows">Automatización de Workflows
+                            </span>
+                          </NuxtLink>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="o-hidden">
+                          <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
+                            <span data-text="Marketing Digital"> Marketing Digital </span>
+                          </NuxtLink>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="o-hidden">
+                          <NuxtLink to="/servicios" class="link cursor-pointer sub-dmenu" @click="closeMenu">
+                            <span data-text="Google Mi Negócio"> Google Mi Negócio </span>
+                          </NuxtLink>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+                  <div class="o-hidden">
+                    <NuxtLink to="/quienes-somos" class="link cursor-pointer dmenu" @click="closeMenu">
+                      <span data-text="Quienes Somos">Quiénes Somos</span>
+                    </NuxtLink>
+                  </div>
+                </li>
+                <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+                  <div class="o-hidden">
+                    <NuxtLink to="/contacto" class="link cursor-pointer dmenu" @click="closeMenu">
+                      <span data-text="Contacto Us">Contacto</span>
+                    </NuxtLink>
+                  </div>
                 </li>
               </ul>
             </div>
-            <div class="item mb-40">
-              <h6 class="sub-title mb-15 opacity-7">Contacto</h6>
-              <h5>
-                <a href="mailto:contacto@titansdev.es">contacto@titansdev.es</a>
-              </h5>
-              <h5 class="underline mt-10">
-                <NuxtLink to="https://wa.me/+34640500184">+34 640 500 184</NuxtLink>
-              </h5>
+          </div>
+          <div class="col-lg-3">
+            <div class="cont-info">
+              <div class="item mb-50">
+                <h6 class="sub-title mb-15 opacity-7">Dirección</h6>
+                <h5>
+                  Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170
+                </h5>
+              </div>
+              <div class="item mb-50">
+                <h6 class="sub-title mb-15 opacity-7">Redes Sociales</h6>
+                <ul class="rest social-text">
+                  <li class="mb-10">
+                    <a href="#0" class="hover-this">
+                      <span class="hover-anim">Facebook</span>
+                    </a>
+                  </li>
+                  <li class="mb-10">
+                    <a href="#0" class="hover-this">
+                      <span class="hover-anim">Instagram</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="item mb-40">
+                <h6 class="sub-title mb-15 opacity-7">Contacto</h6>
+                <h5>
+                  <a href="mailto:contacto@titansdev.es">contacto@titansdev.es</a>
+                </h5>
+                <h5 class="underline mt-10">
+                  <NuxtLink to="https://wa.me/+34640500184">+34 640 500 184</NuxtLink>
+                </h5>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </header>
 </template>
 
 <script setup>
