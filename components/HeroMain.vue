@@ -54,7 +54,7 @@ useHead({
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Mantém a proporção da imagem */
+  object-fit: cover;
 }
 
 .startup-header::before {
@@ -68,6 +68,6 @@ useHead({
 }
 
 .container {
-  position: relative; /* Para garantir que o conteúdo fique acima da imagem */
+  position: relative;
 }
 </style>

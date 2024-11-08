@@ -5,6 +5,7 @@
 
 @use "sass:color";
 @use '../utility/_variables' as vars;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Color+Emoji&display=swap');
 
 * {
     margin: 0;
@@ -18,8 +19,8 @@ body{
     color: #fff;
     background-color: vars.$main_bg;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Satoshi-Variable';
+    font-family: 'iNTER', sans-serif;
+    /* font-family: 'Satoshi-Variable'; */
     overflow-x: hidden !important;
 
     &.crev-agency{
