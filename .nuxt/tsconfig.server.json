@@ -203,6 +203,7 @@
     "../node_modules/@nuxtjs/sitemap/runtime/server",
     "../node_modules/nuxt-schema-org/runtime/server",
     "../node_modules/@nuxtjs/robots/runtime/server",
+    "../node_modules/@nuxtjs/fontaine/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "./module/nuxt-site-config.d.ts",

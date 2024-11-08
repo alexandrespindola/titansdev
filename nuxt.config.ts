@@ -138,6 +138,7 @@ export default defineNuxtConfig({
     "@nuxtjs/sitemap",
     "nuxt-schema-org",
     "@nuxtjs/robots",
+    "@nuxtjs/fontaine"
   ],
   gtm: {
     id: "GTM-K5F3KFP3",
