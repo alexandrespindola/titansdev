@@ -30,18 +30,13 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      charset: "utf-8",
       title: "TitansDev - Agencia Digital",
+      viewport: 'width=device-width, initial-scale=1',
       htmlAttrs: {
         lang: "es",
       },
       meta: [
-        {
-          name: "viewport",
-          content: "width=device-width, initial-scale=1",
-        },
-        {
-          charset: "utf-8",
-        },
         {
           "http-equiv": "X-UA-Compatible",
           content: "IE=edge",
@@ -77,7 +72,15 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content: "/titansdev-thumb.webp",
+          content: "https://titansdev.es/titansdev-thumb.webp",
+        },
+        {
+          property: "og:image:width",
+          content: "1200",
+        },
+        {
+          property: "og:image:height",
+          content: "630",
         },
         {
           property: "og:url",
