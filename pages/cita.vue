@@ -4,8 +4,8 @@
   </main>
 </template>
 
-<script setup>
-useHead({
+<script lang="ts" setup>
+useSeoMeta({
   title: 'Cita Reservada',
 });
 </script>

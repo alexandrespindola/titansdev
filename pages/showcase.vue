@@ -3,7 +3,7 @@
   <DarkShowcaseFullscreenHeader />
 </template>
 
-<script setup>
+<script lang="ts" setup>
 useHead({
   title: 'Showcase',
 });

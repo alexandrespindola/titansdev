@@ -4,8 +4,9 @@
   </main>
 </template>
 
-<script setup>
-useHead({
-  title: '404 - Página no encontrada',
+<script lang="ts" setup>
+useSeoMeta({
+  title: '404 | Página no encontrada',
+  robots: 'noindex, nofollow',
 });
 </script>

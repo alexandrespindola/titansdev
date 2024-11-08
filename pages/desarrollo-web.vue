@@ -9,8 +9,10 @@
   </main>
 </template>
 
-<script setup>
-useHead({
-  title: 'Desarrollo Web | TitansDev',
+<script lang="ts" setup>
+import { companyName } from '~/utils/constants';
+
+useSeoMeta({
+  title: `Desarrollo Web | ${companyName}`,
 });
 </script>

@@ -11,8 +11,10 @@
   </main>
 </template>
 
-<script setup>
+<script lang="ts" setup>
+import { companyName } from '~/utils/constants';
+
 useSeoMeta({
-  title: 'TitansDev | Agencia Digital',
+  title: `TitansDev | ${companyName}`,
 });
 </script>

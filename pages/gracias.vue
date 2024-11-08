@@ -4,7 +4,7 @@
   </main>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 useSeoMeta({
   title: 'Gracias!',
 });

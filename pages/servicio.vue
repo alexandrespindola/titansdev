@@ -7,8 +7,10 @@
   </main>
 </template>
 
-<script setup>
+<script lang="ts" setup>
+import { companyName } from '~/utils/constants';
+
 useHead({
-  title: 'Servicio',
+  title: `Servicio | ${companyName}`,
 });
 </script>
