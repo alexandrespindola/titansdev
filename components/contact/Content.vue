@@ -4,10 +4,8 @@
       <div class="row">
         <div class="col-lg-5 valign">
           <div class="sec-head md-mb80">
-            <h2 class="text-u ls1 d-rotate wow">
-              <span class="rotate-text">
-                Permítanos ayudar a su <span class="font-light">negocio</span>
-              </span>
+            <h2 class="text-u ls1">
+              Permítanos ayudar a su <span class="font-light">negocio</span>
             </h2>
             <p class="mt-20 mb-20">
               Estamos aquí para ayudarle a encontrar las mejores soluciones tecnológicas para usted y sus clientes.

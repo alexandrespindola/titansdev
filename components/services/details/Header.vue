@@ -6,7 +6,7 @@
   >
     <div class="container pt-100">
       <div class="text-center">
-        <h1>Creación de Páginas Web</h1>
+        <h1>CREACIÓN DE PÁGINAS WEB</h1>
         <div class="mt-15">
           <NuxtLink to="/">Home</NuxtLink>
           <span class="padding-rl-20">|</span>

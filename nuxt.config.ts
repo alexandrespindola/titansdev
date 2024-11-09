@@ -106,8 +106,6 @@ export default defineNuxtConfig({
         },
       ],
       script: [
-        { src: "/dark/assets/js/plugins.js" },
-        { src: "/dark/assets/js/countdown.js" },,
         { src: "/dark/assets/js/scripts.js", defer: true, async: true },
       ],
     },

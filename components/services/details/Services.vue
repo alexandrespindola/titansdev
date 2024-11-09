@@ -3,14 +3,12 @@
     <div class="container">
       <div class="sec-head text-center mb-80">
         <div class="row justify-content-center">
-          <div>
             <h6 class="sub-title main-color mb-15">
               Desarrollo de Páginas Web & Landing Pages
             </h6>
-            <h4>
-              Impulsa tu negocio con un sitio web que atrae clientes y genera resultados.
+            <h4 class=" max-w-4xl">
+              Creamos webs para pequeñas empresas que son fáciles de usar y optimizadas para convertir visitantes en clientes.
             </h4>
-          </div>
         </div>
       </div>
       <div class="flex flex-col md:flex-row gap-8">
