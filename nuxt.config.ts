@@ -168,6 +168,7 @@ export default defineNuxtConfig({
   },
   vite: {
     build: {
+      minify: 'terser',
       terserOptions: {
         compress: {
           drop_console: true,
@@ -177,21 +178,16 @@ export default defineNuxtConfig({
         },
       },
     },
-    css: {
+    css: {    
       preprocessorOptions: {
         scss: {
           api: "modern-compiler",
         },
       },
     },
-  },
-  webpack: {
-    extractCSS: true,
-    optimization: {
-      splitChunks: {
-        layouts: true,
-      },
-    },
+    optimizeDeps: {
+      include: ['vue', 'vue-router']
+    }
   },
   compatibilityDate: "2024-10-03",
 });
