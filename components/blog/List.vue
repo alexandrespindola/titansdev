@@ -9,7 +9,7 @@
           <div class="col-lg-4" v-for="post in posts.data" :key="post.id">
             <div class="item sub-bg mb-40">
               <div class="img">
-                <NuxtImg :src="post.cover_image.url || '/dark/assets/imgs/blog/b/7.jpg'" alt="" />
+                <img :src="post.cover_image.url || '/dark/assets/imgs/blog/b/7.jpg'" alt="" />
                 <div class="tag sub-bg">
                   <span>{{ post.category.title || 'Envato' }}</span>
                   <div class="shap-right-bottom">
