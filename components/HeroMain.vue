@@ -34,37 +34,7 @@
 </template>
 
 <script lang="ts" setup>
-
 import { useWindowSize } from '@vueuse/core'
-
 const { width } = useWindowSize()
 const isMobile = computed(() => width.value <= 768)
-
-/* useHead({
-  link: [
-    {
-      rel: 'preload',
-      as: 'image',
-      href: '/dark/assets/imgs/background/hero-background.webp'
-    },
-  ],
-}); */
 </script>
-
-<!-- <style scoped>
-.startup-header {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 100vh;
-  background-image: url('/dark/assets/imgs/background/hero-background-dark.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.container {
-  position: relative;
-  z-index: 1;
-}
-</style> -->
