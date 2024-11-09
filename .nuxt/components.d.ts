@@ -3,7 +3,6 @@ import type { DefineComponent, SlotsType } from 'vue'
 type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refresh: () => Promise<void>}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, SlotsType<{ fallback: { error: unknown } }>>
 interface _GlobalComponents {
       'About': typeof import("../components/About.vue")['default']
-    'Blog': typeof import("../components/Blog.vue")['default']
     'Cita': typeof import("../components/Cita.vue")['default']
     'Clients': typeof import("../components/Clients.vue")['default']
     'Contact': typeof import("../components/Contact.vue")['default']
@@ -140,6 +139,7 @@ interface _GlobalComponents {
     'ProseThead': typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseThead.vue")['default']
     'ProseTr': typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTr.vue")['default']
     'ProseUl': typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseUl.vue")['default']
+    'ContentPreviewMode': typeof import("../node_modules/@nuxthq/studio/dist/runtime/components/ContentPreviewMode.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
@@ -197,7 +197,6 @@ interface _GlobalComponents {
     'USlideovers': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
       'LazyAbout': typeof import("../components/About.vue")['default']
-    'LazyBlog': typeof import("../components/Blog.vue")['default']
     'LazyCita': typeof import("../components/Cita.vue")['default']
     'LazyClients': typeof import("../components/Clients.vue")['default']
     'LazyContact': typeof import("../components/Contact.vue")['default']
@@ -334,6 +333,7 @@ interface _GlobalComponents {
     'LazyProseThead': typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseThead.vue")['default']
     'LazyProseTr': typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTr.vue")['default']
     'LazyProseUl': typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseUl.vue")['default']
+    'LazyContentPreviewMode': typeof import("../node_modules/@nuxthq/studio/dist/runtime/components/ContentPreviewMode.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'LazyNuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
     'LazyNuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
@@ -397,7 +397,6 @@ declare module 'vue' {
 }
 
 export const About: typeof import("../components/About.vue")['default']
-export const Blog: typeof import("../components/Blog.vue")['default']
 export const Cita: typeof import("../components/Cita.vue")['default']
 export const Clients: typeof import("../components/Clients.vue")['default']
 export const Contact: typeof import("../components/Contact.vue")['default']
@@ -534,6 +533,7 @@ export const ProseTh: typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/co
 export const ProseThead: typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseThead.vue")['default']
 export const ProseTr: typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTr.vue")['default']
 export const ProseUl: typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseUl.vue")['default']
+export const ContentPreviewMode: typeof import("../node_modules/@nuxthq/studio/dist/runtime/components/ContentPreviewMode.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
@@ -591,7 +591,6 @@ export const UModals: IslandComponent<typeof import("../node_modules/nuxt/dist/a
 export const USlideovers: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const LazyAbout: typeof import("../components/About.vue")['default']
-export const LazyBlog: typeof import("../components/Blog.vue")['default']
 export const LazyCita: typeof import("../components/Cita.vue")['default']
 export const LazyClients: typeof import("../components/Clients.vue")['default']
 export const LazyContact: typeof import("../components/Contact.vue")['default']
@@ -728,6 +727,7 @@ export const LazyProseTh: typeof import("../node_modules/@nuxtjs/mdc/dist/runtim
 export const LazyProseThead: typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseThead.vue")['default']
 export const LazyProseTr: typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTr.vue")['default']
 export const LazyProseUl: typeof import("../node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseUl.vue")['default']
+export const LazyContentPreviewMode: typeof import("../node_modules/@nuxthq/studio/dist/runtime/components/ContentPreviewMode.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const LazyNuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
 export const LazyNuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']

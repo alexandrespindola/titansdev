@@ -45,6 +45,8 @@ export { useToast } from '../node_modules/@nuxt/ui/dist/runtime/composables/useT
 export { useUI } from '../node_modules/@nuxt/ui/dist/runtime/composables/useUI';
 export { useCldImageUrl } from '../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldImageUrl';
 export { useCldVideoUrl } from '../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldVideoUrl';
+export { extendComponentMeta } from '../node_modules/nuxt-component-meta/dist/runtime/composables/extendComponentMeta';
+export { __getComponentMeta, useComponentMeta } from '../node_modules/nuxt-component-meta/dist/runtime/composables/useComponentMeta';
 export { useStrapiAuth } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiAuth';
 export { useStrapiClient } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiClient';
 export { useStrapiGraphQL } from '../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiGraphQL';
@@ -75,5 +77,4 @@ export { useSchemaOrg } from '../node_modules/nuxt-schema-org/dist/runtime/nuxt/
 export { defineRobotMeta } from '../node_modules/@nuxtjs/robots/dist/runtime/nuxt/composables/defineRobotMeta';
 export { useRobotsRule } from '../node_modules/@nuxtjs/robots/dist/runtime/nuxt/composables/useRobotsRule';
 export { useImage } from '../node_modules/@nuxt/image/dist/runtime/composables';
-export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';

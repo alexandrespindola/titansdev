@@ -125,6 +125,12 @@
       "#mdc-imports": [
         "./mdc-imports"
       ],
+      "#nuxt-component-meta": [
+        "./component-meta"
+      ],
+      "#nuxt-component-meta/types": [
+        "./component-meta.d"
+      ],
       "#sitemap": [
         "../node_modules/@nuxtjs/sitemap/dist/runtime"
       ],
@@ -196,6 +202,7 @@
     "../node_modules/@zadigetvoltaire/nuxt-gtm/runtime/server",
     "../node_modules/@nuxtjs/mdc/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
+    "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@nuxtjs/strapi/runtime/server",
     "../node_modules/nuxt-site-config/dist/module.mjs/runtime/server",
