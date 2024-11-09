@@ -1474,6 +1474,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxtjs/device@npm:^3.2.4":
+  version: 3.2.4
+  resolution: "@nuxtjs/device@npm:3.2.4"
+  dependencies:
+    defu: "npm:^6.1.4"
+  checksum: 10c0/847cced2b4d65a9d2c77f6c933312b5eca0d02e355c0ce1b105a5a6c05125c1cc7ad52a73c0c066ae235dd85f2a3d28543f964e5cc48a44dd7994cc2250e54a2
+  languageName: node
+  linkType: hard
+
 "@nuxtjs/fontaine@npm:^0.4.4":
   version: 0.4.4
   resolution: "@nuxtjs/fontaine@npm:0.4.4"
@@ -10296,6 +10305,7 @@ __metadata:
     "@nuxt/ui": "npm:^2.18.7"
     "@nuxthq/studio": "npm:^2.1.1"
     "@nuxtjs/cloudinary": "npm:^3.1.1"
+    "@nuxtjs/device": "npm:^3.2.4"
     "@nuxtjs/fontaine": "npm:^0.4.4"
     "@nuxtjs/robots": "npm:^4.1.11"
     "@nuxtjs/sitemap": "npm:^6.1.5"

@@ -133,6 +133,7 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
     "@nuxtjs/fontaine",
     "@nuxt/image",
+    "@nuxtjs/device"
   ],
   gtm: {
     id: "GTM-K5F3KFP3",
