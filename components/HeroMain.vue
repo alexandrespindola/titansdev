@@ -1,19 +1,12 @@
 <template>
-  <header class="startup-header">
+  <header>
     <div class="valign relative vh-100">
       <NuxtImg
         class="absolute inset-0 w-full h-full object-cover"
         :src="isMobile 
-          ? 'https://res.cloudinary.com/xmfm6mhw3gwctndtcubgx2rptnae/image/upload/t_portrait/v1731140370/hero-background-dark_ddc6ug.webp'
-          : 'https://res.cloudinary.com/xmfm6mhw3gwctndtcubgx2rptnae/image/upload/v1731140370/hero-background-dark_ddc6ug.webp'"
-        :sizes="[
-          '(max-width: 768px) 100vw',
-          '100vw'
-        ]"
-        format="webp"
-        quality="80"
+          ? '/dark/assets/imgs/background/hero-background-dark-portrait.webp'
+          : '/dark/assets/imgs/background/hero-background-dark.webp'"
         loading="eager"
-        placeholder
       />
       <div class="container h-screen flex flex-col justify-center p-4 md:max-w-2xl lg:max-w-4xl absolute left-1/2 transform -translate-x-1/2">
         <div class="flex flex-row">
