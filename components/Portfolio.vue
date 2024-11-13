@@ -2,7 +2,7 @@
   <section class="portfolio-tab crev my-[7rem]" data-scroll-index="3">
     <div class="container">
       <div class="sec-head mb-80">
-        <h6 class="sub-title main-color mb-25">Nustro Portafolio</h6>
+        <h6 class="sub-title main-color mb-25">Nuestro Portafolio</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
           <h2 class="fw-600 text-u ls1">
             Proyectos <span class="fw-200">Destacados</span>
