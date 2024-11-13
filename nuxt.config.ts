@@ -135,7 +135,8 @@ export default defineNuxtConfig({
     families: {
       Inter: [300, 400, 500, 600, 700, 800, 900],
       Poppins: [300, 400, 500, 600, 700, 800, 900],
-      "Plus Jakarta Sans": [200, 300, 400, 500, 600] 
+      "Plus Jakarta Sans": [200, 300, 400, 500, 600],
+      "Material Symbols Outlined": 900
     },
     display: 'swap'
   },
