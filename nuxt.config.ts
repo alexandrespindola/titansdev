@@ -131,8 +131,17 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
     "@nuxtjs/fontaine",
     "@nuxt/image",
-    "@nuxtjs/device"
+    "@nuxtjs/device",
+    "@nuxtjs/google-fonts"
   ],
+  googleFonts: {
+    families: {
+      Inter: [300, 400, 500, 600, 700, 800, 900],
+      Poppins: [300, 400, 500, 600, 700, 800, 900],
+      "Plus Jakarta Sans": [200, 300, 400, 500, 600] 
+    },
+    display: 'swap'
+  },
   gtm: {
     id: "GTM-K5F3KFP3",
   },

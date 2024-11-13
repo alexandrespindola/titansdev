@@ -144,7 +144,7 @@
         "./tailwind.config/*"
       ],
       "#app-manifest": [
-        "./manifest/meta/dev.json"
+        "./manifest/meta/dev"
       ],
       "#components": [
         "./components"
@@ -216,6 +216,8 @@
     "../node_modules/@nuxt/image/dist/runtime",
     "../node_modules/@nuxtjs/device/runtime",
     "../node_modules/@nuxtjs/device/dist/runtime",
+    "../node_modules/@nuxtjs/google-fonts/runtime",
+    "../node_modules/@nuxtjs/google-fonts/dist/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/devtools/dist/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
@@ -261,6 +263,8 @@
     "../node_modules/@nuxt/image/dist/runtime/server",
     "../node_modules/@nuxtjs/device/runtime/server",
     "../node_modules/@nuxtjs/device/dist/runtime/server",
+    "../node_modules/@nuxtjs/google-fonts/runtime/server",
+    "../node_modules/@nuxtjs/google-fonts/dist/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/devtools/dist/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
