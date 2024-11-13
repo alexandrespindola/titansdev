@@ -105,9 +105,6 @@ export default defineNuxtConfig({
           href: "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap",
         },
       ],
-      script: [
-        { src: "/dark/assets/js/scripts.js", defer: true, async: true },
-      ],
     },
     layoutTransition: {
       name: "layout",
