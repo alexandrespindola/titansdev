@@ -4,12 +4,9 @@
 // components
 @use 'components/typography';
 @use 'components/buttons';
-@use 'components/cursor';
 @use 'components/extra';
 @use 'components/helper';
-@use 'components/preloader';
 @use 'components/menu';
-@use 'components/title';
 
 // layout
 @use 'layout/about';
@@ -24,7 +21,6 @@
 @use 'layout/price';
 @use 'layout/process';
 @use 'layout/services';
-@use 'layout/video';
 
 // responsive
 @use 'utility/responsive';

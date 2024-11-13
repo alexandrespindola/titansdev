@@ -2,20 +2,11 @@
   <section class="price-hr section-padding">
     <div class="container">
       <div class="flex flex-col items-center gap-8 lg:flex-row">
-        <div class="lg:w-1/2 valign">
-          <div class="cont full-width md-mb50">
-            <div>
-              <h6 class="sub-title main-color mb-15 wow fadeIn">
+        <div class="lg:w-1/2">
+          <div class="flex flex-col justify-start">
+              <h6 class="sub-title main-color mb-15">
                 ¿Por qué elegir a TitansDev?
               </h6>
-              <h3 class="d-slideup wow">
-                <span class="sideup-text">
-                  <span class="up-text">Soluciones personalizadas.</span>
-                </span>
-                <span class="sideup-text">
-                  <span class="up-text">Resultados comprobados.</span>
-                </span>
-              </h3>
               <div class="text mt-20">
                 <p>
                   Desarrollamos estrategias digitales audaces y efectivas para hacer crecer su negocio. Nuestro enfoque
@@ -66,7 +57,6 @@
                   <h6 class="inline fw-400">Soporte por e-mail y WhatsApp</h6>
                 </li>
               </ul>
-            </div>
           </div>
         </div>
         <div class="xl:w-1/2 valign">
