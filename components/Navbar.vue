@@ -18,10 +18,8 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         </button>
 
-        <div class="topnav">
-          <div @click="toggleMenu" class="cursor-pointer flex flex-col justify-center">
-            <span class="icon ti-align-right"></span>
-          </div>
+        <div class="topnav cursor-pointer">
+          <UIcon @click="toggleMenu" name="hugeicons:menu-11"></UIcon>
         </div>
       </div>
     </nav>
@@ -32,7 +30,10 @@
           <NuxtImg src="/dark/assets/imgs/titansdev-logo-white.webp" alt="" />
         </div>
       </NuxtLink>
-      <div @click="closeMenu" class="close-menu cursor-pointer ti-close"></div>
+      <div @click="closeMenu" class="close-menu cursor-pointer">
+        <UIcon @click="toggleMenu" name="hugeicons:cancel-01"></UIcon>
+      </div>
+
       <div class="container">
         <div class="row">
           <div class="col-lg-2">

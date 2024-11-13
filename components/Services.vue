@@ -7,12 +7,6 @@
           <h2 class="font-semibold tracking-[1px] uppercase">
             Qué <span class="font-semibold"> Ofrecemos</span>
           </h2>
-<!--           <div class="ml-auto">
-            <a href="/servicios" class="go-more">
-              <span class="text">Ver todos los Servicios</span>
-              <span class="icon ti-arrow-top-right"></span>
-            </a>
-          </div> -->
         </div>
       </div>
       <div class="w-full flex flex-row flex-wrap gap-8">
@@ -32,7 +26,7 @@
                 </div>
                 <div class="flex flex-row gap-x-2 mt-auto">
                   <span>Saber más</span>
-                  <span class="icon ti-arrow-top-right"></span>
+                  <UIcon name="hugeicons:arrow-down-right-01" class="rotate-icon"></UIcon>
                 </div>
               </div>
             </NuxtLink>
@@ -54,6 +48,9 @@ import data from '@/data/services.json';
   @media (min-width: 768px) {
     text-align: left;
   }
+}
 
+.rotate-icon {
+  transform: rotate(270deg);
 }
 </style>

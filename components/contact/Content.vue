@@ -33,7 +33,7 @@
               </NuxtLink>
               <CommonButtonsCtaCita />
             </div>
-            <ul class="rest social-text d-flex mt-60">
+<!--             <ul class="rest social-text d-flex mt-60">
               <li class="mr-30">
                 <a href="#0" class="hover-this">
                   <span class="hover-anim">Facebook</span>
@@ -44,7 +44,7 @@
                   <span class="hover-anim">Instagram</span>
                 </a>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 valign">

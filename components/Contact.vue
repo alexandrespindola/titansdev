@@ -22,14 +22,11 @@
               <h6 class="mb-15">Email</h6>
               <p>contacto@titansdev.es</p>
             </div>
-            <div class="social-icon-circle mt-50 flex flex-row gap-x-3">
+<!--             <div class="social-icon-circle mt-50 flex flex-row gap-x-3">
               <NuxtLink to="/" target="blank">
-                <i class="fab fa-facebook"></i>
+                <UIcon name="hugeicons:instagram"/>
               </NuxtLink>
-              <NuxtLink to="/" target="blank">
-                <i class="fab fa-instagram"></i>
-              </NuxtLink>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="w-full valign lg:w-3/5">
