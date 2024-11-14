@@ -38,7 +38,7 @@
     "@nuxthq/studio": "^2.1.1",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@types/markdown-it": "^14",
-    "@types/node": "^22.7.4",
+    "@types/node": "^22.9.0",
     "lightningcss": "^1.28.1"
   }
 }

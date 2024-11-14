@@ -131,6 +131,12 @@
       "#sitemap/*": [
         "../node_modules/@nuxtjs/sitemap/dist/runtime/*"
       ],
+      "#schema-org": [
+        "../node_modules/nuxt-schema-org/dist/runtime"
+      ],
+      "#schema-org/*": [
+        "../node_modules/nuxt-schema-org/dist/runtime/*"
+      ],
       "#robots": [
         "../node_modules/@nuxtjs/robots/dist/runtime"
       ],
