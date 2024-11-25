@@ -56,7 +56,7 @@ const tiers = [
     name: 'Paquete Básico',
     id: 'paquete-basico',
     href: '#',
-    priceMonthly: '€450',
+    priceMonthly: '€370',
     description: "Ideal para pequeñas empresas que buscan establecer su presencia en línea con un sitio web profesional y funcional.",
     features: [
       { title: 'Diseño de 1 a 10 páginas', uicon: 'hugeicons:laptop-programming' },
@@ -72,11 +72,11 @@ const tiers = [
     name: 'Paquete Profesional',
     id: 'paquete-profesional',
     href: '#',
-    priceMonthly: '€950',
+    priceMonthly: '€670',
     description: 'Perfecto para negocios en crecimiento que necesitan más que un sitio web estático para interactuar con sus clientes.',
     features: [
       { title: 'Todo lo del Paquete Básico', uicon: 'hugeicons:checkmark-badge-01' },
-      { title: 'Sistema de citas online', uicon: 'hugeicons:time-schedule' },
+      { title: 'Sistema de Citas Online', uicon: 'hugeicons:time-schedule' },
       { title: 'Notificaciones por WhatsApp', uicon: 'hugeicons:whatsapp' },
       { title: 'Configuración de Google Mi Negocio', uicon: 'hugeicons:google' },
       { title: 'Crecación de contenido para blog', uicon: 'hugeicons:file-edit' },
