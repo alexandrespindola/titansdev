@@ -1,6 +1,77 @@
 {
-  "welcome": "bienvenido",
-  "contacto": {
+  "pageHome": {
+    "sessionHero": {
+      "title": "Tecnologías modernas para su negocio",
+      "subtitle": "Soluciones asequibles para acelerar el crecimiento de pequeñas y medianas empresas"
+    },
+    "sessionServices": {
+      "title": "Qué Ofrecemos",
+      "subtitle": "Nuestras Especialidades",
+      "services": {
+        "web-development": {
+          "title": "Creación de Páginas Web",
+          "description": "Los sitios web deben ser rápidos e intuitivos, que atraigan a más visitantes y les conviertan en oportunidades de negocio."
+        },
+        "web-systems-development": {
+          "title": "Desarrollo de Sistemas Web",
+          "description": "Creamos sistemas web personalizados que simplifican tus operaciones diarias y mejoran la eficiencia de tu negocio."
+        },
+        "mobile-apps": {
+          "title": "Apps Móviles (Android & iOS)",
+          "description": "Creamos apps que impulsen tu crecimiento en el mundo digital."
+        },
+        "workflow-automation": {
+          "title": "Automatización de Workflows",
+          "description": "Simplifica tus procesos automáticos para reducir tareas repetitivas, ahorrar tiempo y aumentar la productividad."
+        },
+        "digital-marketing": {
+          "title": "Digital Marketing",
+          "description": "Diseñamos campañas que impulsan tu visibilidad, generan leads y fomentan el crecimiento de tu negocio."
+        },
+        "google-my-business": {
+          "title": "Google Mi Negócio",
+          "description": "Optimiza tu información en Google Maps para que los clientes te encuentren fácilmente.y aumentar la productividad."
+        }
+      },
+      "cta": "Saber más"
+    },
+    "sessionAbout": {
+      "title": "Déjenos hacer el trabajo con la tecnología, para que usted pueda centrarse en lo importante de su negocio.",
+      "subtitle": "Qué Hacemos",
+      "about-us": "Sobre nosotros",
+      "description": "Sabemos que su tiempo es valioso y que debe centrarse en hacer crecer su negocio. Por eso nos ocupamos desde la creación y automatización de sitios web hasta la generación de clientes potenciales cualificados."
+    },
+    "sessionMarquee": {
+      "title1": "Atraer Más Clientes",
+      "title2": "Automatizar Funciones",
+      "title3": "Mejorar Sus Servicios"
+    },
+    "sessionPortfolio": {
+      "title": "Proyectos Destacados",
+      "subtitle": "Nuestro Portafolio",
+      "category": {
+        "web-development": "Desarrollo Web"
+      },
+      "cta": "Ver proyecto"
+    },
+    "sessionSkills": {
+      "title": "Contáctanos",
+      "subtitle": "Estamos aquí para ayudarte"
+    },
+    "sessionTech": {
+      "title": "Contáctanos",
+      "subtitle": "Estamos aquí para ayudarte"
+    },
+    "sessionContact": {
+      "title": "Contáctanos",
+      "subtitle": "Estamos aquí para ayudarte"
+    }
+  },
+  "pageContacto": {
     "title": "contacto"
+  },
+  "button": {
+    "talk-to-us": "Habla con nosotros",
+    "online-appointment": "Agendar Cita Online"
   }
 }

@@ -8,8 +8,7 @@
         class="container absolute flex flex-col justify-center h-screen p-4 transform -translate-x-1/2 md:max-w-2xl lg:max-w-4xl left-1/2">
         <div class="flex flex-row">
           <div class="flex flex-col items-center w-full gap-4 text-center">
-            <h1 class="hero" aria-label="Tecnologías modernas para su negocio">Tecnologías modernas para su negocio {{
-              t('welcome') }}</h1>
+            <h1 class="hero" aria-label="Tecnologías modernas para su negocio">Tecnologías modernas para su negocio </h1>
             <h2 class="flex flex-row text-lg font-semibold">Soluciones asequibles para acelerar el crecimiento de
               pequeñas y medianas empresas</h2>
             <div class="flex flex-col md:flex-row gap-x-8">
