@@ -12,6 +12,14 @@
 <script lang="ts" setup>
 import { companyName } from '~/utils/constants';
 
+defineI18nRoute({
+  paths: {
+    es: '/desarrollo-web',
+    en: '/web-development',
+    de: '/web-entwicklung',
+  }
+})
+
 useSeoMeta({
   title: `Desarrollo Web | ${companyName}`,
 });

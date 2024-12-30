@@ -12,6 +12,15 @@
 </template>
 
 <script lang="ts" setup>
+
+defineI18nRoute({
+  paths: {
+    es: '/',
+    en: '/',
+    de: '/'
+  }
+})
+
 import { companyName } from '~/utils/constants';
 import { useHead } from '@vueuse/head';
 

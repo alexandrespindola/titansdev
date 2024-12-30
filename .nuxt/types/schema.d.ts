@@ -42,9 +42,9 @@ declare module '@nuxt/schema' {
      */
     ["strapi"]: typeof import("@nuxtjs/strapi").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `/workspaces/titansdev/node_modules/nuxt-site-config/dist/module`
+     * Configuration for `/home/alexandre/Dev/Nuxt/titansdev/node_modules/nuxt-site-config/dist/module`
      */
-    ["site"]: typeof import("/workspaces/titansdev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["site"]: typeof import("/home/alexandre/Dev/Nuxt/titansdev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
      * Configuration for `@nuxtjs/sitemap`
      */
@@ -73,6 +73,10 @@ declare module '@nuxt/schema' {
      * Configuration for `@nuxtjs/google-fonts`
      */
     ["googleFonts"]: typeof import("@nuxtjs/google-fonts").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/i18n`
+     */
+    ["i18n"]: typeof import("@nuxtjs/i18n").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
      * Configuration for `@nuxt/devtools`
      */
@@ -124,9 +128,9 @@ declare module '@nuxt/schema' {
      */
     ["strapi"]?: typeof import("@nuxtjs/strapi").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `/workspaces/titansdev/node_modules/nuxt-site-config/dist/module`
+     * Configuration for `/home/alexandre/Dev/Nuxt/titansdev/node_modules/nuxt-site-config/dist/module`
      */
-    ["site"]?: typeof import("/workspaces/titansdev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["site"]?: typeof import("/home/alexandre/Dev/Nuxt/titansdev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
      * Configuration for `@nuxtjs/sitemap`
      */
@@ -156,6 +160,10 @@ declare module '@nuxt/schema' {
      */
     ["googleFonts"]?: typeof import("@nuxtjs/google-fonts").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
+     * Configuration for `@nuxtjs/i18n`
+     */
+    ["i18n"]?: typeof import("@nuxtjs/i18n").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
      * Configuration for `@nuxt/devtools`
      */
     ["devtools"]?: typeof import("@nuxt/devtools").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
@@ -163,7 +171,7 @@ declare module '@nuxt/schema' {
      * Configuration for `@nuxt/telemetry`
      */
     ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
-    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxtjs/tailwindcss", Exclude<NuxtConfig["tailwindcss"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxtjs/cloudinary", Exclude<NuxtConfig["cloudinary"], boolean>] | ["@zadigetvoltaire/nuxt-gtm", Exclude<NuxtConfig["gtm"], boolean>] | ["@nuxtjs/mdc", Exclude<NuxtConfig["mdc"], boolean>] | ["@nuxt/content", Exclude<NuxtConfig["content"], boolean>] | ["@nuxthq/studio", Exclude<NuxtConfig["studio"], boolean>] | ["@nuxtjs/strapi", Exclude<NuxtConfig["strapi"], boolean>] | ["/workspaces/titansdev/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["@nuxtjs/sitemap", Exclude<NuxtConfig["sitemap"], boolean>] | ["nuxt-schema-org", Exclude<NuxtConfig["schemaOrg"], boolean>] | ["@nuxtjs/robots", Exclude<NuxtConfig["robots"], boolean>] | ["@nuxtjs/fontaine", Exclude<NuxtConfig["fontMetrics"], boolean>] | ["@nuxt/image", Exclude<NuxtConfig["image"], boolean>] | ["@nuxtjs/device", Exclude<NuxtConfig["device"], boolean>] | ["@nuxtjs/google-fonts", Exclude<NuxtConfig["googleFonts"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
+    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxtjs/tailwindcss", Exclude<NuxtConfig["tailwindcss"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxtjs/cloudinary", Exclude<NuxtConfig["cloudinary"], boolean>] | ["@zadigetvoltaire/nuxt-gtm", Exclude<NuxtConfig["gtm"], boolean>] | ["@nuxtjs/mdc", Exclude<NuxtConfig["mdc"], boolean>] | ["@nuxt/content", Exclude<NuxtConfig["content"], boolean>] | ["@nuxthq/studio", Exclude<NuxtConfig["studio"], boolean>] | ["@nuxtjs/strapi", Exclude<NuxtConfig["strapi"], boolean>] | ["/home/alexandre/Dev/Nuxt/titansdev/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["@nuxtjs/sitemap", Exclude<NuxtConfig["sitemap"], boolean>] | ["nuxt-schema-org", Exclude<NuxtConfig["schemaOrg"], boolean>] | ["@nuxtjs/robots", Exclude<NuxtConfig["robots"], boolean>] | ["@nuxtjs/fontaine", Exclude<NuxtConfig["fontMetrics"], boolean>] | ["@nuxt/image", Exclude<NuxtConfig["image"], boolean>] | ["@nuxtjs/device", Exclude<NuxtConfig["device"], boolean>] | ["@nuxtjs/google-fonts", Exclude<NuxtConfig["googleFonts"], boolean>] | ["@nuxtjs/i18n", Exclude<NuxtConfig["i18n"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
   }
 }
 declare module 'nuxt/schema' {
@@ -219,10 +227,10 @@ declare module 'nuxt/schema' {
      */
     ["strapi"]: typeof import("@nuxtjs/strapi").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
-     * Configuration for `/workspaces/titansdev/node_modules/nuxt-site-config/dist/module`
-     * @see https://www.npmjs.com/package//workspaces/titansdev/node_modules/nuxt-site-config/dist/module
+     * Configuration for `/home/alexandre/Dev/Nuxt/titansdev/node_modules/nuxt-site-config/dist/module`
+     * @see https://www.npmjs.com/package//home/alexandre/Dev/Nuxt/titansdev/node_modules/nuxt-site-config/dist/module
      */
-    ["site"]: typeof import("/workspaces/titansdev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    ["site"]: typeof import("/home/alexandre/Dev/Nuxt/titansdev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
      * Configuration for `@nuxtjs/sitemap`
      * @see https://www.npmjs.com/package/@nuxtjs/sitemap
@@ -258,6 +266,11 @@ declare module 'nuxt/schema' {
      * @see https://www.npmjs.com/package/@nuxtjs/google-fonts
      */
     ["googleFonts"]: typeof import("@nuxtjs/google-fonts").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/i18n`
+     * @see https://www.npmjs.com/package/@nuxtjs/i18n
+     */
+    ["i18n"]: typeof import("@nuxtjs/i18n").default extends NuxtModule<infer O> ? O : Record<string, any>
     /**
      * Configuration for `@nuxt/devtools`
      * @see https://www.npmjs.com/package/@nuxt/devtools
@@ -321,10 +334,10 @@ declare module 'nuxt/schema' {
      */
     ["strapi"]?: typeof import("@nuxtjs/strapi").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `/workspaces/titansdev/node_modules/nuxt-site-config/dist/module`
-     * @see https://www.npmjs.com/package//workspaces/titansdev/node_modules/nuxt-site-config/dist/module
+     * Configuration for `/home/alexandre/Dev/Nuxt/titansdev/node_modules/nuxt-site-config/dist/module`
+     * @see https://www.npmjs.com/package//home/alexandre/Dev/Nuxt/titansdev/node_modules/nuxt-site-config/dist/module
      */
-    ["site"]?: typeof import("/workspaces/titansdev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    ["site"]?: typeof import("/home/alexandre/Dev/Nuxt/titansdev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
      * Configuration for `@nuxtjs/sitemap`
      * @see https://www.npmjs.com/package/@nuxtjs/sitemap
@@ -361,6 +374,11 @@ declare module 'nuxt/schema' {
      */
     ["googleFonts"]?: typeof import("@nuxtjs/google-fonts").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
     /**
+     * Configuration for `@nuxtjs/i18n`
+     * @see https://www.npmjs.com/package/@nuxtjs/i18n
+     */
+    ["i18n"]?: typeof import("@nuxtjs/i18n").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
      * Configuration for `@nuxt/devtools`
      * @see https://www.npmjs.com/package/@nuxt/devtools
      */
@@ -370,7 +388,7 @@ declare module 'nuxt/schema' {
      * @see https://www.npmjs.com/package/@nuxt/telemetry
      */
     ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
-    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxtjs/tailwindcss", Exclude<NuxtConfig["tailwindcss"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxtjs/cloudinary", Exclude<NuxtConfig["cloudinary"], boolean>] | ["@zadigetvoltaire/nuxt-gtm", Exclude<NuxtConfig["gtm"], boolean>] | ["@nuxtjs/mdc", Exclude<NuxtConfig["mdc"], boolean>] | ["@nuxt/content", Exclude<NuxtConfig["content"], boolean>] | ["@nuxthq/studio", Exclude<NuxtConfig["studio"], boolean>] | ["@nuxtjs/strapi", Exclude<NuxtConfig["strapi"], boolean>] | ["/workspaces/titansdev/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["@nuxtjs/sitemap", Exclude<NuxtConfig["sitemap"], boolean>] | ["nuxt-schema-org", Exclude<NuxtConfig["schemaOrg"], boolean>] | ["@nuxtjs/robots", Exclude<NuxtConfig["robots"], boolean>] | ["@nuxtjs/fontaine", Exclude<NuxtConfig["fontMetrics"], boolean>] | ["@nuxt/image", Exclude<NuxtConfig["image"], boolean>] | ["@nuxtjs/device", Exclude<NuxtConfig["device"], boolean>] | ["@nuxtjs/google-fonts", Exclude<NuxtConfig["googleFonts"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
+    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxtjs/tailwindcss", Exclude<NuxtConfig["tailwindcss"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxtjs/cloudinary", Exclude<NuxtConfig["cloudinary"], boolean>] | ["@zadigetvoltaire/nuxt-gtm", Exclude<NuxtConfig["gtm"], boolean>] | ["@nuxtjs/mdc", Exclude<NuxtConfig["mdc"], boolean>] | ["@nuxt/content", Exclude<NuxtConfig["content"], boolean>] | ["@nuxthq/studio", Exclude<NuxtConfig["studio"], boolean>] | ["@nuxtjs/strapi", Exclude<NuxtConfig["strapi"], boolean>] | ["/home/alexandre/Dev/Nuxt/titansdev/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["@nuxtjs/sitemap", Exclude<NuxtConfig["sitemap"], boolean>] | ["nuxt-schema-org", Exclude<NuxtConfig["schemaOrg"], boolean>] | ["@nuxtjs/robots", Exclude<NuxtConfig["robots"], boolean>] | ["@nuxtjs/fontaine", Exclude<NuxtConfig["fontMetrics"], boolean>] | ["@nuxt/image", Exclude<NuxtConfig["image"], boolean>] | ["@nuxtjs/device", Exclude<NuxtConfig["device"], boolean>] | ["@nuxtjs/google-fonts", Exclude<NuxtConfig["googleFonts"], boolean>] | ["@nuxtjs/i18n", Exclude<NuxtConfig["i18n"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
   }
   interface RuntimeConfig {
    app: {
@@ -583,19 +601,71 @@ declare module 'nuxt/schema' {
       version: string,
 
       sitemaps: {
-         "sitemap.xml": {
+         index: {
             sitemapName: string,
 
-            route: string,
+            _route: string,
 
-            defaults: any,
+            sitemaps: Array<any>,
 
+            include: Array<any>,
+
+            exclude: Array<any>,
+         },
+
+         "es-ES": {
             include: Array<any>,
 
             exclude: Array<string>,
 
             includeAppSources: boolean,
+
+            sitemapName: string,
+
+            _route: string,
+
+            _hasSourceChunk: boolean,
          },
+
+         "en-US": {
+            include: Array<any>,
+
+            exclude: Array<string>,
+
+            includeAppSources: boolean,
+
+            sitemapName: string,
+
+            _route: string,
+
+            _hasSourceChunk: boolean,
+         },
+
+         "de-DE": {
+            include: Array<any>,
+
+            exclude: Array<string>,
+
+            includeAppSources: boolean,
+
+            sitemapName: string,
+
+            _route: string,
+
+            _hasSourceChunk: boolean,
+         },
+      },
+
+      autoI18n: {
+         differentDomains: boolean,
+
+         defaultLocale: string,
+
+         locales: Array<{
+
+         }>,
+
+         strategy: string,
       },
    },
 
@@ -1246,6 +1316,66 @@ declare module 'nuxt/schema' {
       enabled: boolean,
 
       refreshOnResize: boolean,
+   },
+
+   i18n: {
+      baseUrl: string,
+
+      defaultLocale: string,
+
+      defaultDirection: string,
+
+      strategy: string,
+
+      lazy: boolean,
+
+      rootRedirect: any,
+
+      routesNameSeparator: string,
+
+      defaultLocaleRouteNameSuffix: string,
+
+      skipSettingLocaleOnNavigate: boolean,
+
+      differentDomains: boolean,
+
+      trailingSlash: boolean,
+
+      locales: Array<{
+
+      }>,
+
+      detectBrowserLanguage: {
+         alwaysRedirect: boolean,
+
+         cookieCrossOrigin: boolean,
+
+         cookieDomain: any,
+
+         cookieKey: string,
+
+         cookieSecure: boolean,
+
+         fallbackLocale: string,
+
+         redirectOn: string,
+
+         useCookie: boolean,
+      },
+
+      experimental: {
+         localeDetector: string,
+
+         switchLocalePathLinkSSR: boolean,
+
+         autoImportTranslationFunctions: boolean,
+
+         typedPages: boolean,
+
+         typedOptionsAndMessages: boolean,
+      },
+
+      multiDomainLocales: boolean,
    },
   }
 }

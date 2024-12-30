@@ -31,6 +31,9 @@ declare global {
   const defineFoodEstablishment: typeof import('../../node_modules/@unhead/schema-org/vue')['defineFoodEstablishment']
   const defineHowTo: typeof import('../../node_modules/@unhead/schema-org/vue')['defineHowTo']
   const defineHowToStep: typeof import('../../node_modules/@unhead/schema-org/vue')['defineHowToStep']
+  const defineI18nConfig: typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['defineI18nConfig']
+  const defineI18nLocale: typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['defineI18nLocale']
+  const defineI18nRoute: typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['defineI18nRoute']
   const defineImage: typeof import('../../node_modules/@unhead/schema-org/vue')['defineImage']
   const defineItemList: typeof import('../../node_modules/@unhead/schema-org/vue')['defineItemList']
   const defineJobPosting: typeof import('../../node_modules/@unhead/schema-org/vue')['defineJobPosting']
@@ -144,6 +147,7 @@ declare global {
   const useAppConfig: typeof import('../../node_modules/nuxt/dist/app/config')['useAppConfig']
   const useAsyncData: typeof import('../../node_modules/nuxt/dist/app/composables/asyncData')['useAsyncData']
   const useAttrs: typeof import('vue')['useAttrs']
+  const useBrowserLocale: typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useBrowserLocale']
   const useCarouselScroll: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useCarouselScroll')['useCarouselScroll']
   const useCldImageUrl: typeof import('../../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldImageUrl')['useCldImageUrl']
   const useCldVideoUrl: typeof import('../../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldVideoUrl')['useCldVideoUrl']
@@ -155,6 +159,7 @@ declare global {
   const useContentPreview: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/preview')['useContentPreview']
   const useContentState: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/utils')['useContentDisabled']
   const useCookie: typeof import('../../node_modules/nuxt/dist/app/composables/cookie')['useCookie']
+  const useCookieLocale: typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useCookieLocale']
   const useCopyToClipboard: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useCopyToClipboard')['useCopyToClipboard']
   const useCssModule: typeof import('vue')['useCssModule']
   const useCssVars: typeof import('vue')['useCssVars']
@@ -166,6 +171,7 @@ declare global {
   const useHead: typeof import('../../node_modules/@unhead/vue')['useHead']
   const useHeadSafe: typeof import('../../node_modules/@unhead/vue')['useHeadSafe']
   const useHydration: typeof import('../../node_modules/nuxt/dist/app/composables/hydrate')['useHydration']
+  const useI18n: typeof import('../../node_modules/vue-i18n/dist/vue-i18n')['useI18n']
   const useId: typeof import('vue')['useId']
   const useImage: typeof import('../../node_modules/@nuxt/image/dist/runtime/composables')['useImage']
   const useInjectButtonGroup: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useButtonGroup')['useInjectButtonGroup']
@@ -173,6 +179,9 @@ declare global {
   const useLazyFetch: typeof import('../../node_modules/nuxt/dist/app/composables/fetch')['useLazyFetch']
   const useLink: typeof import('vue-router')['useLink']
   const useLoadingIndicator: typeof import('../../node_modules/nuxt/dist/app/composables/loading-indicator')['useLoadingIndicator']
+  const useLocaleHead: typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useLocaleHead']
+  const useLocalePath: typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useLocalePath']
+  const useLocaleRoute: typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useLocaleRoute']
   const useModal: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useModal')['useModal']
   const useModel: typeof import('vue')['useModel']
   const useNitroOrigin: typeof import('../../node_modules/nuxt-site-config/dist/runtime/nuxt/composables/useNitroOrigin')['useNitroOrigin']
@@ -191,6 +200,7 @@ declare global {
   const useRobotsRule: typeof import('../../node_modules/@nuxtjs/robots/dist/runtime/nuxt/composables/useRobotsRule')['useRobotsRule']
   const useRoute: typeof import('../../node_modules/nuxt/dist/app/composables/router')['useRoute']
   const useRouteAnnouncer: typeof import('../../node_modules/nuxt/dist/app/composables/route-announcer')['useRouteAnnouncer']
+  const useRouteBaseName: typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useRouteBaseName']
   const useRouter: typeof import('../../node_modules/nuxt/dist/app/composables/router')['useRouter']
   const useRuntimeConfig: typeof import('../../node_modules/nuxt/dist/app/nuxt')['useRuntimeConfig']
   const useRuntimeHook: typeof import('../../node_modules/nuxt/dist/app/composables/runtime-hook')['useRuntimeHook']
@@ -223,6 +233,7 @@ declare global {
   const useServerHead: typeof import('../../node_modules/@unhead/vue')['useServerHead']
   const useServerHeadSafe: typeof import('../../node_modules/@unhead/vue')['useServerHeadSafe']
   const useServerSeoMeta: typeof import('../../node_modules/@unhead/vue')['useServerSeoMeta']
+  const useSetI18nParams: typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useSetI18nParams']
   const useShadowRoot: typeof import('vue')['useShadowRoot']
   const useShortcuts: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useShortcuts')['useShortcuts']
   const useSiteConfig: typeof import('../../node_modules/nuxt-site-config/dist/runtime/nuxt/composables/useSiteConfig')['useSiteConfig']
@@ -239,6 +250,7 @@ declare global {
   const useStrapiUrl: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiUrl')['useStrapiUrl']
   const useStrapiUser: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiUser')['useStrapiUser']
   const useStrapiVersion: typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiVersion')['useStrapiVersion']
+  const useSwitchLocalePath: typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useSwitchLocalePath']
   const useTemplateRef: typeof import('vue')['useTemplateRef']
   const useTimer: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useTimer')['useTimer']
   const useToast: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useToast')['useToast']
@@ -299,6 +311,9 @@ declare module 'vue' {
     readonly defineFoodEstablishment: UnwrapRef<typeof import('../../node_modules/@unhead/schema-org/vue')['defineFoodEstablishment']>
     readonly defineHowTo: UnwrapRef<typeof import('../../node_modules/@unhead/schema-org/vue')['defineHowTo']>
     readonly defineHowToStep: UnwrapRef<typeof import('../../node_modules/@unhead/schema-org/vue')['defineHowToStep']>
+    readonly defineI18nConfig: UnwrapRef<typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['defineI18nConfig']>
+    readonly defineI18nLocale: UnwrapRef<typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['defineI18nLocale']>
+    readonly defineI18nRoute: UnwrapRef<typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['defineI18nRoute']>
     readonly defineImage: UnwrapRef<typeof import('../../node_modules/@unhead/schema-org/vue')['defineImage']>
     readonly defineItemList: UnwrapRef<typeof import('../../node_modules/@unhead/schema-org/vue')['defineItemList']>
     readonly defineJobPosting: UnwrapRef<typeof import('../../node_modules/@unhead/schema-org/vue')['defineJobPosting']>
@@ -412,6 +427,7 @@ declare module 'vue' {
     readonly useAppConfig: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/config')['useAppConfig']>
     readonly useAsyncData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/asyncData')['useAsyncData']>
     readonly useAttrs: UnwrapRef<typeof import('vue')['useAttrs']>
+    readonly useBrowserLocale: UnwrapRef<typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useBrowserLocale']>
     readonly useCarouselScroll: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useCarouselScroll')['useCarouselScroll']>
     readonly useCldImageUrl: UnwrapRef<typeof import('../../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldImageUrl')['useCldImageUrl']>
     readonly useCldVideoUrl: UnwrapRef<typeof import('../../node_modules/@nuxtjs/cloudinary/dist/runtime/composables/useCldVideoUrl')['useCldVideoUrl']>
@@ -423,6 +439,7 @@ declare module 'vue' {
     readonly useContentPreview: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/preview')['useContentPreview']>
     readonly useContentState: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/utils')['useContentDisabled']>
     readonly useCookie: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/cookie')['useCookie']>
+    readonly useCookieLocale: UnwrapRef<typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useCookieLocale']>
     readonly useCopyToClipboard: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useCopyToClipboard')['useCopyToClipboard']>
     readonly useCssModule: UnwrapRef<typeof import('vue')['useCssModule']>
     readonly useCssVars: UnwrapRef<typeof import('vue')['useCssVars']>
@@ -434,6 +451,7 @@ declare module 'vue' {
     readonly useHead: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useHead']>
     readonly useHeadSafe: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useHeadSafe']>
     readonly useHydration: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/hydrate')['useHydration']>
+    readonly useI18n: UnwrapRef<typeof import('../../node_modules/vue-i18n/dist/vue-i18n')['useI18n']>
     readonly useId: UnwrapRef<typeof import('vue')['useId']>
     readonly useImage: UnwrapRef<typeof import('../../node_modules/@nuxt/image/dist/runtime/composables')['useImage']>
     readonly useInjectButtonGroup: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useButtonGroup')['useInjectButtonGroup']>
@@ -441,6 +459,9 @@ declare module 'vue' {
     readonly useLazyFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/fetch')['useLazyFetch']>
     readonly useLink: UnwrapRef<typeof import('vue-router')['useLink']>
     readonly useLoadingIndicator: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/loading-indicator')['useLoadingIndicator']>
+    readonly useLocaleHead: UnwrapRef<typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useLocaleHead']>
+    readonly useLocalePath: UnwrapRef<typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useLocalePath']>
+    readonly useLocaleRoute: UnwrapRef<typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useLocaleRoute']>
     readonly useModal: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useModal')['useModal']>
     readonly useModel: UnwrapRef<typeof import('vue')['useModel']>
     readonly useNitroOrigin: UnwrapRef<typeof import('../../node_modules/nuxt-site-config/dist/runtime/nuxt/composables/useNitroOrigin')['useNitroOrigin']>
@@ -459,6 +480,7 @@ declare module 'vue' {
     readonly useRobotsRule: UnwrapRef<typeof import('../../node_modules/@nuxtjs/robots/dist/runtime/nuxt/composables/useRobotsRule')['useRobotsRule']>
     readonly useRoute: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/router')['useRoute']>
     readonly useRouteAnnouncer: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/route-announcer')['useRouteAnnouncer']>
+    readonly useRouteBaseName: UnwrapRef<typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useRouteBaseName']>
     readonly useRouter: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/router')['useRouter']>
     readonly useRuntimeConfig: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/nuxt')['useRuntimeConfig']>
     readonly useRuntimeHook: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/runtime-hook')['useRuntimeHook']>
@@ -491,6 +513,7 @@ declare module 'vue' {
     readonly useServerHead: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useServerHead']>
     readonly useServerHeadSafe: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useServerHeadSafe']>
     readonly useServerSeoMeta: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useServerSeoMeta']>
+    readonly useSetI18nParams: UnwrapRef<typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useSetI18nParams']>
     readonly useShadowRoot: UnwrapRef<typeof import('vue')['useShadowRoot']>
     readonly useShortcuts: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useShortcuts')['useShortcuts']>
     readonly useSiteConfig: UnwrapRef<typeof import('../../node_modules/nuxt-site-config/dist/runtime/nuxt/composables/useSiteConfig')['useSiteConfig']>
@@ -507,6 +530,7 @@ declare module 'vue' {
     readonly useStrapiUrl: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiUrl')['useStrapiUrl']>
     readonly useStrapiUser: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiUser')['useStrapiUser']>
     readonly useStrapiVersion: UnwrapRef<typeof import('../../node_modules/@nuxtjs/strapi/dist/runtime/composables/useStrapiVersion')['useStrapiVersion']>
+    readonly useSwitchLocalePath: UnwrapRef<typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/composables/index')['useSwitchLocalePath']>
     readonly useTemplateRef: UnwrapRef<typeof import('vue')['useTemplateRef']>
     readonly useTimer: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useTimer')['useTimer']>
     readonly useToast: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useToast')['useToast']>

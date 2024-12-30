@@ -26,25 +26,14 @@
             </div>
             <div class="phone fz-30 fw-600 mt-30 main-color">
               <NuxtLink to="https://wa.me/+34640500184" target="_blank">
-                <div class="phone text-3xl lg:text-4xl fw-600 main-color flex flex-row gap-3 items-center">
+                <div class="flex flex-row items-center gap-3 text-3xl phone lg:text-4xl fw-600 main-color">
                   <UIcon name="logos:whatsapp-icon" />
                   +34 640 500 184
                 </div>
               </NuxtLink>
               <CommonButtonsCtaCita />
             </div>
-<!--             <ul class="rest social-text d-flex mt-60">
-              <li class="mr-30">
-                <a href="#0" class="hover-this">
-                  <span class="hover-anim">Facebook</span>
-                </a>
-              </li>
-              <li>
-                <a href="#0" class="hover-this">
-                  <span class="hover-anim">Instagram</span>
-                </a>
-              </li>
-            </ul> -->
+            <SocialMedia />
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 valign">
@@ -61,3 +50,7 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+</script>

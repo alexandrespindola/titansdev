@@ -6,7 +6,7 @@
   >
     <div class="container pt-100">
       <div class="text-center">
-        <h1 class="fz-100 text-u">Contacto</h1>
+        <h1 class="fz-100 text-u">{{ $t('contacto.title')}}</h1>
         <div class="mt-15">
           <NuxtLink to="/">Home</NuxtLink>
           <span class="padding-rl-20">|</span>
@@ -19,6 +19,7 @@
 
 <script setup>
 import loadBackgroudImages from '@/common/loadBackgroudImages';
+const { t } = useI18n()
 
 onMounted(() => {
   loadBackgroudImages();

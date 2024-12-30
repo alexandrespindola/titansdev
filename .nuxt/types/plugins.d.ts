@@ -18,10 +18,12 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/check-if-page-unused.js")> &
   InjectionType<typeof import("../../node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.server.js")> &
   InjectionType<typeof import("../../node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.client.js")> &
+  InjectionType<typeof import("../../node_modules/@nuxtjs/i18n/dist/runtime/plugins/switch-locale-path-ssr.js")> &
+  InjectionType<typeof import("../../node_modules/@nuxtjs/i18n/dist/runtime/plugins/i18n.js")> &
   InjectionType<typeof import("../../node_modules/@nuxtjs/device/dist/runtime/plugin.js")> &
   InjectionType<typeof import("../../node_modules/@nuxtjs/robots/dist/runtime/nuxt/plugins/robot-meta.server.js")> &
-  InjectionType<typeof import("../../node_modules/nuxt-schema-org/dist/runtime/nuxt/plugin/defaults.js")> &
-  InjectionType<typeof import("../../node_modules/nuxt-schema-org/dist/runtime/nuxt/plugin/init.js")> &
+  InjectionType<typeof import("../../node_modules/nuxt-schema-org/dist/runtime/nuxt/plugin/i18n/defaults.js")> &
+  InjectionType<typeof import("../../node_modules/nuxt-site-config/dist/runtime/nuxt/plugins/i18n.server.js")> &
   InjectionType<typeof import("../../node_modules/@nuxtjs/strapi/dist/runtime/plugins/dns.server.js")> &
   InjectionType<typeof import("../../node_modules/@nuxtjs/strapi/dist/runtime/plugins/strapi.js")> &
   InjectionType<typeof import("../../node_modules/@nuxt/content/dist/runtime/plugins/ws.js")> &
@@ -34,13 +36,14 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/@nuxt/icon/dist/runtime/plugin.js")> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/dev-server-logs.js")> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/check-if-layout-used.js")> &
-  InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/prerender.server.js")>
+  InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/prerender.server.js")> &
+  InjectionType<typeof import("../../node_modules/nuxt-schema-org/dist/runtime/nuxt/plugin/i18n/init.js")>
 
 declare module '#app' {
   interface NuxtApp extends NuxtAppInjections { }
 
   interface NuxtAppLiterals {
-    pluginName: 'nuxt:revive-payload:client' | 'nuxt:head' | 'nuxt:router' | 'nuxt-site-config:init' | 'nuxt:revive-payload:server' | 'nuxt:chunk-reload' | 'nuxt:global-components' | 'nuxt:prefetch' | 'nuxt:checkIfPageUnused' | 'nuxt-schema-org:defaults' | 'nuxt-schema-org:init' | '@nuxt/icon' | 'nuxt:checkIfLayoutUsed'
+    pluginName: 'nuxt:revive-payload:client' | 'nuxt:head' | 'nuxt:router' | 'nuxt-site-config:init' | 'nuxt:revive-payload:server' | 'nuxt:chunk-reload' | 'nuxt:global-components' | 'nuxt:prefetch' | 'nuxt:checkIfPageUnused' | 'i18n:plugin:switch-locale-path-ssr' | 'i18n:plugin' | 'nuxt-schema-org:defaults' | 'nuxt-site-config:i18n' | '@nuxt/icon' | 'nuxt:checkIfLayoutUsed' | 'nuxt-schema-org:init'
   }
 }
 

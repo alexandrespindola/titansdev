@@ -5,6 +5,15 @@
 </template>
 
 <script lang="ts" setup>
+
+defineI18nRoute({
+  paths: {
+    es: '/cita',
+    en: '/appointment',
+    de: '/termin',
+  }
+})
+
 useSeoMeta({
   title: 'Cita Reservada',
 });

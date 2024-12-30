@@ -75,5 +75,7 @@ export { useSchemaOrg } from '../node_modules/nuxt-schema-org/dist/runtime/nuxt/
 export { defineRobotMeta } from '../node_modules/@nuxtjs/robots/dist/runtime/nuxt/composables/defineRobotMeta';
 export { useRobotsRule } from '../node_modules/@nuxtjs/robots/dist/runtime/nuxt/composables/useRobotsRule';
 export { useImage } from '../node_modules/@nuxt/image/dist/runtime/composables';
+export { useI18n } from '../node_modules/vue-i18n/dist/vue-i18n';
+export { useRouteBaseName, useLocalePath, useLocaleRoute, useSwitchLocalePath, useLocaleHead, useBrowserLocale, useCookieLocale, useSetI18nParams, defineI18nRoute, defineI18nLocale, defineI18nConfig } from '../node_modules/@nuxtjs/i18n/dist/runtime/composables/index';
 export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';

@@ -129,7 +129,8 @@ export default defineNuxtConfig({
     "@nuxtjs/fontaine",
     "@nuxt/image",
     "@nuxtjs/device",
-    "@nuxtjs/google-fonts"
+    "@nuxtjs/google-fonts",
+    "@nuxtjs/i18n",
   ],
   googleFonts: {
     families: {
@@ -137,13 +138,40 @@ export default defineNuxtConfig({
       Poppins: [300, 400, 500, 600, 700, 800, 900],
       "Plus Jakarta Sans": [200, 300, 400, 500, 600],
     },
-    display: 'swap'
+    display: "swap",
   },
   gtm: {
     id: "GTM-K5F3KFP3",
   },
+  i18n: {
+    locales: [
+      {
+        code: "es",
+        iso: "es-ES",
+        file: "es.json",
+        name: "Español",
+      },
+      {
+        code: "en",
+        iso: "en-US",
+        file: "en.json",
+        name: "English",
+      },
+      {
+        code: "de",
+        iso: "de-DE",
+        file: "de.json",
+        name: "Deutsch",
+      },
+    ],
+    defaultLocale: "es",
+    strategy: "prefix_except_default",
+    lazy: true,
+    langDir: "locale/",
+    baseUrl: "https://titansdev.es",
+  },
   image: {
-    format: ['webp', 'avif', 'jpeg'],
+    format: ["webp", "avif", "jpeg"],
     quality: 80,
   },
   runtimeConfig: {
@@ -172,7 +200,7 @@ export default defineNuxtConfig({
   },
   vite: {
     build: {
-      minify: 'terser',
+      minify: "terser",
       terserOptions: {
         compress: {
           drop_console: true,
@@ -182,7 +210,7 @@ export default defineNuxtConfig({
         },
       },
     },
-    css: {    
+    css: {
       preprocessorOptions: {
         scss: {
           api: "modern-compiler",
@@ -190,8 +218,8 @@ export default defineNuxtConfig({
       },
     },
     optimizeDeps: {
-      include: ['vue', 'vue-router']
-    }
+      include: ["vue", "vue-router"],
+    },
   },
   compatibilityDate: "2024-10-03",
 });

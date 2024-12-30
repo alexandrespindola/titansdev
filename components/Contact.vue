@@ -1,11 +1,11 @@
 <template>
-  <section class="contact pt-12 pb-24">
+  <section class="pt-12 pb-24 contact">
     <div class="container">
       <div class="flex flex-col w-full lg:flex-row gap-x-8">
         <div class="w-full valign lg:w-2/5">
           <div class="sec-head info-box full-width md-mb80">
             <NuxtLink to="https://wa.me/+34640500184" target="_blank">
-              <div class="phone text-2xl lg:text-3xl fw-600 main-color flex flex-row gap-3 items-center">
+              <div class="flex flex-row items-center gap-3 text-2xl phone lg:text-3xl fw-600 main-color">
                 <UIcon name="logos:whatsapp-icon" />
                 +34 640 500 184
               </div>
@@ -22,11 +22,7 @@
               <h6 class="mb-15">Email</h6>
               <p>contacto@titansdev.es</p>
             </div>
-<!--             <div class="social-icon-circle mt-50 flex flex-row gap-x-3">
-              <NuxtLink to="/" target="blank">
-                <UIcon name="hugeicons:instagram"/>
-              </NuxtLink>
-            </div> -->
+            <SocialMedia />
           </div>
         </div>
         <div class="w-full valign lg:w-3/5">
