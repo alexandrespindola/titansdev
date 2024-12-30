@@ -1,6 +1,117 @@
 {
-  "welcome": "welcome",
-  "contacto": {
-    "title": "contact"
+  "header": {
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "web-development": "Web Development",
+      "about-us": "About Us",
+      "contact": "Contact"
+    }
+  },
+  "footer": {
+    "content": "Produced with ❤️ by TitansDev",
+    "legal": {
+      "privacy-policy": "Privacy Policy",
+      "terms-of-use": "Terms of Use",
+      "cookies-policy": "Cookies Policy"
+    }
+  },  
+  "pageHome": {
+    "sessionHero": {
+      "title": "Modern technologies for your business",
+      "subtitle": "Affordable solutions to accelerate the growth of small and medium-sized businesses"
+    },
+    "sessionServices": {
+      "title": "What We Offer",
+      "subtitle": "Our Specialties",
+      "services": {
+        "web-development": {
+          "title": "Web Development",
+          "description": "Websites should be fast and intuitive, attracting more visitors and converting them into business opportunities."
+        },
+        "web-systems-development": {
+          "title": "Web Systems Development",
+          "description": "We create custom web systems that simplify your daily operations and improve your business efficiency."
+        },
+        "mobile-apps": {
+          "title": "Mobile Apps (Android & iOS)",
+          "description": "We create apps that drive your growth in the digital world."
+        },
+        "workflow-automation": {
+          "title": "Workflow Automation",
+          "description": "Simplify your automated processes to reduce repetitive tasks, save time, and increase productivity."
+        },
+        "digital-marketing": {
+          "title": "Digital Marketing",
+          "description": "We design campaigns that boost your visibility, generate leads, and foster business growth."
+        },
+        "google-my-business": {
+          "title": "Google My Business",
+          "description": "Optimize your information on Google Maps so customers can easily find you."
+        }
+      },
+      "cta": "Learn more"
+    },
+    "sessionAbout": {
+      "title": "Let us handle the technology so you can focus on what matters in your business.",
+      "subtitle": "What We Do",
+      "about-us": "About Us",
+      "description": "We know your time is valuable and you need to focus on growing your business. That's why we take care of everything from creating and automating websites to generating qualified leads."
+    },
+    "sessionMarquee": {
+      "title1": "Attract More Customers",
+      "title2": "Automate Functions",
+      "title3": "Improve Your Services"
+    },
+    "sessionPortfolio": {
+      "title": "Featured Projects",
+      "subtitle": "Our Portfolio",
+      "category": {
+        "web-development": "Web Development"
+      },
+      "cta": "View project"
+    },
+    "sessionSkills": {
+      "title": "Experience the magic of TitansDev",
+      "subtitle": "Our Skills",
+      "description": "Whether developing websites, mobile apps, or custom systems, our team is dedicated to creating innovative experiences that drive your business.",
+      "skills": {
+        "web-development": "Web Development",
+        "app-development": "App Development",
+        "workflow-automation": "Workflow Automation",
+        "digital-marketing": "Digital Marketing"
+      }
+    },
+    "sessionTech": {
+      "title": "We use over 30 modern tools and technologies"
+    },
+    "sessionContact": {
+      "title": "Send us a message",
+      "subtitle": "Let's talk",
+      "address": {
+        "title": "Address",
+        "content1": "Aldea Portecelos, 27 - Parada de Amoeiro",
+        "content2": "Ourense, Spain - CP 32170"
+      },
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone",
+        "subject": "Subject",
+        "message": "Message",
+        "want-info": "I want to receive more information about TitansDev services.",
+        "accept-terms": "I agree with the",
+        "terms": "Privacy Policy",
+        "send": "Send"
+      }
+    }
+  },
+  "pageContacto": {
+    "title": "Contact"
+  },
+  "button": {
+    "talk-to-us": "Talk to us",
+    "online-appointment": "Schedule Online Appointment"
   }
 }

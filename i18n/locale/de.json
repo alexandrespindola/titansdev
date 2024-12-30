@@ -1,6 +1,117 @@
 {
-  "welcome": "Willkommen",
-  "contacto": {
+  "header": {
+    "nav": {
+      "home": "Startseite",
+      "services": "Dienstleistungen",
+      "web-development": "Webentwicklung",
+      "about-us": "Über uns",
+      "contact": "Kontakt"
+    }
+  },
+  "footer": {
+    "content": "Produziert mit ❤️ von TitansDev",
+    "legal": {
+      "privacy-policy": "Datenschutzrichtlinie",
+      "terms-of-use": "Nutzungsbedingungen",
+      "cookies-policy": "Cookie-Richtlinie"
+    }
+  },  
+  "pageHome": {
+    "sessionHero": {
+      "title": "Moderne Technologien für Ihr Unternehmen",
+      "subtitle": "Erschwingliche Lösungen zur Beschleunigung des Wachstums von kleinen und mittelständischen Unternehmen"
+    },
+    "sessionServices": {
+      "title": "Was wir anbieten",
+      "subtitle": "Unsere Spezialitäten",
+      "services": {
+        "web-development": {
+          "title": "Webentwicklung",
+          "description": "Websites sollten schnell und intuitiv sein, mehr Besucher anziehen und sie in Geschäftsmöglichkeiten umwandeln."
+        },
+        "web-systems-development": {
+          "title": "Entwicklung von Websystemen",
+          "description": "Wir erstellen maßgeschneiderte Websysteme, die Ihre täglichen Abläufe vereinfachen und die Effizienz Ihres Unternehmens verbessern."
+        },
+        "mobile-apps": {
+          "title": "Mobile Apps (Android & iOS)",
+          "description": "Wir erstellen Apps, die Ihr Wachstum in der digitalen Welt vorantreiben."
+        },
+        "workflow-automation": {
+          "title": "Workflow-Automatisierung",
+          "description": "Vereinfachen Sie Ihre automatisierten Prozesse, um repetitive Aufgaben zu reduzieren, Zeit zu sparen und die Produktivität zu steigern."
+        },
+        "digital-marketing": {
+          "title": "Digitales Marketing",
+          "description": "Wir entwerfen Kampagnen, die Ihre Sichtbarkeit erhöhen, Leads generieren und das Wachstum Ihres Unternehmens fördern."
+        },
+        "google-my-business": {
+          "title": "Google My Business",
+          "description": "Optimieren Sie Ihre Informationen auf Google Maps, damit Kunden Sie leicht finden können."
+        }
+      },
+      "cta": "Mehr erfahren"
+    },
+    "sessionAbout": {
+      "title": "Lassen Sie uns die Technologie übernehmen, damit Sie sich auf das Wesentliche in Ihrem Unternehmen konzentrieren können.",
+      "subtitle": "Was wir tun",
+      "about-us": "Über uns",
+      "description": "Wir wissen, dass Ihre Zeit wertvoll ist und Sie sich auf das Wachstum Ihres Unternehmens konzentrieren müssen. Deshalb kümmern wir uns um alles, von der Erstellung und Automatisierung von Websites bis hin zur Generierung qualifizierter Leads."
+    },
+    "sessionMarquee": {
+      "title1": "Mehr Kunden gewinnen",
+      "title2": "Funktionen automatisieren",
+      "title3": "Ihre Dienstleistungen verbessern"
+    },
+    "sessionPortfolio": {
+      "title": "Ausgewählte Projekte",
+      "subtitle": "Unser Portfolio",
+      "category": {
+        "web-development": "Webentwicklung"
+      },
+      "cta": "Projekt ansehen"
+    },
+    "sessionSkills": {
+      "title": "Erleben Sie die Magie von TitansDev",
+      "subtitle": "Unsere Fähigkeiten",
+      "description": "Ob bei der Entwicklung von Websites, mobilen Apps oder maßgeschneiderten Systemen, unser Team widmet sich der Schaffung innovativer Erlebnisse, die Ihr Unternehmen vorantreiben.",
+      "skills": {
+        "web-development": "Webentwicklung",
+        "app-development": "App-Entwicklung",
+        "workflow-automation": "Workflow-Automatisierung",
+        "digital-marketing": "Digitales Marketing"
+      }
+    },
+    "sessionTech": {
+      "title": "Wir nutzen über 30 moderne Werkzeuge und Technologien"
+    },
+    "sessionContact": {
+      "title": "Senden Sie uns eine Nachricht",
+      "subtitle": "Lassen Sie uns reden",
+      "address": {
+        "title": "Adresse",
+        "content1": "Aldea Portecelos, 27 - Parada de Amoeiro",
+        "content2": "Ourense, Spanien - CP 32170"
+      },
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "subject": "Betreff",
+        "message": "Nachricht",
+        "want-info": "Ich möchte mehr Informationen über die Dienstleistungen von TitansDev erhalten.",
+        "accept-terms": "Ich stimme der",
+        "terms": "Datenschutzrichtlinie zu",
+        "send": "Senden"
+      }
+    }
+  },
+  "pageContacto": {
     "title": "Kontakt"
+  },
+  "button": {
+    "talk-to-us": "Sprechen Sie mit uns",
+    "online-appointment": "Online-Termin vereinbaren"
   }
 }

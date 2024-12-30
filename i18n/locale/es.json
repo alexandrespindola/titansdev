@@ -1,4 +1,21 @@
 {
+  "header": {
+    "nav": {
+      "home": "Home",
+      "services": "Servicios",
+      "web-development": "Páginas Web",
+      "about-us": "Quiénes Somos",
+      "contact": "Contacto"
+    }
+  },
+  "footer": {
+    "content": "Producido con ❤️ por TitansDev",
+    "legal": {
+      "privacy-policy": "Política de Privacidad",
+      "terms-of-use": "Términos de Uso",
+      "cookies-policy": "Política de Cookies"
+    }
+  },  
   "pageHome": {
     "sessionHero": {
       "title": "Tecnologías modernas para su negocio",
@@ -55,16 +72,39 @@
       "cta": "Ver proyecto"
     },
     "sessionSkills": {
-      "title": "Contáctanos",
-      "subtitle": "Estamos aquí para ayudarte"
+      "title": "Experimente la magia de TitansDev",
+      "subtitle": "Nuestras Habilidades",
+      "description": "Ya sea desarrollando sitios web, aplicaciones móviles o sistemas personalizados, nuestro equipo se dedica a crear experiencias innovadoras que impulsen su negocio.",
+      "skills": {
+        "web-development": "Creación de Páginas Web",
+        "app-development": "Desarrollo de Aplicaciones",
+        "workflow-automation": "Automatización de Workflows",
+        "digital-marketing": "Marketing Digital"
+      }
     },
     "sessionTech": {
-      "title": "Contáctanos",
-      "subtitle": "Estamos aquí para ayudarte"
+      "title": "Utilizamos más de 30 herramientas y tecnologias modernas"
     },
     "sessionContact": {
-      "title": "Contáctanos",
-      "subtitle": "Estamos aquí para ayudarte"
+      "title": "Envíanos un mensaje",
+      "subtitle": "Vamos a hablar",
+      "address": {
+        "title": "Dirección",
+        "content1": "Aldea Portecelos, 27 - Parada de Amoeiro",
+        "content2": "Ourense, España - CP 32170"
+      },
+      "form": {
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "E-mail",
+        "phone": "Teléfono",
+        "subject": "Asunto",
+        "message": "Mensaje",
+        "want-info": "Quiero recibir más información sobre los servicios de TitansDev.",
+        "accept-terms": "Estoy de acuerdo con la",
+        "terms": "Política de privacidad",
+        "send": "Enviar"
+      }
     }
   },
   "pageContacto": {

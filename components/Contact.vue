@@ -19,7 +19,7 @@
                 Ourense, España - CP 32170</p>
             </div>
             <div class="morinfo mt-30 pb-30 bord-thin-bottom">
-              <h6 class="mb-15">Email</h6>
+              <h6 class="mb-15">E-mail</h6>
               <p>contacto@titansdev.es</p>
             </div>
             <SocialMedia />
