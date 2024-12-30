@@ -9,26 +9,26 @@
           </h2>
         </div>
       </div>
-      <div class="pt-30 gap-4 flex flex-row flex-wrap justify-center">
+      <div class="flex flex-row flex-wrap justify-center gap-4 pt-30">
         <div v-for="(item, i) in data" :key="i" class="w-full md:w-[45%] lg:w-[30%] min-h-96">
-          <div class="item-box bg md-mb50 rounded-xl flex flex-col h-full">
-            <div class="icon opacity-5 mb-4">
+          <div class="flex flex-col h-full item-box bg md-mb50 rounded-xl">
+            <div class="mb-4 icon opacity-5">
               <NuxtImg :src="item.img" alt=""/>
             </div>
             <h5 class="uppercase">
               {{ item.title }}
             </h5>
             <p class="flex-grow-1">{{ item.desc }}</p>
-            <NuxtLink :to="item.link">
-              <div class="rmore lg:pt-4 flex flex-row gap-2">
+            <NuxtLinkLocale :to="item.link">
+              <div class="flex flex-row gap-2 rmore lg:pt-4">
                 <span class="sub-title">Saber Más</span>
                 <NuxtImg
                   src="/dark/assets/imgs/arrow-right.png"
                   alt=""
-                  class="icon-img-20 ml-5"
+                  class="ml-5 icon-img-20"
                 />
               </div>
-            </NuxtLink>
+            </NuxtLinkLocale>
           </div>
         </div>
         <CommonButtonsCtaCita />

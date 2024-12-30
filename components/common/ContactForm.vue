@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="w-full lg:w-1/2">
-        <div class="form-group mb-30 flex flex-row flex-nowrap items-center">
+        <div class="flex flex-row items-center form-group mb-30 flex-nowrap">
           <USelect v-model="form.prefix_code" :options="countryCodes" option-attribute="country" value-attribute="code"
             :placeholder="'🇪🇸 +34'" color="green" class="w-40">
             <template #label>
@@ -53,11 +53,11 @@
           <UToggle v-model="form.acceptance_privacy_terms" name="acceptance_privacy_terms" required />
         </div>
         <span class="text-red-500">*</span>
-        <p>Estoy de acuerdo con la <NuxtLink to="/politica-de-privacidad" class="main-color">Política de Privacidad.
-          </NuxtLink>
+        <p>Estoy de acuerdo con la <NuxtLinkLocale to="/politica-de-privacidad" class="main-color">Política de Privacidad.
+          </NuxtLinkLocale>
         </p>
       </div>
-      <div v-if="errorMessage" class="text-red-500 mt-2">
+      <div v-if="errorMessage" class="mt-2 text-red-500">
         {{ errorMessage }}
       </div>
       <div class="mt-30">

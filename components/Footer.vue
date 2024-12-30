@@ -3,26 +3,26 @@
     <div class="container">
       <div class="flex flex-col flex-wrap gap-12 lg:gap-0 lg:flex-row">
         <div class="w-full order-first flex flex-col items-center lg:w-[40%] lg:flex-row lg:justify-start">
-          <NuxtLink to="/">
+          <NuxtLinkLocale to="/">
             <NuxtImg src="/dark/assets/imgs/titansdev-logo-white.webp" alt="" class="object-contain w-[120px] h-auto"/>
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
         <div class=" w-full flex flex-wrap justify-center items-center content-center order-last lg:w-[20%] lg:order-2">
-          <p class="fz-14 w-full flex justify-center gap-1">
-            <NuxtLink to="/" class="main-color">
+          <p class="flex justify-center w-full gap-1 fz-14">
+            <NuxtLinkLocale to="/" class="main-color">
               TitansDev
-            </NuxtLink>
+            </NuxtLinkLocale>
             <span>© 2024</span>
           </p>
-          <p class="fz-14 self-center text-center">
+          <p class="self-center text-center fz-14">
             Producido con ❤️ por TitansDev
           </p>
         </div>
         <div class="w-full lg:w-[40%] lg:order-last">
-          <ul class="footer-primary flex flex-col gap-2 xl:flex-row xl:justify-end">
-            <NuxtLink to="/politica-de-privacidad" class="self-center">Política de Privacidad</NuxtLink>
-            <NuxtLink to="/terminos-de-uso" class="self-center">Términos de Uso</NuxtLink>
-            <NuxtLink to="/politica-de-cookies" class="self-center">Política de Cookies</NuxtLink>
+          <ul class="flex flex-col gap-2 footer-primary xl:flex-row xl:justify-end">
+            <NuxtLinkLocale to="/politica-de-privacidad" class="self-center">Política de Privacidad</NuxtLinkLocale>
+            <NuxtLinkLocale to="/terminos-de-uso" class="self-center">Términos de Uso</NuxtLinkLocale>
+            <NuxtLinkLocale to="/politica-de-cookies" class="self-center">Política de Cookies</NuxtLinkLocale>
           </ul>
         </div>
       </div>

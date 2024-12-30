@@ -1,5 +1,5 @@
 <template>
-  <section class="clients-carso section-padding pt-0">
+  <section class="pt-0 clients-carso section-padding">
     <div class="container">
       <div class="sec-bottom mb-100">
         <div class="main-bg d-flex align-items-center">
@@ -11,8 +11,6 @@
       <div class="swiper5" data-carousel="swiper" data-items="5" data-loop="true" data-space="40">
         <Swiper id="content-carousel-container-unq-clients" class="swiper-container" data-swiper="container"
           v-bind="swiperOptions">
-
-
           <SwiperSlide>
             <div class="item">
               <div class="img icon-img-100">

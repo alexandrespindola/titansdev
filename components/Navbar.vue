@@ -2,15 +2,15 @@
   <header>
     <nav class="z-10 navbar navbar-expand-lg nav-crev">
       <div class="container flex flex-row p-4 flex-nowrap">
-        <NuxtLink to="/" class="logo w-36">
+        <NuxtLinkLocale to="/" class="logo w-36">
           <NuxtImg src="/dark/assets/imgs/titansdev-logo-white.webp" alt="logo" />
-        </NuxtLink>
+        </NuxtLinkLocale>
 
         <ul class="flex-row hidden md:flex md:gap-6 lg:gap-12">
-          <NuxtLink to="/" class="font-bold menu">Home</NuxtLink>
-          <NuxtLink to="/servicios" class="font-bold menu">Servicios</NuxtLink>
-          <NuxtLink to="/desarrollo-web" class="font-bold menu">Páginas Web</NuxtLink>
-          <NuxtLink to="/quienes-somos" class="font-bold menu">Quiénes Somos</NuxtLink>
+          <NuxtLinkLocale to="/" class="font-bold menu">Home</NuxtLinkLocale>
+          <NuxtLinkLocale to="/servicios" class="font-bold menu">Servicios</NuxtLinkLocale>
+          <NuxtLinkLocale to="/desarrollo-web" class="font-bold menu">Páginas Web</NuxtLinkLocale>
+          <NuxtLinkLocale to="/quienes-somos" class="font-bold menu">Quiénes Somos</NuxtLinkLocale>
           <NuxtLinkLocale to="/contacto" class="font-bold menu">Contacto</NuxtLinkLocale>
           <CommonLanguageSelectorVue />
         </ul>
@@ -26,11 +26,11 @@
     </nav>
 
     <div :class="`hamenu one-scroll ${isOpen ? 'open' : ''}`">
-      <NuxtLink to="/">
+      <NuxtLinkLocale to="/">
         <div class="logo w-36">
           <NuxtImg src="/dark/assets/imgs/titansdev-logo-white.webp" alt="" />
         </div>
-      </NuxtLink>
+      </NuxtLinkLocale>
       <div @click="closeMenu" class="cursor-pointer close-menu">
         <UIcon @click="toggleMenu" name="hugeicons:cancel-01"></UIcon>
       </div>
@@ -49,9 +49,9 @@
               <ul class="main-menu rest">
                 <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                   <div class="o-hidden">
-                    <NuxtLink to="/" class="cursor-pointer link dmenu" @click="closeMenu">
+                    <NuxtLinkLocale to="/" class="cursor-pointer link dmenu" @click="closeMenu">
                       <span data-text="Home">Home</span>
-                    </NuxtLink>
+                    </NuxtLinkLocale>
                   </div>
                 </li>
                 <li @click="toggleSubMenu" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
@@ -65,38 +65,38 @@
                     <ul>
                       <li>
                         <div class="o-hidden">
-                          <NuxtLink to="/desarrollo-web" class="cursor-pointer link sub-dmenu" @click="closeMenu">
+                          <NuxtLinkLocale to="/desarrollo-web" class="cursor-pointer link sub-dmenu" @click="closeMenu">
                             <span data-text="Páginas Web"> Páginas Web </span>
-                          </NuxtLink>
+                          </NuxtLinkLocale>
                         </div>
                       </li>
                       <li>
                         <div class="o-hidden">
-                          <NuxtLink to="/servicios" class="cursor-pointer link sub-dmenu" @click="closeMenu">
+                          <NuxtLinkLocale to="/servicios" class="cursor-pointer link sub-dmenu" @click="closeMenu">
                             <span data-text="Sistemas Web"> Sistemas Web </span>
-                          </NuxtLink>
+                          </NuxtLinkLocale>
                         </div>
                       </li>
                       <li>
                         <div class="o-hidden">
-                          <NuxtLink to="/servicios" class="cursor-pointer link sub-dmenu" @click="closeMenu">
+                          <NuxtLinkLocale to="/servicios" class="cursor-pointer link sub-dmenu" @click="closeMenu">
                             <span data-text="Automatización de Workflows">Automatización de Workflows
                             </span>
-                          </NuxtLink>
+                          </NuxtLinkLocale>
                         </div>
                       </li>
                       <li>
                         <div class="o-hidden">
-                          <NuxtLink to="/servicios" class="cursor-pointer link sub-dmenu" @click="closeMenu">
+                          <NuxtLinkLocale to="/servicios" class="cursor-pointer link sub-dmenu" @click="closeMenu">
                             <span data-text="Marketing Digital"> Marketing Digital </span>
-                          </NuxtLink>
+                          </NuxtLinkLocale>
                         </div>
                       </li>
                       <li>
                         <div class="o-hidden">
-                          <NuxtLink to="/servicios" class="cursor-pointer link sub-dmenu" @click="closeMenu">
+                          <NuxtLinkLocale to="/servicios" class="cursor-pointer link sub-dmenu" @click="closeMenu">
                             <span data-text="Google Mi Negócio"> Google Mi Negócio </span>
-                          </NuxtLink>
+                          </NuxtLinkLocale>
                         </div>
                       </li>
                     </ul>
@@ -104,16 +104,16 @@
                 </li>
                 <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                   <div class="o-hidden">
-                    <NuxtLink to="/quienes-somos" class="cursor-pointer link dmenu" @click="closeMenu">
+                    <NuxtLinkLocale to="/quienes-somos" class="cursor-pointer link dmenu" @click="closeMenu">
                       <span data-text="Quienes Somos">Quiénes Somos</span>
-                    </NuxtLink>
+                    </NuxtLinkLocale>
                   </div>
                 </li>
                 <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                   <div class="o-hidden">
-                    <NuxtLink to="/contacto" class="cursor-pointer link dmenu" @click="closeMenu">
+                    <NuxtLinkLocale to="/contacto" class="cursor-pointer link dmenu" @click="closeMenu">
                       <span data-text="Contacto Us">Contacto</span>
-                    </NuxtLink>
+                    </NuxtLinkLocale>
                   </div>
                 </li>
               </ul>

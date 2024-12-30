@@ -8,9 +8,9 @@
       <div class="text-center">
         <h1>CREACIÓN DE PÁGINAS WEB</h1>
         <div class="mt-15">
-          <NuxtLink to="/">Home</NuxtLink>
+          <NuxtLinkLocale to="/">Home</NuxtLinkLocale>
           <span class="padding-rl-20">|</span>
-          <NuxtLink to="/servicios">Servicios</NuxtLink>
+          <NuxtLinkLocale to="/servicios">Servicios</NuxtLinkLocale>
           <span class="padding-rl-20">|</span>
           <span class="main-color">Páginas Web</span>
         </div>

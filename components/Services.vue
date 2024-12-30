@@ -9,27 +9,27 @@
           </h2>
         </div>
       </div>
-      <div class="w-full flex flex-row flex-wrap gap-8">
+      <div class="flex flex-row flex-wrap w-full gap-8">
         <div v-for="(item, i) in data" :key="i" class="flex  w-full md:w-[45%] lg:w-[30%] bg-[#1d1d1d] rounded-xl">
           <div
-            class="flex flex-col md:flex-row flex-grow hover  gap-4 p-4 hover:bg-gradient-to-br hover:from-green-700 hover:to-green-900 rounded-lg">
-            <NuxtLink :to="item.link" class="flex flex-col w-auto p-4 md:p-8">
+            class="flex flex-col flex-grow gap-4 p-4 rounded-lg md:flex-row hover hover:bg-gradient-to-br hover:from-green-700 hover:to-green-900">
+            <NuxtLinkLocale :to="item.link" class="flex flex-col w-auto p-4 md:p-8">
               <div class="flex flex-col gap-4">
                 <div class="flex flex-row">
-                  <NuxtImg :src="item.img" alt="" class=" w-20" />
+                  <NuxtImg :src="item.img" alt="" class="w-20 " />
                 </div>
               </div>
-              <div class="flex flex-col gap-2             flex-grow">
-                <h5 class="text-xl mt-4 md:text-2xl">{{ item.title }}</h5>
+              <div class="flex flex-col flex-grow gap-2">
+                <h5 class="mt-4 text-xl md:text-2xl">{{ item.title }}</h5>
                 <div class="flex flex-col flex-grow">
                   <p class="mb-4">{{ item.desc }}</p>
                 </div>
-                <div class="flex flex-row gap-x-2 mt-auto">
+                <div class="flex flex-row mt-auto gap-x-2">
                   <span>Saber más</span>
                   <UIcon name="hugeicons:arrow-down-right-01" class="rotate-icon"></UIcon>
                 </div>
               </div>
-            </NuxtLink>
+            </NuxtLinkLocale>
           </div>
         </div>
       </div>

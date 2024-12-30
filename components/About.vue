@@ -3,17 +3,17 @@
     <div class="container section-padding bord-thin-top">
       <div class="flex flex-row flex-wrap justify-center gap-8">
         <div class="w-full xl:w-[48%]">
-          <div class="cont flex flex-col">
+          <div class="flex flex-col cont">
             <h6 class="sub-title main-color mb-15">Qué Hacemos</h6>
             <h3>
               Déjenos hacer el trabajo con la tecnología, para que usted pueda centrarse en lo importante de su negocio.
             </h3>
-            <div class="d-flex align-items-end mt-4 gap-x-8">
+            <div class="mt-4 d-flex align-items-end gap-x-8">
               <div class="hidden sm:block">
-                <NuxtLink to="/quienes-somos" class="d-flex align-items-end">
+                <NuxtLinkLocale to="/quienes-somos" class="d-flex align-items-end">
                   <span class="sub-title nowrap">Sobre Nosotros</span>
                   <span class="fz-70 line-height-45 ti-arrow-top-right"></span>
-                </NuxtLink>
+                </NuxtLinkLocale>
               </div>
               <p>
                 Sabemos que su tiempo es valioso y que debe centrarse en hacer crecer su negocio. Por eso nos ocupamos
@@ -21,7 +21,6 @@
                 cualificados.
               </p>
             </div>
-
           </div>
         </div>
         <div class="w-full lg:w-2/3 xl:w-[48%]">

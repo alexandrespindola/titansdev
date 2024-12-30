@@ -7,7 +7,7 @@
               <h6 class="sub-title main-color mb-15">
                 ¿Por qué elegir a TitansDev?
               </h6>
-              <div class="text mt-20">
+              <div class="mt-20 text">
                 <p>
                   Desarrollamos estrategias digitales audaces y efectivas para hacer crecer su negocio. Nuestro enfoque
                   combina creatividad y tecnología de vanguardia para lograr resultados excepcionales.
@@ -60,15 +60,15 @@
           </div>
         </div>
         <div class="xl:w-1/2 valign">
-          <div class="full-width flex flex-col gap-4">
+          <div class="flex flex-col gap-4 full-width">
             <div class="item bg-gradient-to-br from-[#141414] to-black  radius-10 d-flex align-items-center">
               <div class="type">
-                <div class="icon-img-60 mb-10">
+                <div class="mb-10 icon-img-60">
                   <NuxtImg src="/dark/assets/imgs/icon-img/shape1.png" alt="" />
                 </div>
                 <h5 class="fw-600">Advanced</h5>
               </div>
-              <div class="cont ml-50 flex flex-col gap-8">
+              <div class="flex flex-col gap-8 cont ml-50">
                 <h6>Ideal para Aumentar la Visibilidad en Línea y Captar Clientes Potenciales (Leads)</h6>
                 <ul class="dot-list rest">
                   <li class="mb-10">Creación de <strong>Páginas Web</strong> Profesionales</li>
@@ -79,23 +79,23 @@
                   <li class="mb-10">Optimización de <strong>Google Mi Negocio</strong></li>
                   <li class="mb-10"><strong>Soporte Técnico</strong></li>
                 </ul>
-                <div class="mount mr-auto text-center">
+                <div class="mr-auto text-center mount">
                   <div>
-                    <NuxtLink to="/contacto" class="butn butn-md butn-bord radius-30">
+                    <NuxtLinkLocale to="/contacto" class="butn butn-md butn-bord radius-30">
                       <span class="fz-13">Contáctenos</span>
-                    </NuxtLink>
+                    </NuxtLinkLocale>
                   </div>
                 </div>
               </div>
             </div>
             <div class="item bg-gradient-to-br from-[#155e06] to-[#0d4602] radius-10 d-flex align-items-center">
               <div class="type">
-                <div class="icon-img-60 mb-10">
+                <div class="mb-10 icon-img-60">
                   <NuxtImg src="/dark/assets/imgs/icon-img/shape3.png" alt=""/>
                 </div>
                 <h5 class="fw-600">Enterprise</h5>
               </div>
-              <div class="cont ml-50 flex flex-col gap-4">
+              <div class="flex flex-col gap-4 cont ml-50">
                 <h6>Ideal para Transformación Digital Integral y Escalabilidad Empresarial</h6>
                 <ul class="dot-list rest">
                   <li class="mb-10">Desarrollo de <strong>Sistemas Web </strong>Personalizados</li>
@@ -106,11 +106,11 @@
                   <li class="mb-10">Integración de <strong>Sistemas y APIs</strong></li>
                   <li class="mb-10"><strong>Soporte Técnico</strong></li>
                 </ul>
-                <div class="mount mr-auto text-center">
+                <div class="mr-auto text-center mount">
                   <div>
-                    <NuxtLink to="/contacto" class="butn butn-md butn-bord radius-30">
+                    <NuxtLinkLocale to="/contacto" class="butn butn-md butn-bord radius-30">
                       <span class="fz-13">Contáctenos</span>
-                    </NuxtLink>
+                    </NuxtLinkLocale>
                   </div>
                 </div>
               </div>
