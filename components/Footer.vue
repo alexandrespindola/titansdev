@@ -20,9 +20,9 @@
         </div>
         <div class="w-full lg:w-[40%] lg:order-last">
           <ul class="flex flex-col gap-2 footer-primary xl:flex-row xl:justify-end">
-            <NuxtLinkLocale to="/politica-de-privacidad" class="self-center">{{ t('footer.legal.privacy-policy') }}</NuxtLinkLocale>
-            <NuxtLinkLocale to="/terminos-de-uso" class="self-center">{{ t('footer.legal.terms-of-use') }}</NuxtLinkLocale>
-            <NuxtLinkLocale to="/politica-de-cookies" class="self-center">{{ t('footer.legal.cookies-policy') }}</NuxtLinkLocale>
+            <NuxtLinkLocale to="/politica-de-privacidad" class="self-center">{{ t('footer.legal.privacyPolicy') }}</NuxtLinkLocale>
+            <NuxtLinkLocale to="/terminos-de-uso" class="self-center">{{ t('footer.legal.termsOfUse') }}</NuxtLinkLocale>
+            <NuxtLinkLocale to="/politica-de-cookies" class="self-center">{{ t('footer.legal.cookiesPolicy') }}</NuxtLinkLocale>
           </ul>
         </div>
       </div>

@@ -46,14 +46,14 @@
         <div class="flex flex-col justify-center">
           <UToggle v-model="form.acceptance_receive_marketing_info" name="acceptance_receive_marketing_info" />
         </div>
-        <p>{{ t('formContact.want-info')}}</p>
+        <p>{{ t('formContact.wantInfo')}}</p>
       </div>
       <div class="flex flex-row gap-2">
         <div class="flex flex-col justify-center">
           <UToggle v-model="form.acceptance_privacy_terms" name="acceptance_privacy_terms" required />
         </div>
         <span class="text-red-500">*</span>
-        <p>{{ t('formContact.accept-terms')}} <NuxtLinkLocale to="/politica-de-privacidad" class="main-color">{{ t('formContact.terms')}}
+        <p>{{ t('formContact.acceptTerms')}} <NuxtLinkLocale to="/politica-de-privacidad" class="main-color">{{ t('formContact.terms')}}
           </NuxtLinkLocale>.
         </p>
       </div>

@@ -6,11 +6,11 @@
   >
     <div class="container pt-100">
       <div class="text-center">
-        <h1 class="fz-100 text-u">{{ $t('contacto.title') }}</h1>
+        <h1 class="fz-100 text-u">{{ $t('pageContacto.title') }}</h1>
         <div class="mt-15">
-          <NuxtLink to="/">Home</NuxtLink>
+          <NuxtLink to="/">{{ $t('pageContacto.breadcrumb.home') }}</NuxtLink>
           <span class="padding-rl-20">|</span>
-          <span class="main-color">Contacto</span>
+          <span class="main-color">{{ $t('pageContacto.breadcrumb.contact') }}</span>
         </div>
       </div>
     </div>

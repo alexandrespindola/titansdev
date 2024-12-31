@@ -24,25 +24,25 @@
               <div class="mt-50">
                 <div class="skills-box">
                   <div class="mb-40 skill-item">
-                    <h5 class="sub-title mb-15">{{ t('pageHome.sessionSkills.skills.web-development') }}</h5>
+                    <h5 class="sub-title mb-15">{{ t('pageHome.sessionSkills.skills.webDevelopment') }}</h5>
                     <div class="skill-progress">
                       <div class="progres" data-value="95%"></div>
                     </div>
                   </div>
                   <div class="mb-40 skill-item">
-                    <h5 class="sub-title mb-15">{{ t('pageHome.sessionSkills.skills.app-development') }}</h5>
+                    <h5 class="sub-title mb-15">{{ t('pageHome.sessionSkills.skills.appDevelopment') }}</h5>
                     <div class="skill-progress">
                       <div class="progres" data-value="90%"></div>
                     </div>
                   </div>
                   <div class="mb-40 skill-item">
-                    <h5 class="sub-title mb-15">{{ t('pageHome.sessionSkills.skills.digital-marketing') }}</h5>
+                    <h5 class="sub-title mb-15">{{ t('pageHome.sessionSkills.skills.digitalMarketing') }}</h5>
                     <div class="skill-progress">
                       <div class="progres" data-value="85%"></div>
                     </div>
                   </div>
                   <div class="skill-item">
-                    <h5 class="sub-title mb-15">{{ t('pageHome.sessionSkills.skills.workflow-automation') }}</h5>
+                    <h5 class="sub-title mb-15">{{ t('pageHome.sessionSkills.skills.workflowAutomation') }}</h5>
                     <div class="skill-progress">
                       <div class="progres" data-value="90%"></div>
                     </div>

@@ -3,17 +3,21 @@
     "nav": {
       "home": "Startseite",
       "services": "Dienstleistungen",
-      "web-development": "Webentwicklung",
-      "about-us": "Über uns",
+      "webDevelopment": "Webentwicklung",
+      "webSystems": "Websysteme",
+      "workflowAutomation": "Workflow-Automatisierung",
+      "digitalMarketing": "Digitales Marketing",
+      "googleMyBusiness": "Google My Business",
+      "aboutUs": "Über uns",
       "contact": "Kontakt"
     }
   },
   "footer": {
     "content": "Produziert mit ❤️ von TitansDev",
     "legal": {
-      "privacy-policy": "Datenschutzrichtlinie",
-      "terms-of-use": "Nutzungsbedingungen",
-      "cookies-policy": "Cookie-Richtlinie"
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "termsOfUse": "Nutzungsbedingungen",
+      "cookiesPolicy": "Cookie-Richtlinie"
     }
   },
   "pageHome": {
@@ -55,7 +59,7 @@
     "sessionAbout": {
       "title": "Lassen Sie uns die Technologie übernehmen, damit Sie sich auf das Wesentliche in Ihrem Unternehmen konzentrieren können.",
       "subtitle": "Was wir tun",
-      "about-us": "Über uns",
+      "aboutUs": "Über uns",
       "description": "Wir wissen, dass Ihre Zeit wertvoll ist und Sie sich auf das Wachstum Ihres Unternehmens konzentrieren müssen. Deshalb kümmern wir uns um alles, von der Erstellung und Automatisierung von Websites bis hin zur Generierung qualifizierter Leads."
     },
     "sessionMarquee": {
@@ -64,10 +68,11 @@
       "title3": "Ihre Dienstleistungen verbessern"
     },
     "sessionPortfolio": {
-      "title": "Ausgewählte Projekte",
+      "title": "Ausgewählte",
+      "titleSpan": "Projekte",
       "subtitle": "Unser Portfolio",
       "category": {
-        "web-development": "Webentwicklung"
+        "webDevelopment": "Webentwicklung"
       },
       "cta": "Projekt ansehen"
     },
@@ -76,10 +81,10 @@
       "subtitle": "Unsere Fähigkeiten",
       "description": "Ob bei der Entwicklung von Websites, mobilen Apps oder maßgeschneiderten Systemen, unser Team widmet sich der Schaffung innovativer Erlebnisse, die Ihr Unternehmen vorantreiben.",
       "skills": {
-        "web-development": "Webentwicklung",
-        "app-development": "App-Entwicklung",
-        "workflow-automation": "Workflow-Automatisierung",
-        "digital-marketing": "Digitales Marketing"
+        "webDevelopment": "Webentwicklung",
+        "appDevelopment": "App-Entwicklung",
+        "workflowAutomation": "Workflow-Automatisierung",
+        "digitalMarketing": "Digitales Marketing"
       }
     },
     "sessionTech": {
@@ -96,11 +101,15 @@
     }
   },
   "pageContacto": {
-    "title": "Kontakt"
+    "title": "Kontakt",
+    "breadcrumb": {
+      "home": "Home",
+      "contact": "Kontakt"
+    }
   },
   "button": {
-    "talk-to-us": "Sprechen Sie mit uns",
-    "online-appointment": "Online-Termin vereinbaren"
+    "talkToUs": "Sprechen Sie mit Uns",
+    "onlineAppointment": "Online-Termin Vereinbaren"
   },
   "formContact": {
     "firstName": "Vorname",
@@ -109,8 +118,8 @@
     "phone": "Telefon",
     "subject": "Betreff",
     "message": "Nachricht",
-    "want-info": "Ich möchte mehr Informationen über die Dienstleistungen von TitansDev erhalten.",
-    "accept-terms": "Ich stimme der",
+    "wantInfo": "Ich möchte mehr Informationen über die Dienstleistungen von TitansDev erhalten.",
+    "acceptTerms": "Ich stimme der",
     "terms": "Datenschutzrichtlinie zu",
     "sending": "Senden",
     "send": "Senden"

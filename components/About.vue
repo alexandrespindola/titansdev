@@ -11,7 +11,7 @@
             <div class="mt-4 d-flex align-items-end gap-x-8">
               <div class="hidden sm:block">
                 <NuxtLinkLocale to="/quienes-somos" class="d-flex align-items-end">
-                  <span class="sub-title nowrap">{{ t('pageHome.sessionAbout.about-us') }}</span>
+                  <span class="sub-title nowrap">{{ t('pageHome.sessionAbout.aboutUs') }}</span>
                   <span class="fz-70 line-height-45 ti-arrow-top-right"></span>
                 </NuxtLinkLocale>
               </div>

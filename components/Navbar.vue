@@ -9,8 +9,8 @@
         <ul class="flex-row hidden md:flex md:gap-6 lg:gap-12">
           <NuxtLinkLocale to="/" class="font-bold menu">{{ t('header.nav.home') }}</NuxtLinkLocale>
           <NuxtLinkLocale to="/servicios" class="font-bold menu">{{ t('header.nav.services') }}</NuxtLinkLocale>
-          <NuxtLinkLocale to="/desarrollo-web" class="font-bold menu">{{ t('header.nav.web-development') }}</NuxtLinkLocale>
-          <NuxtLinkLocale to="/quienes-somos" class="font-bold menu">{{ t('header.nav.about-us') }}</NuxtLinkLocale>
+          <NuxtLinkLocale to="/desarrollo-web" class="font-bold menu">{{ t('header.nav.webDevelopment') }}</NuxtLinkLocale>
+          <NuxtLinkLocale to="/quienes-somos" class="font-bold menu">{{ t('header.nav.aboutUs') }}</NuxtLinkLocale>
           <NuxtLinkLocale to="/contacto" class="font-bold menu">{{ t('header.nav.contact') }}</NuxtLinkLocale>
           <CommonLanguageSelectorVue />
         </ul>
@@ -50,14 +50,14 @@
                 <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                   <div class="o-hidden">
                     <NuxtLinkLocale to="/" class="cursor-pointer link dmenu" @click="closeMenu">
-                      <span data-text="Home">Home</span>
+                      <span data-text="Home">{{ t('header.nav.home') }}</span>
                     </NuxtLinkLocale>
                   </div>
                 </li>
                 <li @click="toggleSubMenu" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                   <div class="o-hidden">
                     <div class="cursor-pointer link dmenu">
-                      <span data-text="Servicios">Servicios</span>
+                      <span data-text="Servicios">{{ t('header.nav.services') }}</span>
                       <i></i>
                     </div>
                   </div>
@@ -66,21 +66,21 @@
                       <li>
                         <div class="o-hidden">
                           <NuxtLinkLocale to="/desarrollo-web" class="cursor-pointer link sub-dmenu" @click="closeMenu">
-                            <span data-text="Páginas Web"> Páginas Web </span>
+                            <span data-text="Páginas Web"> {{ t('header.nav.webDevelopment') }} </span>
                           </NuxtLinkLocale>
                         </div>
                       </li>
                       <li>
                         <div class="o-hidden">
                           <NuxtLinkLocale to="/servicios" class="cursor-pointer link sub-dmenu" @click="closeMenu">
-                            <span data-text="Sistemas Web"> Sistemas Web </span>
+                            <span data-text="Sistemas Web"> {{ t('header.nav.webSystems') }} </span>
                           </NuxtLinkLocale>
                         </div>
                       </li>
                       <li>
                         <div class="o-hidden">
                           <NuxtLinkLocale to="/servicios" class="cursor-pointer link sub-dmenu" @click="closeMenu">
-                            <span data-text="Automatización de Workflows">Automatización de Workflows
+                            <span data-text="Automatización de Workflows">{{ t('header.nav.workflowAutomation') }}
                             </span>
                           </NuxtLinkLocale>
                         </div>
@@ -88,14 +88,14 @@
                       <li>
                         <div class="o-hidden">
                           <NuxtLinkLocale to="/servicios" class="cursor-pointer link sub-dmenu" @click="closeMenu">
-                            <span data-text="Marketing Digital"> Marketing Digital </span>
+                            <span data-text="Marketing Digital"> {{ t('header.nav.digitalMarketing') }} </span>
                           </NuxtLinkLocale>
                         </div>
                       </li>
                       <li>
                         <div class="o-hidden">
                           <NuxtLinkLocale to="/servicios" class="cursor-pointer link sub-dmenu" @click="closeMenu">
-                            <span data-text="Google Mi Negócio"> Google Mi Negócio </span>
+                            <span data-text="Google Mi Negócio"> {{ t('header.nav.googleMyBusiness') }} </span>
                           </NuxtLinkLocale>
                         </div>
                       </li>
@@ -105,14 +105,14 @@
                 <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                   <div class="o-hidden">
                     <NuxtLinkLocale to="/quienes-somos" class="cursor-pointer link dmenu" @click="closeMenu">
-                      <span data-text="Quienes Somos">Quiénes Somos</span>
+                      <span data-text="Quienes Somos">{{ t('header.nav.aboutUs') }}</span>
                     </NuxtLinkLocale>
                   </div>
                 </li>
                 <li @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
                   <div class="o-hidden">
                     <NuxtLinkLocale to="/contacto" class="cursor-pointer link dmenu" @click="closeMenu">
-                      <span data-text="Contacto Us">Contacto</span>
+                      <span data-text="Contacto Us">{{ t('header.nav.contact') }}</span>
                     </NuxtLinkLocale>
                   </div>
                 </li>

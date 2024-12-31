@@ -3,17 +3,21 @@
     "nav": {
       "home": "Home",
       "services": "Servicios",
-      "web-development": "Páginas Web",
-      "about-us": "Quiénes Somos",
+      "webDevelopment": "Páginas Web",
+      "webSystems": "Sistemas Web",
+      "workflowAutomation": "Automatización de Workflows",
+      "digitalMarketing": "Marketing Digital",
+      "googleMyBusiness": "Google Mi Negócio",
+      "aboutUs": "Quiénes Somos",
       "contact": "Contacto"
     }
   },
   "footer": {
     "content": "Producido con ❤️ por TitansDev",
     "legal": {
-      "privacy-policy": "Política de Privacidad",
-      "terms-of-use": "Términos de Uso",
-      "cookies-policy": "Política de Cookies"
+      "privacyPolicy": "Política de Privacidad",
+      "termsOfUse": "Términos de Uso",
+      "cookiesPolicy": "Política de Cookies"
     }
   },
   "pageHome": {
@@ -55,7 +59,7 @@
     "sessionAbout": {
       "title": "Déjenos hacer el trabajo con la tecnología, para que usted pueda centrarse en lo importante de su negocio.",
       "subtitle": "Qué Hacemos",
-      "about-us": "Sobre nosotros",
+      "aboutUs": "Sobre nosotros",
       "description": "Sabemos que su tiempo es valioso y que debe centrarse en hacer crecer su negocio. Por eso nos ocupamos desde la creación y automatización de sitios web hasta la generación de clientes potenciales cualificados."
     },
     "sessionMarquee": {
@@ -64,10 +68,11 @@
       "title3": "Mejorar Sus Servicios"
     },
     "sessionPortfolio": {
-      "title": "Proyectos Destacados",
+      "title": "Proyectos",
+      "titleSpan": "Destacados",
       "subtitle": "Nuestro Portafolio",
       "category": {
-        "web-development": "Desarrollo Web"
+        "webDevelopment": "Desarrollo Web"
       },
       "cta": "Ver proyecto"
     },
@@ -76,10 +81,10 @@
       "subtitle": "Nuestras Habilidades",
       "description": "Ya sea desarrollando sitios web, aplicaciones móviles o sistemas personalizados, nuestro equipo se dedica a crear experiencias innovadoras que impulsen su negocio.",
       "skills": {
-        "web-development": "Creación de Páginas Web",
-        "app-development": "Desarrollo de Aplicaciones",
-        "workflow-automation": "Automatización de Workflows",
-        "digital-marketing": "Marketing Digital"
+        "webDevelopment": "Creación de Páginas Web",
+        "appDevelopment": "Desarrollo de Aplicaciones",
+        "workflowAutomation": "Automatización de Workflows",
+        "digitalMarketing": "Marketing Digital"
       }
     },
     "sessionTech": {
@@ -96,11 +101,15 @@
     }
   },
   "pageContacto": {
-    "title": "contacto"
+    "title": "contacto",
+    "breadcrumb": {
+      "home": "Inicio",
+      "contact": "Contacto"
+    }
   },
   "button": {
-    "talk-to-us": "Habla con nosotros",
-    "online-appointment": "Agendar Cita Online"
+    "talkToUs": "Habla con nosotros",
+    "onlineAppointment": "Agendar Cita Online"
   },
   "formContact": {
     "firstName": "Nombre",
@@ -109,8 +118,8 @@
     "phone": "Teléfono",
     "subject": "Asunto",
     "message": "Mensaje",
-    "want-info": "Quiero recibir más información sobre los servicios de TitansDev.",
-    "accept-terms": "Estoy de acuerdo con la",
+    "wantInfo": "Quiero recibir más información sobre los servicios de TitansDev.",
+    "acceptTerms": "Estoy de acuerdo con la",
     "terms": "Política de privacidad",
     "sending": "Enviando",
     "send": "Enviar"

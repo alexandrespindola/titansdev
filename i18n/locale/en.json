@@ -3,17 +3,21 @@
     "nav": {
       "home": "Home",
       "services": "Services",
-      "web-development": "Web Development",
-      "about-us": "About Us",
+      "webDevelopment": "Web Development",
+      "webSystems": "Web Systems",
+      "workflowAutomation": "Workflow Automation",
+      "digitalMarketing": "Digital Marketing",
+      "googleMyBusiness": "Google My Business",
+      "aboutUs": "About Us",
       "contact": "Contact"
     }
   },
   "footer": {
     "content": "Produced with ❤️ by TitansDev",
     "legal": {
-      "privacy-policy": "Privacy Policy",
-      "terms-of-use": "Terms of Use",
-      "cookies-policy": "Cookies Policy"
+      "privacyPolicy": "Privacy Policy",
+      "termsOfUse": "Terms of Use",
+      "cookiesPolicy": "Cookies Policy"
     }
   },
   "pageHome": {
@@ -55,7 +59,7 @@
     "sessionAbout": {
       "title": "Let us handle the technology so you can focus on what matters in your business.",
       "subtitle": "What We Do",
-      "about-us": "About Us",
+      "aboutUs": "About Us",
       "description": "We know your time is valuable and you need to focus on growing your business. That's why we take care of everything from creating and automating websites to generating qualified leads."
     },
     "sessionMarquee": {
@@ -64,10 +68,11 @@
       "title3": "Improve Your Services"
     },
     "sessionPortfolio": {
-      "title": "Featured Projects",
+      "title": "Featured",
+      "titleSpan": "Projects",
       "subtitle": "Our Portfolio",
       "category": {
-        "web-development": "Web Development"
+        "webDevelopment": "Web Development"
       },
       "cta": "View project"
     },
@@ -76,10 +81,10 @@
       "subtitle": "Our Skills",
       "description": "Whether developing websites, mobile apps, or custom systems, our team is dedicated to creating innovative experiences that drive your business.",
       "skills": {
-        "web-development": "Web Development",
-        "app-development": "App Development",
-        "workflow-automation": "Workflow Automation",
-        "digital-marketing": "Digital Marketing"
+        "webDevelopment": "Web Development",
+        "appDevelopment": "App Development",
+        "workflowAutomation": "Workflow Automation",
+        "digitalMarketing": "Digital Marketing"
       }
     },
     "sessionTech": {
@@ -96,11 +101,15 @@
     }
   },
   "pageContacto": {
-    "title": "Contact"
+    "title": "Contact",
+    "breadcrumb": {
+      "home": "Home",
+      "contact": "Contact"
+    }
   },
   "button": {
-    "talk-to-us": "Talk to us",
-    "online-appointment": "Schedule Online Appointment"
+    "talkToUs": "Talk to us",
+    "onlineAppointment": "Schedule Online Appointment"
   },
   "formContact": {
     "firstName": "First Name",
@@ -109,8 +118,8 @@
     "phone": "Phone",
     "subject": "Subject",
     "message": "Message",
-    "want-info": "I want to receive more information about TitansDev services.",
-    "accept-terms": "I agree with the",
+    "wantInfo": "I want to receive more information about TitansDev services.",
+    "acceptTerms": "I agree with the",
     "terms": "Privacy Policy",
     "sending": "Sending",
     "send": "Send"
