@@ -99,25 +99,25 @@
         "../node_modules/@nuxt/ui/dist/runtime/*"
       ],
       "#ui-colors": [
-        "./ui.colors.mjs"
+        "./ui.colors"
       ],
       "#color-mode-options": [
         "./color-mode-options.mjs"
       ],
       "#mdc-configs": [
-        "./mdc-configs.mjs"
+        "./mdc-configs"
       ],
       "#mdc-highlighter": [
-        "./mdc-highlighter.mjs"
+        "./mdc-highlighter"
       ],
       "#mdc-imports": [
-        "./mdc-imports.mjs"
+        "./mdc-imports"
       ],
       "#nuxt-component-meta": [
-        "./component-meta.mjs"
+        "./component-meta"
       ],
       "#nuxt-component-meta/types": [
-        "./component-meta.d.ts"
+        "./component-meta.d"
       ],
       "#sitemap": [
         "../node_modules/@nuxtjs/sitemap/dist/runtime"
@@ -179,8 +179,11 @@
       "#tailwind-config": [
         "./tailwind.config"
       ],
+      "#tailwind-config/*": [
+        "./tailwind.config/*"
+      ],
       "#app-manifest": [
-        "./manifest/meta/241844e5-3fd7-46a1-bd48-46e0577decb9.json"
+        "./manifest/meta/c0f2d833-f82a-4689-aa0a-4703412546b7.json"
       ],
       "#components": [
         "./components"
