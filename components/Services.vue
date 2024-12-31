@@ -12,7 +12,7 @@
       <div class="flex flex-row flex-wrap w-full gap-8">
         <div v-for="(item, i) in serviceItems" :key="i" class="flex  w-full md:w-[45%] lg:w-[30%] bg-[#1d1d1d] rounded-xl">
           <div
-            class="flex flex-col flex-grow gap-4 p-4 rounded-lg md:flex-row hover hover:bg-gradient-to-br hover:from-green-700 hover:to-green-900">
+            class="flex flex-col flex-grow gap-4 p-2 rounded-lg md:flex-row hover hover:bg-gradient-to-br hover:from-green-700 hover:to-green-900">
             <NuxtLinkLocale :to="item.link" class="flex flex-col w-auto p-4 md:p-8">
               <div class="flex flex-col gap-4">
                 <div class="flex flex-row">

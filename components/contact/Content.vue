@@ -5,16 +5,15 @@
         <div class="col-lg-5 valign">
           <div class="sec-head md-mb80">
             <h2 class="text-u ls1">
-              Permítanos ayudar a su <span class="font-light">negocio</span>
+              {{ t('pageContacto.letUsHelp')}} <span class="font-light">{{ t('pageContacto.business')}}</span>
             </h2>
             <p class="mt-20 mb-20">
-              Estamos aquí para ayudarle a encontrar las mejores soluciones tecnológicas para usted y sus clientes.
-            </p>
+              {{ t('pageContacto.content')}}            </p>
             <div class="row">
               <div class="col-md-6">
                 <div class="morinfo mt-30">
-                  <h6 class="mb-15">Dirección</h6>
-                  <p>Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170</p>
+                  <h6 class="mb-15">{{ t('pageContacto.address.title')}}</h6>
+                  <p>{{ t('pageContacto.address.content')}}</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -40,7 +39,7 @@
           <div class="full-width">
             <div class="sec-head mb-50">
               <h3 class="text-u ls1">
-                Enviar un <span class="fw-200">mensaje</span>
+                {{ t('pageContacto.sendUs')}} <span class="fw-200">{{ t('pageContacto.message')}}</span>
               </h3>
             </div>
             <CommonContactForm> </CommonContactForm>

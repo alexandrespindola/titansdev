@@ -10,7 +10,7 @@
           <div class="flex flex-col items-center w-full gap-4 text-center">
             <h1 class="hero" aria-label="Tecnologías modernas para su negocio">{{ t('pageHome.sessionHero.title')}} </h1>
             <h2 class="flex flex-row text-lg font-semibold">{{ t('pageHome.sessionHero.subtitle')}}</h2>
-            <div class="flex flex-col md:flex-row gap-x-8">
+            <div class="flex flex-col items-center md:flex-row gap-x-8">
               <CommonButtonsCtaContact />
               <CommonButtonsCtaCita />
             </div>

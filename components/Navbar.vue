@@ -1,26 +1,21 @@
 <template>
   <header>
     <nav class="z-10 navbar navbar-expand-lg nav-crev">
-      <div class="container flex flex-row p-4 flex-nowrap">
+      <div class="container flex flex-row justify-between flex-grow gap-4 p-4 mx-auto flex-nowrap">
         <NuxtLinkLocale to="/" class="logo w-36">
           <NuxtImg src="/dark/assets/imgs/titansdev-logo-white.webp" alt="logo" />
         </NuxtLinkLocale>
-
-        <ul class="flex-row hidden md:flex md:gap-6 lg:gap-12">
+        <ul class="flex-row justify-center flex-grow hidden md:flex md:gap-6 lg:gap-12">
           <NuxtLinkLocale to="/" class="font-bold menu">{{ t('header.nav.home') }}</NuxtLinkLocale>
           <NuxtLinkLocale to="/servicios" class="font-bold menu">{{ t('header.nav.services') }}</NuxtLinkLocale>
-          <NuxtLinkLocale to="/desarrollo-web" class="font-bold menu">{{ t('header.nav.webDevelopment') }}</NuxtLinkLocale>
           <NuxtLinkLocale to="/quienes-somos" class="font-bold menu">{{ t('header.nav.aboutUs') }}</NuxtLinkLocale>
           <NuxtLinkLocale to="/contacto" class="font-bold menu">{{ t('header.nav.contact') }}</NuxtLinkLocale>
-          <CommonLanguageSelectorVue />
         </ul>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        </button>
-
-        <div class="cursor-pointer topnav">
-          <UIcon @click="toggleMenu" name="hugeicons:menu-11"></UIcon>
+        <div class="flex flex-row justify-center gap-4">
+          <CommonLanguageSelectorVue />
+        </div>
+        <div class="flex flex-col justify-center cursor-pointer topnav">
+          <UIcon @click="toggleMenu" name="hugeicons:menu-11" class="text-xl"></UIcon>
         </div>
       </div>
     </nav>
@@ -122,13 +117,13 @@
           <div class="col-lg-3">
             <div class="cont-info">
               <div class="item mb-50">
-                <h6 class="sub-title mb-15 opacity-7">Dirección</h6>
+                <h6 class="sub-title mb-15 opacity-7">{{  t('header.nav.address.title') }}</h6>
                 <h5>
-                  Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, España - CP 32170
+                  {{  t('header.nav.address.content') }}
                 </h5>
               </div>
               <div class="item mb-50">
-                <h6 class="sub-title mb-15 opacity-7">Redes Sociales</h6>
+                <h6 class="sub-title mb-15 opacity-7">{{ t('header.nav.socialMedia') }}</h6>
                 <ul class="rest social-text">
                   <li class="mb-10">
                     <a href="#0" class="hover-this">
@@ -143,7 +138,7 @@
                 </ul>
               </div>
               <div class="mb-40 item">
-                <h6 class="sub-title mb-15 opacity-7">Contacto</h6>
+                <h6 class="sub-title mb-15 opacity-7">{{ t('header.nav.contact') }}</h6>
                 <h5>
                   <a href="mailto:contacto@titansdev.es">contacto@titansdev.es</a>
                 </h5>

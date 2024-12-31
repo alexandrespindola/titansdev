@@ -9,7 +9,12 @@
       "digitalMarketing": "Digital Marketing",
       "googleMyBusiness": "Google My Business",
       "aboutUs": "About Us",
-      "contact": "Contact"
+      "contact": "Contact",
+      "address": {
+        "title": "Address",
+        "content": "Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, Spain - CP 32170"
+      },
+      "socialMedia": "Social Media"
     }
   },
   "footer": {
@@ -105,7 +110,16 @@
     "breadcrumb": {
       "home": "Home",
       "contact": "Contact"
-    }
+    },
+    "letUsHelp": "Let us help your",
+    "business": "business",
+    "content": "We are here to help you find the best technological solutions for you and your customers.",
+    "address": {
+      "title": "Address",
+      "content": "Aldea Portecelos, 27 - Parada de Amoeiro, Ourense, Spain - CP 32170"
+    },
+    "sendUs": "Send a",
+    "message": "message"
   },
   "button": {
     "talkToUs": "Talk to us",
