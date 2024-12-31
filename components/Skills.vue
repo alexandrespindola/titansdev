@@ -1,49 +1,48 @@
 <template>
   <section class="position-re ontop">
     <div class="container">
-      <div class="flex flex-col lg:flex-row items-center justify-center gap-12">
+      <div class="flex flex-col items-center justify-center gap-12 lg:flex-row">
         <div class="md:w-2/3 lg:w-1/3">
-            <video autoplay muted
-              src="https://res.cloudinary.com/xmfm6mhw3gwctndtcubgx2rptnae/video/upload/v1234567890/video-notebook-streaming_jxwrof.mp4" class="rounded-3xl">
-            </video>
+          <video autoplay muted
+            src="https://res.cloudinary.com/xmfm6mhw3gwctndtcubgx2rptnae/video/upload/v1234567890/video-notebook-streaming_jxwrof.mp4"
+            class="rounded-3xl">
+          </video>
         </div>
         <div class="lg:w-1/2">
           <div class="content full-width">
             <div class="sec-head mb-30">
-              <h6 class="sub-title mb-15 main-color">Nuestras Habilidades</h6>
-              <h2>Experimente la magia de TitansDev</h2>
+              <h6 class="sub-title mb-15 main-color">{{ t('pageHome.sessionSkills.subtitle') }}</h6>
+              <h2>{{ t('pageHome.sessionSkills.title') }}</h2>
             </div>
             <div class="row justify-content-end">
 
               <div class="text">
                 <p>
-                  Ya sea desarrollando sitios web, aplicaciones móviles o sistemas personalizados, nuestro equipo se
-                  dedica a crear experiencias innovadoras que impulsen su negocio.
-
+                  {{ t('pageHome.sessionSkills.description') }}
                 </p>
               </div>
               <div class="mt-50">
                 <div class="skills-box">
-                  <div class="skill-item mb-40">
-                    <h5 class="sub-title mb-15">Creación de Páginas Web</h5>
+                  <div class="mb-40 skill-item">
+                    <h5 class="sub-title mb-15">{{ t('pageHome.sessionSkills.skills.web-development') }}</h5>
                     <div class="skill-progress">
                       <div class="progres" data-value="95%"></div>
                     </div>
                   </div>
-                  <div class="skill-item mb-40">
-                    <h5 class="sub-title mb-15">Desarrollo de Aplicaciones</h5>
+                  <div class="mb-40 skill-item">
+                    <h5 class="sub-title mb-15">{{ t('pageHome.sessionSkills.skills.app-development') }}</h5>
                     <div class="skill-progress">
                       <div class="progres" data-value="90%"></div>
                     </div>
                   </div>
-                  <div class="skill-item mb-40">
-                    <h5 class="sub-title mb-15">Marketing Digital</h5>
+                  <div class="mb-40 skill-item">
+                    <h5 class="sub-title mb-15">{{ t('pageHome.sessionSkills.skills.digital-marketing') }}</h5>
                     <div class="skill-progress">
                       <div class="progres" data-value="85%"></div>
                     </div>
                   </div>
                   <div class="skill-item">
-                    <h5 class="sub-title mb-15">Automatización de Workflows</h5>
+                    <h5 class="sub-title mb-15">{{ t('pageHome.sessionSkills.skills.workflow-automation') }}</h5>
                     <div class="skill-progress">
                       <div class="progres" data-value="90%"></div>
                     </div>
@@ -59,8 +58,8 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue';
 import isInView from '@/common/isInView';
+const { t } = useI18n()
 
 function handleShowProgressValues() {
   isInView({

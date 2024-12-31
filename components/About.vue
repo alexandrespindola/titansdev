@@ -4,21 +4,19 @@
       <div class="flex flex-row flex-wrap justify-center gap-8">
         <div class="w-full xl:w-[48%]">
           <div class="flex flex-col cont">
-            <h6 class="sub-title main-color mb-15">Qué Hacemos</h6>
+            <h6 class="sub-title main-color mb-15">{{ t('pageHome.sessionAbout.subtitle') }}</h6>
             <h3>
-              Déjenos hacer el trabajo con la tecnología, para que usted pueda centrarse en lo importante de su negocio.
+              {{ t('pageHome.sessionAbout.title') }}
             </h3>
             <div class="mt-4 d-flex align-items-end gap-x-8">
               <div class="hidden sm:block">
                 <NuxtLinkLocale to="/quienes-somos" class="d-flex align-items-end">
-                  <span class="sub-title nowrap">Sobre Nosotros</span>
+                  <span class="sub-title nowrap">{{ t('pageHome.sessionAbout.about-us') }}</span>
                   <span class="fz-70 line-height-45 ti-arrow-top-right"></span>
                 </NuxtLinkLocale>
               </div>
               <p>
-                Sabemos que su tiempo es valioso y que debe centrarse en hacer crecer su negocio. Por eso nos ocupamos
-                desde la creación y automatización de sitios web hasta la generación de clientes potenciales
-                cualificados.
+                {{ t('pageHome.sessionAbout.description') }}
               </p>
             </div>
           </div>
@@ -49,3 +47,7 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+</script>

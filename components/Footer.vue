@@ -15,20 +15,24 @@
             <span>© 2024</span>
           </p>
           <p class="self-center text-center fz-14">
-            Producido con ❤️ por TitansDev
+            {{ t('footer.content') }}
           </p>
         </div>
         <div class="w-full lg:w-[40%] lg:order-last">
           <ul class="flex flex-col gap-2 footer-primary xl:flex-row xl:justify-end">
-            <NuxtLinkLocale to="/politica-de-privacidad" class="self-center">Política de Privacidad</NuxtLinkLocale>
-            <NuxtLinkLocale to="/terminos-de-uso" class="self-center">Términos de Uso</NuxtLinkLocale>
-            <NuxtLinkLocale to="/politica-de-cookies" class="self-center">Política de Cookies</NuxtLinkLocale>
+            <NuxtLinkLocale to="/politica-de-privacidad" class="self-center">{{ t('footer.legal.privacy-policy') }}</NuxtLinkLocale>
+            <NuxtLinkLocale to="/terminos-de-uso" class="self-center">{{ t('footer.legal.terms-of-use') }}</NuxtLinkLocale>
+            <NuxtLinkLocale to="/politica-de-cookies" class="self-center">{{ t('footer.legal.cookies-policy') }}</NuxtLinkLocale>
           </ul>
         </div>
       </div>
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
 
 <style lang="scss">
 .footer-primary {

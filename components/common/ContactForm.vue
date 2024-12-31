@@ -4,13 +4,13 @@
     <div class="controls row">
       <div class="w-full md:w-1/2">
         <div class="form-group mb-30">
-          <input id="form_first_name" type="text" name="first_name" placeholder="Nombre" v-model="form.first_name"
+          <input id="form_first_name" type="text" name="first_name" :placeholder="t('formContact.firstName')" v-model="form.first_name"
             required />
         </div>
       </div>
       <div class="w-full md:w-1/2">
         <div class="form-group mb-30">
-          <input id="form_last_name" type="text" name="last_name" placeholder="Apellido" v-model="form.last_name"
+          <input id="form_last_name" type="text" name="last_name" :placeholder="t('formContact.lastName')" v-model="form.last_name"
             required />
         </div>
       </div>
@@ -30,31 +30,31 @@
               {{ option.country }} ({{ option.code }})
             </template>
           </USelect>
-          <input id="form_phone" type="text" name="phone" placeholder="Teléfono" v-model="form.phone" required />
+          <input id="form_phone" type="text" name="phone" :placeholder="t('formContact.phone')" v-model="form.phone" required />
         </div>
       </div>
       <div class="w-full">
         <div class="form-group mb-30">
-          <input id="form_subject" type="text" name="subject" placeholder="Asunto" v-model="form.subject" />
+          <input id="form_subject" type="text" name="subject" :placeholder="t('formContact.subject')" v-model="form.subject" />
         </div>
       </div>
       <div class="form-group">
-        <textarea id="form_message" name="message" placeholder="Mensaje" v-model="form.message" rows="4"
+        <textarea id="form_message" name="message" :placeholder="t('formContact.message')" v-model="form.message" rows="4"
           required></textarea>
       </div>
       <div class="flex flex-row gap-2 pt-4 pb-2">
         <div class="flex flex-col justify-center">
           <UToggle v-model="form.acceptance_receive_marketing_info" name="acceptance_receive_marketing_info" />
         </div>
-        <p>Quiero recibir más información sobre los servicios de TitansDev.</p>
+        <p>{{ t('formContact.want-info')}}</p>
       </div>
       <div class="flex flex-row gap-2">
         <div class="flex flex-col justify-center">
           <UToggle v-model="form.acceptance_privacy_terms" name="acceptance_privacy_terms" required />
         </div>
         <span class="text-red-500">*</span>
-        <p>Estoy de acuerdo con la <NuxtLinkLocale to="/politica-de-privacidad" class="main-color">Política de Privacidad.
-          </NuxtLinkLocale>
+        <p>{{ t('formContact.accept-terms')}} <NuxtLinkLocale to="/politica-de-privacidad" class="main-color">{{ t('formContact.terms')}}
+          </NuxtLinkLocale>.
         </p>
       </div>
       <div v-if="errorMessage" class="mt-2 text-red-500">
@@ -62,7 +62,7 @@
       </div>
       <div class="mt-30">
         <button type="submit" class="butn butn-full butn-bord radius-30" :disabled="isSubmitting">
-          <span class="text">{{ isSubmitting ? 'Enviando...' : 'Enviar' }}</span>
+          <span class="text">{{ isSubmitting ? t('formContact.sending') : t('formContact.send')}} </span>
         </button>
       </div>
     </div>
@@ -70,6 +70,7 @@
 </template>
 
 <script lang="ts" setup>
+const { t } = useI18n()
 import { useContactForm } from '~/composables/useContactForm';
 
 const { countryCodes, form, submitForm, isSubmitting, errorMessage } = useContactForm();

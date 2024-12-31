@@ -1,14 +1,14 @@
 <template>
-  <section class="clients-carso mt-12 lg:pt-32 lg:pb-24">
+  <section class="mt-12 clients-carso lg:pt-32 lg:pb-24">
     <div class="container">
-      <div class="sec-bottom flex flex-row flex-wrap mb-40">
+      <div class="flex flex-row flex-wrap mb-40 sec-bottom">
         <div class="main-bg d-flex align-items-center">
-          <h6 class="fw-400 text-center p-2">
-            Utilizamos <span class="fw-600">más de 30 herramientas y tecnologias modernas</span>
+          <h6 class="p-2 text-center fw-400">
+            {{ t('pageHome.sessionTech.title') }}
           </h6>
         </div>
       </div>
-      <div class="container flex flex-row flex-wrap justify-center gap-8 max-w-6xl">
+      <div class="container flex flex-row flex-wrap justify-center max-w-6xl gap-8">
         <div v-for="(item, i) in data" :key="i" class="w-20 md:w-28" :title=item.title>
           <div @click="handleClick(i)" @mouseenter="handleMouseEnter(i)" @mouseleave="handleMouseLeave(i)">
             <NuxtImg :src="item.img" alt="" :class="getGrayscaleClass(i)" />
@@ -20,8 +20,8 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
 import data from '@/data/tech.json';
+const { t } = useI18n()
 
 const grayscaleStates = ref(data.map(() => true));
 let hasPointer = false;

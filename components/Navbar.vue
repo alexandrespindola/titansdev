@@ -7,11 +7,11 @@
         </NuxtLinkLocale>
 
         <ul class="flex-row hidden md:flex md:gap-6 lg:gap-12">
-          <NuxtLinkLocale to="/" class="font-bold menu">Home</NuxtLinkLocale>
-          <NuxtLinkLocale to="/servicios" class="font-bold menu">Servicios</NuxtLinkLocale>
-          <NuxtLinkLocale to="/desarrollo-web" class="font-bold menu">Páginas Web</NuxtLinkLocale>
-          <NuxtLinkLocale to="/quienes-somos" class="font-bold menu">Quiénes Somos</NuxtLinkLocale>
-          <NuxtLinkLocale to="/contacto" class="font-bold menu">Contacto</NuxtLinkLocale>
+          <NuxtLinkLocale to="/" class="font-bold menu">{{ t('header.nav.home') }}</NuxtLinkLocale>
+          <NuxtLinkLocale to="/servicios" class="font-bold menu">{{ t('header.nav.services') }}</NuxtLinkLocale>
+          <NuxtLinkLocale to="/desarrollo-web" class="font-bold menu">{{ t('header.nav.web-development') }}</NuxtLinkLocale>
+          <NuxtLinkLocale to="/quienes-somos" class="font-bold menu">{{ t('header.nav.about-us') }}</NuxtLinkLocale>
+          <NuxtLinkLocale to="/contacto" class="font-bold menu">{{ t('header.nav.contact') }}</NuxtLinkLocale>
           <CommonLanguageSelectorVue />
         </ul>
 
@@ -160,8 +160,6 @@
 </template>
 
 <script setup>
-
-import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 
 const isOpen = ref(false);

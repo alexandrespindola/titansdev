@@ -15,7 +15,7 @@
       "terms-of-use": "Términos de Uso",
       "cookies-policy": "Política de Cookies"
     }
-  },  
+  },
   "pageHome": {
     "sessionHero": {
       "title": "Tecnologías modernas para su negocio",
@@ -25,29 +25,29 @@
       "title": "Qué Ofrecemos",
       "subtitle": "Nuestras Especialidades",
       "services": {
-        "web-development": {
+        "webCreation": {
           "title": "Creación de Páginas Web",
-          "description": "Los sitios web deben ser rápidos e intuitivos, que atraigan a más visitantes y les conviertan en oportunidades de negocio."
+          "desc": "Los sitios web deben ser rápidos e intuitivos, que atraigan a más visitantes y les conviertan en oportunidades de negocio."
         },
-        "web-systems-development": {
+        "webSystems": {
           "title": "Desarrollo de Sistemas Web",
-          "description": "Creamos sistemas web personalizados que simplifican tus operaciones diarias y mejoran la eficiencia de tu negocio."
+          "desc": "Creamos sistemas web personalizados que simplifican tus operaciones diarias y mejoran la eficiencia de tu negocio."
         },
-        "mobile-apps": {
+        "mobileApps": {
           "title": "Apps Móviles (Android & iOS)",
-          "description": "Creamos apps que impulsen tu crecimiento en el mundo digital."
+          "desc": "Creamos apps que impulsen tu crecimiento en el mundo digital."
         },
-        "workflow-automation": {
+        "workflowAutomation": {
           "title": "Automatización de Workflows",
-          "description": "Simplifica tus procesos automáticos para reducir tareas repetitivas, ahorrar tiempo y aumentar la productividad."
+          "desc": "Simplifica tus procesos automáticos para reducir tareas repetitivas, ahorrar tiempo y aumentar la productividad."
         },
-        "digital-marketing": {
-          "title": "Digital Marketing",
-          "description": "Diseñamos campañas que impulsan tu visibilidad, generan leads y fomentan el crecimiento de tu negocio."
+        "digitalMarketing": {
+          "title": "Marketing Digital",
+          "desc": "Diseñamos campañas que impulsan tu visibilidad, generan leads y fomentan el crecimiento de tu negocio."
         },
-        "google-my-business": {
+        "googleMyBusiness": {
           "title": "Google Mi Negócio",
-          "description": "Optimiza tu información en Google Maps para que los clientes te encuentren fácilmente.y aumentar la productividad."
+          "desc": "Optimiza tu información en Google Maps para que los clientes te encuentren fácilmente."
         }
       },
       "cta": "Saber más"
@@ -92,18 +92,6 @@
         "title": "Dirección",
         "content1": "Aldea Portecelos, 27 - Parada de Amoeiro",
         "content2": "Ourense, España - CP 32170"
-      },
-      "form": {
-        "firstName": "Nombre",
-        "lastName": "Apellido",
-        "email": "E-mail",
-        "phone": "Teléfono",
-        "subject": "Asunto",
-        "message": "Mensaje",
-        "want-info": "Quiero recibir más información sobre los servicios de TitansDev.",
-        "accept-terms": "Estoy de acuerdo con la",
-        "terms": "Política de privacidad",
-        "send": "Enviar"
       }
     }
   },
@@ -113,5 +101,18 @@
   "button": {
     "talk-to-us": "Habla con nosotros",
     "online-appointment": "Agendar Cita Online"
+  },
+  "formContact": {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "E-mail",
+    "phone": "Teléfono",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "want-info": "Quiero recibir más información sobre los servicios de TitansDev.",
+    "accept-terms": "Estoy de acuerdo con la",
+    "terms": "Política de privacidad",
+    "sending": "Enviando",
+    "send": "Enviar"
   }
 }

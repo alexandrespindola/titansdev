@@ -2,15 +2,15 @@
   <section id="services" class="services-crev section-padding" data-scroll-index="1">
     <div class="container">
       <div class="sec-head mb-80">
-        <h6 class="sub-title main-color mb-25">Nuestras Especialidades</h6>
+        <h6 class="sub-title main-color mb-25">{{ t('pageHome.sessionServices.subtitle') }}</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
           <h2 class="font-semibold tracking-[1px] uppercase">
-            Qué <span class="font-semibold"> Ofrecemos</span>
+            {{ t('pageHome.sessionServices.title') }}
           </h2>
         </div>
       </div>
       <div class="flex flex-row flex-wrap w-full gap-8">
-        <div v-for="(item, i) in data" :key="i" class="flex  w-full md:w-[45%] lg:w-[30%] bg-[#1d1d1d] rounded-xl">
+        <div v-for="(item, i) in serviceItems" :key="i" class="flex  w-full md:w-[45%] lg:w-[30%] bg-[#1d1d1d] rounded-xl">
           <div
             class="flex flex-col flex-grow gap-4 p-4 rounded-lg md:flex-row hover hover:bg-gradient-to-br hover:from-green-700 hover:to-green-900">
             <NuxtLinkLocale :to="item.link" class="flex flex-col w-auto p-4 md:p-8">
@@ -20,12 +20,12 @@
                 </div>
               </div>
               <div class="flex flex-col flex-grow gap-2">
-                <h5 class="mt-4 text-xl md:text-2xl">{{ item.title }}</h5>
+                <h5 class="mt-4 text-xl md:text-2xl">{{ t(item.titleKey) }}</h5>
                 <div class="flex flex-col flex-grow">
-                  <p class="mb-4">{{ item.desc }}</p>
+                  <p class="mb-4">{{ t(item.descKey) }}</p>
                 </div>
                 <div class="flex flex-row mt-auto gap-x-2">
-                  <span>Saber más</span>
+                  <span>{{ t('pageHome.sessionServices.cta') }}</span>
                   <UIcon name="hugeicons:arrow-down-right-01" class="rotate-icon"></UIcon>
                 </div>
               </div>
@@ -38,7 +38,52 @@
 </template>
 
 <script setup>
-import data from '@/data/services.json';
+import { ref } from 'vue'
+const { t } = useI18n()
+const serviceItems = ref([
+  {
+    "titleKey": "pageHome.sessionServices.services.webCreation.title",
+    "number": "01",
+    "img": "/dark/assets/imgs/serv-icons/5.png",
+    "descKey": "pageHome.sessionServices.services.webCreation.desc",
+    "link": "/desarrollo-web"
+  },
+  {
+    "titleKey": "pageHome.sessionServices.services.webSystems.title",
+    "number": "02",
+    "img": "/dark/assets/imgs/serv-icons/1.png",
+    "descKey": "pageHome.sessionServices.services.webSystems.desc",
+    "link": "/servicios"
+  },
+  {
+    "titleKey": "pageHome.sessionServices.services.mobileApps.title",
+    "number": "03",
+    "img": "/dark/assets/imgs/serv-icons/3.png",
+    "descKey": "pageHome.sessionServices.services.mobileApps.desc",
+    "link": "/servicios"
+  },
+  {
+    "titleKey": "pageHome.sessionServices.services.workflowAutomation.title",
+    "number": "04",
+    "img": "/dark/assets/imgs/serv-icons/4.png",
+    "descKey": "pageHome.sessionServices.services.workflowAutomation.desc",
+    "link": "/servicios"
+  },
+  {
+    "titleKey": "pageHome.sessionServices.services.digitalMarketing.title",
+    "number": "05",
+    "img": "/dark/assets/imgs/serv-icons/2.png",
+    "descKey": "pageHome.sessionServices.services.digitalMarketing.desc",
+    "link": "/servicios"
+  },
+  {
+    "titleKey": "pageHome.sessionServices.services.googleMyBusiness.title",
+    "number": "06",
+    "img": "/dark/assets/imgs/serv-icons/6.png",
+    "descKey": "pageHome.sessionServices.services.googleMyBusiness.desc",
+    "link": "/servicios"
+  }
+])
 </script>
 
 <style lang="scss" scoped>

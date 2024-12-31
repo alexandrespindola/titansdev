@@ -15,7 +15,7 @@
       "terms-of-use": "Terms of Use",
       "cookies-policy": "Cookies Policy"
     }
-  },  
+  },
   "pageHome": {
     "sessionHero": {
       "title": "Modern technologies for your business",
@@ -25,29 +25,29 @@
       "title": "What We Offer",
       "subtitle": "Our Specialties",
       "services": {
-        "web-development": {
-          "title": "Web Development",
-          "description": "Websites should be fast and intuitive, attracting more visitors and converting them into business opportunities."
+        "webCreation": {
+          "title": "Web Creation",
+          "desc": "Websites should be fast and intuitive, attracting more visitors and converting them into business opportunities."
         },
-        "web-systems-development": {
+        "webSystems": {
           "title": "Web Systems Development",
-          "description": "We create custom web systems that simplify your daily operations and improve your business efficiency."
+          "desc": "We create custom web systems that simplify your daily operations and improve your business efficiency."
         },
-        "mobile-apps": {
+        "mobileApps": {
           "title": "Mobile Apps (Android & iOS)",
-          "description": "We create apps that drive your growth in the digital world."
+          "desc": "We create apps that drive your growth in the digital world."
         },
-        "workflow-automation": {
+        "workflowAutomation": {
           "title": "Workflow Automation",
-          "description": "Simplify your automated processes to reduce repetitive tasks, save time, and increase productivity."
+          "desc": "Simplify your automated processes to reduce repetitive tasks, save time, and increase productivity."
         },
-        "digital-marketing": {
+        "digitalMarketing": {
           "title": "Digital Marketing",
-          "description": "We design campaigns that boost your visibility, generate leads, and foster business growth."
+          "desc": "We design campaigns that boost your visibility, generate leads, and foster business growth."
         },
-        "google-my-business": {
+        "googleMyBusiness": {
           "title": "Google My Business",
-          "description": "Optimize your information on Google Maps so customers can easily find you."
+          "desc": "Optimize your information on Google Maps so customers can easily find you."
         }
       },
       "cta": "Learn more"
@@ -92,18 +92,6 @@
         "title": "Address",
         "content1": "Aldea Portecelos, 27 - Parada de Amoeiro",
         "content2": "Ourense, Spain - CP 32170"
-      },
-      "form": {
-        "firstName": "First Name",
-        "lastName": "Last Name",
-        "email": "Email",
-        "phone": "Phone",
-        "subject": "Subject",
-        "message": "Message",
-        "want-info": "I want to receive more information about TitansDev services.",
-        "accept-terms": "I agree with the",
-        "terms": "Privacy Policy",
-        "send": "Send"
       }
     }
   },
@@ -113,5 +101,18 @@
   "button": {
     "talk-to-us": "Talk to us",
     "online-appointment": "Schedule Online Appointment"
+  },
+  "formContact": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "want-info": "I want to receive more information about TitansDev services.",
+    "accept-terms": "I agree with the",
+    "terms": "Privacy Policy",
+    "sending": "Sending",
+    "send": "Send"
   }
 }
