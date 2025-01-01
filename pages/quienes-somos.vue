@@ -3,7 +3,7 @@
     <AboutHeader />
     <AboutIntro />
     <Marquee />
-    <AboutIntro2 />
+    <AboutMissionVisionValues />
     <Contact />
   </main>
 </template>

@@ -9,12 +9,11 @@
                 <div class="mb-40">
                   <h2 class="fz-100 numb-font">1.</h2>
                 </div>
-                <h4 class="main-color">Nuestra Misión</h4>
-                <div class="text mt-30 flex flex-col gap-2">
-                  <h5>Tecnología al alcance de todos los emprendedores</h5>
+                <h4 class="main-color">{{ t('pageQuienesSomos.sessionMissionVisionValues.mission.title') }}</h4>
+                <div class="flex flex-col gap-2 text mt-30">
+                  <h5>{{ t('pageQuienesSomos.sessionMissionVisionValues.mission.subtitle') }}</h5>
                   <p>
-                    Impulsar su crecimiento e innovación ofreciéndoles tecnología asequible y personalizada para
-                    alcanzar sus objetivos.
+                    {{ t('pageQuienesSomos.sessionMissionVisionValues.mission.content') }}
                   </p>
                 </div>
               </div>
@@ -25,7 +24,7 @@
               </div>
             </div>
           </div>
-          <div class="row flex-col-reverse md:flex-row justify-content-end bord-thin-top rest">
+          <div class="flex-col-reverse row md:flex-row justify-content-end bord-thin-top rest">
             <div class="col-md-5 rest">
               <div class="img fit-img">
                 <NuxtImg src="/dark/assets/imgs/intro/quienes-somos-04.webp" alt="" class="rounded-3xl"/>
@@ -36,11 +35,11 @@
                 <div class="mb-40">
                   <h2 class="fz-100 numb-font">2.</h2>
                 </div>
-                <h4 class="main-color">Nuestra Visión</h4>
-                <div class="text mt-30 flex flex-col gap-2">
-                  <h5>Crear soluciones para pequeñas y medianas empresas</h5>
+                <h4 class="main-color">{{ t('pageQuienesSomos.sessionMissionVisionValues.vision.title') }}</h4>
+                <div class="flex flex-col gap-2 text mt-30">
+                  <h5>{{ t('pageQuienesSomos.sessionMissionVisionValues.vision.subtitle') }}</h5>
                   <p>
-                    Impulse sus servicios con soporte tecnológico profesional.
+                    {{ t('pageQuienesSomos.sessionMissionVisionValues.vision.content') }}
                   </p>
                 </div>
               </div>
@@ -55,13 +54,12 @@
                   <div class="mb-40">
                     <h2 class="fz-100 numb-font">3.</h2>
                   </div>
-                  <h4 class="main-color">Nuestros Valores</h4>
-                  <div class="text mt-30 flex flex-col gap-2">
-                    <h5>Su futuro digital, nuestra experiencia
+                  <h4 class="main-color">{{ t('pageQuienesSomos.sessionMissionVisionValues.values.title') }}</h4>
+                  <div class="flex flex-col gap-2 text mt-30">
+                    <h5>{{ t('pageQuienesSomos.sessionMissionVisionValues.values.subtitle') }}
                     </h5>
                     <p>
-                      Compromiso con la innovación, integridad en cada proyecto y dedicación para superar sus
-                      expectativas.
+                      {{ t('pageQuienesSomos.sessionMissionVisionValues.values.content') }}
                     </p>
                   </div>
                 </div>
@@ -76,6 +74,7 @@
 </template>
 <script setup>
 import loadBackgroudImages from '@/common/loadBackgroudImages';
+const { t } = useI18n()
 
 onMounted(() => {
   loadBackgroudImages();

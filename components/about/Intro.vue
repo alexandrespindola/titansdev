@@ -3,14 +3,14 @@
     <div class="container section-padding">
       <div class="row">
         <div class="col-lg-5">
-          <h6 class="sub-title main-color pb-4">Sobre Nosotros</h6>
+          <h6 class="pb-4 sub-title main-color">{{ t('pageQuienesSomos.sessionAboutUs.title') }}</h6>
         </div>
         <div class="col-lg-7">
-          <div class="text flex flex-col gap-2">
+          <div class="flex flex-col gap-2 text">
             <h4>
-              Colaboramos con soluciones tecnológicas que le permiten trabajar de forma más inteligente.
+              {{ t('pageQuienesSomos.sessionAboutUs.subtitle') }}
             </h4>
-            <p>Combinamos tecnología de punta y experiencia para simplificar su trabajo y maximizar los resultados.
+            <p>{{ t('pageQuienesSomos.sessionAboutUs.content') }}
             </p>
             <ul class="rest list-arrow mt-30 pt-30 bord-thin-top">
                 <li>
@@ -21,7 +21,7 @@
                         fill="#40ea1e"></path>
                     </svg>
                   </span>
-                  <h6 class="inline fw-400">Equipo calificado</h6>
+                  <h6 class="inline fw-400">{{ t('pageQuienesSomos.sessionAboutUs.list.item1') }}</h6>
                 </li>
                 <li class="mt-10">
                   <span class="icon">
@@ -32,7 +32,7 @@
                     </svg>
                   </span>
                   <h6 class="inline fw-400">
-                    Atención personalizada
+                    {{ t('pageQuienesSomos.sessionAboutUs.list.item2') }}
                   </h6>
                 </li>
                 <li class="mt-10">
@@ -43,7 +43,7 @@
                         fill="#40ea1e"></path>
                     </svg>
                   </span>
-                  <h6 class="inline fw-400">Metodologías ágiles</h6>
+                  <h6 class="inline fw-400">{{ t('pageQuienesSomos.sessionAboutUs.list.item3') }}</h6>
                 </li>
               </ul>
           </div>
@@ -59,3 +59,7 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+</script>

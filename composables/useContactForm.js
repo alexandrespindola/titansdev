@@ -35,7 +35,7 @@ export function useContactForm() {
 
     // webhook integration
     const config = useRuntimeConfig();
-    const webhookUrl = config.public.formWebhookUrl;
+    const webhookUrl = config.public.webhookUrl;
 
     try {
       const formData = { ...form.value };

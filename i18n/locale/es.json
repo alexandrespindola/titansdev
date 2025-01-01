@@ -176,6 +176,40 @@
       }
     }
   },
+  "pageQuienesSomos": {
+    "title": "Quiénes Somos",
+    "breadcrumb": {
+      "home": "Home",
+      "aboutUs": "Quiénes Somos"
+    },
+    "sessionAboutUs": {
+      "title": "Sobre Nosotros",
+      "subtitle": "Colaboramos con soluciones tecnológicas que le permiten trabajar de forma más inteligente.",
+      "content": "Combinamos tecnología de punta y experiencia para simplificar su trabajo y maximizar los resultados.",
+      "list": {
+        "item1": "Equipo calificado",
+        "item2": "Atención personalizada",
+        "item3": "Metodologías ágiles"
+      }
+    },
+    "sessionMissionVisionValues": {
+      "mission": {
+        "title": "Nuestra Misión",
+        "subtitle": "Tecnología al alcance de todos los emprendedores",
+        "content": "Impulsar su crecimiento e innovación ofreciéndoles tecnología asequible y personalizada para alcanzar sus objetivos."
+      },
+      "vision": {
+        "title": "Nuestra Visión",
+        "subtitle": "Crear soluciones para pequeñas y medianas empresas",
+        "content": "Impulse sus servicios con soporte tecnológico profesional.."
+      },
+      "values": {
+        "title": "Nuestros Valores",
+        "subtitle": "Su futuro digital, nuestra experiencia",
+        "content": "Compromiso con la innovación, integridad en cada proyecto y dedicación para superar sus expectativas.."
+      }
+    }
+  },
   "pageContacto": {
     "title": "contacto",
     "breadcrumb": {

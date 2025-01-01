@@ -176,6 +176,40 @@
       }
     }
   },
+  "pageQuienesSomos": {
+    "title": "About Us",
+    "breadcrumb": {
+      "home": "Home",
+      "aboutUs": "About Us"
+    },
+    "sessionAboutUs": {
+      "title": "About Us",
+      "subtitle": "We collaborate with technological solutions that allow you to work smarter.",
+      "content": "We combine cutting-edge technology and expertise to simplify your work and maximize results.",
+      "list": {
+        "item1": "Qualified team",
+        "item2": "Personalized attention",
+        "item3": "Agile methodologies"
+      }
+    },
+    "sessionMissionVisionValues": {
+      "mission": {
+        "title": "Our Mission",
+        "subtitle": "Technology accessible to all entrepreneurs",
+        "content": "Drive your growth and innovation by offering affordable and personalized technology to achieve your goals."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "subtitle": "Creating solutions for small and medium-sized businesses",
+        "content": "Boost your services with professional technological support."
+      },
+      "values": {
+        "title": "Our Values",
+        "subtitle": "Your digital future, our expertise",
+        "content": "Commitment to innovation, integrity in every project, and dedication to exceed your expectations."
+      }
+    }
+  },
   "pageContacto": {
     "title": "Contact",
     "breadcrumb": {

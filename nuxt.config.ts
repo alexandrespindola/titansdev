@@ -178,9 +178,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       strapiUri: process.env.STRAPI_URL,
-      formWebhookUrl: process.env.N8N_PROD_FORM_WEBHOOK_URL
+      webhookUrl: process.env.N8N_PROD_FORM_WEBHOOK_URL
     },
-    strapiApiToken: process.env.STRAPI_API_TOKEN,
+    strapiApiToken: process.env.STRAPI_API_TOKEN
   },
   site: {
     url: "https://titansdev.es",
