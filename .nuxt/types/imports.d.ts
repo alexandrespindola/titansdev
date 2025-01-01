@@ -166,6 +166,7 @@ declare global {
   const useCssVars: typeof import('vue')['useCssVars']
   const useDevice: typeof import('../../node_modules/@nuxtjs/device/dist/runtime/composables/useDevice')['useDevice']
   const useError: typeof import('../../node_modules/nuxt/dist/app/composables/error')['useError']
+  const useFaqWebdevelopmentItems: typeof import('../../composables/useFaqWebdevelopmentItems')['useFaqWebdevelopmentItems']
   const useFetch: typeof import('../../node_modules/nuxt/dist/app/composables/fetch')['useFetch']
   const useFormGroup: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useFormGroup')['useFormGroup']
   const useGtm: typeof import('../../node_modules/@gtm-support/vue-gtm')['useGtm']
@@ -448,6 +449,7 @@ declare module 'vue' {
     readonly useCssVars: UnwrapRef<typeof import('vue')['useCssVars']>
     readonly useDevice: UnwrapRef<typeof import('../../node_modules/@nuxtjs/device/dist/runtime/composables/useDevice')['useDevice']>
     readonly useError: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/error')['useError']>
+    readonly useFaqWebdevelopmentItems: UnwrapRef<typeof import('../../composables/useFaqWebdevelopmentItems')['useFaqWebdevelopmentItems']>
     readonly useFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/fetch')['useFetch']>
     readonly useFormGroup: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useFormGroup')['useFormGroup']>
     readonly useGtm: UnwrapRef<typeof import('../../node_modules/@gtm-support/vue-gtm')['useGtm']>

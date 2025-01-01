@@ -16,26 +16,26 @@
             <UAccordion :items="faqItems" :ui="{ wrapper: 'flex flex-col w-full' }">
               <template #default="{ item, open }">
                 <div class="border-b border-[#252525] ">
-                  <UButton color="black" variant="ghost" class="w-full flex flex-row gap-3 justify-start"
+                  <UButton color="black" variant="ghost" class="flex flex-row justify-start w-full gap-3"
                     :ui="{ rounded: 'rounded-none', padding: { sm: 'p-3' } }">
                     <template #leading>
                       <div
-                        class="w-12 rounded-full bg-transparent flex flex-row -my-1">
+                        class="flex flex-row w-12 -my-1 bg-transparent rounded-full">
                         <UIcon :name="item.icon" class="w-7 h-7 text-[#40ea1e]" />
                       </div>
                     </template>
-                    <span class="text-left text-xl">{{ item.label }}</span>
+                    <span class="text-xl text-left">{{ item.question }}</span>
                     <template #trailing>
                       <UIcon name="i-heroicons-chevron-right-20-solid"
-                        class="w-5 h-5 ms-auto transform transition-transform duration-200"
+                        class="w-5 h-5 transition-transform duration-200 transform ms-auto"
                         :class="[open && 'rotate-90']" />
                     </template>
                   </UButton>
                 </div>
               </template>
               <template #item="{ item }">
-                <div class="py-2 px-3 text-lg text-white">
-                  {{ item.content }}
+                <div class="px-3 py-2 text-lg text-white">
+                  {{ item.answer }}
                 </div>
               </template>
             </UAccordion>
@@ -48,19 +48,24 @@
 
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue';
-import faqData from '@/data/faqWebDevelopment.json';
-import type { content } from '#tailwind-config';
+const { t } = useI18n()
+const { faqWebdevelopmentItems } = useFaqWebdevelopmentItems()
 
 interface FAQItem {
-  label: string;
+  question: string;
   icon: string;
   defaultOpen?: boolean;
-  content: string;
+  answer: string;
 }
 
 const faqItems = ref<FAQItem[]>([]);
 
 onMounted(() => {
-  faqItems.value = faqData.faqItems;
-});
+  faqItems.value = faqWebdevelopmentItems.value.map(item => ({
+    question: t(item.question),
+    icon: item.icon,
+    defaultOpen: item.defaultOpen,
+    answer: t(item.answer)
+  }))
+})
 </script>

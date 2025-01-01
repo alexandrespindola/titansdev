@@ -6,13 +6,13 @@
   >
     <div class="container pt-100">
       <div class="text-center">
-        <h1>CREACIÓN DE PÁGINAS WEB</h1>
+        <h1 class="uppercase">{{ t('pageDesarrolloWeb.title') }}</h1>
         <div class="mt-15">
-          <NuxtLinkLocale to="/">Home</NuxtLinkLocale>
+          <NuxtLinkLocale to="/">{{ t('pageDesarrolloWeb.breadcrumb.home') }}</NuxtLinkLocale>
           <span class="padding-rl-20">|</span>
-          <NuxtLinkLocale to="/servicios">Servicios</NuxtLinkLocale>
+          <NuxtLinkLocale to="/servicios">{{ t('pageDesarrolloWeb.breadcrumb.services') }}</NuxtLinkLocale>
           <span class="padding-rl-20">|</span>
-          <span class="main-color">Páginas Web</span>
+          <span class="main-color">{{ t('pageDesarrolloWeb.breadcrumb.webDevelopment') }}</span>
         </div>
       </div>
     </div>
@@ -21,6 +21,7 @@
 
 <script setup>
 import loadBackgroudImages from '@/common/loadBackgroudImages';
+const { t } = useI18n()
 
 onMounted(() => {
   loadBackgroudImages();

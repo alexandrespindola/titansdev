@@ -176,6 +176,130 @@
       }
     }
   },
+  "pageDesarrolloWeb": {
+    "title": "Web Development",
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Services",
+      "webDevelopment": "Web Development"
+    },
+    "sessionWebDevelopmentAndLandingPages": {
+      "title": "We create websites for small businesses that are easy to use and optimized to convert visitors into customers.",
+      "subtitle": "Web Development & Landing Pages",
+      "content": "If you are a small or medium-sized business, or a self-employed professional, you know how important it is to have a good online presence. We understand that and create websites that not only showcase your products and services but also effectively connect with your customers. With a beautiful and easy-to-use design, your site will be a powerful tool to attract new business and strengthen your brand.",
+      "benefits": {
+        "title": "Benefits of a quality, fast, and responsive website",
+        "item1": "Attract More Customers",
+        "item2": "Ease of Use",
+        "item3": "Value Your Business",
+        "item4": "Increase Your Sales",
+        "item5": "Friendly Support",
+        "item6": "Visible Results"
+      }
+    },
+    "sessionPricing": {
+      "title": "Choose the best plan for you",
+      "subtitle": "Pricing",
+      "content": "Choose an affordable plan with the best features to attract your audience, retain your customers, and boost sales.",
+      "basic": {
+        "title": "Basic Package",
+        "startingFrom": "Starting from",
+        "content": "Ideal for small businesses looking to establish their online presence with a professional and functional website.",
+        "list": {
+          "item1": "Design of 1 to 10 pages",
+          "item2": "Hosting and domain included",
+          "item3": "Responsive design for mobile",
+          "item4": "Basic SEO optimization",
+          "item5": "Contact form",
+          "item6": "Social media integration"
+        }
+      },
+      "profesional": {
+        "title": "Professional Package",
+        "startingFrom": "Starting from",
+        "content": "Perfect for growing businesses that need more than a static website to interact with their customers.",
+        "list": {
+          "item1": "Everything in the Basic Package",
+          "item2": "Online Appointment System",
+          "item3": "WhatsApp Notifications",
+          "item4": "Google My Business Setup",
+          "item5": "Blog content creation",
+          "item6": "Product/service gallery",
+          "item7": "Basic marketing automation",
+          "item8": "CRM integration",
+          "item9": "Advanced search engine optimization"
+        }
+      },
+      "premium": {
+        "title": "Premium Package",
+        "startingFrom": "Consult",
+        "content": "Comprehensive solution for companies that require complex and highly customized web systems.",
+        "list": {
+          "item1": "Web systems development",
+          "item2": "Systems integration",
+          "item3": "E-commerce (online stores)",
+          "item4": "Admin panels",
+          "item5": "Process automation",
+          "item6": "Scalability for growth"
+        }
+      }
+    },
+    "sessionOurProcess": {
+      "title": "Your Website in 4 Steps",
+      "subtitle": "Our Process",
+      "list": {
+        "step1": {
+          "title": "1. Initial Appointment",
+          "content": "We have a 30-minute conversation, without obligation, to better understand your business and needs. At this stage, we discuss your ideas and goals, defining the best digital strategy to increase your online visibility."
+        },
+        "step2": {
+          "title": "2. Development",
+          "content": "After the budget approval, we start developing your project. We create customized solutions, from professional websites to web systems, applying the best design and search engine optimization practices."
+        },
+        "step3": {
+          "title": "3. Launch",
+          "content": "With the site developed and approved, we activate your platform for the public. We configure all necessary tools and ensure everything is working perfectly before the launch."
+        },
+        "step4": {
+          "title": "4. Maintenance",
+          "content": "We offer continuous support and maintenance for the implemented sites and systems, ensuring that all platforms are up-to-date, secure, and functioning efficiently."
+        }
+      }
+    },
+    "sessionFaq": {
+      "title": "FAQ (Frequently Asked Questions)",
+      "subtitle": "Want to know more?",
+      "list": {
+        "item1": {
+          "question": "What types of websites can you develop?",
+          "answer": "We develop a wide range of websites, including corporate sites, online stores (e-commerce), blogs, portfolios, web applications, and single-page sites (landing pages). We adapt to the specific needs of each client."
+        },
+        "item2": {
+          "question": "How long does it take to develop a website?",
+          "answer": "The development time depends on the complexity of the project. A basic website can take between 1 to 2 weeks, while more complex projects can take from 1 to 3 months or more."
+        },
+        "item3": {
+          "question": "Do you offer maintenance services after the launch?",
+          "answer": "Yes, we offer maintenance and continuous support services to ensure that your website works correctly and is updated with the latest technologies and security measures."
+        },
+        "item4": {
+          "question": "What technologies do you use for web development?",
+          "answer": "We use a variety of technologies according to the project's needs, including HTML5, CSS3, JavaScript, TypeScript, frameworks like Vue.js, Nuxt, and Astro, and content management systems (CMS) like WordPress and Strapi."
+        },
+        "item5": {
+          "question": "What is the approximate cost of developing a website?",
+          "answer": "The cost varies depending on the project's requirements. To get an exact quote, we recommend scheduling an appointment with us to explain your specific needs."
+        },
+        "item6": {
+          "question": "Do you offer SEO services along with web development?",
+          "answer": "Yes, we offer search engine optimization (SEO) services as part of our web development package to help improve your site's visibility in search results."
+        }
+      }
+    },
+    "seo": {
+      "title": "Web Development"
+    }
+  },
   "pageQuienesSomos": {
     "title": "About Us",
     "breadcrumb": {

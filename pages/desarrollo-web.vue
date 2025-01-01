@@ -1,10 +1,10 @@
 <template>
   <main class="main-bg">
-    <ServicesDetailsHeader />
-    <ServicesDetailsServices />
-    <ServicesDetailsPricing />
-    <ServicesDetailsProcess />
-    <ServicesDetailsFAQS />
+    <ServicesWebdevelopmentHeader />
+    <ServicesWebdevelopmentServices />
+    <ServicesWebdevelopmentPricing />
+    <ServicesWebdevelopmentProcess />
+    <ServicesWebdevelopmentFAQS />
     <Contact />
   </main>
 </template>

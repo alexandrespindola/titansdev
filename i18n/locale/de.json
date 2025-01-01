@@ -176,6 +176,130 @@
       }
     }
   },
+  "pageDesarrolloWeb": {
+    "title": "Webentwicklung",
+    "breadcrumb": {
+      "home": "Startseite",
+      "services": "Dienstleistungen",
+      "webDevelopment": "Webentwicklung"
+    },
+    "sessionWebDevelopmentAndLandingPages": {
+      "title": "Wir erstellen Websites für kleine Unternehmen, die einfach zu bedienen und darauf optimiert sind, Besucher in Kunden zu verwandeln.",
+      "subtitle": "Webentwicklung & Landing Pages",
+      "content": "Wenn Sie ein kleines oder mittelständisches Unternehmen oder ein selbstständiger Profi sind, wissen Sie, wie wichtig es ist, eine gute Online-Präsenz zu haben. Wir verstehen das und erstellen Websites, die nicht nur Ihre Produkte und Dienstleistungen präsentieren, sondern auch effektiv mit Ihren Kunden verbinden. Mit einem schönen und benutzerfreundlichen Design wird Ihre Website ein leistungsstarkes Werkzeug sein, um neue Geschäfte zu gewinnen und Ihre Marke zu stärken.",
+      "benefits": {
+        "title": "Vorteile einer qualitativ hochwertigen, schnellen und responsiven Website",
+        "item1": "Mehr Kunden anziehen",
+        "item2": "Benutzerfreundlichkeit",
+        "item3": "Wertschätzung Ihres Unternehmens",
+        "item4": "Steigerung Ihrer Verkäufe",
+        "item5": "Freundlicher Support",
+        "item6": "Sichtbare Ergebnisse"
+      }
+    },
+    "sessionPricing": {
+      "title": "Wählen Sie den besten Plan für Sie",
+      "subtitle": "Preise",
+      "content": "Wählen Sie einen erschwinglichen Plan mit den besten Funktionen, um Ihr Publikum anzuziehen, Ihre Kunden zu binden und den Umsatz zu steigern.",
+      "basic": {
+        "title": "Basis-Paket",
+        "startingFrom": "Ab",
+        "content": "Ideal für kleine Unternehmen, die ihre Online-Präsenz mit einer professionellen und funktionalen Website etablieren möchten.",
+        "list": {
+          "item1": "Design von 1 bis 10 Seiten",
+          "item2": "Hosting und Domain inklusive",
+          "item3": "Responsives Design für Mobilgeräte",
+          "item4": "Grundlegende SEO-Optimierung",
+          "item5": "Kontaktformular",
+          "item6": "Integration von sozialen Medien"
+        }
+      },
+      "profesional": {
+        "title": "Professionelles Paket",
+        "startingFrom": "Ab",
+        "content": "Perfekt für wachsende Unternehmen, die mehr als eine statische Website benötigen, um mit ihren Kunden zu interagieren.",
+        "list": {
+          "item1": "Alles im Basis-Paket",
+          "item2": "Online-Terminvereinbarungssystem",
+          "item3": "WhatsApp-Benachrichtigungen",
+          "item4": "Google My Business Einrichtung",
+          "item5": "Blog-Inhaltserstellung",
+          "item6": "Produkt-/Dienstleistungsgalerie",
+          "item7": "Grundlegende Marketing-Automatisierung",
+          "item8": "CRM-Integration",
+          "item9": "Erweiterte Suchmaschinenoptimierung"
+        }
+      },
+      "premium": {
+        "title": "Premium-Paket",
+        "startingFrom": "Beratung",
+        "content": "Umfassende Lösung für Unternehmen, die komplexe und hochgradig angepasste Websysteme benötigen.",
+        "list": {
+          "item1": "Entwicklung von Websystemen",
+          "item2": "Systemintegration",
+          "item3": "E-Commerce (Online-Shops)",
+          "item4": "Admin-Panels",
+          "item5": "Prozessautomatisierung",
+          "item6": "Skalierbarkeit für Wachstum"
+        }
+      }
+    },
+    "sessionOurProcess": {
+      "title": "Ihre Website in 4 Schritten",
+      "subtitle": "Unser Prozess",
+      "list": {
+        "step1": {
+          "title": "1. Erstgespräch",
+          "content": "Wir führen ein 30-minütiges Gespräch ohne Verpflichtung, um Ihr Unternehmen und Ihre Bedürfnisse besser zu verstehen. In dieser Phase besprechen wir Ihre Ideen und Ziele und definieren die beste digitale Strategie, um Ihre Online-Sichtbarkeit zu erhöhen."
+        },
+        "step2": {
+          "title": "2. Entwicklung",
+          "content": "Nach der Budgetgenehmigung beginnen wir mit der Entwicklung Ihres Projekts. Wir erstellen maßgeschneiderte Lösungen, von professionellen Websites bis hin zu Websystemen, und wenden die besten Design- und Suchmaschinenoptimierungspraktiken an."
+        },
+        "step3": {
+          "title": "3. Einführung",
+          "content": "Mit der entwickelten und genehmigten Website aktivieren wir Ihre Plattform für die Öffentlichkeit. Wir konfigurieren alle notwendigen Tools und stellen sicher, dass alles vor der Einführung perfekt funktioniert."
+        },
+        "step4": {
+          "title": "4. Wartung",
+          "content": "Wir bieten kontinuierlichen Support und Wartung für die implementierten Websites und Systeme, um sicherzustellen, dass alle Plattformen auf dem neuesten Stand, sicher und effizient funktionieren."
+        }
+      }
+    },
+    "sessionFaq": {
+      "title": "FAQ (Häufig gestellte Fragen)",
+      "subtitle": "Möchten Sie mehr wissen?",
+      "list": {
+        "item1": {
+          "question": "Welche Arten von Websites können Sie entwickeln?",
+          "answer": "Wir entwickeln eine breite Palette von Websites, einschließlich Unternehmensseiten, Online-Shops (E-Commerce), Blogs, Portfolios, Webanwendungen und Einzelseiten (Landing Pages). Wir passen uns den spezifischen Bedürfnissen jedes Kunden an."
+        },
+        "item2": {
+          "question": "Wie lange dauert die Entwicklung einer Website?",
+          "answer": "Die Entwicklungszeit hängt von der Komplexität des Projekts ab. Eine einfache Website kann zwischen 1 und 2 Wochen dauern, während komplexere Projekte 1 bis 3 Monate oder länger dauern können."
+        },
+        "item3": {
+          "question": "Bieten Sie Wartungsdienste nach der Einführung an?",
+          "answer": "Ja, wir bieten Wartungs- und kontinuierliche Supportdienste an, um sicherzustellen, dass Ihre Website korrekt funktioniert und mit den neuesten Technologien und Sicherheitsmaßnahmen aktualisiert wird."
+        },
+        "item4": {
+          "question": "Welche Technologien verwenden Sie für die Webentwicklung?",
+          "answer": "Wir verwenden eine Vielzahl von Technologien, je nach den Anforderungen des Projekts, einschließlich HTML5, CSS3, JavaScript, TypeScript, Frameworks wie Vue.js, Nuxt und Astro sowie Content-Management-Systeme (CMS) wie WordPress und Strapi."
+        },
+        "item5": {
+          "question": "Was kostet die Entwicklung einer Website ungefähr?",
+          "answer": "Die Kosten variieren je nach den Anforderungen des Projekts. Um ein genaues Angebot zu erhalten, empfehlen wir, einen Termin mit uns zu vereinbaren, um Ihre spezifischen Bedürfnisse zu erläutern."
+        },
+        "item6": {
+          "question": "Bieten Sie SEO-Dienste zusammen mit der Webentwicklung an?",
+          "answer": "Ja, wir bieten Suchmaschinenoptimierungsdienste (SEO) als Teil unseres Webentwicklungspakets an, um die Sichtbarkeit Ihrer Website in den Suchergebnissen zu verbessern."
+        }
+      }
+    },
+    "seo": {
+      "title": "Webentwicklung"
+    }
+  },
   "pageQuienesSomos": {
     "title": "Über uns",
     "breadcrumb": {

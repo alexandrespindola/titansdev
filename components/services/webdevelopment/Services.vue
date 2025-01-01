@@ -1,27 +1,27 @@
 <template>
   <section class="services-details pt-[7rem] pb-[3rem]">
     <div class="container">
-      <div class="sec-head text-center mb-80">
+      <div class="text-center sec-head mb-80">
         <div class="row justify-content-center">
             <h6 class="sub-title main-color mb-15">
-              Desarrollo de Páginas Web & Landing Pages
+              {{ t('pageDesarrolloWeb.sessionWebDevelopmentAndLandingPages.subtitle') }}
             </h6>
-            <h4 class=" max-w-4xl">
-              Creamos webs para pequeñas empresas que son fáciles de usar y optimizadas para convertir visitantes en clientes.
+            <h4 class="max-w-4xl ">
+              {{ t('pageDesarrolloWeb.sessionWebDevelopmentAndLandingPages.title') }}
             </h4>
         </div>
       </div>
-      <div class="flex flex-col md:flex-row gap-8">
+      <div class="flex flex-col gap-8 md:flex-row">
         <div class="w-full md:w-1/3">
           <div class="relative w-full pt-[100%] overflow-hidden">
             <NuxtImg src="/dark/assets/imgs/intro/01.jpg" alt=""
-              class="absolute top-0 left-0 w-full h-full object-cover rounded-3xl" />
+              class="absolute top-0 left-0 object-cover w-full h-full rounded-3xl" />
           </div>
         </div>
         <div class="w-full md:w-2/3">
           <div class="relative w-full pt-[100%] md:pt-[50%] overflow-hidden">
             <NuxtImg src="/dark/assets/imgs/background/web-development.webp" alt=""
-              class="absolute top-0 left-0 w-full h-full object-cover rounded-3xl" />
+              class="absolute top-0 left-0 object-cover w-full h-full rounded-3xl" />
           </div>
         </div>
       </div>
@@ -29,15 +29,13 @@
         <div class="col-lg-4">
           <div class="text md-mb50">
             <p>
-              Si eres una pequeña o mediana empresa, o un profesional autónomo, sabes lo importante que es tener una buena presencia en línea.
-              Nosotros entendemos eso y creamos sitios web que no solo presentan tus productos y servicios, sino que también se conectan eficazmente con tus clientes. Con un diseño bonito y fácil de usar, tu sitio será una poderosa herramienta para conquistar
-              nuevos negocios y fortalecer tu marca.
+              {{ t('pageDesarrolloWeb.sessionWebDevelopmentAndLandingPages.content') }}
             </p>
           </div>
         </div>
         <div class="col-lg-8">
-          <div class="flex flex-col md:flex-row flex-wrap gap-y-2">
-            <h4 class="w-full mb-4">Ventajas de un sitio web de calidad, rápido y responsivo</h4>
+          <div class="flex flex-col flex-wrap md:flex-row gap-y-2">
+            <h4 class="w-full mb-4">{{ t('pageDesarrolloWeb.sessionWebDevelopmentAndLandingPages.benefits.title') }}</h4>
             <div class="col-md-6">   
               <ul class="rest list-arrow">
                 <li class="nowrap">
@@ -48,7 +46,7 @@
                         fill="#40ea1e"></path>
                     </svg>
                   </span>
-                  <h6 class="inline fw-400">Atrae Más Clientes</h6>
+                  <h6 class="inline fw-400">{{ t('pageDesarrolloWeb.sessionWebDevelopmentAndLandingPages.benefits.item1') }}</h6>
                 </li>
                 <li class="mt-10 nowrap">
                   <span class="icon">
@@ -59,7 +57,7 @@
                     </svg>
                   </span>
                   <h6 class="inline fw-400">
-                    Facilidad de Uso
+                    {{ t('pageDesarrolloWeb.sessionWebDevelopmentAndLandingPages.benefits.item2') }}
                   </h6>
                 </li>
                 <li class="mt-10 nowrap">
@@ -70,7 +68,7 @@
                         fill="#40ea1e"></path>
                     </svg>
                   </span>
-                  <h6 class="inline fw-400">Valora tu Negócio</h6>
+                  <h6 class="inline fw-400">{{ t('pageDesarrolloWeb.sessionWebDevelopmentAndLandingPages.benefits.item3') }}</h6>
                 </li>
               </ul>
             </div>
@@ -84,7 +82,7 @@
                         fill="#40ea1e"></path>
                     </svg>
                   </span>
-                  <h6 class="inline fw-400">Aumenta tus Ventas</h6>
+                  <h6 class="inline fw-400">{{ t('pageDesarrolloWeb.sessionWebDevelopmentAndLandingPages.benefits.item4') }}</h6>
                 </li>
                 <li class="mt-10 nowrap">
                   <span class="icon">
@@ -95,7 +93,7 @@
                     </svg>
                   </span>
                   <h6 class="inline fw-400">
-                    Soporte Amigable
+                    {{ t('pageDesarrolloWeb.sessionWebDevelopmentAndLandingPages.benefits.item5') }}
                   </h6>
                 </li>
                 <li class="mt-10 nowrap">
@@ -106,7 +104,7 @@
                         fill="#40ea1e"></path>
                     </svg>
                   </span>
-                  <h6 class="inline fw-400">Resultados Visibles</h6>
+                  <h6 class="inline fw-400">{{ t('pageDesarrolloWeb.sessionWebDevelopmentAndLandingPages.benefits.item6') }}</h6>
                 </li>
               </ul>
             </div>
@@ -116,3 +114,7 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
