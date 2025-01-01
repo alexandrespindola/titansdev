@@ -230,9 +230,15 @@
     "title": "¡Gracias!",
     "subtitle": "Su mensaje se ha enviado correctamente y uno de nuestros representantes se pondrá en contacto con usted en breve.",
     "content": "Mientras tanto, reserve una cita de 30 minutos para que podamos hablar más sobre las necesidades de su empresa.",
+    "path": "gracias",
     "seo": {
       "title": "¡Gracias!"
     }
+  },
+  "pageCitaReservada": {
+    "title": "¡Gracias!",
+    "subtitle": "Su cita se ha reservado correctamente.",
+    "button": "Volver al Inicio"
   },
   "button": {
     "talkToUs": "Habla con nosotros",

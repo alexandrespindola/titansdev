@@ -1,5 +1,6 @@
 export function useContactForm() {
   const { countryCodes } = useCountryCodes();
+  const { t } = useI18n()
 
   const form = ref({
     first_name: "",
@@ -59,7 +60,9 @@ export function useContactForm() {
         });
         form.value.prefix_code = "+34";
 
-        await navigateTo("/gracias");
+        const thankYouPath = t('pageThankYou.path');
+
+        await navigateTo(thankYouPath);
       } else {
         throw new Error("Server response failure");
       }

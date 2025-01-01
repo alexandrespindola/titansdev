@@ -230,9 +230,15 @@
     "title": "Danke!",
     "subtitle": "Ihre Nachricht wurde erfolgreich gesendet und einer unserer Vertreter wird sich in Kürze mit Ihnen in Verbindung setzen.",
     "content": "In der Zwischenzeit buchen Sie einen 30-minütigen Termin, damit wir mehr über Ihre Geschäftsanforderungen sprechen können.",
+    "path": "danke",
     "seo": {
       "title": "Danke!"
     }
+  },
+  "pageCitaReservada": {
+    "title": "Danke!",
+    "subtitle": "Ihr Termin wurde erfolgreich gebucht.",
+    "button": "Zurück zur Startseite"
   },
   "button": {
     "talkToUs": "Sprechen Sie mit Uns",

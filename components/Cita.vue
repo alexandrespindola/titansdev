@@ -8,10 +8,10 @@
               <div class=" min-h-24">
                 <CommonCheckAnimationVue />
               </div>
-              <h2 class="mb-10 text-6xl lg:text-7xl">¡Gracias!</h2>
-              <p>Su cita se ha reservado correctamente.</p>
+              <h2 class="mb-10 text-6xl lg:text-7xl">{{  t('pageCitaReservada.title') }}</h2>
+              <p>{{  t('pageCitaReservada.subtitle') }}</p>
               <NuxtLinkLocale to="/" class="self-center butn butn-md butn-bg main-colorbg text-dark radius-30 mt-30">
-                <span class="text">Volver al Inicio</span>
+                <span class="text">{{  t('pageCitaReservada.button') }}</span>
               </NuxtLinkLocale>
             </div>
           </div>
@@ -20,3 +20,7 @@
     </div>
   </header>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+</script>

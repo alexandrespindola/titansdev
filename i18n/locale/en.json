@@ -230,9 +230,15 @@
     "title": "Thank You!",
     "subtitle": "Your message has been sent successfully and one of our representatives will contact you shortly.",
     "content": "In the meantime, book a 30-minute appointment so we can talk more about your business needs.",
+    "path": "thank-you",
     "seo": {
       "title": "Thank You!"
     }
+  },
+  "pageCitaReservada": {
+    "title": "Thank You!",
+    "subtitle": "Your appointment has been successfully booked.",
+    "button": "Return to Home"
   },
   "button": {
     "talkToUs": "Talk to us",
