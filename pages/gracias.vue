@@ -6,6 +6,8 @@
 
 <script lang="ts" setup>
 
+const { t } = useI18n()
+
 defineI18nRoute({
   paths: {
     es: '/gracias',
@@ -15,7 +17,7 @@ defineI18nRoute({
 })
 
 useSeoMeta({
-  title: 'Gracias!',
+  title: `${t('pageThankYou.seo.title')} | TitansDev`,
   robots: 'noindex, nofollow',
 });
 </script>

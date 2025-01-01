@@ -1090,6 +1090,8 @@ declare module 'nuxt/schema' {
   interface PublicRuntimeConfig {
    strapiUri: string,
 
+   formWebhookUrl: string,
+
    cloudinary: {
       cloudName: string,
 

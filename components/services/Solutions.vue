@@ -5,12 +5,10 @@
         <div class="lg:w-1/2">
           <div class="flex flex-col justify-start">
               <h6 class="sub-title main-color mb-15">
-                ¿Por qué elegir a TitansDev?
-              </h6>
+                {{ t('pageServicios.sessionWhyChooseUs.title') }} </h6>
               <div class="mt-20 text">
                 <p>
-                  Desarrollamos estrategias digitales audaces y efectivas para hacer crecer su negocio. Nuestro enfoque
-                  combina creatividad y tecnología de vanguardia para lograr resultados excepcionales.
+                  {{ t('pageServicios.sessionWhyChooseUs.description') }}
                 </p>
               </div>
               <ul class="rest list-arrow mt-30 pt-30 bord-thin-top">
@@ -22,7 +20,7 @@
                         fill="#40ea1e"></path>
                     </svg>
                   </span>
-                  <h6 class="inline fw-400">Equipo calificado</h6>
+                  <h6 class="inline fw-400">{{ t('pageServicios.sessionWhyChooseUs.list.item1') }}</h6>
                 </li>
                 <li class="mt-10">
                   <span class="icon">
@@ -33,7 +31,7 @@
                     </svg>
                   </span>
                   <h6 class="inline fw-400">
-                    Atención personalizada
+                    {{ t('pageServicios.sessionWhyChooseUs.list.item2') }}
                   </h6>
                 </li>
                 <li class="mt-10">
@@ -44,7 +42,7 @@
                         fill="#40ea1e"></path>
                     </svg>
                   </span>
-                  <h6 class="inline fw-400">Metodologías ágiles</h6>
+                  <h6 class="inline fw-400">{{ t('pageServicios.sessionWhyChooseUs.list.item3') }}</h6>
                 </li>
                 <li class="mt-10">
                   <span class="icon">
@@ -54,7 +52,7 @@
                         fill="#40ea1e"></path>
                     </svg>
                   </span>
-                  <h6 class="inline fw-400">Soporte por e-mail y WhatsApp</h6>
+                  <h6 class="inline fw-400">{{ t('pageServicios.sessionWhyChooseUs.list.item4') }}</h6>
                 </li>
               </ul>
           </div>
@@ -66,23 +64,23 @@
                 <div class="mb-10 icon-img-60">
                   <NuxtImg src="/dark/assets/imgs/icon-img/shape1.png" alt="" />
                 </div>
-                <h5 class="fw-600">Advanced</h5>
+                <h5 class="fw-600">{{ t('pageServicios.sessionWhyChooseUs.cardAdvanced.title') }}</h5>
               </div>
               <div class="flex flex-col gap-8 cont ml-50">
-                <h6>Ideal para Aumentar la Visibilidad en Línea y Captar Clientes Potenciales (Leads)</h6>
+                <h6>{{ t('pageServicios.sessionWhyChooseUs.cardAdvanced.subtitle') }}</h6>
                 <ul class="dot-list rest">
-                  <li class="mb-10">Creación de <strong>Páginas Web</strong> Profesionales</li>
-                  <li class="mb-10"><strong>Landing Pages</strong> Optimizadas para Conversión</li>
-                  <li class="mb-10">Configuración <strong>SEO</strong></li>
-                  <li class="mb-10">Notificaciones por <strong>WhatsApp</strong></li>
-                  <li class="mb-10">Campañas de Tráfico <strong>Google Ads & Meta Ads</strong></li>
-                  <li class="mb-10">Optimización de <strong>Google Mi Negocio</strong></li>
-                  <li class="mb-10"><strong>Soporte Técnico</strong></li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardAdvanced.list.item1') }}</li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardAdvanced.list.item2') }}</li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardAdvanced.list.item3') }}</li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardAdvanced.list.item4') }}</li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardAdvanced.list.item5') }}</li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardAdvanced.list.item6') }}</li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardAdvanced.list.item7') }}</li>
                 </ul>
                 <div class="mr-auto text-center mount">
                   <div>
                     <NuxtLinkLocale to="/contacto" class="butn butn-md butn-bord radius-30">
-                      <span class="fz-13">Contáctenos</span>
+                      <span class="fz-13">{{ t('pageServicios.sessionWhyChooseUs.cardAdvanced.cta') }}</span>
                     </NuxtLinkLocale>
                   </div>
                 </div>
@@ -93,23 +91,23 @@
                 <div class="mb-10 icon-img-60">
                   <NuxtImg src="/dark/assets/imgs/icon-img/shape3.png" alt=""/>
                 </div>
-                <h5 class="fw-600">Enterprise</h5>
+                <h5 class="fw-600">{{ t('pageServicios.sessionWhyChooseUs.cardEnterprise.title') }}</h5>
               </div>
               <div class="flex flex-col gap-4 cont ml-50">
-                <h6>Ideal para Transformación Digital Integral y Escalabilidad Empresarial</h6>
+                <h6>{{ t('pageServicios.sessionWhyChooseUs.cardEnterprise.subtitle') }}</h6>
                 <ul class="dot-list rest">
-                  <li class="mb-10">Desarrollo de <strong>Sistemas Web </strong>Personalizados</li>
-                  <li class="mb-10"><strong>Apps Móviles</strong> Multiplataforma (Android & iOS)</li>
-                  <li class="mb-10">Implementación de <strong>Chatbot</strong> para Captura de Leads</li>
-                  <li class="mb-10"><strong>Automatización Avanzada</strong> de Workflows</li>
-                  <li class="mb-10">Tácticas de <strong>Marketing Digital y Growth Hacking</strong></li>
-                  <li class="mb-10">Integración de <strong>Sistemas y APIs</strong></li>
-                  <li class="mb-10"><strong>Soporte Técnico</strong></li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardEnterprise.list.item1') }}</li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardEnterprise.list.item2') }}</li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardEnterprise.list.item3') }}</li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardEnterprise.list.item4') }}</li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardEnterprise.list.item5') }}</li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardEnterprise.list.item6') }}</li>
+                  <li class="mb-10">{{ t('pageServicios.sessionWhyChooseUs.cardEnterprise.list.item7') }}</li>
                 </ul>
                 <div class="mr-auto text-center mount">
                   <div>
                     <NuxtLinkLocale to="/contacto" class="butn butn-md butn-bord radius-30">
-                      <span class="fz-13">Contáctenos</span>
+                      <span class="fz-13">{{ t('pageServicios.sessionWhyChooseUs.cardEnterprise.cta') }}</span>
                     </NuxtLinkLocale>
                   </div>
                 </div>
@@ -121,3 +119,7 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+</script>

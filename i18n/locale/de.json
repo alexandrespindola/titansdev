@@ -105,6 +105,77 @@
       }
     }
   },
+  "pageServicios": {
+    "title": "Dienstleistungen",
+    "breadcrumb": {
+      "home": "Startseite",
+      "services": "Dienstleistungen"
+    },
+    "sessionWhatWeOffer": {
+      "title": "Was wir anbieten",
+      "subtitle": "Unsere Spezialitäten"
+    },
+    "sessionWhyChooseUs": {
+      "title": "Warum TitansDev wählen?",
+      "description": "Wir entwickeln mutige und effektive digitale Strategien, um Ihr Geschäft zu vergrößern. Unser Ansatz kombiniert Kreativität und modernste Technologie, um außergewöhnliche Ergebnisse zu erzielen.",
+      "list": {
+        "item1": "Qualifiziertes Team",
+        "item2": "Personalisierte Betreuung",
+        "item3": "Agile Methoden",
+        "item4": "Support per E-Mail und WhatsApp"
+      },
+      "cardAdvanced": {
+        "title": "Erweitert",
+        "subtitle": "Ideal zur Steigerung der Online-Sichtbarkeit und zur Gewinnung potenzieller Kunden (Leads)",
+        "list": {
+          "item1": "Erstellung professioneller Webseiten",
+          "item2": "Conversion-optimierte Landing Pages",
+          "item3": "SEO-Konfiguration",
+          "item4": "WhatsApp-Benachrichtigungen",
+          "item5": "Google Ads & Meta Ads Traffic-Kampagnen",
+          "item6": "Optimierung von Google My Business",
+          "item7": "Technischer Support"
+        },
+        "cta": "Kontaktieren Sie uns"
+      },
+      "cardEnterprise": {
+        "title": "Unternehmen",
+        "subtitle": "Ideal für umfassende digitale Transformation und Geschäftsskalierbarkeit",
+        "list": {
+          "item1": "Entwicklung maßgeschneiderter Websysteme",
+          "item2": "Plattformübergreifende mobile Apps (Android & iOS)",
+          "item3": "Implementierung von Chatbots zur Lead-Generierung",
+          "item4": "Erweiterte Workflow-Automatisierung",
+          "item5": "Digitale Marketing- und Growth-Hacking-Taktiken",
+          "item6": "Integration von Systemen und APIs",
+          "item7": "Technischer Support"
+        },
+        "cta": "Kontaktieren Sie uns"
+      }
+    },
+    "sessionOurProcess": {
+      "title": "Arbeitsentwicklung",
+      "subtitle": "Unser Prozess",
+      "list": {
+        "step1": {
+          "title": "1. Analyse",
+          "content": "Wir führen eine Untersuchung Ihres Geschäfts, Ihrer Ziele und Ihrer Zielgruppe durch. Wir definieren die geeignete digitale Strategie, sei es zur Steigerung der Online-Sichtbarkeit oder für eine umfassende digitale Transformation."
+        },
+        "step2": {
+          "title": "2. Entwicklung",
+          "content": "Wir erstellen maßgeschneiderte Lösungen, von professionellen Webseiten bis hin zu Websystemen und mobilen Apps. Wir wenden Best Practices in UX/UI und Suchmaschinenoptimierung an."
+        },
+        "step3": {
+          "title": "3. Implementierung",
+          "content": "Wir setzen die entwickelten Lösungen um, konfigurieren digitale Marketing-Tools, Server und automatisieren Prozesse. Wir führen Tests und Anpassungen durch, um eine optimale Leistung zu gewährleisten."
+        },
+        "step4": {
+          "title": "4. Wartung",
+          "content": "Wir bieten Support und Wartung für die implementierten Webseiten und Systeme. Wir stellen sicher, dass alle Plattformen auf dem neuesten Stand, sicher und effizient funktionieren."
+        }
+      }
+    }
+  },
   "pageContacto": {
     "title": "Kontakt",
     "breadcrumb": {
@@ -120,6 +191,14 @@
     },
     "sendUs": "Senden Sie eine",
     "message": "Nachricht"
+  },
+  "pageThankYou": {
+    "title": "Danke!",
+    "subtitle": "Ihre Nachricht wurde erfolgreich gesendet und einer unserer Vertreter wird sich in Kürze mit Ihnen in Verbindung setzen.",
+    "content": "In der Zwischenzeit buchen Sie einen 30-minütigen Termin, damit wir mehr über Ihre Geschäftsanforderungen sprechen können.",
+    "seo": {
+      "title": "Danke!"
+    }
   },
   "button": {
     "talkToUs": "Sprechen Sie mit Uns",

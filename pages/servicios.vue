@@ -1,5 +1,4 @@
 <template>
-  <CommonProgressScroll />
   <main class="main-bg">
     <ServicesHeader />
     <ServicesSpecialize />

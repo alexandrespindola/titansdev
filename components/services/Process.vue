@@ -1,12 +1,10 @@
 <template>
-  <section class="process py-20">
+  <section class="py-20 process">
     <div class="container">
       <div class="sec-head pb-80">
-        <h6 class="sub-title main-color mb-25">Nuestro Proceso</h6>
+        <h6 class="sub-title main-color mb-25">{{ t('pageServicios.sessionOurProcess.subtitle') }}</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
-          <h2 class="fw-600">
-            Desarrollo <span class="fw-200">del Trabajo</span>
-          </h2>
+          <h2 class="fw-600">{{ t('pageServicios.sessionOurProcess.title') }}</h2>
         </div>
       </div>
       <div class="row md-marg">
@@ -14,41 +12,43 @@
           <div class="icon-img-60 mb-30">
             <NuxtImg src="/dark/assets/imgs/serv-icons/3.png" alt="" />
           </div>
-          <h5 class="mb-15">1. Análisis</h5>
+          <h5 class="mb-15">{{ t('pageServicios.sessionOurProcess.list.step1.title') }}</h5>
           <p>
-            Realizamos un estudio de su negocio, objetivos y público objetivo. Definimos la estrategia digital adecuada, ya sea para aumentar la visibilidad en línea o para una transformación digital integral.
+            {{ t('pageServicios.sessionOurProcess.list.step1.content') }}
           </p>
         </div>
         <div class="col-lg-3 col-md-6 item md-mb50">
           <div class="icon-img-60 mb-30">
             <NuxtImg src="/dark/assets/imgs/serv-icons/4.png" alt="" />
           </div>
-          <h5 class="mb-15">2. Desarrollo
-          </h5>
+          <h5 class="mb-15">{{ t('pageServicios.sessionOurProcess.list.step2.title') }}</h5>
           <p>
-            Creamos soluciones a medida, desde páginas web profesionales hasta sistemas web y apps móviles. Aplicamos las mejores prácticas de UX/UI y optimización para buscadores.
+            {{ t('pageServicios.sessionOurProcess.list.step2.content') }}
           </p>
         </div>
         <div class="col-lg-3 col-md-6 item sm-mb50">
           <div class="icon-img-60 mb-30">
             <NuxtImg src="/dark/assets/imgs/serv-icons/5.png" alt="" />
           </div>
-          <h5 class="mb-15">3. Implementación
-          </h5>
+          <h5 class="mb-15">{{ t('pageServicios.sessionOurProcess.list.step3.title') }}</h5>
           <p>
-            Ponemos en marcha las soluciones desarrolladas, configuramos herramientas de marketing digital, servidores y automatizamos procesos. Realizamos pruebas y ajustes para garantizar un rendimiento óptimo.
+            {{ t('pageServicios.sessionOurProcess.list.step3.content') }}
           </p>
         </div>
         <div class="col-lg-3 col-md-6 item">
           <div class="icon-img-60 mb-30">
             <NuxtImg src="/dark/assets/imgs/serv-icons/6.png" alt="" />
           </div>
-          <h5 class="mb-15">4. Mantenimiento</h5>
+          <h5 class="mb-15">{{ t('pageServicios.sessionOurProcess.list.step4.title') }}</h5>
           <p>
-            Proporcionamos soporte y mantenimiento de los sitios web y sistemas implementados. Nos aseguramos de que todas las plataformas estén actualizadas, seguras y funcionando de manera eficiente.
+            {{ t('pageServicios.sessionOurProcess.list.step4.content') }}
           </p>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+</script>

@@ -1,3 +1,4 @@
+import { escapeHtml } from "markdown-it/lib/common/utils.mjs";
 import { fileURLToPath } from "node:url";
 
 export default defineNuxtConfig({
@@ -177,6 +178,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       strapiUri: process.env.STRAPI_URL,
+      formWebhookUrl: process.env.N8N_PROD_FORM_WEBHOOK_URL
     },
     strapiApiToken: process.env.STRAPI_API_TOKEN,
   },

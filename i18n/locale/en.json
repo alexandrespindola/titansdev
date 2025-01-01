@@ -105,6 +105,77 @@
       }
     }
   },
+  "pageServicios": {
+    "title": "Services",
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Services"
+    },
+    "sessionWhatWeOffer": {
+      "title": "What We Offer",
+      "subtitle": "Our Specialties"
+    },
+    "sessionWhyChooseUs": {
+      "title": "Why Choose TitansDev?",
+      "description": "We develop bold and effective digital strategies to grow your business. Our approach combines creativity and cutting-edge technology to achieve exceptional results.",
+      "list": {
+        "item1": "Qualified team",
+        "item2": "Personalized attention",
+        "item3": "Agile methodologies",
+        "item4": "Support via email and WhatsApp"
+      },
+      "cardAdvanced": {
+        "title": "Advanced",
+        "subtitle": "Ideal for Increasing Online Visibility and Capturing Potential Clients (Leads)",
+        "list": {
+          "item1": "Creation of Professional Web Pages",
+          "item2": "Conversion Optimized Landing Pages",
+          "item3": "SEO Configuration",
+          "item4": "WhatsApp Notifications",
+          "item5": "Google Ads & Meta Ads Traffic Campaigns",
+          "item6": "Google My Business Optimization",
+          "item7": "Technical Support"
+        },
+        "cta": "Contact Us"
+      },
+      "cardEnterprise": {
+        "title": "Enterprise",
+        "subtitle": "Ideal for Comprehensive Digital Transformation and Business Scalability",
+        "list": {
+          "item1": "Custom Web Systems Development",
+          "item2": "Cross-Platform Mobile Apps (Android & iOS)",
+          "item3": "Chatbot Implementation for Lead Capture",
+          "item4": "Advanced Workflow Automation",
+          "item5": "Digital Marketing and Growth Hacking Tactics",
+          "item6": "Systems and APIs Integration",
+          "item7": "Technical Support"
+        },
+        "cta": "Contact Us"
+      }
+    },
+    "sessionOurProcess": {
+      "title": "Work Development",
+      "subtitle": "Our Process",
+      "list": {
+        "step1": {
+          "title": "1. Analysis",
+          "content": "We conduct a study of your business, goals, and target audience. We define the appropriate digital strategy, whether to increase online visibility or for comprehensive digital transformation."
+        },
+        "step2": {
+          "title": "2. Development",
+          "content": "We create tailored solutions, from professional web pages to web systems and mobile apps. We apply best practices in UX/UI and search engine optimization."
+        },
+        "step3": {
+          "title": "3. Implementation",
+          "content": "We launch the developed solutions, configure digital marketing tools, servers, and automate processes. We conduct tests and adjustments to ensure optimal performance."
+        },
+        "step4": {
+          "title": "4. Maintenance",
+          "content": "We provide support and maintenance for the implemented websites and systems. We ensure that all platforms are up-to-date, secure, and functioning efficiently."
+        }
+      }
+    }
+  },
   "pageContacto": {
     "title": "Contact",
     "breadcrumb": {
@@ -120,6 +191,14 @@
     },
     "sendUs": "Send a",
     "message": "message"
+  },
+  "pageThankYou": {
+    "title": "Thank You!",
+    "subtitle": "Your message has been sent successfully and one of our representatives will contact you shortly.",
+    "content": "In the meantime, book a 30-minute appointment so we can talk more about your business needs.",
+    "seo": {
+      "title": "Thank You!"
+    }
   },
   "button": {
     "talkToUs": "Talk to us",
