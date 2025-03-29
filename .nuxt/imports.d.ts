@@ -31,7 +31,7 @@ export { withCtx, withDirectives, withKeys, withMemo, withModifiers, withScopeId
 export { injectHead, useHead, useSeoMeta, useHeadSafe, useServerHead, useServerSeoMeta, useServerHeadSafe } from '@unhead/vue';
 export { useContactForm } from '../composables/useContactForm';
 export { useCountryCodes } from '../composables/useCountryCodes';
-export { useUseFaqWebDevelopmentItems } from '../composables/useFaqWebdevelopmentItems';
+export { useFaqWebdevelopmentItems } from '../composables/useFaqWebdevelopmentItems';
 export { useServiceItems } from '../composables/useServiceItems';
 export { companyName } from '../utils/constants';
 export { defineShortcuts } from '../node_modules/@nuxt/ui/dist/runtime/composables/defineShortcuts';
